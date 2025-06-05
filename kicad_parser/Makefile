@@ -1,5 +1,5 @@
 test:
-	pytest .
+	pytest . -vv
 
 update:
 	sh update_mirror.sh
