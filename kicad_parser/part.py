@@ -33,6 +33,9 @@ class Part:
     datasheet: Optional[str]
     description: Optional[str]
 
+    def __str__(self) -> str:
+        return f'<Part {self.name} ({self.description})>'
+
     def __repr__(self) -> str:
         pinout = '\n'.join([
             f'\t{no} {repr(pin)}'
@@ -51,6 +54,12 @@ class Part:
 
     @classmethod
     def from_kicad_symbol(cls, symbol: KicadSymbol):
+        # Some devices extend other symbols
+        # get_parent_symbol
+        # 	(symbol "7400"
+        # 		(extends "74LS00")
+        parent = symbol.get_parent_symbol()
+
         pinout = {
             pin.number: Pin(
                 name=pin.name,
@@ -59,15 +68,19 @@ class Part:
             )
             # pins should be sorted by their numbers
             for pin in sorted(
-                symbol.pins,
+                symbol.pins if not parent else parent.pins,
                 key=lambda p: int(p.number) if str(p.number).isnumeric() else p.number
             )
         }
-        symbol_properties = {prop.name.lower(): prop.value for prop in symbol.properties}
+
+        assert len(pinout.keys()) > 0, f'Pinout of {symbol.name} is empty'
+
+        datasheet = symbol.get_property('Datasheet')
+        description = symbol.get_property('Description')
 
         return cls(
             name=symbol.name,
             pinout=pinout,
-            datasheet=symbol_properties.get('datasheet'),
-            description=symbol_properties.get('description'),
+            datasheet=datasheet.value if datasheet else None,
+            description=description.value if description else None,
         )
