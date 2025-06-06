@@ -35,6 +35,7 @@ def test_parse_symbol():
     # print(part, dumps(part.as_dict(), indent=True))
 
     assert part.name == '74469'
+    assert part.footprint == ''
     assert part.description == '8-bit synchronous up/down counter, parallel load and hold capability (obsolete)'
     assert part.datasheet == 'http://www.ti.com/lit/gpn/sn74469'
     assert len(part.pinout) == 24
@@ -61,8 +62,10 @@ def test_parse_symbol_with_inheritance():
     # print(str(attiny48), str(attiny88))
 
     assert attiny48.name == 'ATtiny48-P'
+    assert attiny48.footprint == 'Package_DIP:DIP-28_W7.62mm'
     assert attiny48.description == '12MHz, 4kB Flash, 256B SRAM, 64B EEPROM, DIP-28'
     assert attiny88.name == 'ATtiny88-P'
+    assert attiny88.footprint == 'Package_DIP:DIP-28_W7.62mm'
     assert attiny88.description == '12MHz, 8kB Flash, 512B SRAM, 64B EEPROM, DIP-28'
 
     # these devices share the same pinout

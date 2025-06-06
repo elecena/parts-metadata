@@ -30,6 +30,7 @@ class Part:
     """
     name: str  # e.g. 74469
     pinout:  Dict[str, Pin]  # "1": {name: "DO": type: "input"}
+    footprint: Optional[str]
     datasheet: Optional[str]
     description: Optional[str]
 
@@ -49,6 +50,7 @@ class Part:
             'name': self.name,
             'description': self.description,
             'datasheet': self.datasheet,
+            'footprint': self.footprint,
             'pinout': {no: pin.as_dict() for no, pin in self.pinout.items()},
         }
 
@@ -77,10 +79,12 @@ class Part:
 
         datasheet = symbol.get_property('Datasheet')
         description = symbol.get_property('Description')
+        footprint = symbol.get_property('Footprint')  # e.g. Package_DIP:DIP-28_W7.62mm
 
         return cls(
             name=symbol.name,
             pinout=pinout,
             datasheet=datasheet.value if datasheet else None,
             description=description.value if description else None,
+            footprint=footprint.value if footprint else None,
         )
