@@ -10,7 +10,7 @@ class Pin:
     Keep a single pin definition, a subset of kicad_sym.Pin class
     """
     name: str   # e.g. DO, Q3, GND, CLK, VCC
-    type: str  # e.g. tri_state, input, power_in, output
+    type: str  # e.g. tri_state, input, power_in, output, no_connect
     alt_funcs: Optional[list[str]]  # alternative functions, useful for microprocessors
 
     def __repr__(self) -> str:
