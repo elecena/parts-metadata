@@ -23,7 +23,9 @@ def iterate_archive(zip_file: ZipFile) -> Iterable[str]:
             continue
 
         # INFO:iterate_archive: > Found archive item: "kicad-symbols-master/power.kicad_sym"
-        if 'power.kicad' in item:
+        # Connector_Generic.kicad_sym
+        # Mechanical.kicad_sym
+        if 'power.kicad' in item or '/Connector' in item or 'Mechanical' in item:
             continue
 
         logger.info(f' > Found archive item: "{item}"')
@@ -33,7 +35,7 @@ def iterate_archive(zip_file: ZipFile) -> Iterable[str]:
             with NamedTemporaryFile(mode='wt', prefix='kicad_', suffix='_sym') as temp_file:
                 with open(temp_file.name, 'wt') as temp_io:
                     for line in my_file:
-                        temp_io.write(bytes(line).decode('utf-8'))
+                        temp_io.write(line.decode('utf-8'))
 
                 logger.info(f' < Saved in "{temp_file.name}"')
                 yield temp_file.name
@@ -55,7 +57,9 @@ def iterate_parts(zip_file: ZipFile) -> Iterable[Part]:
 
                 yield part
             except (AssertionError, TypeError) as ex:
-                logging.warn(f'Part not parsed: {str(ex)}')
+                # WARNING:root:Part 1N4934 not parsed: Pinout of 1N4934 is empty
+                # WARNING:root:Part ADAU1761 not parsed: '<' not supported between instances of 'str' and 'int'
+                logging.warn(f'Part {symbol.name} not parsed: {str(ex)}')
 
 
 def main(archive_file: str):
@@ -72,6 +76,7 @@ def main(archive_file: str):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
+    # logging.basicConfig(level=logging.WARN)
 
     # fetch by
     # wget https://gitlab.com/kicad/libraries/kicad-symbols/-/archive/master/kicad-symbols-master.zip
