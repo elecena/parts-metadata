@@ -60,6 +60,7 @@ def iterate_parts(zip_file: ZipFile) -> Iterable[Part]:
                 # WARNING:root:Part 1N4934 not parsed: Pinout of 1N4934 is empty
                 # WARNING:root:Part ADAU1761 not parsed: '<' not supported between instances of 'str' and 'int'
                 logging.warn(f'Part {symbol.name} not parsed: {str(ex)}')
+                # raise ex
 
 
 def main(archive_file: str):
@@ -70,12 +71,16 @@ def main(archive_file: str):
         for part in iterate_parts(zip_file):
             parts_count += 1
 
-    # INFO:root:Found 21214 parts
+    # INFO:root:Found 20253 parts
     logging.info(f'Found {parts_count} parts')
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s %(levelname)-8s %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
     # logging.basicConfig(level=logging.WARN)
 
     # fetch by
