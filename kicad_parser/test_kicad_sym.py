@@ -73,3 +73,27 @@ def test_parse_symbol_with_inheritance():
     assert attiny88.pinout['1'].name == '~{RESET}/PC6'
     assert attiny48.pinout['28'].name == 'PC5'
     assert attiny88.pinout['28'].name == 'PC5'
+
+
+def test_parse_symbol_with_multiple_inheritance():
+    library = KicadLibrary.from_file(get_fixture_file('Amplifier_Current.sym'))
+
+    assert len(library.symbols) == 3
+    assert [symbol.name for symbol in library.symbols] == ['AD8211', 'INA281A2', 'INA281A1']
+
+    """
+    (symbol "INA281A2"
+        (extends "INA281A1")    
+    (symbol "INA281A1"
+		(extends "AD8211")
+    """
+    ina281a2 = Part.from_kicad_symbol(library.symbols[1])
+    # print(repr(ina281a2))
+
+    assert ina281a2.name == 'INA281A2'
+    assert ina281a2.description == '-4...+110V High Voltage Current Shunt Monitor, 50V/V gain, 1.3 MHz bandwidth,  2.7..20Vcc, 55uV offset voltage, SOT-23-5'
+
+    assert ina281a2.pinout['2'].name == 'GND'
+    assert ina281a2.pinout['2'].type == 'power_in'
+    assert ina281a2.pinout['5'].name == 'V+'
+    assert ina281a2.pinout['5'].type == 'power_in'

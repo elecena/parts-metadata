@@ -62,6 +62,16 @@ class Part:
         # 		(extends "74LS00")
         parent = symbol.get_parent_symbol()
 
+        # follow further parent symbols
+        # (symbol "INA281A2"
+        #   (extends "INA281A1")
+        # (symbol "INA281A1"
+		#   (extends "AD8211")
+        if parent:
+            grandparent = parent.get_parent_symbol()
+            if grandparent:
+                parent = grandparent
+
         pinout = {
             pin.number: Pin(
                 name=pin.name,
