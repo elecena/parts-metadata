@@ -97,3 +97,14 @@ def test_parse_symbol_with_multiple_inheritance():
     assert ina281a2.pinout['2'].type == 'power_in'
     assert ina281a2.pinout['5'].name == 'V+'
     assert ina281a2.pinout['5'].type == 'power_in'
+
+
+def test_dump_part():
+    library = KicadLibrary.from_file(get_fixture_file('attiny.sym'))
+    attiny48 = Part.from_kicad_symbol(library.symbols[0])
+
+    dumped = attiny48.as_dict()
+    part = Part.from_dict(dumped)
+
+    # print(attiny48, part)
+    assert repr(attiny48) == repr(part)
