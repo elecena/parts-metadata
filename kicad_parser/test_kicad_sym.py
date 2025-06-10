@@ -9,6 +9,12 @@ def get_fixture_file(file: str) -> str:
     return pathlib.Path(__file__).parent.resolve().__str__() + f'/fixtures/{file}'
 
 
+def get_part() -> Part:
+    library = KicadLibrary.from_file(get_fixture_file('attiny.sym'))
+    attiny48 = Part.from_kicad_symbol(library.symbols[0])
+    return attiny48
+
+
 # https://gitlab.com/kicad/libraries/kicad-symbols/-/raw/master/74xx.kicad_sym?ref_type=heads
 def test_74xx():
     library = KicadLibrary.from_file(get_fixture_file('74xx.sym'))
@@ -99,9 +105,20 @@ def test_parse_symbol_with_multiple_inheritance():
     assert ina281a2.pinout['5'].type == 'power_in'
 
 
+def test_part_keeps_pins_in_order():
+    attiny48 = get_part()
+
+    # print(repr(attiny48))
+
+    assert '\t1 <Pin ~{RESET}/PC6 [bidirectional]>\n\t2 <Pin PD0 [bidirectional]>' in repr(attiny48)
+
+    keys = list(attiny48.pinout.keys())
+    assert keys == [str(pin) for pin in range(1, 29)]
+
+
+
 def test_dump_part():
-    library = KicadLibrary.from_file(get_fixture_file('attiny.sym'))
-    attiny48 = Part.from_kicad_symbol(library.symbols[0])
+    attiny48 = get_part()
 
     dumped = attiny48.as_dict()
     part = Part.from_dict(dumped)
@@ -109,12 +126,20 @@ def test_dump_part():
     # print(attiny48, part)
     assert repr(attiny48) == repr(part)
 
-def test_part_with_yaml():
-    library = KicadLibrary.from_file(get_fixture_file('attiny.sym'))
-    attiny48 = Part.from_kicad_symbol(library.symbols[0])
+def test_part_as_yaml():
+    attiny48 = get_part()
+    dump = get_part().as_yaml()
+    # print(dump)
 
-    dump = yaml.safe_dump(attiny48.as_dict(), sort_keys=False)  # TODO: remove the sort_keys=False
-    # print(attiny48.as_dict(), dump, yaml.safe_load(dump))
+    assert 'name: ATtiny48-P' in dump
+    assert """pinout:
+  '1':
+    name: ~{RESET}/PC6
+    type: bidirectional
+  '2':
+    name: PD0
+    type: bidirectional""" in dump
+
     part = Part.from_dict(yaml.safe_load(dump))
 
     assert repr(attiny48) == repr(part)
