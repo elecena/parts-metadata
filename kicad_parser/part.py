@@ -84,10 +84,7 @@ class Part:
                 alt_funcs=[],  # TODO
             )
             # pins should be sorted by their numbers
-            for pin in sorted(
-                symbol.pins if not parent else parent.pins,
-                key=lambda p: int(p.number) if str(p.number).isnumeric() else p.number
-            )
+            for pin in parent.pins
         }
 
         assert len(pinout.keys()) > 0, f'Pinout of {symbol.name} is empty'
