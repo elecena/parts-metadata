@@ -1,3 +1,4 @@
+import yaml
 from dataclasses import dataclass
 from typing import Dict, Optional
 
@@ -54,6 +55,10 @@ class Part:
             'pinout': {no: pin.as_dict() for no, pin in self.pinout.items()},
         }
 
+    def as_yaml(self) -> str:
+        # sort_keys=False to preserve the order of the pins
+        return yaml.safe_dump(self.as_dict(), sort_keys=False)
+
     @classmethod
     def from_dict(cls, data: dict):
         data['pinout'] = {
@@ -84,7 +89,10 @@ class Part:
                 alt_funcs=[],  # TODO
             )
             # pins should be sorted by their numbers
-            for pin in parent.pins
+            for pin in sorted(
+                parent.pins,
+                key=lambda p: int(p.number) if str(p.number).isnumeric() else p.number
+            )
         }
 
         assert len(pinout.keys()) > 0, f'Pinout of {symbol.name} is empty'
