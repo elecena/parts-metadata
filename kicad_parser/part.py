@@ -9,7 +9,7 @@ class Pin:
     """
     Keep a single pin definition, a subset of kicad_sym.Pin class
     """
-    name: str   # e.g. DO, Q3, GND, CLK, VCC
+    name: str  # e.g. DO, Q3, GND, CLK, VCC
     type: str  # e.g. tri_state, input, power_in, output, no_connect
     alt_funcs: Optional[list[str]]  # alternative functions, useful for microprocessors
 
@@ -55,6 +55,15 @@ class Part:
         }
 
     @classmethod
+    def from_dict(cls, data: dict):
+        data['pinout'] = {
+            no: Pin(name=pin['name'], type=pin['type'], alt_funcs=None)
+            for no, pin in data.get('pinout', {}).items()
+        }
+
+        return cls(**data)
+
+    @classmethod
     def from_kicad_symbol(cls, symbol: KicadSymbol):
         # Some devices extend other symbols
         # get_parent_symbol
@@ -75,10 +84,7 @@ class Part:
                 alt_funcs=[],  # TODO
             )
             # pins should be sorted by their numbers
-            for pin in sorted(
-                symbol.pins if not parent else parent.pins,
-                key=lambda p: int(p.number) if str(p.number).isnumeric() else p.number
-            )
+            for pin in parent.pins
         }
 
         assert len(pinout.keys()) > 0, f'Pinout of {symbol.name} is empty'
