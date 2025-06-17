@@ -793,7 +793,7 @@ IRS2093M	4 CH Digital Audio Amplifier, PWM Modulator, ±100V, 0.5/0.6A, MLPQ-48	
 IRS20957S	Protected Digital Audio Driver, ±100V, 1.0/1.2A, SOIC-16	http://www.infineon.com/dgdl/irs20957spbf.pdf?fileId=5546d462533600a401535676143e2799
 IRS20965S	Class D Audio Driver, ±100V, 2.0/2.0A, SOIC-16	https://www.infineon.com/dgdl/irs20965spbf.pdf?fileId=5546d462533600a4015356761d8b279b
 IRS2452AM	Class D Audio IC, PWM Modulator, ±200V, 0.5/0.6A, MLPQ-32	https://www.infineon.com/dgdl/Infineon-IRS2452AM-DS-v01_00-EN.pdf?fileId=5546d462584d1d4a01584ee4f1f00713
-IS31AP4991-GRLS2	1.2W, 2.7-5.5V, Audio Power Amplifier, Active-Low Standby, SOP-8	http://www.issi.com/WW/pdf/31AP4991.pdf
+IS31AP4991-GRLS2	1.2W, 2.7-5.5V, Audio Power Amplifier, Active-Low Standby, JEITA SOIC-8 (SOP-8)	http://www.issi.com/WW/pdf/31AP4991.pdf
 IS31AP4991-SLS2	1.2W, 2.7-5.5V, Audio Power Amplifier, Active-Low Standby, MSOP-8	http://www.issi.com/WW/pdf/31AP4991.pdf
 LM1875	20W Audio Power Amplifier, TO-220-5	http://www.ti.com/lit/ds/symlink/lm1875.pdf
 LM1876	Overture Audio Power Amplifier Series Dual 20W Audio Power Amplifier with Mute and Standby Modes, TO-220-15	http://www.ti.com/lit/ds/symlink/lm1876.pdf
@@ -1479,6 +1479,8 @@ TLV2371P	Rail-to-Rail Input/Output Operational Amplifier, PDIP-8	http://www.ti.c
 TLV2372	Dual Rail-to-Rail Input/Output Operational Amplifier, DIP-8/SOIC-8/VSSOP-8	http://www.ti.com/lit/ds/symlink/tlv2375.pdf
 TLV6001DCK	Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353	http://www.ti.com/lit/ds/symlink/tlv6001.pdf
 TLV9001IDCK	Low-power, Rail-to-Rail, 1MHz Operational Amplifier, SOT-353	https://www.ti.com/lit/ds/symlink/tlv9001.pdf
+TLV9054xD	Quad RRIO Operational Amplifiers, 15V/us slew rate, 33uVos, 5MHz GBW, SOIC-14	https://www.ti.com/lit/ds/symlink/tlv9054.pdf
+TLV9054xPW	Quad RRIO Operational Amplifiers, 15V/us slew rate, 33uVos, 5MHz GBW, TSSOP-14	https://www.ti.com/lit/ds/symlink/tlv9054.pdf
 TLV9061xDBV	10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems, SOT-23-5	https://www.ti.com/lit/ds/symlink/tlv9061.pdf
 TLV9061xDCK	10-MHz, RRIO, CMOS Operational Amplifiers for Cost-Sensitive Systems, SC-70	https://www.ti.com/lit/ds/symlink/tlv9061.pdf
 TLV9062	Dual Operational Amplifiers, SOIC-8/TSSOP-8/VSSOP-8	https://www.ti.com/lit/ds/symlink/tlv9062.pdf
@@ -1507,9 +1509,9 @@ OPA2604AP	Dual FET-Input, Low-Distortion Operational Amplifier, DIP-8	https://pd
 OPA810xDCK	140-MHz, Rail-to-Rail Input and Output, FET-Input Operational Amplifier, SC-70-5	https://www.ti.com/lit/ds/symlink/opa810.pdf
 TLC27M2xD	LinCMOS Precision Dual Operational Amplifiers, VIO_max = 10mV (at 25°C), VDD = 3..16V (C suffix) / VDD = 4..16V (I / M suffix), 525kHz unity-gain bandwidth (VDD = 5V, TA = 25°C), SOIC-8 (150 mil)	https://www.ti.com/lit/ds/symlink/tlc27m2.pdf
 TLC27M7xD	LinCMOS Precision Dual Operational Amplifiers, VIO_max = 500μV (at 25°C), VDD = 3..16V (C suffix) / VDD = 4..16V (I / M suffix), 525kHz unity-gain bandwidth (VDD = 5V, TA = 25°C), SOIC-8 (150 mil)	https://www.ti.com/lit/ds/symlink/tlc27m2.pdf
+TLC27M7xPS	LinCMOS Precision Dual Operational Amplifiers, VIO_max = 500μV (at 25°C), VDD = 3..16V (C suffix) / VDD = 4..16V (I / M suffix), 525kHz unity-gain bandwidth (VDD = 5V, TA = 25°C), SOIC-8 (208 mil)	https://www.ti.com/lit/ds/symlink/tlc27m2.pdf
 TLC27M2xPS	LinCMOS Precision Dual Operational Amplifiers, VIO_max = 10mV (at 25°C), VDD = 3..16V (C suffix) / VDD = 4..16V (I / M suffix), 525kHz unity-gain bandwidth (VDD = 5V, TA = 25°C), SOIC-8 (208 mil)	https://www.ti.com/lit/ds/symlink/tlc27m2.pdf
 TLC27M2xPW	LinCMOS Precision Dual Operational Amplifiers, VIO_max = 10mV (at 25°C), VDD = 3..16V (C suffix) / VDD = 4..16V (I / M suffix), 525kHz unity-gain bandwidth (VDD = 5V, TA = 25°C), TSSOP-8	https://www.ti.com/lit/ds/symlink/tlc27m2.pdf
-TLC27M7xPS	LinCMOS Precision Dual Operational Amplifiers, VIO_max = 500μV (at 25°C), VDD = 3..16V (C suffix) / VDD = 4..16V (I / M suffix), 525kHz unity-gain bandwidth (VDD = 5V, TA = 25°C), SOIC-8 (208 mil)	https://www.ti.com/lit/ds/symlink/tlc27m2.pdf
 AD813	Single Supply, Low Power, Triple Video Amplifier, DIP-14/SOIC-14	https://www.analog.com/media/en/technical-documentation/data-sheets/AD813.pdf
 MAX453	CMOS video amplifier with input multiplexer, DIP-8/SOIC-8	https://datasheets.maximintegrated.com/en/ds/MAX452-MAX455.pdf
 THS7374	4 channel SDTV Video Amplifier, TSSOP-14	https://www.ti.com/lit/ds/symlink/ths7374.pdf
@@ -2333,14 +2335,17 @@ XC95108PQ100	Xilinx CPLD, Obsolete	xilinx/xc95108.pdf
 XC95144PQ100	Xilinx CPLD, Obsolete	
 XC95144XL-TQ100	CPLD, 144 Macrocells, 3200 Usable Gates	https://www.xilinx.com/support/documentation/data_sheets/ds056.pdf
 XC95144XL-TQ144	CPLD, 144 Macrocells, 3200 Usable Gates	https://www.xilinx.com/support/documentation/data_sheets/ds056.pdf
-XC9536PC44	Xilinx CPLD, Obsolete	xilinx/xc9536.pdf
-XC9572XL-TQ100	CPLD, 72 Macrocells, 1600 Usable Gates	http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf
-XC9572XL-VQ64	CPLD, 72 Macrocells, 1600 Usable Gates	http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf
-XC9572XL-xxVQx44	CPLD, 72 Macrocells, 1600 Usable Gates, TQFP-44	http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf
+XC9572XL-xxPCx44	CPLD, 72 Macrocells, 1600 Usable Gates, PLCC-44	http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf
+XC9572XL-xxTQx100	CPLD, 72 Macrocells, 1600 Usable Gates, LQFP-100 (Xilinx TQ100)	http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf
+XC9572XL-xxVQx44	CPLD, 72 Macrocells, 1600 Usable Gates, TQFP-44 (Xilinx VQ44)	http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf
+XC9572XL-xxVQx64	CPLD, 72 Macrocells, 1600 Usable Gates, TQFP-64 (Xilinx VQ64)	http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf
 XCR3064XL-VQ100	Xilinx CoolRunner 64-Macrocell CPLD, 3.3V, VQFP-100	https://www.xilinx.com/support/documentation/data_sheets/ds017.pdf
 XCR3064XL-VQ44	Xilinx CoolRunner 64-Macrocell CPLD, 3.3V, VQFP-44	https://www.xilinx.com/support/documentation/data_sheets/ds017.pdf
 XCR3128XL-VQ100	Xilinx CoolRunner 128-Macrocell CPLD, 3.3V, VQFP-100	https://www.xilinx.com/support/documentation/data_sheets/ds016.pdf
 XCR3256XL-TQ144	Xilinx CoolRunner 256-Macrocell CPLD, 3.3V, TQFP-144	https://www.xilinx.com/support/documentation/data_sheets/ds013.pdf
+XC9536XL-xxPCx44	CPLD, 36 Macrocells, 800 Usable Gates, PLCC-44	http://www.xilinx.com/support/documentation/data_sheets/ds058.pdf
+XC9536XL-xxVQx44	CPLD, 72 Macrocells, 800 Usable Gates, TQFP-44 (Xilinx VQ44)	http://www.xilinx.com/support/documentation/data_sheets/ds058.pdf
+XC9536XL-xxVQx64	CPLD, 72 Macrocells, 800 Usable Gates, TQFP-64 (Xilinx VQ64)	http://www.xilinx.com/support/documentation/data_sheets/ds058.pdf
 XCR3064-VQ100	Xilinx CoolRunner 64-Macrocell CPLD, 3.3V, VQFP-100, Obsolete	https://www.xilinx.com/support/documentation/data_sheets/ds017.pdf
 XCR3064-VQ44	Xilinx CoolRunner 64-Macrocell CPLD, 3.3V, VQFP-44, Obsolete	https://www.xilinx.com/support/documentation/data_sheets/ds017.pdf
 XCR3128-VQ100	Xilinx CoolRunner 128-Macrocell CPLD, 3.3V, VQFP-100, Obsolete	https://www.xilinx.com/support/documentation/data_sheets/ds016.pdf
@@ -5291,6 +5296,7 @@ ADS7843E	Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to
 AY0438X-L	32-Segment CMOS LCD Driver, CMOS and TTL-compatible inputs, VDD +3.0V to +8.5V, PLCC-44	http://www.farnell.com/datasheets/43336.pdf
 AY0438X-P	32-Segment CMOS LCD Driver, CMOS and TTL-compatible inputs, VDD +3.0V to +8.5V, DIP-40	http://www.farnell.com/datasheets/43336.pdf
 CR2013-MI2120	ILI9341 controller, SPI TFT LCD Display, 9-pin breakout PCB, 4-pin SD card interface, 5V/3.3V	http://pan.baidu.com/s/11Y990
+HV5622PG	32-Channel, Serial to Parallel Converter w/ Open Drain Outputs, PQFP-44	https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20005854A.pdf
 XPT2046QF	Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, QFN-16	http://www.xptek.cn/uploadfile/download/201707171401161883.pdf
 XPT2046TS	Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, TSSOP-16	http://www.xptek.cn/uploadfile/download/201707171401161883.pdf
 ADS7843E-2K5	Single-supply, 12bit, 4 ch, touch screen driver, 2.2 - 5.25 VDD, -40 to +85 C, QSPI, SPI, 3-wire serial interface, SSOP-16	http://www.ti.com/lit/ds/symlink/ads7843.pdf
@@ -5636,6 +5642,7 @@ A4950E	Full-Bridge, DMOS PWM, Motor Driver, 40V, 3.5A, -40 to +85C	http://www.al
 A4952_LY	Full-Bridge, DMOS PWM, Motor Driver, 40V, 2A, MSOP-10	www.allegromicro.com/~/media/Files/Datasheets/A4952-3-Datasheet.ashx?la=en
 A4954	Fullbridge PWM Motor Driver, UVLO, OCP, Current Limit, Short Circuit Protection, TSSOP-16	https://www.allegromicro.com/-/media/Files/Datasheets/A4954-Datasheet.ashx
 AMT49413	3-Phase BLDC Controller and MOSFET Driver, QFN-48	https://www.allegromicro.com/-/media/Files/Datasheets/AMT49413-Datasheet.ashx
+CP3119M	H-Bridge brushed DC motor driver driver with current limit, 6A, 3..30Vm, 110mOhm RDSon, 30kHz PWM, SO-8	https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XBLW-CP3119MDTR-XBLW_C42395499.pdf
 DRV8231ADSG	H-Bridge brushed DC motor driver driver, 3.7Apk,  4.5..33Vm, 600mOhm shunt, integrated current mirror, PWM input, WSON-8	https://www.ti.com/lit/ds/symlink/drv8231a.pdf
 DRV8308	Brushless DC motor controller, closed loop, hall sensor inputs, current limiting, SPI interface	http://www.ti.com/lit/ds/symlink/drv8308.pdf
 DRV8412	Dual Full-Bridge PWM Motor Driver 50V 2x6A Peak, HTSSOP-44 EP ThermalVias	https://www.ti.com/lit/gpn/DRV8412
@@ -5712,6 +5719,7 @@ ZXBM5210-S	Reversible DC motor drive with speed control, 3-18V, 0.85A, SOIC-8	ht
 ZXBM5210-SP	Reversible DC motor drive with speed control, 3-18V, 0.85A, SOIC-8EP	https://www.diodes.com/assets/Datasheets/ZXBM5210.pdf
 A4950K	Full-Bridge, DMOS PWM, Motor Driver, 40V, 3.5A, -40 to +125C	http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx
 A4953_LJ	Full-Bridge, DMOS PWM, Motor Driver, 40V, 2A, SOIC-8	www.allegromicro.com/~/media/Files/Datasheets/A4952-3-Datasheet.ashx?la=en
+CP2119L	H-Bridge brushed DC motor driver driver with current limit, 5A, 3..18Vm, 71mOhm RDSon, 30kHz PWM input, SO-8	https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XBLW-CP2119LDTR-XBLW_C42395498.pdf
 DRV8212P	H-Bridge driver, 4A, Low Voltage, PWM input, WSON-8	https://www.ti.com/lit/ds/symlink/drv8212p.pdf
 DRV8837	H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8	http://www.ti.com/lit/ds/symlink/drv8837.pdf
 L293D	Quadruple Half-H Drivers	http://www.ti.com/lit/ds/symlink/l293.pdf
@@ -6256,20 +6264,20 @@ TCAN334	High-Speed CAN Transceiver, 1Mbps, 3.3V supply, low power standby mode, 
 TCAN337	High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, fault output, SOT-23-8/SOIC-8	http://www.ti.com/lit/ds/symlink/tcan337.pdf
 TCAN4550RGY	CAN-FD controller with integrated transceiver, 5Mbps, 3.3V to 5V supply, SPI interface, VQFN-20	https://www.ti.com/lit/ds/symlink/tcan4550.pdf
 TCAN4551RGYRQ1	CAN-FD controller with integrated transceiver, 5Mbps, 3.3V to 5V supply, SPI interface, VQFN-20	https://www.ti.com/lit/ds/symlink/tcan4551-q1.pdf
-TJA1021T	LIN 2.1/SAE J2602 transceiver, SOIC-8	http://www.nxp.com/docs/en/data-sheet/TJA1021.pdf
-TJA1021TK	LIN 2.1/SAE J2602 transceiver, DFN-8	http://www.nxp.com/docs/en/data-sheet/TJA1021.pdf
+TJA1021xT	LIN 2.2A / SAE J2602 transceiver, SOIC-8	https://www.nxp.com/docs/en/data-sheet/TJA1021.pdf
+TJA1021xTK	LIN 2.2A / SAE J2602 transceiver, VSON-8 (DFN-8)	https://www.nxp.com/docs/en/data-sheet/TJA1021.pdf
 TJA1029T	LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, SOIC-8	http://www.nxp.com/docs/en/data-sheet/TJA1029.pdf
-TJA1029TK	LIN 2.2A/SAE J2602 transceiver with TXD dominant timeout, DFN-8	http://www.nxp.com/docs/en/data-sheet/TJA1029.pdf
+TJA1029TK	LIN 2.2A / SAE J2602 transceiver with TXD dominant timeout, VSON-8 (DFN-8)	https://www.nxp.com/docs/en/data-sheet/TJA1029.pdf
 TJA1043T	High-speed CAN-FD Transceiver with Sleep Mode, SOIC-14	https://www.nxp.com/docs/en/data-sheet/TJA1043.pdf
 TJA1043TK	High-speed CAN-FD Transceiver with Sleep Mode, HVSON-14	https://www.nxp.com/docs/en/data-sheet/TJA1043.pdf
 TJA1049T	High-Speed CAN Transceiver, standby mode, split pin, SOIC-8	http://www.nxp.com/docs/en/data-sheet/TJA1049.pdf
 TJA1049T-3	High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8	http://www.nxp.com/docs/en/data-sheet/TJA1049.pdf
-TJA1049TK	High-Speed CAN Transceiver, standby mode, DFN-8-1EP	http://www.nxp.com/docs/en/data-sheet/TJA1049.pdf
-TJA1049TK-3	High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8	http://www.nxp.com/docs/en/data-sheet/TJA1049.pdf
+TJA1049TK	High-Speed CAN Transceiver, standby mode, VSON-8 (DFN-8)	https://www.nxp.com/docs/en/data-sheet/TJA1049.pdf
+TJA1049TK-3	High-Speed CAN Transceiver, separate VIO, standby mode, VSON-8 (DFN-8)	https://www.nxp.com/docs/en/data-sheet/TJA1049.pdf
 TJA1051T	High-Speed CAN Transceiver, silent mode, SOIC-8	http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf
 TJA1051T-3	High-Speed CAN Transceiver, separate VIO, silent mode, SOIC-8	http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf
 TJA1051T-E	High-Speed CAN Transceiver, enable pin, silent mode, SOIC-8	http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf
-TJA1051TK-3	High-Speed CAN Transceiver, separate VIO, silent mode, DFN-8	http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf
+TJA1051TK-3	High-Speed CAN Transceiver, separate VIO, silent mode, VSON-8 (DFN-8)	https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf
 TJA1052i-1	Isolated CAN Transceiver 1.0kV, up to 5Mbps	https://www.nxp.com/docs/en/data-sheet/TJA1052I.pdf
 TJA1145T	High-speed CAN transceiver for partial networking, SOIC-14	https://www.nxp.com/docs/en/data-sheet/TJA1145.pdf
 TJA1145TK	High-speed CAN transceiver for partial networking, DFN-14	https://www.nxp.com/docs/en/data-sheet/TJA1145.pdf
@@ -6292,7 +6300,7 @@ TCAN334G	High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, low power s
 TCAN337G	High-Speed CAN Transceiver with CAN FD, 5Mbps, 3.3V supply, silent mode, fault output, SOT-23-8/SOIC-8	http://www.ti.com/lit/ds/symlink/tcan337.pdf
 TJA1042T	High-Speed CAN Transceiver, standby mode, split pin, SOIC-8	http://www.nxp.com/docs/en/data-sheet/TJA1042.pdf
 TJA1042T-3	High-Speed CAN Transceiver, separate VIO, standby mode, SOIC-8	http://www.nxp.com/docs/en/data-sheet/TJA1042.pdf
-TJA1042TK-3	High-Speed CAN Transceiver, separate VIO, standby mode, DFN-8-1EP	http://www.nxp.com/docs/en/data-sheet/TJA1042.pdf
+TJA1042TK-3	High-Speed CAN Transceiver, separate VIO, standby mode, VSON-8 (DFN-8)	https://www.nxp.com/docs/en/data-sheet/TJA1042.pdf
 TJA1052i-2	Isolated CAN Transceiver 2.5kV, up to 5Mbps	https://www.nxp.com/docs/en/data-sheet/TJA1052I.pdf
 TJA1052i-5	Isolated CAN Transceiver 5.0kV, up to 5Mbps	https://www.nxp.com/docs/en/data-sheet/TJA1052I.pdf
 TJA1145T-FD	High-speed CAN transceiver for partial networking with FD-passive function, SOIC-14	https://www.nxp.com/docs/en/data-sheet/TJA1145.pdf
@@ -6755,7 +6763,7 @@ USB3343	Hi-Speed USB ULPI Transceiver, QFN-24	http://ww1.microchip.com/downloads
 USB3740B-AI2	USB 2.0 Switch with ESD Protection, UQFN-10 Pitch 0.4 mm	http://ww1.microchip.com/downloads/en/DeviceDoc/00001725D.pdf
 XR21B1424	USB 2.0 up to 12Mbps, Quad Channel USB UART/FIFO, RS485 capability, LQFP-64	https://assets.maxlinear.com/web/documents/xr21b1424.pdf
 ADUM3160	Full/Low Speed, iCoupler USB Digital Isolator, 2.5kV protection	https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3160.pdf
-CH340N	USB serial converter, 2Mbps, UART, SOP-8	https://aitendo3.sakura.ne.jp/aitendo_data/product_img/ic/inteface/CH340N/ch340n.pdf
+CH340N	USB serial converter, 2Mbps, UART, JEITA SOIC-8 (SOP-8)	https://aitendo3.sakura.ne.jp/aitendo_data/product_img/ic/inteface/CH340N/ch340n.pdf
 CY7C65211A-24LTXI	USB-Serial single channel bridge with capsense and BCD, +1.71V to +5.5V VDD, UART/I2C/SPI/RS232/RS422/RS485, QFN-24	http://www.cypress.com/file/139886/download
 CY7C65213A-28PVXI	USB-UART LP Bridge Controller, full speed 12Mbps, +1.71V to 5.5V VDD, UART/RS232/RS422/RS485, SSOP-28	http://www.cypress.com/file/139881/download
 CY7C65213A-32LTXI	USB-UART LP Bridge Controller, full speed 12Mbps, +1.71V to 5.5V VDD, UART/RS232/RS422/RS485, QFN-32	http://www.cypress.com/file/139881/download
@@ -12738,7 +12746,7 @@ T32CZ20B20GQ40	ARM,M33,SubGHz Radio,+20dBm,1MB,Flash,288KRAM,Z-Wave,QFN-40	https
 CH32V003AxMx	CH32V003 series are industrial-grade general-purpose microcontrollers designed based on 32-bit RISC-V instruction set and architecture. It adopts QingKe V2A core, RV32EC instruction set, and supports 2 levels of interrupt nesting. The series are mounted with rich peripheral interfaces and function modules. Its internal organizational structure meets the low-cost and low-power embedded application scenarios.	https://www.wch-ic.com/products/CH32V003.html
 CH32V003FxPx	CH32V003 series are industrial-grade general-purpose microcontrollers designed based on 32-bit RISC-V instruction set and architecture. It adopts QingKe V2A core, RV32EC instruction set, and supports 2 levels of interrupt nesting. The series are mounted with rich peripheral interfaces and function modules. Its internal organizational structure meets the low-cost and low-power embedded application scenarios.	https://www.wch-ic.com/products/CH32V003.html
 CH32V003FxUx	CH32V003 series are industrial-grade general-purpose microcontrollers designed based on 32-bit RISC-V instruction set and architecture. It adopts QingKe V2A core, RV32EC instruction set, and supports 2 levels of interrupt nesting. The series are mounted with rich peripheral interfaces and function modules. Its internal organizational structure meets the low-cost and low-power embedded application scenarios.	https://www.wch-ic.com/products/CH32V003.html
-CH32V003JxMx	CH32V003 series are industrial-grade general-purpose microcontrollers designed based on 32-bit RISC-V instruction set and architecture. It adopts QingKe V2A core, RV32EC instruction set, and supports 2 levels of interrupt nesting. The series are mounted with rich peripheral interfaces and function modules. Its internal organizational structure meets the low-cost and low-power embedded application scenarios.	https://www.wch-ic.com/products/CH32V003.html
+CH32V003JxMx	CH32V003 series are industrial-grade general-purpose microcontrollers designed based on 32-bit RISC-V instruction set and architecture. It adopts QingKe V2A core, RV32EC instruction set, and supports 2 levels of interrupt nesting. The series are mounted with rich peripheral interfaces and function modules. Its internal organizational structure meets the low-cost and low-power embedded application scenarios. JEITA SOIC-8 (SOP-8)	https://www.wch-ic.com/products/CH32V003.html
 CH32V203CxTx	The CH32V203 is an industrial-grade enhanced low-power general-purpose MCU based on 32-bit RISC-V core.	https://www.wch-ic.com/products/CH32V203.html
 CH32V203F6P6	The CH32V203 is an industrial-grade enhanced low-power general-purpose MCU based on 32-bit RISC-V core.	http://www.wch-ic.com/products/CH32V203.html
 CH32V203GxUx	NanjingQinheng WCH RISC-V MCU, 32-64KB flash, 10-20KB RAM, 144 MHz, 2.4-3.6V, 24 GPIO, ADC, OpAmp, CAN, USB, WQFN-28	https://www.wch-ic.com/downloads/CH32V203DS0_PDF.html
@@ -12875,7 +12883,7 @@ AT45DB161-JC	16Mb Serial DataFlash, 2.7V Vcc, PLCC-32	http://ww1.microchip.com/d
 AT45DB161-RC	16Mb Serial DataFlash, 2.7V Vcc, SOIC-28	http://ww1.microchip.com/downloads/en/devicedoc/doc0807.pdf
 AT45DB161-TC	16Mb Serial DataFlash, 2.7V Vcc, TSOP-28	http://ww1.microchip.com/downloads/en/devicedoc/doc0807.pdf
 AT45DB161D-SU	16Mb Serial DataFlash, 2.5V Vcc, SOIC-8	https://www.mouser.com/datasheet/2/698/doc3500-2956563.pdf
-GD25D10CT	1Mbit, 3.0V Standard and Dual Serial Flash, SOP-8	http://www.elm-tech.com/en/products/spi-flash-memory/gd25d10/gd25d10.pdf
+GD25D10CT	1Mbit, 3.0V Standard and Dual Serial Flash, JEITA SOIC-8 (SOP-8)	http://www.elm-tech.com/en/products/spi-flash-memory/gd25d10/gd25d10.pdf
 GD25QxxxEY	3.0V, Standard/Dual/Quad Serial Flash, WSON-8	https://www.lcsc.com/datasheet/lcsc_datasheet_2201241400_GigaDevice-Semicon-Beijing-GD25Q256EYIGR_C2927043.pdf
 IS25WP256D-xM	256-Mbit, 1.8V SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-16	http://www.issi.com/WW/pdf/IS25LP(WP)256D.pdf
 M25PX32-VMP	32Mb, Dual I/O, 4KB Subsector Erase, 3V Serial Flash Memory with 75 MHz SPI Bus Interface, DFN-8	https://www.mouser.de/datasheet/2/671/M25PX32-1282938.pdf
@@ -12885,8 +12893,8 @@ M29W008	Flash EEProm 1MO (TSOP 40 pack.) 3,3V
 MT25QUxxxxxx1xW7	Micron 128M/256M/512M/1G/2Gbit, 1.8V Multiple I/O Serial NOR Flash Memory, W-PDFN-8	https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/nor-flash/serial-nor/mt25q/die-rev-a/mt25q_qljs_u_256_aba_0.pdf
 MX25L3233FM	32-Mbit, 3V (2.65V-3.6V) SPI Serial Flash Memory, SOIC-16	https://www.macronix.com/Lists/Datasheet/Attachments/8377/MX25L3233F,%203V,%2032Mb,%20v1.1.pdf
 MX25L3233FZN	32-Mbit, 3V (2.65V-3.6V) SPI Serial Flash Memory, WSON-8	https://www.macronix.com/Lists/Datasheet/Attachments/8377/MX25L3233F,%203V,%2032Mb,%20v1.1.pdf
-MX25R3235FM1xx0	32-Mbit, Wide Range Voltage SPI Serial Flash Memory, SOP-8	http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf
-MX25R3235FM1xx1	32-Mbit, Wide Range Voltage SPI Serial Flash Memory, SOP-8	https://www.macronix.com/Lists/Datasheet/Attachments/8755/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.8.pdf
+MX25R3235FM1xx0	32-Mbit, Wide Range Voltage SPI Serial Flash Memory, JEITA SOIC-8 (SOP-8)	http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf
+MX25R3235FM1xx1	32-Mbit, Wide Range Voltage SPI Serial Flash Memory, JEITA SOIC-8 (SOP-8)	https://www.macronix.com/Lists/Datasheet/Attachments/8755/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.8.pdf
 MX25R3235FM2xx0	32-Mbit, Wide Range Voltage SPI Serial Flash Memory, SOIC-8 (SOP-8, 208 mil)	https://www.macronix.com/Lists/Datasheet/Attachments/8755/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.8.pdf
 MX25R3235FM2xx1	32-Mbit, Wide Range Voltage SPI Serial Flash Memory, SOIC-8 (SOP-8, 208 mil)	https://www.macronix.com/Lists/Datasheet/Attachments/8755/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.8.pdf
 MX25R3235FZNxx0	32-Mbit, Wide Range Voltage SPI Serial Flash Memory, WSON-8	http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf
@@ -12907,8 +12915,8 @@ AT45DB161B-RC	16Mb Serial DataFlash, 2.7V Vcc, SOIC-28	http://ww1.microchip.com/
 AT45DB161B-RC-2.5	16Mb Serial DataFlash, 2.5V Vcc, SOIC-28	http://ww1.microchip.com/downloads/en/devicedoc/doc2224.pdf
 AT45DB161B-TC	16Mb Serial DataFlash, 2.7V Vcc, TSOP-28	http://ww1.microchip.com/downloads/en/devicedoc/doc2224.pdf
 AT45DB161B-TC-2.5	16Mb Serial DataFlash, 2.5V Vcc, TSOP-28	http://ww1.microchip.com/downloads/en/devicedoc/doc2224.pdf
-GD25D05CT	512kbit, 3.0V Standard and Dual Serial Flash, SOP-8	http://www.elm-tech.com/en/products/spi-flash-memory/gd25d10/gd25d10.pdf
-MX25L3233FM1	32-Mbit, 3V (2.65V-3.6V) SPI Serial Flash Memory, SOP-8 (150mil)	https://www.macronix.com/Lists/Datasheet/Attachments/8377/MX25L3233F,%203V,%2032Mb,%20v1.1.pdf
+GD25D05CT	512kbit, 3.0V Standard and Dual Serial Flash, JEITA SOIC-8 (SOP-8)	http://www.elm-tech.com/en/products/spi-flash-memory/gd25d10/gd25d10.pdf
+MX25L3233FM1	32-Mbit, 3V (2.65V-3.6V) SPI Serial Flash Memory, JEITA SOIC-8 (SOP-8)	https://www.macronix.com/Lists/Datasheet/Attachments/8377/MX25L3233F,%203V,%2032Mb,%20v1.1.pdf
 MX25L3233FM2	32-Mbit, 3V (2.65V-3.6V) SPI Serial Flash Memory, SOIC-8 (SOP-8, 208 mil)	https://www.macronix.com/Lists/Datasheet/Attachments/8933/MX25L3233F,%203V,%2032Mb,%20v1.7.pdf
 W25Q128JVE	128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8	https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf
 W25Q128JVP	128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8	https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf
@@ -12916,7 +12924,7 @@ W25Q128JVS	128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V
 W25Q16JVSS	16Mbit / 2MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)	https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q16JV.1
 W25X20CLSN	2Mbit / 256KiB Serial Flash memory, Standard/Dual I/O SPI, 2.3-3.6V, SOIC-8	https://www.winbond.com/resource-files/w25x20cl_revf%2020150806.pdf
 W25X40CLSS	4Mbit / 512KiB Serial Flash memory, Standard/Dual I/O SPI, 2.3-3.6V, SOIC-8 (208 mil)	https://www.winbond.com/resource-files/W25X40CL_G%2020210505.pdf
-W25X40CLSV	4Mbit / 512KiB Serial Flash memory, Standard/Dual I/O SPI, 2.3-3.6V, VSOP-8	https://www.winbond.com/resource-files/W25X40CL_G%2020210505.pdf
+W25X40CLSV	4Mbit / 512KiB Serial Flash memory, Standard/Dual I/O SPI, 2.3-3.6V, JEITA SOIC-8 (SOP-8)	https://www.winbond.com/resource-files/W25X40CL_G%2020210505.pdf
 XTSD02G	2Gbit NAND flash compliant with SD2.0 interface, 50Mhz 3.3V, LGA-8	https://datasheet.lcsc.com/lcsc/2005251034_XTX-XTSD08GLGEAG_C558840.pdf
 XTSD04G	4Gbit NAND flash compliant with SD2.0 interface, 50Mhz 3.3V, LGA-8	https://datasheet.lcsc.com/lcsc/2005251034_XTX-XTSD08GLGEAG_C558840.pdf
 XTSD08G	8Gbit NAND flash compliant with SD2.0 interface, 50Mhz 3.3V, LGA-8	https://datasheet.lcsc.com/lcsc/2005251034_XTX-XTSD08GLGEAG_C558840.pdf
@@ -14223,6 +14231,7 @@ MDBT50Q-1MV2	Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 mod
 MDBT50Q-512K	Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52833 module	https://www.raytac.com/download/index.php?index_id=46
 MM002	NEMEUS Modem dual-mode LoRa/SIGFOX	http://www.nemeus.fr/resources/uploads/2015/04/MM002-xx-EU_datasheet_v0.11.pdf
 Particle_P1	Wi-Fi module, 1MB flash, 128KB RAM	https://docs.particle.io/datasheets/p1-datasheet/
+RAK3172-xx-8-SM-xI	LoRa Module, STM32WLE5, RU864/IN865/EU868, RAKwireless	https://docs.rakwireless.com/Product-Categories/WisDuo/RAK3172-Module/Datasheet/
 RAK4200	LoRa Module, STM32L071,  RAKwireless	https://downloads.rakwireless.com/LoRa/RAK4200/Hardware-Specification/RAK4200_Module_Specifications_V1.4.pdf
 RAK811-HF-EU868	LoRa Module, STM32L151, EU868, RAKwireless	https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
 RAK811-LF-EU433	LoRa Module, STM32L151, EU433, RAKwireless	https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
@@ -14250,6 +14259,9 @@ MDBT50Q-P1MV2	Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 mo
 MDBT50Q-P512K	Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52833 module	https://www.raytac.com/download/index.php?index_id=46
 MDBT50Q-U1MV2	Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52840 module	https://www.raytac.com/download/index.php?index_id=43
 MDBT50Q-U512K	Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, nRF52833 module	https://www.raytac.com/download/index.php?index_id=46
+RAK3172-xx-43-SM-xI	LoRa Module, STM32WLE5, EU433, RAKwireless	https://docs.rakwireless.com/product-categories/wisduo/rak3172-module/datasheet
+RAK3172-xx-47-SM-xI	LoRa Module, STM32WLE5, CN470, RAKwireless	https://docs.rakwireless.com/product-categories/wisduo/rak3172-module/datasheet
+RAK3172-xx-9-SM-xI	LoRa Module, STM32WLE5, US915/AU915/KR920/AS923, RAKwireless	https://docs.rakwireless.com/product-categories/wisduo/rak3172-module/datasheet
 RAK811-HF-AS923	LoRa Module, STM32L151, AS923, RAKwireless	https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
 RAK811-HF-AU915	LoRa Module, STM32L151, AU915, RAKwireless	https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
 RAK811-HF-IN865	LoRa Module, STM32L151, IN865, RAKwireless	https://downloads.rakwireless.com/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
@@ -16387,6 +16399,11 @@ TPS76928	Ultra Low Power 100mA Low Drop Out Regulator 2.8V, SOT-23-5	http://www.
 TPS76930	Ultra Low Power 100mA Low Drop Out Regulator 3.0V, SOT-23-5	http://www.ti.com/lit/ds/symlink/tps769.pdf
 TPS76933	Ultra Low Power 100mA Low Drop Out Regulator 3.3V, SOT-23-5	http://www.ti.com/lit/ds/symlink/tps769.pdf
 TPS76950	Ultra Low Power 100mA Low Drop Out Regulator 5.0V, SOT-23-5	http://www.ti.com/lit/ds/symlink/tps769.pdf
+TPS77012PDBV	50-mA fixed LDO, 1.2V, active output discharge, 55dB@1MHz PSRR, 1.42..5.5Vin, 45mV dropout, SOT-23-5	https://www.ti.com/lit/ds/symlink/tlv770.pdf
+TPS77018PDBV	50-mA fixed LDO, 1.8V, active output discharge, 55dB@1MHz PSRR, 1.86..5.5Vin, 45mV dropout, SOT-23-5	https://www.ti.com/lit/ds/symlink/tlv770.pdf
+TPS77025PDBV	50-mA fixed LDO, 2.5V, active output discharge, 55dB@1MHz PSRR, 2.55..5.5Vin, 45mV dropout, SOT-23-5	https://www.ti.com/lit/ds/symlink/tlv770.pdf
+TPS77028PDBV	50-mA fixed LDO, 2.8V, active output discharge, 55dB@1MHz PSRR, 2.85..5.5Vin, 45mV dropout, SOT-23-5	https://www.ti.com/lit/ds/symlink/tlv770.pdf
+TPS77033PDBV	50-mA fixed LDO, 3.3V, active output discharge, 55dB@1MHz PSRR, 3.35..5.5Vin, 45mV dropout, SOT-23-5	https://www.ti.com/lit/ds/symlink/tlv770.pdf
 TPS77718_HTSSOP20	750mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 1.8V, HTSSOP20	http://www.ti.com/lit/ds/symlink/tps777.pdf
 TPS77718_SO8	750mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 1.8V, SO-8	http://www.ti.com/lit/ds/symlink/tps777.pdf
 TPS77725_HTSSOP20	750mA Fast-Transient Low Dropout Voltage Regulator, Fixed Output 2.5V, HTSSOP20	http://www.ti.com/lit/ds/symlink/tps777.pdf
@@ -17896,6 +17913,8 @@ AQH0223A	Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, IT 300mA, SOIC-7	https://
 ASSR-1218	Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4	https://docs.broadcom.com/docs/AV02-0173EN
 CPC1002N	Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, SOP-4	http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf
 CPC1017N	Form A, Solid State Relay (Photo MOSFET) 60V, 0.1A, 16Ohm, SO-4	http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf
+CPC1106N	Form B, Solid State Relay (Photo MOSFET) 60V, 0.075A, 10Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1106n-datasheet?assetguid=700e8e37-bfc3-4023-a153-1c031d201fce
+CPC2125N	Dual Form B, Solid State Relay (Photo MOSFET) 400V, 0.1A, 35Ohm, SO-8	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc2125n-datasheet?assetguid=a22cc393-173e-4525-944b-0453a5a13b51
 FOD420	Random Phase Opto-Triac, Vdrm 600V, Ift 0.75mA, Itm 300mA, DIP6	https://www.onsemi.com/pub/Collateral/FOD4218-D.PDF
 FODM3011	Full Pitch Mini-Flat Random Phase Opto-Triac, Vdrm 250V, Ift 10mA, MFP 4L	https://www.onsemi.com/pub/Collateral/FODM3053_NF098-D.PDF
 LCC110	1-Form-C OptoMOS® Relay, DIP-8	http://www.ixysic.com/home/pdfs.nsf/www/LCC110.pdf/$file/LCC110.pdf
@@ -17925,7 +17944,12 @@ AQH3213A	Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 1.2A, SOIC-7	https://med
 AQH3223	Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, IT 1.2A, DIP-7	https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/ac/cdn/e/control/relay/solid-state/catalog/semi_eng_aqh.pdf
 AQH3223A	Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, IT 1.2A, SOIC-7	https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/ac/cdn/e/control/relay/solid-state/catalog/semi_eng_aqh.pdf
 BC2213A	Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 900mA, SSO-7	https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312161855_BC-BC2213A_C596512.pdf
-CPC1117N	Form B, Solid State Relay (Photo MOSFET) 60V, 0.15A, 16Ohm, SO-4	http://www.ixysic.com/home/pdfs.nsf/www/CPC1117N.pdf/$file/CPC1117N.pdf
+CPC1114N	Form B, Solid State Relay (Photo MOSFET) 60V, 0.4A, 2Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1114n-datasheet?assetguid=dbaad391-0a1b-4914-b92a-7b447aea7fb7
+CPC1117N	Form B, Solid State Relay (Photo MOSFET) 60V, 0.15A, AC/DC, 16Ohm, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1117n-datasheet?assetguid=b6b0537a-0143-41a4-a4c0-1f9a706a4d7a
+CPC1125N	Form B, Solid State Relay (Photo MOSFET) 400V, 0.1A, 35Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1125n-datasheet?assetguid=3df1af1c-e64d-4dc9-bd80-e20ab839a1e0
+CPC1130N	Form B, Solid State Relay (Photo MOSFET) 350V, 0.12A, 30Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1130n-datasheet?assetguid=f3fbc846-6487-49f7-a3e5-cf8ba50cc255
+CPC1135N	Form B, Solid State Relay (Photo MOSFET) 350V, 0.12A, 35Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1135n-datasheet?assetguid=75801530-da77-442e-93b8-e268f3ce6762
+CPC1150N	Form B, Solid State Relay (Photo MOSFET) 350V, 0.12A, 50Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1150n-datasheet?assetguid=7f3e9a05-5c4a-493e-bfe5-2075df32c7f9
 FOD4208	Random Phase Opto-Triac, Vdrm 800V, Ift 0.75mA, Itm 300mA, DIP6	https://www.onsemi.com/pub/Collateral/FOD4218-D.PDF
 FOD4216	Random Phase Opto-Triac, Vdrm 600V, Ift 0.75mA, Itm 300mA, DIP6	https://www.onsemi.com/pub/Collateral/FOD4218-D.PDF
 FOD4218	Random Phase Opto-Triac, Vdrm 800V, Ift 0.75mA, Itm 300mA, DIP6	https://www.onsemi.com/pub/Collateral/FOD4218-D.PDF
@@ -17985,7 +18009,7 @@ ADE7953xCP	Single Phase Multifunction Energy Metering with Neutral Current Measu
 AM2302	3.3 to 5.0V, Temperature and humidity module,  DHT22, AM2302	http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
 APDS-9960	Digital Proximity, Ambient Light, RGB and Gesture Sensor	https://docs.broadcom.com/doc/AV02-4191EN
 AS3935	Programmable fully integrated Lightning Sensor IC	https://www.embeddedadventures.com/datasheets/AS3935_Datasheet_EN_v2.pdf
-BL0937	Single Phase Energy Meter IC with Integrated Oscillator, SOP-8	http://www.belling.com.cn/media/file_object/bel_product/BL0937/datasheet/BL0937_V1.02_en.pdf
+BL0937	Single Phase Energy Meter IC with Integrated Oscillator, JEITA SOIC-8 (SOP-8)	https://www.belling.com.cn/media/file_object/bel_product/BL0937/datasheet/BL0937_V1.02_en.pdf
 BME280	3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8	https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf
 BME680	4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8	https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf
 DHT11	3.3V to 5.5V, temperature and humidity module, DHT11	http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
