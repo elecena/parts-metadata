@@ -1,7 +1,7 @@
 import pathlib
 import yaml
 
-from kicad_sym import KicadLibrary
+from kicad.kicad_sym import KicadLibrary
 from part import Part
 
 
