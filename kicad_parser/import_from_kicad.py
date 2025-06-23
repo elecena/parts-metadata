@@ -6,7 +6,7 @@ from tempfile import NamedTemporaryFile
 from typing import Iterable
 from zipfile import ZipFile
 
-from kicad_sym import KicadLibrary
+from kicad.kicad_sym import KicadLibrary
 from part import Part
 
 """

@@ -2,7 +2,7 @@ import yaml
 from dataclasses import dataclass
 from typing import Dict, Optional
 
-from kicad_sym import KicadSymbol
+from kicad.kicad_sym import KicadSymbol
 
 
 @dataclass
