@@ -1,3 +1,7 @@
+"""
+Test suites for kicad_sym.py
+"""
+
 import pathlib
 import yaml
 
@@ -6,7 +10,7 @@ from part import Part
 
 
 def get_fixture_file(file: str) -> str:
-    return pathlib.Path(__file__).parent.resolve().__str__() + f"/fixtures/{file}"
+    return str(pathlib.Path(__file__).parent.resolve()) + f"/fixtures/{file}"
 
 
 def get_part() -> Part:
@@ -94,19 +98,18 @@ def test_parse_symbol_with_multiple_inheritance():
         "INA281A1",
     ]
 
-    """
-    (symbol "INA281A2"
-        (extends "INA281A1")    
-    (symbol "INA281A1"
-		(extends "AD8211")
-    """
+    # (symbol "INA281A2"
+    #     (extends "INA281A1")
+    # (symbol "INA281A1"
+    # 	(extends "AD8211")
     ina281a2 = Part.from_kicad_symbol(library.symbols[1])
     # print(repr(ina281a2))
 
     assert ina281a2.name == "INA281A2"
     assert (
         ina281a2.description
-        == "-4...+110V High Voltage Current Shunt Monitor, 50V/V gain, 1.3 MHz bandwidth,  2.7..20Vcc, 55uV offset voltage, SOT-23-5"
+        == "-4...+110V High Voltage Current Shunt Monitor, 50V/V gain, 1.3 MHz bandwidth,  "
+        "2.7..20Vcc, 55uV offset voltage, SOT-23-5"
     )
 
     assert ina281a2.pinout["2"].name == "GND"

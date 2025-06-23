@@ -1,6 +1,10 @@
-import yaml
+"""
+The dataclass Part holds the device pinout and some metadata.
+"""
+
 from dataclasses import dataclass
 from typing import Dict, Optional
+import yaml
 
 from kicad.kicad_sym import KicadSymbol
 
