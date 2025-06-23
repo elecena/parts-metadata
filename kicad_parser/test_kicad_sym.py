@@ -1,3 +1,7 @@
+"""
+Test suites for kicad_sym.py
+"""
+
 import pathlib
 import yaml
 
@@ -6,25 +10,25 @@ from part import Part
 
 
 def get_fixture_file(file: str) -> str:
-    return pathlib.Path(__file__).parent.resolve().__str__() + f'/fixtures/{file}'
+    return str(pathlib.Path(__file__).parent.resolve()) + f"/fixtures/{file}"
 
 
 def get_part() -> Part:
-    library = KicadLibrary.from_file(get_fixture_file('attiny.sym'))
+    library = KicadLibrary.from_file(get_fixture_file("attiny.sym"))
     attiny48 = Part.from_kicad_symbol(library.symbols[0])
     return attiny48
 
 
 # https://gitlab.com/kicad/libraries/kicad-symbols/-/raw/master/74xx.kicad_sym?ref_type=heads
 def test_74xx():
-    library = KicadLibrary.from_file(get_fixture_file('74xx.sym'))
+    library = KicadLibrary.from_file(get_fixture_file("74xx.sym"))
     # print(library)
 
-    assert library.generator == 'kicad_symbol_editor'
-    assert library.version == '20241209'
+    assert library.generator == "kicad_symbol_editor"
+    assert library.version == "20241209"
 
     assert len(library.symbols) == 2
-    assert [symbol.name for symbol in library.symbols] == ['74469', '7454']
+    assert [symbol.name for symbol in library.symbols] == ["74469", "7454"]
 
     # symbol = library.symbols[0]
 
@@ -34,75 +38,84 @@ def test_74xx():
 
 
 def test_parse_symbol():
-    library = KicadLibrary.from_file(get_fixture_file('74xx.sym'))
+    library = KicadLibrary.from_file(get_fixture_file("74xx.sym"))
     symbol = library.symbols[0]
 
     part = Part.from_kicad_symbol(symbol)
     # print(part, dumps(part.as_dict(), indent=True))
 
-    assert part.name == '74469'
-    assert part.footprint == ''
-    assert part.description == '8-bit synchronous up/down counter, parallel load and hold capability (obsolete)'
-    assert part.datasheet == 'http://www.ti.com/lit/gpn/sn74469'
+    assert part.name == "74469"
+    assert part.footprint == ""
+    assert (
+        part.description
+        == "8-bit synchronous up/down counter, parallel load and hold capability (obsolete)"
+    )
+    assert part.datasheet == "http://www.ti.com/lit/gpn/sn74469"
     assert len(part.pinout) == 24
 
-    assert part.pinout['1'].name == 'CLK'
-    assert part.pinout['1'].type == 'input'
+    assert part.pinout["1"].name == "CLK"
+    assert part.pinout["1"].type == "input"
 
-    assert part.pinout['12'].name == 'GND'
-    assert part.pinout['12'].type == 'power_in'
+    assert part.pinout["12"].name == "GND"
+    assert part.pinout["12"].type == "power_in"
 
-    assert part.pinout['24'].name == 'VCC'
-    assert part.pinout['24'].type == 'power_in'
+    assert part.pinout["24"].name == "VCC"
+    assert part.pinout["24"].type == "power_in"
 
 
 def test_parse_symbol_with_inheritance():
-    library = KicadLibrary.from_file(get_fixture_file('attiny.sym'))
+    library = KicadLibrary.from_file(get_fixture_file("attiny.sym"))
 
     assert len(library.symbols) == 2
-    assert [symbol.name for symbol in library.symbols] == ['ATtiny48-P', 'ATtiny88-P']
+    assert [symbol.name for symbol in library.symbols] == ["ATtiny48-P", "ATtiny88-P"]
 
     attiny48 = Part.from_kicad_symbol(library.symbols[0])
     attiny88 = Part.from_kicad_symbol(library.symbols[1])
 
     # print(str(attiny48), str(attiny88))
 
-    assert attiny48.name == 'ATtiny48-P'
-    assert attiny48.footprint == 'Package_DIP:DIP-28_W7.62mm'
-    assert attiny48.description == '12MHz, 4kB Flash, 256B SRAM, 64B EEPROM, DIP-28'
-    assert attiny88.name == 'ATtiny88-P'
-    assert attiny88.footprint == 'Package_DIP:DIP-28_W7.62mm'
-    assert attiny88.description == '12MHz, 8kB Flash, 512B SRAM, 64B EEPROM, DIP-28'
+    assert attiny48.name == "ATtiny48-P"
+    assert attiny48.footprint == "Package_DIP:DIP-28_W7.62mm"
+    assert attiny48.description == "12MHz, 4kB Flash, 256B SRAM, 64B EEPROM, DIP-28"
+    assert attiny88.name == "ATtiny88-P"
+    assert attiny88.footprint == "Package_DIP:DIP-28_W7.62mm"
+    assert attiny88.description == "12MHz, 8kB Flash, 512B SRAM, 64B EEPROM, DIP-28"
 
     # these devices share the same pinout
-    assert attiny48.pinout['1'].name == '~{RESET}/PC6'
-    assert attiny88.pinout['1'].name == '~{RESET}/PC6'
-    assert attiny48.pinout['28'].name == 'PC5'
-    assert attiny88.pinout['28'].name == 'PC5'
+    assert attiny48.pinout["1"].name == "~{RESET}/PC6"
+    assert attiny88.pinout["1"].name == "~{RESET}/PC6"
+    assert attiny48.pinout["28"].name == "PC5"
+    assert attiny88.pinout["28"].name == "PC5"
 
 
 def test_parse_symbol_with_multiple_inheritance():
-    library = KicadLibrary.from_file(get_fixture_file('Amplifier_Current.sym'))
+    library = KicadLibrary.from_file(get_fixture_file("Amplifier_Current.sym"))
 
     assert len(library.symbols) == 3
-    assert [symbol.name for symbol in library.symbols] == ['AD8211', 'INA281A2', 'INA281A1']
+    assert [symbol.name for symbol in library.symbols] == [
+        "AD8211",
+        "INA281A2",
+        "INA281A1",
+    ]
 
-    """
-    (symbol "INA281A2"
-        (extends "INA281A1")    
-    (symbol "INA281A1"
-		(extends "AD8211")
-    """
+    # (symbol "INA281A2"
+    #     (extends "INA281A1")
+    # (symbol "INA281A1"
+    # 	(extends "AD8211")
     ina281a2 = Part.from_kicad_symbol(library.symbols[1])
     # print(repr(ina281a2))
 
-    assert ina281a2.name == 'INA281A2'
-    assert ina281a2.description == '-4...+110V High Voltage Current Shunt Monitor, 50V/V gain, 1.3 MHz bandwidth,  2.7..20Vcc, 55uV offset voltage, SOT-23-5'
+    assert ina281a2.name == "INA281A2"
+    assert (
+        ina281a2.description
+        == "-4...+110V High Voltage Current Shunt Monitor, 50V/V gain, 1.3 MHz bandwidth,  "
+        "2.7..20Vcc, 55uV offset voltage, SOT-23-5"
+    )
 
-    assert ina281a2.pinout['2'].name == 'GND'
-    assert ina281a2.pinout['2'].type == 'power_in'
-    assert ina281a2.pinout['5'].name == 'V+'
-    assert ina281a2.pinout['5'].type == 'power_in'
+    assert ina281a2.pinout["2"].name == "GND"
+    assert ina281a2.pinout["2"].type == "power_in"
+    assert ina281a2.pinout["5"].name == "V+"
+    assert ina281a2.pinout["5"].type == "power_in"
 
 
 def test_part_keeps_pins_in_order():
@@ -110,11 +123,13 @@ def test_part_keeps_pins_in_order():
 
     # print(repr(attiny48))
 
-    assert '\t1 <Pin ~{RESET}/PC6 [bidirectional]>\n\t2 <Pin PD0 [bidirectional]>' in repr(attiny48)
+    assert (
+        "\t1 <Pin ~{RESET}/PC6 [bidirectional]>\n\t2 <Pin PD0 [bidirectional]>"
+        in repr(attiny48)
+    )
 
     keys = list(attiny48.pinout.keys())
     assert keys == [str(pin) for pin in range(1, 29)]
-
 
 
 def test_dump_part():
@@ -126,19 +141,23 @@ def test_dump_part():
     # print(attiny48, part)
     assert repr(attiny48) == repr(part)
 
+
 def test_part_as_yaml():
     attiny48 = get_part()
     dump = get_part().as_yaml()
     # print(dump)
 
-    assert 'name: ATtiny48-P' in dump
-    assert """pinout:
+    assert "name: ATtiny48-P" in dump
+    assert (
+        """pinout:
   '1':
     name: ~{RESET}/PC6
     type: bidirectional
   '2':
     name: PD0
-    type: bidirectional""" in dump
+    type: bidirectional"""
+        in dump
+    )
 
     part = Part.from_dict(yaml.safe_load(dump))
 

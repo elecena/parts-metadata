@@ -3,6 +3,7 @@ This directory contains the Kicad Python code mirrored from the official Kicad r
 
 Use "make update" to keep these files up to date.
 """
+
 import os
 import sys
 
