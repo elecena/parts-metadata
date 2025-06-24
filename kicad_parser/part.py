@@ -17,16 +17,23 @@ class Pin:
 
     name: str  # e.g. DO, Q3, GND, CLK, VCC
     type: str  # e.g. tri_state, input, power_in, output, no_connect
-    alt_funcs: Optional[list[str]]  # alternative functions, useful for microprocessors
+    alt_funcs: Optional[list[str]] = (
+        None  # alternative functions, useful for microprocessors
+    )
 
     def __repr__(self) -> str:
         return f"<Pin {self.name} [{self.type}]>"
 
-    def as_dict(self) -> dict:
-        return {
+    def as_dict(self) -> dict[str, str | list[str]]:
+        ret: dict[str, str | list[str]] = {
             "name": self.name,
             "type": self.type,
         }
+
+        if self.alt_funcs:
+            ret["alt_funcs"] = self.alt_funcs
+
+        return ret
 
 
 @dataclass

@@ -102,5 +102,31 @@ pinout:
     assert attiny2313.pinout["19"].name == "PB7"
     assert attiny2313.pinout["19"].alt_funcs == "UCSK/SCK/PCINT7".split("/")
 
-    # print(attiny2313.as_yaml())
-    # assert False
+    yaml_output = attiny2313.as_yaml()
+    # print(yaml_output)
+    assert (
+        """
+  '17':
+    name: PB5
+    type: bidirectional
+    alt_funcs:
+    - MOSI
+    - DI
+    - SDA
+    - PCINT5
+"""
+        in yaml_output
+    )
+
+    assert (
+        """
+  '19':
+    name: PB7
+    type: bidirectional
+    alt_funcs:
+    - UCSK
+    - SCK
+    - PCINT7
+"""
+        in yaml_output
+    )
