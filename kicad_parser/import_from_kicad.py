@@ -111,7 +111,8 @@ def main(archive_file: str):
 if __name__ == "__main__":
     logging.basicConfig(
         level=logging.INFO,
-        format="%(asctime)s %(levelname)-8s %(message)s",
+        # https://docs.python.org/3/library/logging.html#logrecord-attributes
+        format="%(asctime)s %(levelname)-8s [%(funcName)s] %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
     )
     # logging.basicConfig(level=logging.WARN)
