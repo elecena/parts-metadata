@@ -111,7 +111,7 @@ def parse_pdf(file_name: str) -> pinout:
 
                 # PB7 (UCSK/SCL/PCINT7) -> PB7: 'UCSK','SCL','PCINT7'
                 # (XTAL1) PA0 -> PA0: 'XTAL1'
-                pins[pin_match.group(0)] = functions_match.group(1).split('/')
+                pins[pin_match.group(0)] = list(map(lambda item: str(item).strip(), functions_match.group(1).split('/')))
 
     # sort by pins
     return dict(sorted(pins.items()))
