@@ -20,6 +20,7 @@ def test_is_avr_datasheet():
         "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2543-AVR-ATtiny2313_Datasheet.pdf",
         "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf",
         "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny807_1607-Data-Sheet-40002030A.pdf",
+        "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf",
     ]
 
     for pdf in pdfs:

@@ -43,6 +43,10 @@ def is_avr_datasheet(datasheet: Optional[str]) -> bool :
     if '/atmega' in datasheet.lower():
         return True
 
+    # http://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf
+    if '/DeviceDoc' in datasheet:
+        return True
+
     return False
 
 
