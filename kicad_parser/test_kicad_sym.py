@@ -2,15 +2,12 @@
 Test suites for kicad_sym.py
 """
 
-import pathlib
 import yaml
 
 from kicad.kicad_sym import KicadLibrary
 from part import Part
 
-
-def get_fixture_file(file: str) -> str:
-    return str(pathlib.Path(__file__).parent.resolve()) + f"/fixtures/{file}"
+from . import get_fixture_file
 
 
 def get_part() -> Part:

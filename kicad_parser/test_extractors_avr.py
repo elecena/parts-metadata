@@ -4,7 +4,8 @@ Test suites for AVR metadata extractors.
 
 # pylint: disable=line-too-long
 
-from extractors.avr import is_avr_datasheet
+from extractors.avr import is_avr_datasheet, parse_pdf
+from . import get_fixture_file
 
 
 def test_is_avr_datasheet():
@@ -26,3 +27,23 @@ def test_is_not_avr_datasheet():
 
     for pdf in pdfs:
         assert is_avr_datasheet(pdf) is False, pdf
+
+
+def test_parse_pdf():
+    file_name = get_fixture_file("attiny2313.pdf")
+
+    pins = parse_pdf(file_name)
+    # print(pins)
+
+    # PB7 (UCSK/SCL/PCINT7)
+    # PD0 (RXD)
+    # (TXD) PD1
+    # (CKOUT/XCK/INT0) PD2
+    # (XTAL1) PA0
+    # (XTAL2) PA1
+    assert pins["PB7"] == "UCSK/SCK/PCINT7".split("/")
+    assert pins["PD0"] == "RXD".split("/")
+    assert pins["PD1"] == "TXD".split("/")
+    assert pins["PD2"] == "CKOUT/XCK/INT0".split("/")
+    assert pins["PA0"] == "XTAL1".split("/")
+    assert pins["PA1"] == "XTAL2".split("/")
