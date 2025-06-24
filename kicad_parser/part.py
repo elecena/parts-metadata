@@ -37,9 +37,9 @@ class Part:
 
     name: str  # e.g. 74469
     pinout: Dict[str, Pin]  # "1": {name: "DO": type: "input"}
-    footprint: Optional[str]
-    datasheet: Optional[str]
-    description: Optional[str]
+    footprint: Optional[str] = None
+    datasheet: Optional[str] = None
+    description: Optional[str] = None
 
     def __str__(self) -> str:
         return f"<Part {self.name} ({self.description})>"
