@@ -35,7 +35,14 @@ def test_is_not_avr_datasheet():
         assert is_avr_datasheet(pdf) is False, pdf
 
 
-def test_parse_pdf():
+def test_parse_atmega169_pdf():
+    file_name = get_fixture_file("atmega169.pdf")
+
+    pins = parse_pdf(file_name)
+    assert len(pins.keys()) == 0
+
+
+def test_parse_attiny2313_pdf():
     file_name = get_fixture_file("attiny2313.pdf")
 
     pins = parse_pdf(file_name)

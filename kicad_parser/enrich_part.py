@@ -20,6 +20,10 @@ def enrich_part(part: Part):
             logging.error(f"Handling of {part.name} failed: {str(ex)}")
             return
 
+        # no pins were parsed
+        if len(parsed.keys()) == 0:
+            return
+
         # "1": {name: "DO": type: "input"}
         for pin_data in part.pinout.values():
             pin_name = pin_data.name.split("/")[0]  # PA2/~{RESET} or PB7
