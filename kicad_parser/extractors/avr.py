@@ -5,6 +5,7 @@ Requires the "pdftotext" tool to be installed from the "pdf-poppler" package.
 
 https://poppler.freedesktop.org/
 """
+import functools
 import logging
 import re
 from requests import Session
@@ -45,7 +46,7 @@ def is_avr_datasheet(datasheet: Optional[str]) -> bool :
     return False
 
 
-# TODO: add the PDF / metadata caching
+@functools.lru_cache(maxsize=2_000)
 def parse_pdf_from_url(url: str) -> pinout:
     """
     Fetches the PDF file from the given URL and parses it.
