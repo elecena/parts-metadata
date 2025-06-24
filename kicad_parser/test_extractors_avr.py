@@ -1,3 +1,9 @@
+"""
+Test suites for AVR metadata extractors.
+"""
+
+# pylint: disable=line-too-long
+
 from extractors.avr import is_avr_datasheet
 
 
@@ -10,7 +16,7 @@ def test_is_avr_datasheet():
     ]
 
     for pdf in pdfs:
-        assert is_avr_datasheet(pdf) == True, pdf
+        assert is_avr_datasheet(pdf) is True, pdf
 
 
 def test_is_not_avr_datasheet():
@@ -19,4 +25,4 @@ def test_is_not_avr_datasheet():
     ]
 
     for pdf in pdfs:
-        assert is_avr_datasheet(pdf) == False, pdf
+        assert is_avr_datasheet(pdf) is False, pdf
