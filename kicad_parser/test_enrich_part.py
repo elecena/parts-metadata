@@ -2,10 +2,16 @@
 Test suites for the code that provides extra pinout for the parts.
 """
 
+import pathlib
+import responses
 import yaml
 
 from enrich_part import enrich_part
 from part import Part
+
+
+def get_fixture_file(file: str) -> str:
+    return str(pathlib.Path(__file__).parent.resolve()) + f"/fixtures/{file}"
 
 
 def test_enrich_attiny2313():
@@ -86,7 +92,10 @@ pinout:
     assert attiny2313.pinout["6"].name == "PD2"
     assert attiny2313.pinout["20"].name == "VCC"
 
-    enrich_part(attiny2313)
+    with responses.RequestsMock() as http_mock:
+        with open(get_fixture_file("attiny2313.pdf"), "rb") as pdf_file:
+            http_mock.get(attiny2313.datasheet, body=pdf_file.read())
+            enrich_part(attiny2313)
 
     # PB7 (UCSK/SCK/PCINT7)
     # PD0 (RXD)
