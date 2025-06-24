@@ -4,8 +4,12 @@ Test suites for AVR metadata extractors.
 
 # pylint: disable=line-too-long
 
+import pathlib
 from extractors.avr import is_avr_datasheet, parse_pdf
-from . import get_fixture_file
+
+
+def get_fixture_file(file: str) -> str:
+    return str(pathlib.Path(__file__).parent.resolve()) + f"/fixtures/{file}"
 
 
 def test_is_avr_datasheet():
