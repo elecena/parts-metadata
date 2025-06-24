@@ -77,9 +77,18 @@ def test_parse_symbol_with_inheritance():
     assert attiny48.name == "ATtiny48-P"
     assert attiny48.footprint == "Package_DIP:DIP-28_W7.62mm"
     assert attiny48.description == "12MHz, 4kB Flash, 256B SRAM, 64B EEPROM, DIP-28"
+    assert (
+        attiny48.datasheet
+        == "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf"
+    )
+
     assert attiny88.name == "ATtiny88-P"
     assert attiny88.footprint == "Package_DIP:DIP-28_W7.62mm"
     assert attiny88.description == "12MHz, 8kB Flash, 512B SRAM, 64B EEPROM, DIP-28"
+    assert (
+        attiny88.datasheet
+        == "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf"
+    )
 
     # these devices share the same pinout
     assert attiny48.pinout["1"].name == "~{RESET}/PC6"
