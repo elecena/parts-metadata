@@ -2,6 +2,8 @@
 Tries to get additional data for the parts from official datasheets.
 """
 
+import logging
+
 from extractors.avr import is_avr_datasheet, parse_pdf_from_url
 
 from part import Part
@@ -11,8 +13,12 @@ def enrich_part(part: Part):
     if is_avr_datasheet(part.datasheet):
         # 'PB6': ['MISO', 'DO', 'PCINT6'],
         # 'PD2': ['CKOUT', 'XCK', 'INT0'],
-        parsed = parse_pdf_from_url(part.datasheet)
-        # print(parsed)
+        try:
+            parsed = parse_pdf_from_url(part.datasheet)
+        # pylint:disable=broad-exception-caught
+        except Exception as ex:
+            logging.error(f"Handling of {part.name} failed: {str(ex)}")
+            return
 
         # "1": {name: "DO": type: "input"}
         for pin_data in part.pinout.values():
