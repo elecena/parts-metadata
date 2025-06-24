@@ -52,6 +52,9 @@ def parse_pdf(file_name: str) -> pinout:
 
     https://github.com/elecena/parts-metadata/issues/13
     """
+    if file_name.startswith('http'):
+        raise Exception(f"parse_pdf: URLs are not supported: {file_name}")
+
     res = run(
         [
             "pdftotext",

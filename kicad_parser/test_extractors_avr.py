@@ -5,6 +5,7 @@ Test suites for AVR metadata extractors.
 # pylint: disable=line-too-long
 
 import pathlib
+import pytest
 
 from extractors.avr import is_avr_datasheet, parse_pdf
 
@@ -53,3 +54,12 @@ def test_parse_pdf():
     assert pins["PA0"] == "XTAL1".split("/")
     assert pins["PA1"] == "XTAL2".split("/")
     assert pins["PA2"] == "RESET/dW".split("/")
+
+
+def test_parse_pdf_raise_on_url():
+    with pytest.raises(Exception) as exc_info:
+        parse_pdf(
+            "http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny807_1607-Data-Sheet-40002030A.pdf"
+        )
+
+    assert "parse_pdf: URLs are not supported" in str(exc_info)
