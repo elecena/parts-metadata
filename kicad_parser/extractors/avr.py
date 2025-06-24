@@ -5,19 +5,18 @@ Requires the "pdftotext" tool to be installed from the "pdf-poppler" package.
 
 https://poppler.freedesktop.org/
 """
+import logging
 import re
+from requests import Session
 from subprocess import run
+from tempfile import NamedTemporaryFile
 from typing import Optional
 
 type pinout = dict[str, list[str]]
 
-
-def extract_pin_functions(name: str, datasheet: Optional[str]) -> list[str]:
-    """
-    Returns a list of pin functions for the given microcontroller.
-    """
-
-    #
+# prepare a shared HTTP session for all requests
+http_session = Session()
+http_session.headers['user-agent'] = 'PartsBot/1.0 (+https://github.com/elecena/parts-metadata/)'
 
 
 def is_avr_datasheet(datasheet: Optional[str]) -> bool :
@@ -44,6 +43,23 @@ def is_avr_datasheet(datasheet: Optional[str]) -> bool :
         return True
 
     return False
+
+
+# TODO: add the PDF / metadata caching
+def parse_pdf_from_url(url: str) -> pinout:
+    """
+    Fetches the PDF file from the given URL and parses it.
+    """
+    logger = logging.getLogger(__name__)
+    logger.info(f'Fetching PDF from URL: {url}')
+
+    resp = http_session.get(url)
+    logger.info(f'Got HTTP {resp.status_code} response with headers: {repr(resp.headers)}')
+    resp.raise_for_status()
+
+    with NamedTemporaryFile(prefix='avr-', suffix='.pdf') as pdf_file:
+        pdf_file.write(resp.content)
+        return parse_pdf(pdf_file.name)
 
 
 def parse_pdf(file_name: str) -> pinout:

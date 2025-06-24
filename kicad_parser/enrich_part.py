@@ -2,7 +2,7 @@
 Tries to get additional data for the parts from official datasheets.
 """
 
-from extractors.avr import is_avr_datasheet, parse_pdf
+from extractors.avr import is_avr_datasheet, parse_pdf_from_url
 
 from part import Part
 
@@ -11,8 +11,7 @@ def enrich_part(part: Part):
     if is_avr_datasheet(part.datasheet):
         # 'PB6': ['MISO', 'DO', 'PCINT6'],
         # 'PD2': ['CKOUT', 'XCK', 'INT0'],
-        # TODO: add the PDF / metadata caching
-        parsed = parse_pdf(part.datasheet)
+        parsed = parse_pdf_from_url(part.datasheet)
         # print(parsed)
 
         # "1": {name: "DO": type: "input"}
