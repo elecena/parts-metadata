@@ -31,6 +31,8 @@ jobs:
         cd kicad_parser/
         pip install -r requirements.txt
 
+        sudo apt install -y poppler-utils
+
     - name: Run tests and linters
       run: |
         cd kicad_parser/
