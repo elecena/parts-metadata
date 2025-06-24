@@ -9,6 +9,7 @@ from tempfile import NamedTemporaryFile
 from typing import Iterable
 from zipfile import ZipFile
 
+from enrich_part import enrich_part
 from kicad.kicad_sym import KicadLibrary
 from part import Part
 
@@ -59,6 +60,9 @@ def iterate_parts(zip_file: ZipFile) -> Iterable[Part]:
         for symbol in library.symbols:
             try:
                 part = Part.from_kicad_symbol(symbol)
+                # try to fetch some additional data from the datasheets
+                enrich_part(part)
+
                 logging.info(f"* {part.name} ({part.description})")
 
                 yield part
