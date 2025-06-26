@@ -15,7 +15,7 @@ def get_fixture_file(file: str) -> str:
 
 
 def test_enrich_attiny2313():
-    with open(get_fixture_file("attiny2313.yml"), "rt") as yaml_file:
+    with open(get_fixture_file("attiny2313.yml"), "rt", encoding="utf-8") as yaml_file:
         attiny2313_yaml = yaml_file.read()
 
     attiny2313 = Part.from_dict(yaml.safe_load(attiny2313_yaml))
@@ -80,3 +80,36 @@ def test_enrich_attiny2313():
 """
         in yaml_output
     )
+
+
+def test_enrich_pic12():
+    with open(get_fixture_file("pic12.yml"), "rt", encoding="utf-8") as yaml_file:
+        part_yaml = yaml_file.read()
+
+    part = Part.from_dict(yaml.safe_load(part_yaml))
+    enrich_part(part)
+
+    assert part.name == "PIC12LF1822-xP"
+    assert part.pinout["2"].name == "RA5"
+
+
+def test_enrich_pic16():
+    with open(get_fixture_file("pic16.yml"), "rt", encoding="utf-8") as yaml_file:
+        part_yaml = yaml_file.read()
+
+    part = Part.from_dict(yaml.safe_load(part_yaml))
+
+    assert part.name == "PIC16F887-IP"
+    assert part.pinout["2"].name == "C12IN0-/ULPWU/AN0/RA0"
+    assert part.pinout["14"].name == "RA6/OSC2/CLKOUT"
+    assert part.pinout["20"].name == "RD1"
+
+    enrich_part(part)
+
+    # TODO: assert alt functions
+    # assert part.pinout["2"].name == "RA0"
+    # assert part.pinout["2"].alt_funcs == "C12IN0-/ULPWU/AN0".split("/")
+    # assert part.pinout["14"].name == "RA6"
+    # assert part.pinout["14"].alt_funcs == "OSC2/CLKOUT".split("/")
+    # assert part.pinout["20"].name == "RD1"
+    # assert part.pinout["20"].alt_funcs == ""

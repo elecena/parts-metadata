@@ -10,6 +10,10 @@ from part import Part
 
 
 def enrich_part(part: Part):
+    if part.name.startswith("PIC"):
+        # TODO: handle Microchip PIC
+        return
+
     if is_avr_datasheet(part.datasheet):
         # 'PB6': ['MISO', 'DO', 'PCINT6'],
         # 'PD2': ['CKOUT', 'XCK', 'INT0'],

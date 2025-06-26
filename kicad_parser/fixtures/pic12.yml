@@ -1,0 +1,29 @@
+name: PIC12LF1822-xP
+description: 2kW FLASH, 128B SRAM, 256 EEPROM, PDIP-8
+datasheet: https://ww1.microchip.com/downloads/en/DeviceDoc/41413B.pdf
+footprint: Package_DIP:DIP-8_W7.62mm
+pinout:
+  '1':
+    name: VDD
+    type: power_in
+  '2':
+    name: RA5
+    type: bidirectional
+  '3':
+    name: RA4
+    type: bidirectional
+  '4':
+    name: RA3
+    type: input
+  '5':
+    name: RA2
+    type: bidirectional
+  '6':
+    name: RA1
+    type: bidirectional
+  '7':
+    name: RA0
+    type: bidirectional
+  '8':
+    name: VSS
+    type: power_in
