@@ -105,11 +105,12 @@ def test_enrich_pic16():
     assert part.pinout["20"].name == "RD1"
 
     enrich_part(part)
+    # print(part.as_yaml())
 
     # TODO: assert alt functions
-    # assert part.pinout["2"].name == "RA0"
-    # assert part.pinout["2"].alt_funcs == "C12IN0-/ULPWU/AN0".split("/")
-    # assert part.pinout["14"].name == "RA6"
-    # assert part.pinout["14"].alt_funcs == "OSC2/CLKOUT".split("/")
-    # assert part.pinout["20"].name == "RD1"
-    # assert part.pinout["20"].alt_funcs == ""
+    assert part.pinout["2"].name == "RA0"
+    assert part.pinout["2"].alt_funcs == "C12IN0-/ULPWU/AN0".split("/")
+    assert part.pinout["14"].name == "RA6"
+    assert part.pinout["14"].alt_funcs == "OSC2/CLKOUT".split("/")
+    assert part.pinout["20"].name == "RD1"
+    assert part.pinout["20"].alt_funcs is None
