@@ -15,73 +15,8 @@ def get_fixture_file(file: str) -> str:
 
 
 def test_enrich_attiny2313():
-    attiny2313_yaml = """---
-name: ATtiny2313V-10P
-description: 10MHz, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE, DIP-20
-datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2543-AVR-ATtiny2313_Datasheet.pdf
-footprint: Package_DIP:DIP-20_W7.62mm
-pinout:
-  '1':
-    name: PA2/~{RESET}
-    type: bidirectional
-  '2':
-    name: PD0
-    type: bidirectional
-  '3':
-    name: PD1
-    type: bidirectional
-  '4':
-    name: PA1/XTAL2
-    type: bidirectional
-  '5':
-    name: PA0/XTAL1
-    type: bidirectional
-  '6':
-    name: PD2
-    type: bidirectional
-  '7':
-    name: PD3
-    type: bidirectional
-  '8':
-    name: PD4
-    type: bidirectional
-  '9':
-    name: PD5
-    type: bidirectional
-  '10':
-    name: GND
-    type: power_in
-  '11':
-    name: PD6
-    type: bidirectional
-  '12':
-    name: PB0
-    type: bidirectional
-  '13':
-    name: PB1
-    type: bidirectional
-  '14':
-    name: PB2
-    type: bidirectional
-  '15':
-    name: PB3
-    type: bidirectional
-  '16':
-    name: PB4
-    type: bidirectional
-  '17':
-    name: PB5
-    type: bidirectional
-  '18':
-    name: PB6
-    type: bidirectional
-  '19':
-    name: PB7
-    type: bidirectional
-  '20':
-    name: VCC
-    type: power_in
-"""
+    with open(get_fixture_file("attiny2313.yml"), "rt", encoding="utf-8") as yaml_file:
+        attiny2313_yaml = yaml_file.read()
 
     attiny2313 = Part.from_dict(yaml.safe_load(attiny2313_yaml))
 
@@ -115,6 +50,12 @@ pinout:
     # print(yaml_output)
     assert (
         """
+  '16':
+    name: PB4
+    type: bidirectional
+    alt_funcs:
+    - OC1B
+    - PCINT4
   '17':
     name: PB5
     type: bidirectional
@@ -139,3 +80,37 @@ pinout:
 """
         in yaml_output
     )
+
+
+def test_enrich_pic12():
+    with open(get_fixture_file("pic12.yml"), "rt", encoding="utf-8") as yaml_file:
+        part_yaml = yaml_file.read()
+
+    part = Part.from_dict(yaml.safe_load(part_yaml))
+    enrich_part(part)
+
+    assert part.name == "PIC12LF1822-xP"
+    assert part.pinout["2"].name == "RA5"
+
+
+def test_enrich_pic16():
+    with open(get_fixture_file("pic16.yml"), "rt", encoding="utf-8") as yaml_file:
+        part_yaml = yaml_file.read()
+
+    part = Part.from_dict(yaml.safe_load(part_yaml))
+
+    assert part.name == "PIC16F887-IP"
+    assert part.pinout["2"].name == "C12IN0-/ULPWU/AN0/RA0"
+    assert part.pinout["14"].name == "RA6/OSC2/CLKOUT"
+    assert part.pinout["20"].name == "RD1"
+
+    enrich_part(part)
+    # print(part.as_yaml())
+
+    # TODO: assert alt functions
+    assert part.pinout["2"].name == "RA0"
+    assert part.pinout["2"].alt_funcs == "C12IN0-/ULPWU/AN0".split("/")
+    assert part.pinout["14"].name == "RA6"
+    assert part.pinout["14"].alt_funcs == "OSC2/CLKOUT".split("/")
+    assert part.pinout["20"].name == "RD1"
+    assert part.pinout["20"].alt_funcs is None

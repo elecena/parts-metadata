@@ -1,0 +1,125 @@
+name: PIC16F887-IP
+description: 8K Flash, 368B SRAM, 256B EEPROM, DIP40
+datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/41291D.pdf
+footprint: ''
+pinout:
+  '1':
+    name: RE3/~{MCLR}/Vpp
+    type: input
+  '2':
+    name: C12IN0-/ULPWU/AN0/RA0
+    type: bidirectional
+  '3':
+    name: C12IN1-/AN1/RA1
+    type: bidirectional
+  '4':
+    name: C2IN+/CVref/Vref-/AN2/RA2
+    type: bidirectional
+  '5':
+    name: C1IN+/Vref+/AN3/RA3
+    type: bidirectional
+  '6':
+    name: C1OUT/T0CKI/RA4
+    type: bidirectional
+  '7':
+    name: C2OUT/~{SS}/AN4/RA5
+    type: bidirectional
+  '8':
+    name: RE0/AN5
+    type: bidirectional
+  '9':
+    name: RE1/AN6
+    type: bidirectional
+  '10':
+    name: RE2/AN7
+    type: bidirectional
+  '11':
+    name: VDD
+    type: power_in
+  '12':
+    name: VSS
+    type: power_in
+  '13':
+    name: RA7/OSC1/CLKIN
+    type: bidirectional
+  '14':
+    name: RA6/OSC2/CLKOUT
+    type: bidirectional
+  '15':
+    name: T10S0/T1CKI/RC0
+    type: bidirectional
+  '16':
+    name: T1OSI/CCP2/RC1
+    type: bidirectional
+  '17':
+    name: P1A/CCP1/RC2
+    type: bidirectional
+  '18':
+    name: SCL/SCK/RC3
+    type: bidirectional
+  '19':
+    name: RD0
+    type: bidirectional
+  '20':
+    name: RD1
+    type: bidirectional
+  '21':
+    name: RD2
+    type: bidirectional
+  '22':
+    name: RD3
+    type: bidirectional
+  '23':
+    name: SDA/SDI/RC4
+    type: bidirectional
+  '24':
+    name: SDO/RC5
+    type: bidirectional
+  '25':
+    name: TX/CK/RC6
+    type: bidirectional
+  '26':
+    name: RX/DT/RC7
+    type: bidirectional
+  '27':
+    name: RD4
+    type: bidirectional
+  '28':
+    name: RD5/P1B
+    type: bidirectional
+  '29':
+    name: RD6/P1C
+    type: bidirectional
+  '30':
+    name: RD7/P1D
+    type: bidirectional
+  '31':
+    name: VSS
+    type: power_in
+  '32':
+    name: VDD
+    type: power_in
+  '33':
+    name: INT/AN12/RB0
+    type: bidirectional
+  '34':
+    name: C12IN3-/AN10/RB1
+    type: bidirectional
+  '35':
+    name: AN8/RB2
+    type: bidirectional
+  '36':
+    name: C12IN2-/PGM/AN9/RB3
+    type: bidirectional
+  '37':
+    name: AN11/RB4
+    type: bidirectional
+  '38':
+    name: ~{T1G}/AN13/RB5
+    type: bidirectional
+  '39':
+    name: ICSPCLK/RB6
+    type: bidirectional
+  '40':
+    name: ICSPDAT/RB7
+    type: bidirectional
