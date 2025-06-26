@@ -14,12 +14,12 @@ def enrich_part(part: Part):
     if part.name.startswith("PIC"):
         for pin in part.pinout.values():
             # RA7/OSC1/CLKIN
-            # T10S0/T1CKI/RC0
+            # CFLY1/SEG32/RH2
             if "/" in pin.name:
                 funcs = pin.name.split("/")
 
                 # RA7/OSC1/CLKIN
-                if re.match(r"R[A-F]\d", funcs[0]):
+                if re.match(r"R[A-H]\d", funcs[0]):
                     pin.name = funcs[0]
                     pin.alt_funcs = funcs[1:]
                 else:
