@@ -349,7 +349,11 @@ class Pin(KicadSymbolBase):
         if self.is_global:
             sx.append("global")
         sx.append(["length", self.length])
-        sx.append(["hide", "yes" if self.is_hidden else "no"])
+
+        # hide is default no
+        if self.is_hidden:
+            sx.append(["hide", "yes"])
+
         name_sx: list[Any] = ["name", self.quoted_string(self.name)]
         if self.name_effect:
             name_sx.append(self.name_effect.get_sexpr())
@@ -358,7 +362,11 @@ class Pin(KicadSymbolBase):
         if self.number_effect:
             number_sx.append(self.number_effect.get_sexpr())
         sx.append(number_sx)
-        for altfn in self.altfuncs:
+
+        # alternates are sorted by name in KiCad
+        alt_funcs = sorted(self.altfuncs, key=lambda af: af.name)
+
+        for altfn in alt_funcs:
             sx.append(altfn.get_sexpr())
 
         return sx
@@ -1016,6 +1024,11 @@ class KicadSymbol(KicadSymbolBase):
     demorgan_count: int = 0
     embedded_fonts = False
     files: List[KicadEmbeddedFile] = field(default_factory=list)
+    unit_names: dict[int, str | None] = field(default_factory=dict)
+    """
+    A dictionary mapping unit numbers (int, 1-indexed) to unit names (str).
+    None values indicate that the unit has no specific name.
+    """
 
     # List of parent symbols, the first element is the direct parent,
     # the last element is the root symbol
@@ -1033,25 +1046,31 @@ class KicadSymbol(KicadSymbolBase):
         if self.extends:
             sx.append(["extends", self.quoted_string(self.extends)])
 
-        pn: list[Any] = ["pin_names"]
-        if self.pin_names_offset != 0.508:
-            pn.append(["offset", self.pin_names_offset])
-        if self.hide_pin_names:
-            pn.append(["hide", "yes"])
-        if len(pn) > 1:
-            sx.append(pn)
+        if not self.extends:
+            pn: list[Any] = ["pin_names"]
+            if self.pin_names_offset != 0.508:
+                pn.append(["offset", self.pin_names_offset])
+            if self.hide_pin_names:
+                pn.append(["hide", "yes"])
+            if len(pn) > 1:
+                sx.append(pn)
 
-        sx.append(["exclude_from_sim", "yes" if self.exclude_from_sim else "no"])
-        sx.append(["in_bom", "yes" if self.in_bom else "no"])
-        sx.append(["on_board", "yes" if self.on_board else "no"])
-        if self.is_power:
-            sx.append(["power"])
-        if self.hide_pin_numbers:
-            sx.append(["pin_numbers", ["hide", "yes"]])
+            sx.append(["exclude_from_sim", "yes" if self.exclude_from_sim else "no"])
+            sx.append(["in_bom", "yes" if self.in_bom else "no"])
+            sx.append(["on_board", "yes" if self.on_board else "no"])
+            if self.is_power:
+                sx.append(["power"])
+            if self.hide_pin_numbers:
+                sx.append(["pin_numbers", ["hide", "yes"]])
 
         # add properties
         for prop in self.properties:
             sx.append(prop.get_sexpr())
+
+        if self.extends:
+            # if the symbol extends another one, we do not add any graphical elements
+            # or pins, those are all inherited from the parent symbol
+            return sx
 
         # add embedded files
         file_expression = []
@@ -1060,25 +1079,48 @@ class KicadSymbol(KicadSymbolBase):
         if len(file_expression) > 0:
             sx.append(["files", file_expression])
 
+        def pin_sort_key(pin: Pin) -> tuple:
+            # This is a bit fiddly, and the comments in KiCad seems wrong
+            # Pins are sorted by:
+            #   pin position (y first, then x) in SCH_ITEM::compare
+            # then by pin-specific values:
+            #   pin number (as integer if possible, otherwise as string)
+            #   ...
+            return (
+                pin.posx,
+                -pin.posy,
+                pin.number,
+                pin.length,
+                pin.rotation,
+                pin.shape,
+                pin.etype,
+                pin.is_hidden,
+            )
+
         # add units
         for d in range(0, self.demorgan_count + 1):
             for u in range(0, self.unit_count + 1):
-                hdr = self.quoted_string("{}_{}_{}".format(self.name, u, d))
-                sx_i: list[Any] = ["symbol", hdr]
+                unit_elements = []
                 for pin in (
                     self.arcs
                     + self.circles
                     + self.texts
                     + self.rectangles
-                    + self.bezier
+                    + self.beziers
                     + self.polylines
-                    + sorted(self.pins, key=lambda pin: pin.number)
+                    + sorted(self.pins, key=pin_sort_key)
                 ):
                     if pin.is_unit(u, d):
-                        sx_i.append(pin.get_sexpr())
+                        unit_elements.append(pin.get_sexpr())
 
-                if len(sx_i) > 2:
-                    sx.append(sx_i)
+                if unit_elements:
+                    subsym_name = self.quoted_string("{}_{}_{}".format(self.name, u, d))
+                    unit = ["symbol", subsym_name, *unit_elements]
+
+                    if n := self.unit_names.get(u):
+                        unit.append(["unit_name", n])
+
+                    sx.append(unit)
 
         sx.append(["embedded_fonts", "yes" if self.embedded_fonts else "no"])
         return sx
@@ -1193,8 +1235,10 @@ class KicadSymbol(KicadSymbolBase):
         keywords: str = "",
         description: str = "",
         fp_filters: str = "",
+        unit_names: dict = None,
     ):
-        sym = cls(name, libname, libname + ".kicad_sym")
+        unit_names = unit_names or {}
+        sym = cls(name, libname, libname + ".kicad_sym", unit_names=unit_names)
         sym.add_default_properties()
         sym.get_property("Reference").value = reference
         sym.get_property("Footprint").value = footprint
@@ -1277,7 +1321,7 @@ class KicadLibrary(KicadSymbolBase):
     """
 
     filename: str
-    symbols: List[KicadSymbol] = field(default_factory=list)
+    symbols: list[KicadSymbol] = field(default_factory=list)
     generator: str = "kicad-library-utils"
     version: str = "20241209"
 
@@ -1292,9 +1336,28 @@ class KicadLibrary(KicadSymbolBase):
             ["generator", self.quoted_string(self.generator)],
             ["generator_version", self.quoted_string(self.version)],
         ]
-        for sym in self.symbols:
+
+        def sym_order_key(sym: KicadSymbol) -> int:
+            """
+            This is an ordering key function that returns a tuple used for sorting symbols.
+            Hopefully this is the same order as KiCad does it in SCH_IO_KICAD_SEXPR_LIB_CACHE::Save
+            """
+            # Sort by ascending inheritance depth (root symbols first), then by name
+            return (self.get_symbol_inheritance_depth(sym), sym.name)
+
+        ordered_symbols = sorted(self.symbols, key=sym_order_key)
+
+        for sym in ordered_symbols:
             sx.append(sym.get_sexpr())
         return sexpr.build_sexp(sx)
+
+    def get_symbol_inheritance_depth(self, symbol: KicadSymbol) -> int:
+        depth = 0
+        current = symbol
+        while current.extends is not None:
+            depth += 1
+            current = self.get_symbol(current.extends)
+        return depth
 
     def check_extends_order(self):
         """
@@ -1451,6 +1514,10 @@ class KicadLibrary(KicadSymbolBase):
                 symbol.unit_count = max(unit_idx, symbol.unit_count)
                 symbol.demorgan_count = max(demorgan_idx, symbol.demorgan_count)
 
+                unit_name = _get_array2(unit_data, "unit_name")
+                if unit_name:
+                    symbol.unit_names[unit_idx] = unit_name[0][1]
+
                 # extract pins and graphical items
                 for pin in _get_array(unit_data, "pin"):
                     try:
@@ -1504,7 +1571,7 @@ class KicadLibrary(KicadSymbolBase):
 
         return library
 
-    def get_symbol(self, name: str) -> Optional[KicadSymbol]:
+    def get_symbol(self, name: str) -> KicadSymbol | None:
         """
         Get the symbol with the given name in the library, or None if not found.
         """
