@@ -325,6 +325,7 @@ SN74LVC2G14DBV	Dual schmitt inverter, VCC from 1.65 to 5.5 V, SOT-23	https://www
 TC7PZ14FU	Dual schmitt inverter, VCC from 1.65 to 5.5 V, SOT-363	https://toshiba.semicon-storage.com/info/docget.jsp?did=14431&prodName=TC7PZ14FU
 74469	8-bit synchronous up/down counter, parallel load and hold capability (obsolete)	http://www.ti.com/lit/gpn/sn74469
 7454	And-Nor (Y = /(AB + CD + EF + GH) ), DIP-14	https://www.ti.com/lit/ds/symlink/sn54ls54.pdf
+74AHCV17APW	6-gate schmitt trigger buffer, TSSOP-14	https://assets.nexperia.com/documents/data-sheet/74AHCV17A.pdf
 74ALVC164245	16-Bit 2.5V to 3.3V or 3.3V to 5V Level-Shifting Transceiver With 3-State Outputs, TSSOP-48	https://assets.nexperia.com/documents/data-sheet/74ALVC164245.pdf
 74CB3Q16210DGG	20-bit FET bus switch with 10-bit output enables, TSSOP-48	https://www.ti.com/lit/ds/symlink/sn74cb3q16210.pdf
 74CBTLV16212	Low-voltage 24-bit FET Bus-exchange switch	https://www.ti.com/lit/ds/symlink/sn74cbtlv16212.pdf
@@ -809,7 +810,6 @@ LM4755TS	Stereo 11W Audio Power Amplifier with Mute, TO-263-9	http://www.ti.com/
 LM4766	Overture Audio Power Amplifier Series Dual 40W Audio Power Amplifier with Mute, TO-220-15	http://www.ti.com/lit/ds/symlink/lm4766.pdf
 LM4810	Boomer Dual 105mW Headphone Amplifier with Active-High Shutdown Mode, VSSOP-8	http://www.ti.com/lit/ds/symlink/lm4810.pdf
 LM4811	Boomer Dual 105mW Headphone Amplifier with Digital Volume Control and Shutdown Mode, VSSOP-10	http://www.ti.com/lit/ds/symlink/lm4811.pdf
-LM4950TA	Boomer Audio Power Amplifier Series 7.5W Mono-BTL or 3.1W Stereo Audio Power Amplifier, TO-220-9	http://www.ti.com/lit/ds/symlink/lm4950.pdf
 LM4950TS	Boomer Audio Power Amplifier Series 7.5W Mono-BTL or 3.1W Stereo Audio Power Amplifier, TO-263-9	http://www.ti.com/lit/ds/symlink/lm4950.pdf
 LM4990ITL	Boomer 2 Watt Audio Power Amplifier with Selectable Shutdown Logic Level, DSBGA-9	http://www.ti.com/lit/ds/symlink/lm4990.pdf
 LM4990LD	Boomer 2 Watt Audio Power Amplifier with Selectable Shutdown Logic Level, WSON-10	http://www.ti.com/lit/ds/symlink/lm4990.pdf
@@ -829,8 +829,8 @@ OPA1622	High-Fidelity, Bipolar-Input, Audio Operational Amplifier, VSON-10	http:
 PAM8301	Filterless Class-D Mono Audio Amplifier, 1.5W, TSOT-26	https://www.diodes.com/assets/Datasheets/products_inactive_data/PAM8301.pdf
 PAM8302AAD	2.5W Filterless Class-D Mono Audio Amplifier, SOIC-8	https://www.diodes.com/assets/Datasheets/PAM8302A.pdf
 PAM8302AAY	2.5W Filterless Class-D Mono Audio Amplifier, DFN-8	https://www.diodes.com/assets/Datasheets/PAM8302A.pdf
-PAM8403D	3W Filterless Class-D Stereo Audio Amplifier, SOP-16	https://www.diodes.com/assets/Datasheets/products_inactive_data/PAM8403.pdf
-PAM8406D	Filterless Class-D / Class-AB Stereo Audio Amplifier, 5.0W, SOIC-16	https://www.diodes.com/assets/Datasheets/PAM8406.pdf
+PAM8403D	3W Filterless Class-D Stereo Audio Amplifier, SOIC-16	https://www.diodes.com/assets/Datasheets/products_inactive_data/PAM8403.pdf
+PAM8406D	5W Filterless Class-D / Class-AB Stereo Audio Amplifier, SOIC-16	https://www.diodes.com/assets/Datasheets/PAM8406.pdf
 PAM8908	60mW 2.5-5.5V differential stereo headphone amplifier with adjustable gain, QFN-16	https://www.diodes.com/datasheet/download/PAM8908.pdf
 SSM2017P	Self-Contained Audio Preamplifier, DIP-8	https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/139484016SSM2017.pdf
 SSM2018	Trimless Voltage Controlled Amplifier, DIP-16	https://www.analog.com/media/en/technical-documentation/data-sheets/SSM2018.pdf
@@ -870,6 +870,7 @@ IR4311	PowIRaudio Integrated Analog Input Class D Audio Amplifier, 90W/4ohm, 60V
 IR4312	PowIRaudio 2 Channel Integrated Analog Input Class D Audio Amplifier, 100W/4ohm, 60V, PQFN-44	https://www.infineon.com/dgdl/ir4302.pdf?fileId=5546d462533600a4015355d602a9181d
 IR4321	PowIRaudio Integrated Analog Input Class D Audio Amplifier, 35W/4ohm, 40V, PQFN-22	https://www.infineon.com/dgdl/ir4301.pdf?fileId=5546d462533600a4015355d5fc691819
 IR4322	PowIRaudio 2 Channel Integrated Analog Input Class D Audio Amplifier, 35W/4ohm, 40V, PQFN-44	https://www.infineon.com/dgdl/ir4302.pdf?fileId=5546d462533600a4015355d602a9181d
+LM4950TA	Boomer Audio Power Amplifier Series 7.5W Mono-BTL or 3.1W Stereo Audio Power Amplifier, TO-220-9 (Texas NEC0009A)	http://www.ti.com/lit/ds/symlink/lm4950.pdf
 MA12070	Filterless and High-Efficiency +4V to +26V Audio Amplifier with Analog Input, QFN-64	https://www.infineon.com/dgdl/Infineon-MA12070-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b750002861a5
 MA12070P	Filterless and High-Efficiency +4V to +26V Audio Amplifier with I2S Digital Input, QFN-64	https://www.infineon.com/dgdl/Infineon-MA12070P-DS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164b761f2f261e4
 PAM8302AAS	2.5W Filterless Class-D Mono Audio Amplifier, MSOP-8	https://www.diodes.com/assets/Datasheets/PAM8302A.pdf
@@ -1008,11 +1009,21 @@ INA241B4xDGK	High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplif
 INA241B5xD	High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 200V/V, ±0.1% Gain Accuracy, ±150 μV Offset Voltage, SOIC-8	https://www.ti.com/lit/ds/symlink/ina241b.pdf
 INA241B5xDDF	High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 200V/V, ±0.1% Gain Accuracy, ±150 μV Offset Voltage, SOT-23-8	https://www.ti.com/lit/ds/symlink/ina241b.pdf
 INA241B5xDGK	High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 200V/V, ±0.1% Gain Accuracy, ±150 μV Offset Voltage, VSSOP-8	https://www.ti.com/lit/ds/symlink/ina241b.pdf
+INA280A1xDCK	Current Sense Amplifier, 2.7-V to 120-V Common Mode, 1.1-MHz, Gain 20 V/V, SC-70	https://www.ti.com/lit/ds/symlink/ina280.pdf
+INA280A2xDCK	Current Sense Amplifier, 2.7-V to 120-V Common Mode, 1.1-MHz, Gain 50 V/V, SC-70	https://www.ti.com/lit/ds/symlink/ina280.pdf
+INA280A3xDCK	Current Sense Amplifier, 2.7-V to 120-V Common Mode, 1.1-MHz, Gain 100 V/V, SC-70	https://www.ti.com/lit/ds/symlink/ina280.pdf
+INA280A4xDCK	Current Sense Amplifier, 2.7-V to 120-V Common Mode, 1.1-MHz, Gain 200 V/V, SC-70	https://www.ti.com/lit/ds/symlink/ina280.pdf
+INA280A5xDCK	Current Sense Amplifier, 2.7-V to 120-V Common Mode, 1.1-MHz, Gain 500 V/V, SC-70	https://www.ti.com/lit/ds/symlink/ina280.pdf
 INA281A1	-4...+110V High Voltage Current Shunt Monitor, 20V/V gain, 1.3 MHz bandwidth,  2.7..20Vcc, 55uV offset voltage, SOT-23-5	https://www.ti.com/lit/ds/symlink/ina281.pdf
 INA283	High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 200V/V, SOIC-8/VSSOP-8	http://www.ti.com/lit/ds/symlink/ina282.pdf
 INA284	High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 500V/V, SOIC-8/VSSOP-8	http://www.ti.com/lit/ds/symlink/ina282.pdf
 INA285	High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 1000V/V, SOIC-8/VSSOP-8	http://www.ti.com/lit/ds/symlink/ina282.pdf
 INA286	High-Accuracy, Wide Common-Mode Range, Bidirectional Current Shunt Monitors, Zero-Drift Series, 100V/V, SOIC-8/VSSOP-8	http://www.ti.com/lit/ds/symlink/ina282.pdf
+INA290A1xDCK	Current Sense Amplifier, 2.7-V to 120-V Common Mode, 1.1-MHz, Ultra Precise, Gain 20 V/V, SC-70	https://www.ti.com/lit/ds/symlink/ina290.pdf
+INA290A2xDCK	Current Sense Amplifier, 2.7-V to 120-V Common Mode, 1.1-MHz, Ultra Precise, Gain 50 V/V, SC-70	https://www.ti.com/lit/ds/symlink/ina290.pdf
+INA290A3xDCK	Current Sense Amplifier, 2.7-V to 120-V Common Mode, 1.1-MHz, Ultra Precise, Gain 100 V/V, SC-70	https://www.ti.com/lit/ds/symlink/ina290.pdf
+INA290A4xDCK	Current Sense Amplifier, 2.7-V to 120-V Common Mode, 1.1-MHz, Ultra Precise, Gain 200 V/V, SC-70	https://www.ti.com/lit/ds/symlink/ina290.pdf
+INA290A5xDCK	Current Sense Amplifier, 2.7-V to 120-V Common Mode, 1.1-MHz, Ultra Precise, Gain 500 V/V, SC-70	https://www.ti.com/lit/ds/symlink/ina290.pdf
 INA293A2	-4-V to 110-V, 1.3-MHz bandwidth, Current Sense Amplifier, 50V/V gain, SOT-23-5	https://www.ti.com/lit/ds/symlink/ina293.pdf
 INA293A3	-4-V to 110-V, 1-MHz bandwidth, Current Sense Amplifier, 100V/V gain, SOT-23-5	https://www.ti.com/lit/ds/symlink/ina293.pdf
 INA293A4	-4-V to 110-V, 900-KHz bandwidth, Current Sense Amplifier, 200V/V gain, SOT-23-5	https://www.ti.com/lit/ds/symlink/ina293.pdf
@@ -1050,15 +1061,11 @@ AD8475xRMZ	Precision, Selectable Gain, Fully Differential Funnel Amplifier, MSOP
 ADA4938-1	Ultralow distortion, high speed fully-differential amplifier, ADC Driver, 1GHz GBP, 3x3mm LFCSP-16	https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4938-1_4938-2.pdf
 ADA4940-1xCP	Ultralow Power, Low Distortion, Fully Differential ADC Drivers, LFCSP-16	https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4940-1_4940-2.pdf
 ADA4940-2	Ultralow Power, Low Distortion, Fully Differential ADC Drivers, Dual-Channel, LFCSP-24	https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4940-1_4940-2.pdf
-AMC1100DWV	Fully-differential isolated amplifier, fixed gain = 8, peak isolation voltage 4250V, transient immunity 2.5kV/us, UL1577/IEC60747-5-2 approved, SOIC-8	http://www.ti.com/lit/ds/symlink/amc1100.pdf
 LM733CH	Single Differential Amplifier, TO-5-10	http://www.soemtron.org/downloads/disposals/lm733cn.pdf
 LM733CN	Single Differential Amplifier, DIP-14	http://www.soemtron.org/downloads/disposals/lm733cn.pdf
 LTC1992-x-xMS8	Low-Noise Precision Fully Differential Amplifier, fixed or variable gain, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/1992fb.pdf
 THS4521IDGK	Very Low Power, Negative Rail Input, Rail to Rail Output, Fully Differential Amplifier, VSSOP-8	https://www.ti.com/lit/ds/symlink/ths4521.pdf
 THS4551xRGT	Low-Noise Precision Fully Differential Amplifier, VQFN-16	https://www.ti.com/lit/ds/symlink/ths4551.pdf
-AMC1200BDWV	Fully-differential isolated amplifier, ±250-mV input, fixed gain = 8, peak isolation voltage 4250V, transient immunity 10kV/us, UL1577/VDE V 0884-10 approved, SOIC-8	http://www.ti.com/lit/ds/symlink/amc1200.pdf
-AMC1300BDWV	Fully-differental precision isolated amplifier, ±250-mV Input, reinforced isloation, fixed Gain = 8.2, peak isolation voltage 7071V, transient immunity 100kV/us, UL1577/VDE V 0884-11 approved, SOIC-8	http://www.ti.com/lit/ds/symlink/amc1300.pdf
-AMC1300DWV	Fully-differental isolated amplifier, ±250-mV Input, reinforced isloation, fixed gain = 8.2, peak isolation voltage 7071V, transient immunity 15kV/us, UL1577/VDE V 0884-11 approved, SOIC-8	http://www.ti.com/lit/ds/symlink/amc1300.pdf
 INA105KP	Low Power, Wide Supply Range, Low Cost Unity-Gain Difference Amplifier, DIP-8	https://www.ti.com/lit/ds/symlink/ina105.pdf
 INA105KU	Low Power, Wide Supply Range, Low Cost Unity-Gain Difference Amplifier, SOIC-8	https://www.ti.com/lit/ds/symlink/ina105.pdf
 LM733H	Single Differential Amplifier, TO-5-10	http://www.soemtron.org/downloads/disposals/lm733cn.pdf
@@ -1077,6 +1084,7 @@ INA326	Precision, Rail-to-Rail I/O Instrumentation Amplifier, MSOP-8 package	htt
 INA327	Precision, Rail-to-Rail I/O Instrumentation Amplifier, MSOP-10 package	http://www.ti.com/lit/ds/symlink/ina326.pdf
 INA333xxDGK	Zero Drift, Micropower Instrumentation Amplifier G = 1 + 100kOhm/Rg, VSSOP-8	https://www.ti.com/lit/ds/symlink/ina333.pdf
 INA333xxDRG	Zero Drift, Micropower Instrumentation Amplifier G = 1 + 100kOhm/Rg, WSON-8	https://www.ti.com/lit/ds/symlink/ina333.pdf
+INA821xDRG	4.7 MHz Bandwidth, Low Offset, Low-Power, Precision Instrumentation Amplifier, G = 1 + 49.4kOhm/Rg, 4.5 V to 36 V Supply, WSON-8	https://www.ti.com/lit/gpn/ina821
 LTC1100xN8	Single Precision, Zero-Drift Instrumentation Amplifier, Gain = 100, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/1100fc.pdf
 LTC1100xSW	Single Precision, Zero-Drift Instrumentation Amplifier, Gain = 10/100, SOIC-16W	https://www.analog.com/media/en/technical-documentation/data-sheets/1100fc.pdf
 AD623	Single Rail-to-Rail, Low Cost Instrumentation Amplifier, DIP-8/SOIC-8/MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf
@@ -1102,6 +1110,8 @@ AD8429BRZ	Low Noise, Instumentation Amplifier, SOIC-8	https://www.analog.com/med
 INA129	Precision, Low Power Instrumentation Amplifier G = 1 + 49.4kOhm/Rg, DIP-8/SOIC-8	http://www.ti.com/lit/ds/symlink/ina128.pdf
 INA849D	Ultra-Low-Noise (1 nV/√Hz), 28 MHz Bandwidth, Instrumentation Amplifier, Supply Range 8V to 36V, SOIC-8	https://www.ti.com/lit/ds/symlink/ina849.pdf
 INA849DGK	Ultra-Low-Noise (1 nV/√Hz), 28 MHz Bandwidth, Instrumentation Amplifier, Supply Range 8V to 36V, VSSOP-8	https://www.ti.com/lit/ds/symlink/ina849.pdf
+INA821xD	4.7 MHz Bandwidth, Low Offset, Low-Power, Precision Instrumentation Amplifier, G = 1 + 49.4kOhm/Rg, 4.5 V to 36 V Supply, SOIC-8	https://www.ti.com/lit/gpn/ina821
+INA821xDGK	4.7 MHz Bandwidth, Low Offset, Low-Power, Precision Instrumentation Amplifier, G = 1 + 49.4kOhm/Rg, 4.5 V to 36 V Supply, VSSOP-8	https://www.ti.com/lit/gpn/ina821
 AD8015	Wideband/Differential Output Transimpedance Amplifier, SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/AD8015.pdf
 AD8021AR	Operational Amplifier, 4.5-24V single/dual supply, low noise, high speed, SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/AD8021.pdf
 AD817	High Speed, Low Power Wide Supply Range Operational Amplifier, DIP-8/SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/ad817.pdf
@@ -1219,6 +1229,7 @@ OPA858xDSG	5.5-GHz Gain Bandwidth Product, Gain of 7 V/V Stable, FET Input Ampli
 OPA890xD	Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SO-8	https://www.ti.com/lit/ds/symlink/opa890.pdf
 OPA890xDBV	Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SOT-23-6	https://www.ti.com/lit/ds/symlink/opa890.pdf
 THS3491xDDA	900-MHz, 500-mA High-Power Output Current Feedback Operational Amplifier, SOIC-8	http://www.ti.com/lit/ds/symlink/ths3491.pdf
+THS4226DGQ	120MHz GBW, Low-Distortion High-Speed Rail-to-Rail Output with Shutdown, HVSSOP-10	https://www.ti.com/lit/ds/symlink/ths4226.pdf
 THS4631DDA	Single High-voltage, High Slew Rate, Wideband, FET-input Operational Amplifier, SOIC-8	www.ti.com/lit/ds/symlink/ths4631.pdf
 TLV172IDCK	Low-power Operational Amplifier, SOT-353	http://www.ti.com/lit/ds/symlink/tlv172.pdf
 TLV9004xRUCR	Low-Power, Quad-Operational Amplifiers, Texas S-PX2QFN-14	http://www.ti.com/lit/ds/symlink/tlv9004.pdf
@@ -1505,11 +1516,15 @@ TSV912IDT	Dual rail-to-rail input/output 8 MHz operational amplifiers, SOIC-8	ww
 TSV912IST	Dual rail-to-rail input/output 8 MHz operational amplifiers, MiniSO-8	www.st.com/resource/en/datasheet/tsv911.pdf
 TSV914	Quad rail-to-rail input/output 8 MHz operational amplifiers, SOIC-14/TSSOP-14	www.st.com/resource/en/datasheet/tsv911.pdf
 TSV994	Quad Rail-to-rail, 20 MHz GBP, operational amplifiers, SOIC-14/TSSOP-14	https://www.st.com/resource/en/datasheet/tsv994.pdf
+OPA1662D	Dual Low-Power, Low-Noise, Low-Distortion, Bipolar-Input SoundPlus Audio Operational Amplifiers, SOIC-8	https://www.ti.com/lit/ds/symlink/opa1662.pdf
+OPA1664D	Quad Low-Power, Low-Noise, Low-Distortion, Bipolar-Input SoundPlus Audio Operational Amplifiers, SOIC-14	https://www.ti.com/lit/ds/symlink/opa1664.pdf
 OPA2604AP	Dual FET-Input, Low-Distortion Operational Amplifier, DIP-8	https://pdf1.alldatasheetcn.com/datasheet-pdf/view/785955/TI1/OPA2604AP.html
 OPA810xDCK	140-MHz, Rail-to-Rail Input and Output, FET-Input Operational Amplifier, SC-70-5	https://www.ti.com/lit/ds/symlink/opa810.pdf
 TLC27M2xD	LinCMOS Precision Dual Operational Amplifiers, VIO_max = 10mV (at 25°C), VDD = 3..16V (C suffix) / VDD = 4..16V (I / M suffix), 525kHz unity-gain bandwidth (VDD = 5V, TA = 25°C), SOIC-8 (150 mil)	https://www.ti.com/lit/ds/symlink/tlc27m2.pdf
 TLC27M7xD	LinCMOS Precision Dual Operational Amplifiers, VIO_max = 500μV (at 25°C), VDD = 3..16V (C suffix) / VDD = 4..16V (I / M suffix), 525kHz unity-gain bandwidth (VDD = 5V, TA = 25°C), SOIC-8 (150 mil)	https://www.ti.com/lit/ds/symlink/tlc27m2.pdf
 TLC27M7xPS	LinCMOS Precision Dual Operational Amplifiers, VIO_max = 500μV (at 25°C), VDD = 3..16V (C suffix) / VDD = 4..16V (I / M suffix), 525kHz unity-gain bandwidth (VDD = 5V, TA = 25°C), SOIC-8 (208 mil)	https://www.ti.com/lit/ds/symlink/tlc27m2.pdf
+OPA1662DGK	Dual Low-Power, Low-Noise, Low-Distortion, Bipolar-Input SoundPlus Audio Operational Amplifiers, VSSOP-8	https://www.ti.com/lit/ds/symlink/opa1662.pdf
+OPA1664PW	Quad Low-Power, Low-Noise, Low-Distortion, Bipolar-Input SoundPlus Audio Operational Amplifiers, TSSOP-14	https://www.ti.com/lit/ds/symlink/opa1664.pdf
 TLC27M2xPS	LinCMOS Precision Dual Operational Amplifiers, VIO_max = 10mV (at 25°C), VDD = 3..16V (C suffix) / VDD = 4..16V (I / M suffix), 525kHz unity-gain bandwidth (VDD = 5V, TA = 25°C), SOIC-8 (208 mil)	https://www.ti.com/lit/ds/symlink/tlc27m2.pdf
 TLC27M2xPW	LinCMOS Precision Dual Operational Amplifiers, VIO_max = 10mV (at 25°C), VDD = 3..16V (C suffix) / VDD = 4..16V (I / M suffix), 525kHz unity-gain bandwidth (VDD = 5V, TA = 25°C), TSSOP-8	https://www.ti.com/lit/ds/symlink/tlc27m2.pdf
 AD813	Single Supply, Low Power, Triple Video Amplifier, DIP-14/SOIC-14	https://www.analog.com/media/en/technical-documentation/data-sheets/AD813.pdf
@@ -1566,6 +1581,7 @@ AD9283	ADC 50MHz 8 bits, SSOP-20	https://www.analog.com/media/en/technical-docum
 ADC0800	Analog to Digital 8 bits converter, DIP-18 (Hermetic)	http://www.ti.com/lit/ds/snas562/snas562.pdf
 ADC08060	Fast ADC  (20 .. 60 Mhz), TSSOP-24	http://www.ti.com/lit/ds/symlink/adc08060.pdf
 ADC081C021CIMM	I2C-Compatible, 8-Bit Analog-to-Digital Converter with Alert Function, MSOP-8	http://www.ti.com/lit/ds/symlink/adc081c021.pdf
+ADC082S021	2 channel, 50 - 200 ksps, 8-bit ADC, 2.7 - 5.25V supply, TSSOP-8 (MSOP-8, Texas VSSOP-8)	https://www.ti.com/lit/ds/symlink/adc082s021.pdf
 ADC0832	2 inputs AD Converter (serial output),	http://www.ti.com/lit/ds/symlink/adc0831-n.pdf
 ADC101C021CIMK	10-bit I2C ADC, SOT-23	https://www.ti.com/lit/ds/symlink/adc101c021.pdf
 ADC1173	Fast ADC  (15 Mhz), TSSOP-24	http://www.ti.com/lit/ds/symlink/adc1173.pdf
@@ -1593,7 +1609,7 @@ ADS8684	16-Bit, 500-kSPS, 4-Channels, Single-Supply, SAR ADC with Bipolar Input 
 ADS8688	16-Bit, 500-kSPS, 8-Channels, Single-Supply, SAR ADC with Bipolar Input Range, TSSOP-38	http://www.ti.com/lit/ds/symlink/ads8688.pdf
 AMC3336	Reinforced Isolated Delta-Sigma Modulator With Integrated DC/DC Converter, SOIC-16W	https://www.ti.com/lit/ds/symlink/amc3336.pdf
 CA3300	Convertisseur A->D 6 bits rapide	
-HX711	24-Bit Analog-to-Digital Converter (ADC) for Weight Scales	https://web.archive.org/web/20220615044707/https://akizukidenshi.com/download/ds/avia/hx711.pdf
+HX711	24-bit Analog-to-Digital Converter (ADC) for Weight Scales, SOIC-16 (SOP-16)	https://web.archive.org/web/20220615044707/https://akizukidenshi.com/download/ds/avia/hx711.pdf
 ICL7106CPL	3 1/2 Digit, LCD Display, A/D Converter, DIP-40	https://www.renesas.com/eu/en/www/doc/datasheet/icl7106-07-07s.pdf
 INA234AxYBJ	Bidirectional Current/Voltage/Power Monitor (0-28V) With I2C Interface, DSBGA-8	https://www.ti.com/lit/ds/symlink/ina234.pdf
 LTC1406CGN	ADC 8bit Low Power 20Msps, SSOP-24	https://www.analog.com/media/en/technical-documentation/data-sheets/1406f.pdf
@@ -1649,8 +1665,12 @@ AD7388-4	Single-Ended Input, Quad, Simultaneous Sampling, 12-bit resolution, SAR
 AD7689xCP	16-Bit, 8-Channel, 250 kSPS PulSAR ADC, LFSCP-20	https://www.analog.com/media/en/technical-documentation/data-sheets/AD7682_7689.pdf
 AD7699BCP	16-Bit, 8-Channel, 500 kSPS PulSAR ADC, LFSCP-20	https://www.analog.com/media/en/technical-documentation/data-sheets/AD7699.pdf
 AD7795	16-Bit, 6-Channel Sigma-Delta ADC, TSSOP-28	https://www.analog.com/media/en/technical-documentation/data-sheets/AD7794_7795.pdf
+ADC082S051	2 channel, 200 - 500 ksps, 8-bit ADC, 2.7 - 5.25V supply, TSSOP-8 (MSOP-8, Texas VSSOP-8)	https://www.ti.com/lit/ds/symlink/adc082s051.pdf
+ADC082S101	2 channel, 500 - 1000 ksps, 8-bit ADC, 2.7 - 5.25V supply, TSSOP-8 (MSOP-8, Texas VSSOP-8)	https://www.ti.com/lit/ds/symlink/adc082s101.pdf
 ADC101C021CIMM	I2C-Compatible, 10-Bit Analog-to-Digital Converter with Alert Function, MSOP-8	http://www.ti.com/lit/ds/symlink/adc101c021.pdf
+ADC102S021	2 channel, 50 - 200 ksps, 10-bit ADC, 2.7 - 5.25V supply, TSSOP-8 (MSOP-8, Texas VSSOP-8)	https://www.ti.com/lit/ds/symlink/adc102s021.pdf
 ADC121C021CIMM	I2C-Compatible, 12-Bit Analog-to-Digital Converter with Alert Function, MSOP-8	http://www.ti.com/lit/ds/symlink/adc121c021.pdf
+ADC122S021	2 channel, 50 - 200 ksps, 12-bit ADC, 2.7 - 5.25V supply, TSSOP-8 (MSOP-8, Texas VSSOP-8)	https://www.ti.com/lit/ds/symlink/adc122s021.pdf
 ADS1113IDGS	Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference and Oscillator, VSSOP-10	http://www.ti.com/lit/ds/symlink/ads1113.pdf
 ADS1114IDGS	Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10	http://www.ti.com/lit/ds/symlink/ads1113.pdf
 ADS1115IDGS	Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10	http://www.ti.com/lit/ds/symlink/ads1113.pdf
@@ -1710,6 +1730,10 @@ MCP3426Axx-xSN	16-Bit, Multi-Channel ΔΣ Analog-to-Digital Converter with I2C I
 MCP3428x-xST	16-Bit, Multi-Channel ΔΣ Analog-to-Digital Converter with I2C Interface and On-Board Reference, TSSOP-14	http://ww1.microchip.com/downloads/en/DeviceDoc/22226a.pdf
 MCP3551-EMS	Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, MSOP-8	http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf
 MCP3553-ESN	Single Delta-Sigma 22bit Analog to Digital Converter, SPI Interface, MSOP-8	http://ww1.microchip.com/downloads/en/devicedoc/21950c.pdf
+ADC102S051	2 channel, 200 - 500 ksps, 10-bit ADC, 2.7 - 5.25V supply, TSSOP-8 (MSOP-8, Texas VSSOP-8)	https://www.ti.com/lit/ds/symlink/adc102s051.pdf
+ADC102S101	2 channel, 500 - 1000 ksps, 10-bit ADC, 2.7 - 5.25V supply, TSSOP-8 (MSOP-8, Texas VSSOP-8)	https://www.ti.com/lit/ds/symlink/adc102s101.pdf
+ADC122S051	2 channel, 200 - 500 ksps, 12-bit ADC, 2.7 - 5.25V supply, TSSOP-8 (MSOP-8, Texas VSSOP-8)	https://www.ti.com/lit/ds/symlink/adc122s051.pdf
+ADC122S101	2 channel, 500 - 1000 ksps, 12-bit ADC, 2.7 - 5.25V supply, TSSOP-8 (MSOP-8, Texas VSSOP-8)	https://www.ti.com/lit/ds/symlink/adc122s101.pdf
 AD390JD	Quad 12bit DAC, 4LSB Gain Error, DH-28	https://www.analog.com/static/imported-files/data_sheets/AD390MIL.pdf
 AD558JN	Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, DIP-16	https://www.analog.com/static/imported-files/data_sheets/AD558.pdf
 AD558JP	Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, PLCC-20	https://www.analog.com/static/imported-files/data_sheets/AD558.pdf
@@ -2033,6 +2057,8 @@ TMUX1208PW	5V, 8:1 General Purpose Analog Multiplexer, 5 Ohm Ron, 65 Mhz, TSSOP-
 AD1853	Stereo, 24-Bit, 192 kHz, Multibit Sigma-Delta DAC, SSOP-28	https://www.analog.com/media/en/technical-documentation/data-sheets/AD1853.pdf
 AD1855	Stereo, 96 kHz, Multibit Sigma-Delta DAC, SSOP-28	https://www.analog.com/media/en/technical-documentation/data-sheets/AD1855.pdf
 AD1955	High Performance Multibit Sigma-Delta DAC with SACD Playback, SSOP-28	https://www.analog.com/media/en/technical-documentation/data-sheets/AD1955.pdf
+ADAU1361	Stereo, Low Power, 96 kHz, 24-bit Audio Codec with Integrated PLL, VQFN-32 (LFCSP-32)	https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1361.pdf
+ADAU1761	SigmaDSP Stereo, Low Power, 96 kHz, 24-bit Audio Codec with Integrated PLL, VQFN-32 (LFCSP-32)	https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1761.pdf
 ADAU1978xBCP	Quad Analog-to-Digital Converter, 2Vrms differential inputs, LFCSP-40	https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1978.pdf
 AK5392VS	Enhanced Dual Bit Sigma-Delta 24Bit ADC, SOIC-28	https://media.digikey.com/pdf/Data%20Sheets/AKM%20Semiconductor%20Inc.%20PDFs/AK5392.pdf
 AK5393VS	Enhanced Dual Bit Sigma-Delta 96kHz 24-Bit ADC, SOIC-28	https://www.akm.com/akm/en/file/datasheet/AK5393VS.pdf
@@ -2064,6 +2090,7 @@ CS8416-xSZ	192 kHz Digital Audio Interface Receiver, SOIC-28	https://d3uzseaevmu
 CS8420	Digital Audio Sample Rate Converter, SOIC-28	https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS8420_F4.pdf
 DSD1794A	24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, SW Control, SSOP-28	http://www.ti.com/lit/ds/symlink/dsd1794a.pdf
 ES8388	Low Power Stereo Audio CODEC With Headphone Amplifier, 24-bit, 8kHz - 96kHz ADC / DAC sampling frequency, 1.8V - 3.3V supply, WQFN-28	http://www.everest-semi.com/pdf/ES8388%20DS.pdf
+ES9028PRO	32-bit 8-Channel Audio DAC, 135 / 129 dB DNR (mono / 8-Channel), S/PDIF / PCM (I2S and left/right-justified formats) / DoP / DSD audio input, GPIO / I2C control interface, TQFP-64	https://www.esstech.com/wp-content/uploads/2022/09/ES9028PRO-Datasheet-v3.7.pdf
 ISD2560E	Single-Chip Voice Record/Playback Device 60-Second Duration, TSOP-I-28	https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
 ISD2560P	Single-Chip Voice Record/Playback Device 60-Second Duration, DIP-28	https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
 ISD2560S	Single-Chip Voice Record/Playback Device 60-Second Duration, SOIC-28	https://datasheetspdf.com/pdf-file/700027/Winbond/ISD2560/1
@@ -2076,6 +2103,9 @@ PCM1754DBQ	24-bit, 192-kHz sampling, Stereo Audio DAC, SSOP-16	https://www.ti.co
 PCM1780	24-bit, 192-kHz sampling, Stereo Audio DAC, SSOP-16	https://www.ti.com/lit/ds/symlink/pcm1780.pdf
 PCM1792A	24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, SW Control, SSOP-28	http://www.ti.com/lit/ds/symlink/pcm1792a.pdf
 PCM1794A	24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, HW Control, SSOP-28	http://www.ti.com/lit/ds/symlink/pcm1794a.pdf
+PCM1860DBT	2-Channel, 192 kHz, 24-bit, Audio ADC, 103dB SNR, I2S / left-justified digital output formats, hardware control interface, TSSOP-30	https://www.ti.com/lit/ds/symlink/pcm1860.pdf
+PCM1862DBT	2-Channel, 192 kHz, 24-bit, Audio ADC, 103dB SNR, I2S / left/right-justified / TDM digital output formats, I2C / SPI control interface, 2 digital microphone support, TSSOP-30	https://www.ti.com/lit/ds/symlink/pcm1862.pdf
+PCM1864DBT	4-Channel, 192 kHz, 24-bit, Audio ADC, 103dB SNR, I2S / left/right-justified / TDM digital output formats, I2C / SPI control interface, 4 digital microphone support (DMIN2 pin), TSSOP-30	https://www.ti.com/lit/ds/symlink/pcm1864.pdf
 PCM2902	Stereo Audio Codec with USB interface, Analog Input/Output, and S/PDIF, SSOP-28	http://www.ti.com/lit/ds/symlink/pcm2902c.pdf
 PCM3060	24-bit Asynchronous Stereo Audio Codec with 96/192kHz sampling rate, TSSOP-28	https://www.ti.com/lit/gpn/pcm3060
 PCM5100	2VRMS DirectPath, 100dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-20	http://www.ti.com/lit/ds/symlink/pcm5100.pdf
@@ -2172,8 +2202,8 @@ BQ25504	Energy Harvesting Boost Converter with Battery Management, VQFN-16	http:
 BQ25570	Nano Power Boost Charger and Buck Converter for Energy Harvester Powered Applications, QFN-20	http://www.ti.com/lit/ds/symlink/bq25570.pdf
 BQ25601	I2C Controlled 3A Single-Cell Battery Charger for High Input Voltage and Narrow Voltage DC Power Path Management, WQFN-32	http://www.ti.com/lit/ds/symlink/bq25601.pdf
 BQ25886RGE	Standalone 2-Cell (Li-Ion / Li-Polymer), 2A Boost-Mode Battery Charger With PowerPath, USB BC1.2 Detection, USB On-The-Go Boost (OTG), 4.3..6.2V VBUS, 8.2/8.4/8.7/8.8V charge voltage, 9.2V BATOVP, 1.5MHz, VQFN-24	http://www.ti.com/lit/ds/symlink/bq25886.pdf
-BQ25887	I2C Controller 2-Cell 2A Boost mode LiIon Charger with cell balancing	https://www.ti.com/lit/ds/symlink/bq25887.pdf
-BQ25895RTW	Controlled Single Cell 5A Fast Charger with MaxCharge, WQFN-24	http://www.ti.com/lit/ds/symlink/bq25895.pdf
+BQ25887RGE	I2C Controlled 2-Cell (Li-Ion / Li-Polymer), 2A boost-mode battery charger with cell balancing for USB input, 3.9..6.2V VBUS, 3.4..4.6V charge voltage regulation range (per cell), 1.5 MHz, VQFN-24	https://www.ti.com/lit/ds/symlink/bq25887.pdf
+BQ25895RTW	I2C Controlled Single Cell (Li-Ion / Li-Polymer) 5A Fast Charger with MaxCharge, USB BC1.2 Detection, 3.9..14V VBUS, 3.840..4.608V charge voltage range, 1.5 MHz (buck mode) and 500 kHz /1.5 MHz (boost mode), WQFN-24	http://www.ti.com/lit/ds/symlink/bq25895.pdf
 BQ27441-G1	System Side Li Ion/Polymer Fuel Gauge, PDSON-12	http://www.ti.com/lit/ds/symlink/bq27441-g1.pdf
 BQ27750	System Side Li Ion/Polymer Fuel Gauge, VSON-12	http://www.ti.com/lit/ds/symlink/bq27750.pdf
 BQ297xy	Voltage and Current Protection for Single-Cell Li-Ion and Li-Polymer Batteries	http://www.ti.com/lit/ds/symlink/bq2970.pdf
@@ -2335,6 +2365,7 @@ XC95108PQ100	Xilinx CPLD, Obsolete	xilinx/xc95108.pdf
 XC95144PQ100	Xilinx CPLD, Obsolete	
 XC95144XL-TQ100	CPLD, 144 Macrocells, 3200 Usable Gates	https://www.xilinx.com/support/documentation/data_sheets/ds056.pdf
 XC95144XL-TQ144	CPLD, 144 Macrocells, 3200 Usable Gates	https://www.xilinx.com/support/documentation/data_sheets/ds056.pdf
+XC9572XL-xxCSx48	CPLD, 72 Macrocells, 1600 Usable Gates, FBGA-48 (Xilinx CS48)	http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf
 XC9572XL-xxPCx44	CPLD, 72 Macrocells, 1600 Usable Gates, PLCC-44	http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf
 XC9572XL-xxTQx100	CPLD, 72 Macrocells, 1600 Usable Gates, LQFP-100 (Xilinx TQ100)	http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf
 XC9572XL-xxVQx44	CPLD, 72 Macrocells, 1600 Usable Gates, TQFP-44 (Xilinx VQ44)	http://www.xilinx.com/support/documentation/data_sheets/ds057.pdf
@@ -2360,7 +2391,7 @@ Z84C00xxP	8-bit General Purpose Microprocessor, 8-bit data bus, 16-bit address b
 MC6800	8-Bit Microprocessing unit 1.0MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheet/motorola/MC68A00L.pdf
 MC6802	8-Bit Microprocessing unit 1.0MHz, DIP-40	https://www.jameco.com/Jameco/Products/ProdDS/43502.pdf
 MC6809	8-Bit Microprocessing unit 1.0MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheet/motorola/MC68B09S.pdf
-MC6809E	8-Bit Microprocessing unit 1.0MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheet/motorola/MC68B09S.pdf
+MC6809E	8-Bit Microprocessing unit 1.0MHz, DIP-40	http://www.bitsavers.org/components/motorola/_dataSheets/6809E.pdf
 MC68A00	8-Bit Microprocessing unit 1.5MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheet/motorola/MC68A00L.pdf
 MC68A02	8-Bit Microprocessing unit 1.5MHz, DIP-40	https://www.jameco.com/Jameco/Products/ProdDS/43502.pdf
 MC68A09	8-Bit Microprocessing unit 1.5MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheet/motorola/MC68B09S.pdf
@@ -2486,6 +2517,7 @@ TMLM04225	12V 250mA / 5V 120mA AC/DC dual output, low noise power module	https:/
 TMLM05103	3.3V 1250mA AC/DC low noise power module	https://www.tracopower.com/products/tmlm.pdf
 TMLM10103	3.3V 2500mA AC/DC low noise power module	https://www.tracopower.com/products/tmlm.pdf
 TMPW10-105	10W AC/DC power supply, 5V fixed output voltage, 2A output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw10.pdf
+TMPW25-105	20W AC/DC power supply, 5.1V fixed output voltage, 3922mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw25.pdf
 TMPW5-103	5W AC/DC power supply, 3.3V fixed output voltage, 1515mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw5.pdf
 TPP-15-103-D	3.3V, 4000mA, 15W, Isolated, AC-DC, Traco	https://www.tracopower.com/sites/default/files/products/datasheets/tpp15_d_datasheet.pdf
 VTX-214-010-103	3V Vigortronix 10W ACDC Converters	http://www.vigortronix.com/10WattACDCPCBPowerModule.aspx
@@ -2654,6 +2686,9 @@ TMLM20124	24V 833mA AC/DC low noise power module	https://www.tracopower.com/prod
 TMPW10-112	10W AC/DC power supply, 12V fixed output voltage, 833mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw10.pdf
 TMPW10-115	10W AC/DC power supply, 15V fixed output voltage, 667mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw10.pdf
 TMPW10-124	10W AC/DC power supply, 24V fixed output voltage, 417mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw10.pdf
+TMPW25-112	25W AC/DC power supply, 12V fixed output voltage, 2083mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw25.pdf
+TMPW25-115	25W AC/DC power supply, 15V fixed output voltage, 1666mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw25.pdf
+TMPW25-124	25W AC/DC power supply, 24V fixed output voltage, 1042mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw25.pdf
 TMPW5-105	5W AC/DC power supply, 5V fixed output voltage, 1000mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw5.pdf
 TMPW5-112	5W AC/DC power supply, 12V fixed output voltage, 420mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw5.pdf
 TMPW5-124	5W AC/DC power supply, 24V fixed output voltage, 210mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw5.pdf
@@ -2688,6 +2723,7 @@ ATA00AA18S-L	Artesyn 3W Isolated DC/DC Converter Module, ±5V Output Voltage, 9-
 ATA00F18S-L	Artesyn 2W Isolated DC/DC Converter Module, 3.3V Output Voltage, 9-36V Input Voltage	https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
 Ag9905LP	Regulated 7W DC/DC PoE converter IEEE 802.3af, 36V-57V input, +5V Output Voltage, LP-DIL-8	https://silvertel.com/images/datasheets/Ag9900M-datasheet-ultra-miniature-isolated-Power-over-Ethernet-POE-module.pdf
 BD8314NUV	3.0V to 12V, Integrated 2.5A MOSFET 1ch Boost Converter, VSON-10	http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd8314nuv-e.pdf
+C11204-01	SiPM supply temperature compendsated, input 5V, output 20V-90V, UART	https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/c11204-01_kacc1203e.pdf
 IA0305D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 3.3V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
 IA0305S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 3.3V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
 IA4803D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 48V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
@@ -2740,8 +2776,14 @@ TEN20-11011WIRH	20W DC/DC railway converter regulated, 36-160V input, 5.1V fixed
 TEN20-11021WIRH	20W DC/DC railway converter regulated, 36-160V input, ±5V fixed output voltage, 2A each output, 3.0kVAC isolation, 1”x1.6”	https://www.tracopower.com/products/ten20wirh.pdf
 TEN20-2411WIN	4A Isolated DC/DC Converter Module, fixed 5V Output Voltage, 9-36V Input Voltage	http://www.tracopower.com/products/ten20win.pdf
 TEN20-2421WIN	2A Isolated DC/DC Dual Supply Converter Module, fixed ±5V Output Voltage, 9-36V Input Voltage	http://www.tracopower.com/products/ten20win.pdf
+TES1-0510	1W DC/DC converter unregulated, 4.5-5.5V input, 3.3V fixed output voltage, 300mA output, 1.5kVDC isolation, SMD-8	https://www.tracopower.com/products/tes1.pdf
+TES1-0521	1W DC/DC converter unregulated, 4.5-5.5V input, ±5V fixed output voltage, 100mA each output, 1.5kVDC isolation, SMD-10	https://www.tracopower.com/products/tes1.pdf
 THB10-1211	"10W DC/DC converter regulated, 9-18V input, 5.1V fixed output voltage, 1600mA output, reinforced 4.2kVAC isolation, 2""x1"""	https://www.tracopower.com/products/thb10.pdf
 THB10-1222	"10W DC/DC converter regulated, 9-18V input, ±12V fixed output voltage, 417mA each output, reinforced 4.2kVAC isolation, 2""x1"""	https://www.tracopower.com/products/thb10.pdf
+THL40-2411WI	"40W DC/DC industrial converter regulated, 9-36V input, 5V fixed output voltage, 8A output, 1.5kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thl40wi.pdf
+THL40-2422WI	40W DC/DC industrial converter regulated, 9-36V input, ±12V fixed output voltage, 1.7A each output, 1.5kVDC isolation, 1”x1”	https://www.tracopower.com/products/thl40wi.pdf
+THN10-3610UIR	"10W DC/DC railway converter regulated, 9-75V input, 3.3V fixed output voltage, 3A output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
+THN10-3621UIR	"10W DC/DC railway converter regulated, 9-75V input, ±5V fixed output voltage, 1A each output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
 TMA-0505D	1W DC/DC converter unregulated, 4.5-5.5V input, ±5V fixed output voltage, 100mA each output, 1.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tma.pdf
 TMA-0505S	1W DC/DC converter unregulated, 4.5-5.5V input, 5V fixed output voltage, 200mA output, 1.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tma.pdf
 TMR10-2410WIR	10W DC/DC railway converter regulated, 9-36V input, 3.3V fixed output voltage, 2.5A output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
@@ -3273,18 +3315,27 @@ TEC2-1212WI	2W DC/DC industrial converter regulated, 4.5-18V input, 12V fixed ou
 TEC2-1213WI	2W DC/DC industrial converter regulated, 4.5-18V input, 15V fixed output voltage, 134mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
 TEC2-1215WI	2W DC/DC industrial converter regulated, 4.5-18V input, 3.3V fixed output voltage, 83mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
 TEC2-1219WI	2W DC/DC industrial converter regulated, 4.5-18V input, 9V fixed output voltage, 222mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
+TEC2-1221WI	2W DC/DC industrial converter regulated, 4.5-18V input, ±5V fixed output voltage, 200mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
+TEC2-1222WI	2W DC/DC industrial converter regulated, 4.5-18V input, ±12V fixed output voltage, 83mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
+TEC2-1223WI	2W DC/DC industrial converter regulated, 4.5-18V input, ±15V fixed output voltage, 67mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
 TEC2-2410WI	2W DC/DC industrial converter regulated, 9-36V input, 3.3V fixed output voltage, 500mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
 TEC2-2411WI	2W DC/DC industrial converter regulated, 9-36V input, 5V fixed output voltage, 400mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
 TEC2-2412WI	2W DC/DC industrial converter regulated, 9-36V input, 12V fixed output voltage, 167mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
 TEC2-2413WI	2W DC/DC industrial converter regulated, 9-36V input, 15V fixed output voltage, 134mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
 TEC2-2415WI	2W DC/DC industrial converter regulated, 9-36V input, 24V fixed output voltage, 83mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
 TEC2-2419WI	2W DC/DC industrial converter regulated, 9-36V input, 9V fixed output voltage, 222mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
+TEC2-2421WI	2W DC/DC industrial converter regulated, 9-36V input, ±5V fixed output voltage, 200mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
+TEC2-2422WI	2W DC/DC industrial converter regulated, 9-36V input, ±12V fixed output voltage, 83mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
+TEC2-2423WI	2W DC/DC industrial converter regulated, 9-36V input, ±15V fixed output voltage, 67mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
 TEC2-4810WI	2W DC/DC industrial converter regulated, 18-75V input, 3.3V fixed output voltage, 500mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
 TEC2-4811WI	2W DC/DC industrial converter regulated, 18-75V input, 5V fixed output voltage, 400mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
 TEC2-4812WI	2W DC/DC industrial converter regulated, 18-75V input, 12V fixed output voltage, 167mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
 TEC2-4813WI	2W DC/DC industrial converter regulated, 18-75V input, 15V fixed output voltage, 134mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
 TEC2-4815WI	2W DC/DC industrial converter regulated, 18-75V input, 24V fixed output voltage, 83mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
 TEC2-4819WI	2W DC/DC industrial converter regulated, 18-75V input, 9V fixed output voltage, 222mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
+TEC2-4821WI	2W DC/DC industrial converter regulated, 18-75V input, ±5V fixed output voltage, 200mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
+TEC2-4822WI	2W DC/DC industrial converter regulated, 18-75V input, ±12V fixed output voltage, 83mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
+TEC2-4823WI	2W DC/DC industrial converter regulated, 18-75V input, ±15V fixed output voltage, 67mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tec2wi.pdf
 TEC3-2411UI	3W DC/DC industrial converter regulated, 9-75V input, 5V fixed output voltage, 600mA output, 2.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tec3ui.pdf
 TEC3-2412UI	3W DC/DC industrial converter regulated, 9-75V input, 12V fixed output voltage, 250mA output, 2.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tec3ui.pdf
 TEC3-2413UI	3W DC/DC industrial converter regulated, 9-75V input, 15V fixed output voltage, 200mA output, 2.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tec3ui.pdf
@@ -3363,6 +3414,26 @@ TEN6-11015WIRH	6W DC/DC railway converter regulated, 36-160V input, 24V fixed ou
 TEN6-11021WIRH	6W DC/DC railway converter regulated, 36-160V input, ±5V fixed output voltage, 600mA each output, 3.0kVAC isolation, DIP-24	https://www.tracopower.com/products/ten6wirh.pdf
 TEN6-11022WIRH	6W DC/DC railway converter regulated, 36-160V input, ±12V fixed output voltage, 250mA each output, 3.0kVAC isolation, DIP-24	https://www.tracopower.com/products/ten6wirh.pdf
 TEN6-11023WIRH	6W DC/DC railway converter regulated, 36-160V input, ±15V fixed output voltage, 200mA each output, 3.0kVAC isolation, DIP-24	https://www.tracopower.com/products/ten6wirh.pdf
+TES1-0511	1W DC/DC converter unregulated, 4.5-5.5V input, 5V fixed output voltage, 200mA output, 1.5kVDC isolation, SMD-8	https://www.tracopower.com/products/tes1.pdf
+TES1-0512	1W DC/DC converter unregulated, 4.5-5.5V input, 12V fixed output voltage, 84mA output, 1.5kVDC isolation, SMD-8	https://www.tracopower.com/products/tes1.pdf
+TES1-0513	1W DC/DC converter unregulated, 4.5-5.5V input, 15V fixed output voltage, 67mA output, 1.5kVDC isolation, SMD-8	https://www.tracopower.com/products/tes1.pdf
+TES1-0519	1W DC/DC converter unregulated, 4.5-5.5V input, 9V fixed output voltage, 110mA output, 1.5kVDC isolation, SMD-8	https://www.tracopower.com/products/tes1.pdf
+TES1-0522	1W DC/DC converter unregulated, 4.5-5.5V input, ±12V fixed output voltage, 42mA each output, 1.5kVDC isolation, SMD-10	https://www.tracopower.com/products/tes1.pdf
+TES1-0523	1W DC/DC converter unregulated, 4.5-5.5V input, ±15V fixed output voltage, 33mA each output, 1.5kVDC isolation, SMD-10	https://www.tracopower.com/products/tes1.pdf
+TES1-1211	1W DC/DC converter unregulated, 10.8-13.2V input, 5V fixed output voltage, 200mA output, 1.5kVDC isolation, SMD-8	https://www.tracopower.com/products/tes1.pdf
+TES1-1212	1W DC/DC converter unregulated, 10.8-13.2V input, 12V fixed output voltage, 84mA output, 1.5kVDC isolation, SMD-8	https://www.tracopower.com/products/tes1.pdf
+TES1-1213	1W DC/DC converter unregulated, 10.8-13.2V input, 15V fixed output voltage, 67mA output, 1.5kVDC isolation, SMD-8	https://www.tracopower.com/products/tes1.pdf
+TES1-1219	1W DC/DC converter unregulated, 10.8-13.2V input, 9V fixed output voltage, 110mA output, 1.5kVDC isolation, SMD-8	https://www.tracopower.com/products/tes1.pdf
+TES1-1221	1W DC/DC converter unregulated, 10.8-13.2V input, ±5V fixed output voltage, 100mA each output, 1.5kVDC isolation, SMD-10	https://www.tracopower.com/products/tes1.pdf
+TES1-1222	1W DC/DC converter unregulated, 10.8-13.2V input, ±12V fixed output voltage, 42mA each output, 1.5kVDC isolation, SMD-10	https://www.tracopower.com/products/tes1.pdf
+TES1-1223	1W DC/DC converter unregulated, 10.8-13.2V input, ±15V fixed output voltage, 33mA each output, 1.5kVDC isolation, SMD-10	https://www.tracopower.com/products/tes1.pdf
+TES1-2411	1W DC/DC converter unregulated, 21.6-26.4V input, 5V fixed output voltage, 200mA output, 1.5kVDC isolation, SMD-8	https://www.tracopower.com/products/tes1.pdf
+TES1-2412	1W DC/DC converter unregulated, 21.6-26.4V input, 12V fixed output voltage, 84mA output, 1.5kVDC isolation, SMD-8	https://www.tracopower.com/products/tes1.pdf
+TES1-2413	1W DC/DC converter unregulated, 21.6-26.4V input, 15V fixed output voltage, 67mA output, 1.5kVDC isolation, SMD-8	https://www.tracopower.com/products/tes1.pdf
+TES1-2419	1W DC/DC converter unregulated, 21.6-26.4V input, 9V fixed output voltage, 110mA output, 1.5kVDC isolation, SMD-8	https://www.tracopower.com/products/tes1.pdf
+TES1-2421	1W DC/DC converter unregulated, 21.6-26.4V input, ±5V fixed output voltage, 100mA each output, 1.5kVDC isolation, SMD-10	https://www.tracopower.com/products/tes1.pdf
+TES1-2422	1W DC/DC converter unregulated, 21.6-26.4V input, ±12V fixed output voltage, 42mA each output, 1.5kVDC isolation, SMD-10	https://www.tracopower.com/products/tes1.pdf
+TES1-2423	1W DC/DC converter unregulated, 21.6-26.4V input, ±15V fixed output voltage, 33mA each output, 1.5kVDC isolation, SMD-10	https://www.tracopower.com/products/tes1.pdf
 THB10-1212	"10W DC/DC converter regulated, 9-18V input, 12V fixed output voltage, 835mA output, reinforced 4.2kVAC isolation, 2""x1"""	https://www.tracopower.com/products/thb10.pdf
 THB10-1223	"10W DC/DC converter regulated, 9-18V input, ±15V fixed output voltage, 333mA each output, reinforced 4.2kVAC isolation, 2""x1"""	https://www.tracopower.com/products/thb10.pdf
 THB10-2411	"10W DC/DC converter regulated, 18-36V input, 5.1V fixed output voltage, 2000mA output, reinforced 4.2kVAC isolation, 2""x1"""	https://www.tracopower.com/products/thb10.pdf
@@ -3373,6 +3444,30 @@ THB10-4811	"10W DC/DC converter regulated, 36-75V input, 5.1V fixed output volta
 THB10-4812	"10W DC/DC converter regulated, 36-75V input, 12V fixed output voltage, 835mA output, reinforced 4.2kVAC isolation, 2""x1"""	https://www.tracopower.com/products/thb10.pdf
 THB10-4822	"10W DC/DC converter regulated, 36-75V input, ±12V fixed output voltage, 417mA each output, reinforced 4.2kVAC isolation, 2""x1"""	https://www.tracopower.com/products/thb10.pdf
 THB10-4823	"10W DC/DC converter regulated, 36-75V input, ±15V fixed output voltage, 333mA each output, reinforced 4.2kVAC isolation, 2""x1"""	https://www.tracopower.com/products/thb10.pdf
+THL40-2412WI	"40W DC/DC industrial converter regulated, 9-36V input, 12V fixed output voltage, 3.35A output, 1.5kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thl40wi.pdf
+THL40-2413WI	"40W DC/DC industrial converter regulated, 9-36V input, 15V fixed output voltage, 2.7A output, 1.5kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thl40wi.pdf
+THL40-2415WI	"40W DC/DC industrial converter regulated, 9-36V input, 24V fixed output voltage, 1.7A output, 1.5kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thl40wi.pdf
+THL40-2423WI	40W DC/DC industrial converter regulated, 9-36V input, ±15V fixed output voltage, 1.35A each output, 1.5kVDC isolation, 1”x1”	https://www.tracopower.com/products/thl40wi.pdf
+THL40-4811WI	"40W DC/DC industrial converter regulated, 18-75V input, 5V fixed output voltage, 8A output, 1.5kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thl40wi.pdf
+THL40-4812WI	"40W DC/DC industrial converter regulated, 18-75V input, 12V fixed output voltage, 3.35A output, 1.5kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thl40wi.pdf
+THL40-4813WI	"40W DC/DC industrial converter regulated, 18-75V input, 15V fixed output voltage, 2.7A output, 1.5kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thl40wi.pdf
+THL40-4815WI	"40W DC/DC industrial converter regulated, 18-75V input, 24V fixed output voltage, 1.7A output, 1.5kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thl40wi.pdf
+THL40-4822WI	40W DC/DC industrial converter regulated, 18-75V input, ±12V fixed output voltage, 1.7A each output, 1.5kVDC isolation, 1”x1”	https://www.tracopower.com/products/thl40wi.pdf
+THL40-4823WI	40W DC/DC industrial converter regulated, 18-75V input, ±15V fixed output voltage, 1.35A each output, 1.5kVDC isolation, 1”x1”	https://www.tracopower.com/products/thl40wi.pdf
+THN10-3611UIR	"10W DC/DC railway converter regulated, 9-75V input, 5.1V fixed output voltage, 2A output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
+THN10-3612UIR	"10W DC/DC railway converter regulated, 9-75V input, 12V fixed output voltage, 830mA output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
+THN10-3613UIR	"10W DC/DC railway converter regulated, 9-75V input, 15V fixed output voltage, 670mA output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
+THN10-3615UIR	"10W DC/DC railway converter regulated, 9-75V input, 24V fixed output voltage, 420mA output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
+THN10-3622UIR	"10W DC/DC railway converter regulated, 9-75V input, ±12V fixed output voltage, 416mA each output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
+THN10-3623UIR	"10W DC/DC railway converter regulated, 9-75V input, ±15V fixed output voltage, 333mA each output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
+THN10-7210UIR	"10W DC/DC railway converter regulated, 14-160V input, 3.3V fixed output voltage, 3A output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
+THN10-7211UIR	"10W DC/DC railway converter regulated, 14-160V input, 5.1V fixed output voltage, 2A output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
+THN10-7212UIR	"10W DC/DC railway converter regulated, 14-160V input, 12V fixed output voltage, 830mA output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
+THN10-7213UIR	"10W DC/DC railway converter regulated, 14-160V input, 15V fixed output voltage, 670mA output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
+THN10-7215UIR	"10W DC/DC railway converter regulated, 14-160V input, 24V fixed output voltage, 420mA output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
+THN10-7221UIR	"10W DC/DC railway converter regulated, 14-160V input, ±5V fixed output voltage, 1A each output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
+THN10-7222UIR	"10W DC/DC railway converter regulated, 14-160V input, ±12V fixed output voltage, 416mA each output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
+THN10-7223UIR	"10W DC/DC railway converter regulated, 14-160V input, ±15V fixed output voltage, 333mA each output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
 THR40-7211WI	40W DC/DC industrial converter regulated, 36-160V input, 5V fixed output voltage, 8A output, 3.0kVAC isolation, 2”x1”	https://www.tracopower.com/products/thr40wi.pdf
 THR40-7212WI	40W DC/DC industrial converter regulated, 36-160V input, 12V fixed output voltage, 3.33A output, 3.0kVAC isolation, 2”x1”	https://www.tracopower.com/products/thr40wi.pdf
 THR40-7213WI	40W DC/DC industrial converter regulated, 36-160V input, 15V fixed output voltage, 2.67A output, 3.0kVAC isolation, 2”x1”	https://www.tracopower.com/products/thr40wi.pdf
@@ -3420,15 +3515,27 @@ TME-2415S	1W DC/DC converter unregulated, 21.6-26.4V input, 15V output voltage, 
 TMR-0510	2W DC/DC industrial converter regulated, 4.5-9V input, 3.3V fixed output voltage, 500mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
 TMR-0511	2W DC/DC industrial converter regulated, 4.5-9V input, 5V fixed output voltage, 400mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
 TMR-0512	2W DC/DC industrial converter regulated, 4.5-9V input, 12V fixed output voltage, 167mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
+TMR-0521	2W DC/DC industrial converter regulated, 4.5-9V input, ±5V fixed output voltage, 200mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
+TMR-0522	2W DC/DC industrial converter regulated, 4.5-9V input, ±12V fixed output voltage, 83mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
+TMR-0523	2W DC/DC industrial converter regulated, 4.5-9V input, ±15V fixed output voltage, 67mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
 TMR-1210	2W DC/DC industrial converter regulated, 9-18V input, 3.3V fixed output voltage, 500mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
 TMR-1211	2W DC/DC industrial converter regulated, 9-18V input, 5V fixed output voltage, 400mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
 TMR-1212	2W DC/DC industrial converter regulated, 9-18V input, 12V fixed output voltage, 167mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
+TMR-1221	2W DC/DC industrial converter regulated, 9-18V input, ±5V fixed output voltage, 200mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
+TMR-1222	2W DC/DC industrial converter regulated, 9-18V input, ±12V fixed output voltage, 83mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
+TMR-1223	2W DC/DC industrial converter regulated, 9-18V input, ±15V fixed output voltage, 67mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
 TMR-2410	2W DC/DC industrial converter regulated, 18-36V input, 3.3V fixed output voltage, 500mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
 TMR-2411	2W DC/DC industrial converter regulated, 18-36V input, 5V fixed output voltage, 400mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
 TMR-2412	2W DC/DC industrial converter regulated, 18-36V input, 12V fixed output voltage, 167mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
+TMR-2421	2W DC/DC industrial converter regulated, 18-36V input, ±5V fixed output voltage, 200mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
+TMR-2422	2W DC/DC industrial converter regulated, 18-36V input, ±12V fixed output voltage, 83mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
+TMR-2423	2W DC/DC industrial converter regulated, 18-36V input, ±15V fixed output voltage, 67mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
 TMR-4810	2W DC/DC industrial converter regulated, 36-75V input, 3.3V fixed output voltage, 500mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
 TMR-4811	2W DC/DC industrial converter regulated, 36-75V input, 5V fixed output voltage, 400mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
 TMR-4812	2W DC/DC industrial converter regulated, 36-75V input, 12V fixed output voltage, 167mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
+TMR-4821	2W DC/DC industrial converter regulated, 36-75V input, ±5V fixed output voltage, 200mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
+TMR-4822	2W DC/DC industrial converter regulated, 36-75V input, ±12V fixed output voltage, 83mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
+TMR-4823	2W DC/DC industrial converter regulated, 36-75V input, ±15V fixed output voltage, 67mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
 TMR10-2411WIR	10W DC/DC railway converter regulated, 9-36V input, 5V fixed output voltage, 2A output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
 TMR10-2412WIR	10W DC/DC railway converter regulated, 9-36V input, 12V fixed output voltage, 840mA output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
 TMR10-2413WIR	10W DC/DC railway converter regulated, 9-36V input, 15V fixed output voltage, 670mA output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
@@ -4095,8 +4202,8 @@ R_Potentiometer_Small	Potentiometer	~
 R_Potentiometer_Trim	Trim-potentiometer	~
 R_Potentiometer_Trim_US	Trim-potentiometer, US symbol	~
 R_Potentiometer_US	Potentiometer, US symbol	~
-R_Shunt	Shunt resistor	~
-R_Shunt_US	Shunt resistor, US symbol	~
+R_Shunt	Shunt resistor with Kelvin connections	~
+R_Shunt_US	Shunt resistor with Kelvin connections, US symbol	~
 R_Small	Resistor, small symbol	~
 R_Small_US	Resistor, small US symbol	~
 R_Trim	Trimmable resistor (preset resistor)	~
@@ -4919,6 +5026,7 @@ GBU4A	Single-Phase Bridge Rectifier, 35V Vrms, 4.0A If, GBU package	http://www.v
 GUO40-08NO1	250V Vrms, 40A If, GUFP(X025B)	https://ixapps.ixys.com/DataSheet/GUO40-08NO1.pdf
 KBU4A	Single-Phase Bridge Rectifier, 35V Vrms, 4.0A If, KBU package	http://www.vishay.com/docs/88656/kbu4.pdf
 MB2S	Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 140V Vrms, 0.5A If, TO-269AA	http://www.vishay.com/docs/88661/mb2s.pdf
+MB8S	Bridge Rectifier, 560V Vrms, 35A Ifsm, 0.5A If(av), SOIC-4 (Onsemi CASE 751EP)	https://www.onsemi.com/pdf/datasheet/mb8s-d.pdf
 MBL104S	Miniature Glass Passivated Single-Phase Surface Mount Bridge Rectifiers, 280V Vrms, 1.0A If, MBLS SMD package	http://www.vishay.com/docs/89959/mbl104s.pdf
 MDB6S	Single-Phase Bridge Rectifier, 420V Vrms, 1A If, TSSOP-4	https://www.onsemi.com/pub/Collateral/MDB8S-D.PDF
 SC35VB80S-G	560V Vrms, 35A If, SCVB-L	https://www.comchiptech.com/admin/files/product/SC35VB80S-G%20Thru506369.%20SC35VB160S-G%20RevB.pdf
@@ -5157,6 +5265,7 @@ DE113-XX-XX	3 and half digit 7 segment transmissive standard LCD with LO BAT, pi
 DE114-RS-20	3 and half digit 7 segment reflective standard LCD with ~~ and BAT, pin length 6.35mm, -20°C to +70°C, 3V-5V VDD	http://www.display-elektronik.de/filter/DE114-RS-20_635.pdf
 DE122-XX-XX	6 digit 7 segment reflective standard LCD, pin length 6.35mm, -20°C to +70°C, 3V-5V VDD	http://www.display-elektronik.de/filter/DE122-RS-20_635.pdf
 DE170-XX-XX	3 and half digit 7 segment reflective standard LCD with arrow, pin length 7.5mm, -20°C to +70°C, 3V-5V VDD	http://www.display-elektronik.de/filter/DE170-RS-20_75.pdf
+DL1416	".160"", 4-Digit 16-Segment plus decimal alphanumeric intelligent display with Memory/Decoder/Driver"	https://partstack.com/resources/pdf/images/VipMasterIC/IC/INFN/INFNS19899/INFNS19899-1.pdf
 EA_T123X-I2C	3 Lines, 12 character alpha numeric LCD, transreflective STN and FSTN Gray, I2C, single or dual power	http://www.lcd-module.de/pdf/doma/t123-i2c.pdf
 ELD-426SYGWA	Double 7 segment brilliant yellow green LED common anode	http://www.everlight.com/file/ProductFile/D426SYGWA-S530-E2.pdf
 HDSM-441B	Double 7 segment Blue LED common anode SMD mount	https://docs.broadcom.com/docs/AV02-1589EN
@@ -5310,9 +5419,9 @@ ACPL-336J	2.5A Gate Drive Optocoupler with Integrated LED Driver, Active Miller 
 ACPL-P343	Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns, SSO-6	https://docs.broadcom.com/docs/AV02-2928EN
 ACPL-W343	Gate Drive Optocoupler, Output Current 4.0/4.0A, Propagation Delay 200ns, SSO-6	http://www.avagotech.com/docs/AV02-2928EN
 AN34092B	Single-Channel GaN-Tr High-Speed Gate Driver, Output Current 6.0A, 24V, -5V Negative Gate Voltage, HQFN-16	https://industrial.panasonic.com/content/data/SC/ds/ds4/AN34092B_E.pdf
-EL7202CN	High Speed, Dual Channel Power MOSFET Driver, 4.5...15V supply, I(PK)=2A, non-inverting drivers, DIP-8	https://www.mouser.com/catalog/specsheets/intersil_fn7282.pdf
-EL7212CN	High Speed, Dual Channel Power MOSFET Driver, 4.5...15V supply, I(PK)=2A, inverting drivers, DIP-8	https://www.mouser.com/catalog/specsheets/intersil_fn7282.pdf
-EL7222CN	High Speed, Dual Channel Power MOSFET Driver, 4.5...15V supply, I(PK)=2A, complementary drivers, DIP-8	https://www.mouser.com/catalog/specsheets/intersil_fn7282.pdf
+EL7202CN	High Speed, Dual Channel Power MOSFET Driver, 4.5..15V supply, I(PK)=2A, non-inverting drivers, DIP-8	https://www.mouser.com/catalog/specsheets/intersil_fn7282.pdf
+EL7212CN	High Speed, Dual Channel Power MOSFET Driver, 4.5..15V supply, I(PK)=2A, inverting drivers, DIP-8	https://www.mouser.com/catalog/specsheets/intersil_fn7282.pdf
+EL7222CN	High Speed, Dual Channel Power MOSFET Driver, 4.5..15V supply, I(PK)=2A, complementary drivers, DIP-8	https://www.mouser.com/catalog/specsheets/intersil_fn7282.pdf
 FAN3111C	High Speed Low Side MOSFET Gate Driver with CMOS inverting and non-inverting inputs, 4.5-18 V, 1.0 A, SOT-23-5	https://www.onsemi.com/pdf/datasheet/fan3111c-d.pdf
 FAN3111E	High Speed Low Side MOSFET Gate Driver with logic voltage reference input, 4.5-18 V, 1.0 A, SOT-23-5	https://www.onsemi.com/pdf/datasheet/fan3111c-d.pdf
 FAN3121xMX	High-speed low-side gate driver, single inverting output, 4.5..18V supply, 9.7A sink, 7.1A source, SOIC-8	https://www.onsemi.com/download/data-sheet/pdf/fan3121-d.pdf
@@ -5372,6 +5481,7 @@ L6491	High voltage high and low-side 4 A gate driver, SO-14	https://www.st.com/r
 LF2190N	High and Low Side Driver, 600V, 4.5/4.5A, SO-8	https://www.littelfuse.com/media?resourcetype=datasheets&itemid=4c945cfe-ef54-4349-b2fb-9c1330d8240c&filename=littelfuse-gate-drivers-lf2190ntr-datasheet
 LM2105D	107-V, 0.5-A, 0.8-A Half-Bridge Driver with 5-V UVLO and Integrated Bootstrap Diode, SOIC-8	https://www.ti.com/lit/ds/symlink/lm2105.pdf
 LM2105DSG	107-V, 0.5-A, 0.8-A Half-Bridge Driver with 5-V UVLO and Integrated Bootstrap Diode, WSON-8-1EP	https://www.ti.com/lit/ds/symlink/lm2105.pdf
+LM5106SD	Half-Bridge Gate Driver, Output Current 1.8A, 100V, WSON-10	https://www.ti.com/lit/ds/symlink/lm5106.pdf
 LM5109ASD	Half-Bridge Gate Driver, Output Current 1.0A, 100V, WSON-8	http://www.ti.com/lit/ds/symlink/lm5109a.pdf
 LM5109MA	Half-Bridge Gate Driver, Output Current 1.0A, 100V, SOIC-8	http://www.ti.com/lit/ds/symlink/lm5109.pdf
 LMG1020YFF	5-V, 7-A, 5-A Low-Side GaN and MOSFET Driver For 1-ns Pulse Width, DSBGA-6	https://www.ti.com/lit/ds/symlink/lmg1020.pdf
@@ -5381,6 +5491,9 @@ MAX15012AxSA	High Frequency Half Bridge Driver, Output Current 2.0A, 175V, CMOS 
 MAX15012BxSA	High Frequency Half Bridge Driver, Output Current 2.0A, 175V, CMOS Input, SOIC-8	https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
 MAX15012CxSA	High Frequency Half Bridge Driver, Output Current 2.0A, 175V, CMOS Input, SOIC-8	https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
 MAX15012DxSA	High Frequency Half Bridge Driver, Output Current 2.0A, 175V, CMOS Input, SOIC-8	https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
+MAX626xSA	Dual Power MOSFET Driver, 4.5..18V supply, IPK = 2A, 20ns rise / fall times (1 nF load), TTL/CMOS compatible inputs, inverting drivers, SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX626-TSC428.pdf
+MAX627xSA	Dual Power MOSFET Driver, 4.5..18V supply, IPK = 2A, 20ns rise / fall times (1 nF load), TTL/CMOS compatible inputs, non-inverting drivers, SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX626-TSC428.pdf
+MAX628xSA	Dual Power MOSFET Driver, 4.5..18V supply, IPK = 2A, 20ns rise / fall times (1 nF load), TTL/CMOS compatible inputs, complementary drivers, SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX626-TSC428.pdf
 MCP1415	1.5A High speed power MOSFET driver with inverting output, SOT-23-5	http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf
 MCP1415R	1.5A High speed power MOSFET driver with inverting output, SOT-23-5	http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf
 MCP1416	1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5	http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf
@@ -5390,9 +5503,9 @@ MCP14A0304xMNY	Dual 3A-Peak MOSFET Driver, non-inverting outputs, DFN-8	http://w
 MCP14A0305xMNY	Dual 3A-Peak MOSFET Driver, inverting/non-inverting outputs, DFN-8	http://ww1.microchip.com/downloads/en/DeviceDoc/MCP14A0303_4_5-Data-Sheet-20006046A.pdf
 MCP14A0901xMNY	Dual 9A-Peak MOSFET Driver, inverting outputs, DFN-8	http://ww1.microchip.com/downloads/en/DeviceDoc/MCP14A0901_2-Data-Sheet-20006183A.pdf
 MCP14A0902xMNY	Dual 9A-Peak MOSFET Driver, non-inverting outputs, DFN-8	http://ww1.microchip.com/downloads/en/DeviceDoc/MCP14A0901_2-Data-Sheet-20006183A.pdf
-MIC4426	Dual 1.5A-Peak Low-Side MOSFET Driver, DIP-8/SOIC-8/MSOP-8	http://www.intersil.com/content/dam/Intersil/documents/el72/el7202-12-22.pdf
-MIC4427	Dual 1.5A-Peak Low-Side MOSFET Driver, DIP-8/SOIC-8/MSOP-8	http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf
-MIC4428	Dual 1.5A-Peak Low-Side MOSFET Driver, DIP-8/SOIC-8/MSOP-8	http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf
+MIC4426	Dual 1.5A-Peak Low-Side MOSFET Driver, 4.5..18V supply voltage, TTL/CMOS compatible inputs, inverting drivers, DIP-8 / SOIC-8 / MSOP-8	https://ww1.microchip.com/downloads/en/DeviceDoc/MIC4426-7-8-Dual-1-5A-Peak-Low-Side-MOSFET-DRivers-DS20006202A.pdf
+MIC4427	Dual 1.5A-Peak Low-Side MOSFET Driver, 4.5..18V supply voltage, TTL/CMOS compatible inputs, non-inverting drivers, DIP-8 / SOIC-8 / MSOP-8	https://ww1.microchip.com/downloads/en/DeviceDoc/MIC4426-7-8-Dual-1-5A-Peak-Low-Side-MOSFET-DRivers-DS20006202A.pdf
+MIC4428	Dual 1.5A-Peak Low-Side MOSFET Driver, 4.5..18V supply voltage, TTL/CMOS compatible inputs, complementary drivers, DIP-8 / SOIC-8 / MSOP-8	https://ww1.microchip.com/downloads/en/DeviceDoc/MIC4426-7-8-Dual-1-5A-Peak-Low-Side-MOSFET-DRivers-DS20006202A.pdf
 MIC4604YM	85V Half-Bridge MOSFET Driver with up to 16V Programmable Gate Drive, SOIC-8	http://ww1.microchip.com/downloads/en/DeviceDoc/20005852A.pdf
 NCD5702	High Current IGBT Gate, +4/-6A, SOIC-16	https://www.onsemi.com/pub/Collateral/NCD5702-D.PDF
 PE29101	UltraCMOS High-Speed FET Driver, 40 MHz, Output Current 2.0A/4.0A, 80V, Half Bridge, Low Side Output, CSP-16	http://www.psemi.com/pdf/datasheets/pe29101ds.pdf
@@ -5405,9 +5518,9 @@ STGAP2SCM	Galvanically isolated 4 A single gate driver, Single Output, Miller Cl
 STGAP2SM	Galvanically isolated 4 A single gate driver, Dual Output, SOIC-8	https://www.st.com/resource/en/datasheet/stgap2s.pdf
 TC4421	9A High-Speed inverting MOSFET Driver	http://ww1.microchip.com/downloads/en/DeviceDoc/20001420F.pdf
 TC4422	9A High-Speed non-inverting MOSFET Driver	http://ww1.microchip.com/downloads/en/DeviceDoc/20001420F.pdf
-TC4426xOA	1.5A Dual High-Speed Power MOSFET Drivers, 4.5...18V supply, TTL/CMOS compatible inputs, inverting drivers, SOIC-8	https://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf
-TC4427xOA	1.5A Dual High-Speed Power MOSFET Drivers, 4.5...18V supply, TTL/CMOS compatible inputs, non-inverting drivers, SOIC-8	https://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf
-TC4428xOA	1.5A Dual High-Speed Power MOSFET Drivers, 4.5...18V supply, TTL/CMOS compatible inputs, complementary drivers, SOIC-8	https://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf
+TC4426xOA	1.5A Dual High-Speed Power MOSFET Drivers, 4.5..18V supply, TTL/CMOS compatible inputs, inverting drivers, SOIC-8	https://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf
+TC4427xOA	1.5A Dual High-Speed Power MOSFET Drivers, 4.5..18V supply, TTL/CMOS compatible inputs, non-inverting drivers, SOIC-8	https://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf
+TC4428xOA	1.5A Dual High-Speed Power MOSFET Drivers, 4.5..18V supply, TTL/CMOS compatible inputs, complementary drivers, SOIC-8	https://ww1.microchip.com/downloads/en/DeviceDoc/20001422G.pdf
 TLP250	Gate Drive Optocoupler, Output Current 1.5/1.5A, DIP-8	http://toshiba.semicon-storage.com/info/docget.jsp?did=16821&prodName=TLP250
 UCC21520DW	Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 8V UVLO, SOIC-16W	http://www.ti.com/lit/ds/symlink/ucc21520.pdf
 UCC27511ADBV	Single-Channel High-Speed Low-Side Gate Driver With 4-A Peak Source and 8-A Peak Sink, SOT-23-6	https://www.ti.com/lit/ds/symlink/ucc27511a.pdf
@@ -5419,9 +5532,9 @@ ZXGD3009E6	2A (peak) Gate driver, 40V, SOT-23-6	https://www.diodes.com/assets/Da
 1EDN8550B	Single-Channel EiceDRIVER With True Differential Inputs, 8V UVLO, +4/-8A, SOT-23-6	https://www.infineon.com/dgdl/Infineon-1EDN7550B-DS-v02_00-EN.pdf?fileId=5546d46262b31d2e01635d9799ef264f
 2ED1323S12P	1200V Half Bridge Gate Driver with active Miller clamp, OCP, SCC, Bootstrap Diode, ±2.3A drive current, PG-DSO-20-U03	https://www.infineon.com/dgdl/Infineon-2ED1323S12P_2ED1324S12P-DataSheet-v01_01-EN.pdf?fileId=8ac78c8c869190210186e92f0f506d0c
 DS0026	Dual High-Speed MOS Driver, 10..20V supply voltage, 1.5A peak output current, TTL compatible inputs, DIP-8 / SOIC-8 / MSOP-8	https://media.digikey.com/pdf/Data%20Sheets/National%20Semiconductor%20PDFs/DS0026.pdf
-EL7202CS	High Speed, Dual Channel Power MOSFET Driver, 4.5...15V supply, I(PK)=2A, non-inverting drivers, SOIC-8	https://www.mouser.com/catalog/specsheets/intersil_fn7282.pdf
-EL7212CS	High Speed, Dual Channel Power MOSFET Driver, 4.5...15V supply, I(PK)=2A, inverting drivers, SOIC-8	https://www.mouser.com/catalog/specsheets/intersil_fn7282.pdf
-EL7222CS	High Speed, Dual Channel Power MOSFET Driver, 4.5...15V supply, I(PK)=2A, complementary drivers, SOIC-8	https://www.mouser.com/catalog/specsheets/intersil_fn7282.pdf
+EL7202CS	High Speed, Dual Channel Power MOSFET Driver, 4.5..15V supply, I(PK)=2A, non-inverting drivers, SOIC-8	https://www.mouser.com/catalog/specsheets/intersil_fn7282.pdf
+EL7212CS	High Speed, Dual Channel Power MOSFET Driver, 4.5..15V supply, I(PK)=2A, inverting drivers, SOIC-8	https://www.mouser.com/catalog/specsheets/intersil_fn7282.pdf
+EL7222CS	High Speed, Dual Channel Power MOSFET Driver, 4.5..15V supply, I(PK)=2A, complementary drivers, SOIC-8	https://www.mouser.com/catalog/specsheets/intersil_fn7282.pdf
 FAN3278	8-27V PMOS-NMOS Bridge Driver, SOIC-8	https://www.onsemi.com/pub/Collateral/FAN3278-D.pdf
 FAN7388	3 Half-Bridge Gate-Drive IC, 600V operation, Output Current 350/650mA, SOIC-20	https://www.onsemi.com/pub/Collateral/FAN7388-D.pdf
 FL5160MX	IGBT and MOSFET, AC Phase Cut, Dimmer Controller, SSOP-10	https://www.onsemi.com/pub/Collateral/FL5150-D.pdf
@@ -5506,8 +5619,7 @@ MAX15013AxSA	High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL I
 MAX15013BxSA	High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL Input, SOIC-8	https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
 MAX15013CxSA	High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL Input, SOIC-8	https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
 MAX15013DxSA	High Frequency Half Bridge Driver, Output Current 2.0A, 175V, TTL Input, SOIC-8	https://datasheets.maximintegrated.com/en/ds/MAX15012-MAX15013B.pdf
-MC33152	High Speed Dual MOSFET Drivers, 1.5A, -40 to 125C, DIP-8/SOIC-8	https://www.onsemi.com/pub/Collateral/MC34152-D.PDF
-MC34152	High Speed Dual MOSFET Drivers, 1.5A, 0 to 70C, DIP-8/SOIC-8	https://www.onsemi.com/pub/Collateral/MC34152-D.PDF
+MC3x152	Dual High Speed MOSFET Driver, 6.1..18V supply voltage, 1.5A peak output current, 15ns rise / fall times (1 nF load), DIP-8 / SOIC-8	https://www.onsemi.com/pub/Collateral/MC34152-D.PDF
 MCP14A1201xMNY	Dual 12A-Peak MOSFET Driver, inverting outputs, DFN-8	http://ww1.microchip.com/downloads/en/DeviceDoc/MCP14A1201-Family-Data-Sheet-DS20006228A.pdf
 MCP14A1202xMNY	Dual 12A-Peak MOSFET Driver, non-inverting outputs, DFN-8	http://ww1.microchip.com/downloads/en/DeviceDoc/MCP14A1201-Family-Data-Sheet-DS20006228A.pdf
 UCC21520ADW	Isolated Dual-Channel Gate Driver, Output Current 4.0/6.0A, 5.7kV Isolation, 5V UVLO, SOIC-16W	http://www.ti.com/lit/ds/symlink/ucc21520.pdf
@@ -5521,7 +5633,7 @@ AL8860MP	40V 1.5A Constant Current Buck LED Driver IC, MSOP-8	https://www.diodes
 AL8860WT	40V 1.5A Constant Current Buck LED Driver IC, TSOT-23-5	https://www.diodes.com/assets/Datasheets/AL8860.pdf
 AP3019AKTR	1.2MHz White LED Boost Drivers with Built-in Schottky, 2.5..16Vin, <30Vout, SOT-23-6	https://www.diodes.com/assets/Datasheets/AP3019A.pdf
 BCR430UW6	100 mA adjustable constant current driver (linear), max 42V, SOT26 (SC-74)	https://www.diodes.com/assets/Datasheets/BCR430UW6.pdf
-CH455G	Digital tube driver and keyboard scan (common cathode only), SOP-16	https://www.wch-ic.com/products/CH455.html
+CH455G	Digital tube driver and keyboard scan (common cathode only), SOIC-16 (SOP-16)	https://www.wch-ic.com/products/CH455.html
 CH455K	Digital tube driver and keyboard scan (common cathode only), with interrupt/current setting, DIP-18	https://www.wch-ic.com/products/CH455.html
 CL220K4-G	Temperature Compensated Constant Current LED IC, D-PAK	http://ww1.microchip.com/downloads/en/DeviceDoc/20005413A.pdf
 CL220N5-G	Temperature Compensated Constant Current LED IC, TO-220	http://ww1.microchip.com/downloads/en/DeviceDoc/20005413A.pdf
@@ -5555,7 +5667,7 @@ KTD2061xxUAC	36-channel (12xRGB) LED driver with I²C Control, VCC = VIN = 2.5..
 LED1642GWPTR	16-channel LED driver with error detection, current gain control and 12/16 bit PWM brightness control, QSOP-24	https://www.st.com/resource/en/datasheet/led1642gw.pdf
 LED1642GWQTR	16-channel LED driver with error detection, current gain control and 12/16 bit PWM brightness control, QFN-24	https://www.st.com/resource/en/datasheet/led1642gw.pdf
 LED1642GWTTR	16-channel LED driver with error detection, current gain control and 12/16 bit PWM brightness control, TSSOP-24	https://www.st.com/resource/en/datasheet/led1642gw.pdf
-LED1642GWXTTR	16-channel LED driver with error detection, current gain control and 12/16 bit PWM brightness control, TSSOP-24	https://www.st.com/resource/en/datasheet/led1642gw.pdf
+LED1642GWXTTR	16-channel LED driver with error detection, current gain control and 12/16 bit PWM brightness control, HTSSOP-24	https://www.st.com/resource/en/datasheet/led1642gw.pdf
 LED5000	3A monolithic step-down current source with dimming, HSOP-8	https://www.st.com/resource/en/datasheet/led5000.pdf
 LM3914N	10 LED Dot/Bar Display Driver, DIP-18	https://www.ti.com/lit/ds/symlink/lm3914.pdf
 LM3914V	10 LED Dot/Bar Display Driver, PLCC-20	https://www.ti.com/lit/ds/symlink/lm3914.pdf
@@ -5600,7 +5712,7 @@ TLC5940NT	16-Channel LED Driver With DOT Correction and Grayscale PWM Control, D
 TLC5940PWP	16-Channel LED Driver With DOT Correction and Grayscale PWM Control, TSSOP package with thermal pad	http://www.ti.com/lit/ds/symlink/tlc5940.pdf
 TLC5947DAP	24-Channel, 12-Bit PWM LED Driver, HTSSOP	http://www.ti.com/lit/ds/symlink/tlc5947.pdf
 TLC5947RHB	24-Channel, 12-Bit PWM LED Driver, QFN	http://www.ti.com/lit/ds/symlink/tlc5947.pdf
-TLC5949PWP	16-channel, 12bit ES-PWM, constant-current sink LED driver, HTSSOP-24	https://www.ti.com/lit/ds/symlink/tlc5949.pdf
+TLC5949PWP	16-channel, 12-bit ES-PWM, constant-current sink LED driver, HTSSOP-24	https://www.ti.com/lit/ds/symlink/tlc5949.pdf
 TLC5951DAP	24-Channel, 12-Bit PWM LED Driver With 7-Bit Dot Correction and 3-Group, 8-Bit Global Brightness Control, HTSSOP-38	http://www.ti.com/lit/ds/symlink/tlc5951.pdf
 TLC5951RHA	24-Channel, 12-Bit PWM LED Driver With 7-Bit Dot Correction and 3-Group, 8-Bit Global Brightness Control, Texas S-PVQFN-N40	http://www.ti.com/lit/ds/symlink/tlc5951.pdf
 TLC5957RTQ	48-channel, 16bit ES-PWM LED driver with Pre-charge FET, LED OPEN Detection and Caterpillar Cancelling, QFN-56	http://www.ti.com/lit/ds/symlink/tlc5957.pdf
@@ -5612,6 +5724,9 @@ TPS61165DRV	High-Brightness, White LED Driver, 3V to 18V input voltage range, in
 TPS92612DBV	Constant current LED Driver, 4.5V to 40V input voltage range, up to 40V/150mA output,  SOT-23-5	https://www.ti.com/lit/ds/symlink/tps92612.pdf
 TPS92692PWP	LED Driver Buck Boost Sepic Flyback, Input 4.5-65V, with PWM Dimming, HTSSOP-20	https://www.ti.com/lit/ds/symlink/tps92692-q1.pdf
 WS2811	3-Channel 8-Bit PWM LED Driver, DIP-8/SOIC-8	https://cdn-shop.adafruit.com/datasheets/WS2811.pdf
+ZXLD383	LED Driver Boost Converter, PFM controlled, operating frequency 330kHz (Vled = 3.5V), TSOT-23-5	https://www.diodes.com/assets/Datasheets/ZXLD383.pdf
+ZXSC310	LED Driver Boost Converter, PFM controlled, up to 200kHz, SOT-23-5	https://www.diodes.com/assets/Datasheets/ZXSC310.pdf
+ZXSC400	LED Driver Boost Converter, PFM controlled, maximum operating frequency 200kHz, SOT-23-6	https://www.diodes.com/assets/Datasheets/ZXSC400.pdf
 iC-HTG	CW power laser diode driver, external driver transistor, integrated DAC & ADC, SPI or I2C, 3 to 24V supply, temperature monitor, HVQFN-24	https://www.ichaus.de/product/ic-htg/#documents
 AP3019AKTTR	1.2MHz White LED Boost Drivers with Built-in Schottky, 2.5..16Vin, <30Vout, ThinSOT-23-6	https://www.diodes.com/assets/Datasheets/AP3019A.pdf
 CH455H	Digital tube driver and keyboard scan (common cathode only), with interrupt/current setting, SOP-18	https://www.wch-ic.com/products/CH455.html
@@ -5643,6 +5758,8 @@ A4952_LY	Full-Bridge, DMOS PWM, Motor Driver, 40V, 2A, MSOP-10	www.allegromicro.
 A4954	Fullbridge PWM Motor Driver, UVLO, OCP, Current Limit, Short Circuit Protection, TSSOP-16	https://www.allegromicro.com/-/media/Files/Datasheets/A4954-Datasheet.ashx
 AMT49413	3-Phase BLDC Controller and MOSFET Driver, QFN-48	https://www.allegromicro.com/-/media/Files/Datasheets/AMT49413-Datasheet.ashx
 CP3119M	H-Bridge brushed DC motor driver driver with current limit, 6A, 3..30Vm, 110mOhm RDSon, 30kHz PWM, SO-8	https://lcsc.com/datasheet/lcsc_datasheet_2504101957_XBLW-CP3119MDTR-XBLW_C42395499.pdf
+DRV8220DRL	H-Bridge motor driver, 4.5..18V, 1.76A, SOT-563	https://www.ti.com/lit/ds/symlink/drv8220.pdf
+DRV8220SDG	H-Bridge motor driver, 4.5..18V, 1.76A, selectable control interface, WSON-8	https://www.ti.com/lit/ds/symlink/drv8220.pdf
 DRV8231ADSG	H-Bridge brushed DC motor driver driver, 3.7Apk,  4.5..33Vm, 600mOhm shunt, integrated current mirror, PWM input, WSON-8	https://www.ti.com/lit/ds/symlink/drv8231a.pdf
 DRV8308	Brushless DC motor controller, closed loop, hall sensor inputs, current limiting, SPI interface	http://www.ti.com/lit/ds/symlink/drv8308.pdf
 DRV8412	Dual Full-Bridge PWM Motor Driver 50V 2x6A Peak, HTSSOP-44 EP ThermalVias	https://www.ti.com/lit/gpn/DRV8412
@@ -5696,6 +5813,7 @@ STSPIN220	Low voltage stepper motor driver, 1.8V to 10V input, 1.3Arms output, 0
 STSPIN230	Low voltage triple half-bridge motor driver, 1.8V to 10V input, 1.3Arms output, 0.4Ω Rdson per phase (typical), QFN-16 package	www.st.com/resource/en/datasheet/stspin230.pdf
 STSPIN233	Low voltage three phase and three sense motor driver, 1.8V to 10V input, 1.3Arms output, 0.4Ω Rdson per phase (typical), QFN-16 package	www.st.com/resource/en/datasheet/stspin233.pdf
 STSPIN240	Low voltage dual brush DC motor driver, 1.8V to 10V input, 1.3Arms output, 0.4Ω Rdson per phase (typical), QFN-16 package	www.st.com/resource/en/datasheet/stspin240.pdf
+STSPIN32F0A	Advanced BLDC controller with embedded STM32 MCU, VQFN-48	https://www.st.com/resource/en/datasheet/stspin32f0a.pdf
 TB6612FNG	Driver IC for Dual DC motor, SSOP-24	https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html
 TC78H670FTG	Bipolar stepping motor driver IC, QFN-16	https://toshiba.semicon-storage.com/info/TC78H670FTG_datasheet_en_20210209.pdf?did=68606&prodName=TC78H670FTG
 TMC2041-LA	Standalone Dual driver for two-phase bipolar stepper motor, 2.2A, 4.75-26V, SPI, UART, QFN-48	https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2041_datasheet.pdf
@@ -6029,6 +6147,7 @@ FN406-0.5-02	0.5A ultra compact EMI Filter	https://www.schaffner.com/products/do
 LTC1065xN8	5th-Order Active Low Pass Filter, 0.0003 to 50kHz, Bessel Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, Low DC offset, 8V Max dual supply, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/1065fb.pdf
 LTC1065xSW	5th-Order Active Low Pass Filter, 0.0003 to 50kHz, Bessel Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, Low DC offset, 8V Max dual supply, SOIC-16	https://www.analog.com/media/en/technical-documentation/data-sheets/1065fb.pdf
 LTC1562xxG	Active RC Quad Universal Filter, 10kHz to 150kHz, Low Noise, Low Distortion, SSOP-20	https://www.analog.com/media/en/technical-documentation/data-sheets/1562fa.pdf
+MAX7400xSA	8th-Order Active Low Pass Filter, 0.001 to 10kHz, Elliptic Response, 1.5 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, SOIC-8	https://www.analog.com/en/max7400/datasheet
 P300PL104M275xC222	EMI suppression capacitor PZB300 series, metallized paper, X2 and Y2 classes, 275 VAC, Cx 0.10uF, Cy 2.2nF, legacy P/N: PZB300MC11xxx	https://content.kemet.com/datasheets/KEM_F3019_PZB300X2_2XY2_275.pdf
 SF14-1575F5UUA1	1575MHz SAW filter, SMD 1411	https://global.kyocera.com/prdct/electro/product/pdf/sf14_gnss.pdf
 0603USB-142	Coilcraft common mode choke, 500mA, 250VAC, 98nH, 174mohm, 1.9Ghz	https://www.coilcraft.com/pdfs/0603usb.pdf
@@ -6073,6 +6192,14 @@ FN406B-8.4-02	8.4A ultra compact EMI Filter, medical version	https://www.schaffn
 LTC1063xN8	5th-Order Active Low Pass Filter, 0.0003 to 50kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, Low DC offset, 8V Max dual supply, DIP-8	https://www.analog.com/en/ltc1063/datasheet
 LTC1063xSW	5th-Order Active Low Pass Filter, 0.0003 to 50kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, Low DC offset, 8V Max dual supply, SOIC-16	https://www.analog.com/en/ltc1063/datasheet
 LTC1562xG-2	Active RC Quad Universal Filter, 20kHz to 300kHz, Low Noise, Low Distortion, SSOP-20	https://www.analog.com/media/en/technical-documentation/data-sheets/15622fa.pdf
+MAX7400xPA	8th-Order Active Low Pass Filter, 0.001 to 10kHz, Elliptic Response, 1.5 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, DIP-8	https://www.analog.com/en/max7400/datasheet
+MAX7401xSA	8th-Order Active Low Pass Filter, 0.001 to 5kHz, Bessel Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7401-MAX7405.pdf
+MAX7403xSA	8th-Order Active Low Pass Filter, 0.001 to 10kHz, Elliptic Response, 1.2 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, SOIC-8	https://www.analog.com/en/max7400/datasheet
+MAX7404xSA	8th-Order Active Low Pass Filter, 0.001 to 10kHz, Elliptic Response, 1.5 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, SOIC-8	https://www.analog.com/en/max7400/datasheet
+MAX7405xSA	8th-Order Active Low Pass Filter, 0.001 to 5kHz, Bessel Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7401-MAX7405.pdf
+MAX7407xSA	8th-Order Active Low Pass Filter, 0.001 to 10kHz, Elliptic Response, 1.2 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, SOIC-8	https://www.analog.com/en/max7400/datasheet
+MAX7418xUA	5th-Order Active Low Pass Filter, 0.001 to 30kHz, Elliptic Response, 1.6 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf
+MAX7480xSA	8th-Order Active Low Pass Filter, 0.001 to 2kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7480.pdf
 P300PL104M275xC332	EMI suppression capacitor PZB300 series, metallized paper, X2 and Y2 classes, 275 VAC, Cx 0.10uF, Cy 3.3nF, legacy P/N: PZB300MC12xxx	https://content.kemet.com/datasheets/KEM_F3019_PZB300X2_2XY2_275.pdf
 P300PL104M275xC472	EMI suppression capacitor PZB300 series, metallized paper, X2 and Y2 classes, 275 VAC, Cx 0.10uF, Cy 4.7nF, legacy P/N: PZB300MC13xxx	https://content.kemet.com/datasheets/KEM_F3019_PZB300X2_2XY2_275.pdf
 P300PL154M275xC222	EMI suppression capacitor PZB300 series, metallized paper, X2 and Y2 classes, 275 VAC, Cx 0.15uF, Cy 2.2nF, legacy P/N: PZB300MC21xxx	https://content.kemet.com/datasheets/KEM_F3019_PZB300X2_2XY2_275.pdf
@@ -6089,6 +6216,35 @@ SAFFB2G14FA0F0A	Murata 2140MHz SAW filter, SMD 1109	https://www.murata.com/~/med
 SAFFB881MFL0F0A	Murata 881.5MHz SAW filter, SMD 1109	https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en
 SAFFB942MFM0F0A	Murata 942.5MHz SAW filter, SMD 1109	https://www.murata.com/~/media/webrenewal/support/library/catalog/products/filter/rf/p73e.ashx?la=en
 SF14-1575F5UUC1	1575MHz SAW filter, SMD 1411	https://global.kyocera.com/prdct/electro/product/pdf/sf14_gnss.pdf
+MAX7401xPA	8th-Order Active Low Pass Filter, 0.001 to 5kHz, Bessel Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7401-MAX7405.pdf
+MAX7403xPA	8th-Order Active Low Pass Filter, 0.001 to 10kHz, Elliptic Response, 1.2 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, DIP-8	https://www.analog.com/en/max7400/datasheet
+MAX7404xPA	8th-Order Active Low Pass Filter, 0.001 to 10kHz, Elliptic Response, 1.5 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, DIP-8	https://www.analog.com/en/max7400/datasheet
+MAX7405xPA	8th-Order Active Low Pass Filter, 0.001 to 5kHz, Bessel Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7401-MAX7405.pdf
+MAX7407xPA	8th-Order Active Low Pass Filter, 0.001 to 10kHz, Elliptic Response, 1.2 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, DIP-8	https://www.analog.com/en/max7400/datasheet
+MAX7408xPA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Elliptic Response, 1.6 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf
+MAX7409xPA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Bessel Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf
+MAX7410xPA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf
+MAX7411xPA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Elliptic Response, 1.25 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf
+MAX7412xPA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Elliptic Response, 1.6 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf
+MAX7413xPA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Bessel Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf
+MAX7414xPA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf
+MAX7415xPA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Elliptic Response, 1.25 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf
+MAX7419xUA	5th-Order Active Low Pass Filter, 0.001 to 30kHz, Bessel Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf
+MAX7420xUA	5th-Order Active Low Pass Filter, 0.001 to 30kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf
+MAX7421xUA	5th-Order Active Low Pass Filter, 0.001 to 30kHz, Elliptic Response, 1.25 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf
+MAX7422xUA	5th-Order Active Low Pass Filter, 0.001 to 45kHz, Elliptic Response, 1.6 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf
+MAX7480xPA	8th-Order Active Low Pass Filter, 0.001 to 2kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7480.pdf
+MAX7408xUA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Elliptic Response, 1.6 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf
+MAX7411xUA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Elliptic Response, 1.25 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf
+MAX7412xUA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Elliptic Response, 1.6 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf
+MAX7415xUA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Elliptic Response, 1.25 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7408-MAX7415.pdf
+MAX7423xUA	5th-Order Active Low Pass Filter, 0.001 to 45kHz, Bessel Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf
+MAX7424xUA	5th-Order Active Low Pass Filter, 0.001 to 45kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf
+MAX7425xUA	5th-Order Active Low Pass Filter, 0.001 to 45kHz, Elliptic Response, 1.25 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf
+MAX7409xUA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Bessel Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf
+MAX7410xUA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf
+MAX7413xUA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Bessel Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf
+MAX7414xUA	5th-Order Active Low Pass Filter, 0.001 to 15kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7409-MAX7414.pdf
 MC6845	CRT Controller 1MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheet_pdf/motorola/MC6845L_and_MC6845P.pdf
 MC68A45	CRT Controller 1.5MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheet_pdf/motorola/MC6845L_and_MC6845P.pdf
 MC68B45	CRT Controller 2MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheet_pdf/motorola/MC6845L_and_MC6845P.pdf
@@ -6359,10 +6515,15 @@ MCP23008-xSO	8-bit I/O expander, I2C, interrupts, SOIC-18	http://ww1.microchip.c
 MCP23008-xSS	8-bit I/O expander, I2C, interrupts, SSOP-20	http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf
 MCP23017_ML	16-bit I/O expander, I2C, interrupts, w pull-ups, GPA/B7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017), QFN-28	https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf
 MCP23017_SO	16-bit I/O expander, I2C, interrupts, w pull-ups, GPA/B7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017),  SOIC-28	https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf
+MCP23018x-x-MJ	16-bit I/O expander, I2C interface, open-drain outpus (with configurable pull-up resistors), 2 interrupt outputs, VQFN-24	https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23018-Data-Sheet-DS20002103.pdf
+MCP23018x-x-SO	16-bit I/O expander, I2C interface, open-drain outpus (with configurable pull-up resistors), 2 interrupt outputs, SOIC-28	https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23018-Data-Sheet-DS20002103.pdf
+MCP23018x-x-SS	16-bit I/O expander, I2C interface, open-drain outpus (with configurable pull-up resistors), 2 interrupt outputs, SSOP-24	https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23018-Data-Sheet-DS20002103.pdf
 MCP23S17_ML	16-bit I/O expander, SPI, interrupts, w pull-ups, QFN-28	http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
 MCP23S17_SO	16-bit I/O expander, SPI, interrupts, w pull-ups, SOIC-28	http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
 MCP23S17_SP	16-bit I/O expander, SPI, interrupts, w pull-ups, SPDIP-28	http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
 MCP23S17_SS	16-bit I/O expander, SPI, interrupts, w pull-ups, SSOP-28	http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+MCP23S18x-x-MJ	16-bit I/O expander, SPI interface, open-drain outpus (with configurable pull-up resistors), 1 interrupt output, VQFN-24	https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23018-Data-Sheet-DS20002103.pdf
+MCP23S18x-x-SO	16-bit I/O expander, SPI interface, open-drain outpus (with configurable pull-up resistors), 2 interrupt outputs, SOIC-28	https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23018-Data-Sheet-DS20002103.pdf
 P82B96	Dual I2C Bus Buffer, DIP8/SO8/TSSOP8	http://www.nxp.com/docs/en/data-sheet/P82B96.pdf
 PCA9506BS	IO expander 40 GPIO, I2C 400kHz, Interrupt, Reset, OE, 2.3 - 5.5V, HVQFN-56	https://www.nxp.com/docs/en/data-sheet/PCA9505_9506.pdf
 PCA9516	5 channels I2C Hub, SO/TSSOP16	http://www.nxp.com/docs/en/data-sheet/PCA9518.pdf
@@ -6381,6 +6542,9 @@ PCA9557BS	8-bit I2C-bus and SMBus I/O port with reset, HVQFN-16	https://www.nxp.
 PCA9557D	8-bit I2C-bus and SMBus I/O port with reset, SO-16	https://www.nxp.com/docs/en/data-sheet/PCA9557.pdf
 PCA9557PW	8-bit I2C-bus and SMBus I/O port with reset, TSSOP-16	https://www.nxp.com/docs/en/data-sheet/PCA9557.pdf
 PCA9847PW	Ultra low voltage 8-channel I2C switch with reset, TSSOP-24	https://www.nxp.com/docs/en/data-sheet/PCA9847.pdf
+PCAL6408ABS	8-bit I2C-bus/SMBus I/O expander, 100 / 400 kHz (standard / fast-mode), interrupt output, 1.65 - 5.5V supply, VQFN-16	https://www.nxp.com/docs/en/data-sheet/PCAL6408A.pdf
+PCAL6408AHK	8-bit I2C-bus/SMBus I/O expander, 100 / 400 kHz (standard / fast-mode), interrupt output, 1.65 - 5.5V supply, X1QFN-16	https://www.nxp.com/docs/en/data-sheet/PCAL6408A.pdf
+PCAL6408APW	8-bit I2C-bus/SMBus I/O expander, 100 / 400 kHz (standard / fast-mode), interrupt output, 1.65 - 5.5V supply, TSSOP-16	https://www.nxp.com/docs/en/data-sheet/PCAL6408A.pdf
 PCAL6416AHF	IO expander 16 GPIO, I2C 400kHz, Interrupt, 1.65 - 5.5V, HWQFN-24	https://www.nxp.com/docs/en/data-sheet/PCAL6416A.pdf
 PCAL6416APW	IO expander 16 GPIO, I2C 400kHz, Interrupt, 1.65 - 5.5V, TSSOP-24	https://www.nxp.com/docs/en/data-sheet/PCAL6416A.pdf
 PCAL6534EV	Ultra low-voltage translating 34-bit Fm+ I2C-bus/SMBus I/O expander with Agile I/O features, interrupt output and reset	https://www.nxp.com/docs/en/data-sheet/PCAL6534.pdf
@@ -6388,13 +6552,18 @@ PCF8574TS	8 Bit Port/Expander to I2C Bus, SSOP-20	http://www.nxp.com/docs/en/dat
 PCF8575DBR	16 Bits Port/Expander to I2C Bus, SSOP-24	https://www.ti.com/lit/ds/symlink/pcf8575.pdf
 PCF8584	I2C Bus Controller, DIP/SOIC-20	http://www.nxp.com/docs/en/data-sheet/PCF8584.pdf
 PCF8591	4ch ADC, 1 DAC, I2C Bus Interface, DIP/SOIC-16	http://www.nxp.com/docs/en/data-sheet/PCF8591.pdf
+SC18IS604PW	SPI to I2C interface, 5 GPIO, +1.71 to +3.6V supply, TSSOP-16	https://www.nxp.com/docs/en/data-sheet/SC18IS604.pdf
 STMPE1600	IO expander 16 GPIO, I2C 400kHz, Interrupt, 1.65 - 3.6V, QFN-24	http://www.st.com/resource/en/datasheet/stmpe1600.pdf
+TCA6408APW	Low-Voltage 8-bit I2C and SMBus I/O Expander, TSSOP-16	https://www.ti.com/lit/gpn/tca6408a
+TCA6408ARGT	Low-Voltage 8-bit I2C and SMBus I/O Expander, VQFN-16	https://www.ti.com/lit/gpn/tca6408a
+TCA6408ARSV	Low-Voltage 8-bit I2C and SMBus I/O Expander, UQFN-16	https://www.ti.com/lit/gpn/tca6408a
 TCA9534	8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16, SOIC-16	http://www.ti.com/lit/ds/symlink/tca9534.pdf
 TCA9535DBR	16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, SSOP-24	http://www.ti.com/lit/ds/symlink/tca9535.pdf
 TCA9535PWR	16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, TSSOP-24 package	http://www.ti.com/lit/ds/symlink/tca9535.pdf
 TCA9535RGER	16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24	http://www.ti.com/lit/ds/symlink/tca9535.pdf
 TCA9535RTWR	16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24	http://www.ti.com/lit/ds/symlink/tca9535.pdf
 TCA9544A	I2C Hub, 4 Channels, Interrupts, TSSOP-20	http://www.ti.com/lit/ds/symlink/tca9544a.pdf
+TCA9546AD	I2C SMBus Hub, 4 Channels, Reset, Multiple Addresses, SOIC-16	https://www.ti.com/lit/ds/symlink/tca9546a.pdf
 TCA9548AMRGER	Low voltage 8-channel I2C switch with reset, VQFN-24	http://www.ti.com/lit/ds/symlink/tca9548a.pdf
 TCA9548APWR	Low voltage 8-channel I2C switch with reset, TSSOP-24	http://www.ti.com/lit/ds/symlink/tca9548a.pdf
 TCA9554DB	8 Bit Port/Expander, I2C SMBUS, Interrupt output, SSOP-16	http://www.ti.com/lit/ds/symlink/tca9554.pdf
@@ -6409,6 +6578,8 @@ MAX31912xUI	Ultra-Low Power Industrial, Octal, Digital Input Translator/Serializ
 MAX31913xUI	Industrial, Octal, Digital Input Translator/Serializer, 8 integrated energy-less LED drivers, SPI interface, TSSOP-28	https://www.analog.com/media/en/technical-documentation/data-sheets/max31913.pdf
 MCP23017_SP	16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28	https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf
 MCP23017_SS	16-bit I/O expander, I2C, interrupts, w pull-ups, SSOP-28	https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf
+MCP23018x-x-SP	16-bit I/O expander, I2C interface, open-drain outpus (with configurable pull-up resistors), 2 interrupt outputs, DIP-28	https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23018-Data-Sheet-DS20002103.pdf
+MCP23S18x-x-SP	16-bit I/O expander, SPI interface, open-drain outpus (with configurable pull-up resistors), 2 interrupt outputs, DIP-28	https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23018-Data-Sheet-DS20002103.pdf
 PCA9547D	Low voltage 8-channel I2C switch with reset, SO-24	https://www.nxp.com/docs/en/data-sheet/PCA9547.pdf
 PCA9547PW	Low voltage 8-channel I2C switch with reset, TSSOP-24	https://www.nxp.com/docs/en/data-sheet/PCA9547.pdf
 PCA9548APW	Low voltage 8-channel I2C switch with reset, TSSOP-24	http://www.ti.com/lit/ds/symlink/pca9548a.pdf
@@ -6420,12 +6591,15 @@ PCF8574P	8 Bit Port/Expander to I2C Bus, fixed address bits 0b0100, DIP-16	http:
 PCF8574T	8 Bit Port/Expander to I2C Bus, fixed address bits 0b0100, SOIC-16	http://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf
 TCA9535DBT	16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, SSOP-24	http://www.ti.com/lit/ds/symlink/tca9535.pdf
 TCA9535MRGER	16-bit I/O expander, I2C and SMBus interface, interrupts, w/o pull-ups, QFN-24	http://www.ti.com/lit/ds/symlink/tca9535.pdf
+TCA9546APW	I2C SMBus Hub, 4 Channels, Reset, Multiple Addresses,TSSOP-16	https://www.ti.com/lit/ds/symlink/tca9546a.pdf
 TCA9548ARGER	Low voltage 8-channel I2C switch with reset, QFN-24	http://www.ti.com/lit/ds/symlink/tca9548a.pdf
 TCA9555DBR	16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, SSOP-24	http://www.ti.com/lit/ds/symlink/tca9555.pdf
 TCA9555DBT	16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, SSOP-24	http://www.ti.com/lit/ds/symlink/tca9555.pdf
 TCA9555PWR	16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, TSSOP-24 package	http://www.ti.com/lit/ds/symlink/tca9555.pdf
 TCA9555RGER	16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, QFN-24	http://www.ti.com/lit/ds/symlink/tca9555.pdf
 TCA9555RTWR	16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, QFN-24	http://www.ti.com/lit/ds/symlink/tca9555.pdf
+TCAL6408PW	8-bit I2C/SMBus I/O expander, 100 / 400 / 1000 kHz (standard / fast-mode / fast-mode-plus), interrupt output, 1.08 - 3.6V supply, TSSOP-16	https://www.ti.com/lit/ds/symlink/tcal6408.pdf
+TCAL6408RSV	8-bit I2C/SMBus I/O expander, 100 / 400 / 1000 kHz (standard / fast-mode / fast-mode-plus), interrupt output, 1.08 - 3.6V supply, UQFN-16	https://www.ti.com/lit/ds/symlink/tcal6408.pdf
 XRA1201PIG24	16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, TSSOP-24 package	https://maxlinear-assets.azureedge.net/web/documents/xra1201.pdf
 XRA1201PIL24	16-bit I/O expander, I2C and SMBus interface, interrupts, w/ pull-ups, QFN-24 package	https://maxlinear-assets.azureedge.net/web/documents/xra1201.pdf
 ADV7611	Low Power 165MHz HDMI Receiver, LQFP-64	https://www.analog.com/media/en/technical-documentation/data-sheets/adv7611.pdf
@@ -6558,6 +6732,7 @@ SC16IS752IPW	Dual UART with I2C/SPI interface, 64 bytes of transmit and receive 
 SN65HVD11HD	3.3V, RS-485 Transceiver, SOIC-8	http://www.ti.com/lit/ds/symlink/sn65hvd11-ht.pdf
 SN75LBC176D	Differential bus transceiver, SOIC-8	http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
 SN75LBC176P	Differential bus transceiver, DIP-8	http://www.ti.com/lit/ds/symlink/sn75lbc176.pdf
+STR485	RS-485, RS-422, half duplex transceiver, selectable speed 250 kbps or up to 20 Mbps, DFN-10 (VSON-10)	https://www.st.com/resource/en/datasheet/str485.pdf
 THVD1451D	RS485 transceiver, 3.3-V to 5-V, 18-kV IEC ESD Protection, SOIC-8	http://www.ti.com/lit/ds/symlink/thvd1451.pdf
 THVD8000	RS-485 500 kbps Transceiver with OOK Modulation for Power Line Communication, 3V-5.5V supply, -7 to +12V common mode range, SOT-23-8	https://www.ti.com/lit/ds/symlink/thvd8000.pdf
 Z8530	SCC Serial Communication Controller, DIP-40	
@@ -6664,7 +6839,8 @@ CH224K	100W USB Type-C PD3.0/2.0, BC1.2 Sink Controller, SSOP-10	https://www.wch
 CH236D	USB fast charging interface PD2.0/3.0, PPS, BC1.2 , QFN-20	https://wch-ic.com/downloads/file/313.html
 CH246D	USB QII wireless charging interface PD2.0, BC1.2, QII 5W, 7.5W, 10W, 15W, QFN-20	https://wch-ic.com/downloads/file/307.html
 CH330N	USB serial converter, UART, SOIC-8	http://www.wch.cn/downloads/file/240.html
-CH334R	USB HUB controller, UART, QSOP-16	https://www.wch-ic.com/downloads/file/327.html
+CH334R	USB HUB controller, QSOP-16	https://www.wch-ic.com/downloads/file/327.html
+CH334U	USB HUB controller, QSOP-28	https://www.wch-ic.com/downloads/file/327.html
 CH340C	USB serial converter, crystal-less, UART, SOIC-16	https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf
 CH340E	USB serial converter, UART, MSOP-10	https://www.mpja.com/download/35227cpdata.pdf
 CH340G	USB serial converter, UART, SOIC-16	http://www.datasheet5.com/pdf-local-2195953
@@ -6719,6 +6895,7 @@ FT601Q	USB 3.0 Super-Speed to 32 bits Sync FIFO, QFN-76	https://ftdichip.com/wp-
 FUSB302BMPX	Programmable USB Type-C Controller w/PD, I2C address 0x22, WQFN-14	http://www.onsemi.com/pub/Collateral/FUSB302B-D.PDF
 FUSB303BTMX	USB Type-C port controller with I2C and GPIO control, X2QFN-12	https://www.onsemi.com/pdf/datasheet/fusb303b-d.pdf
 FUSB307BMPX	USB Type-C Port Controller with USB-PD, WQFN-16	http://www.onsemi.com/pub/Collateral/FUSB307B-D.PDF
+GL3224-ONY	USB 3.0 Dual LUN Memory Card Reader Controller, external firmware support (SPI Flash Memory), WQFN-48	https://lcsc.com/datasheet/lcsc_datasheet_2410121440_Genesys-Logic-GL3224-ONY04_C157358.pdf
 HUSB238A-xxxxx-QN16R	USB-PD Sink IC Port Controller, VBUS = 3..48V, USB Type-C rev. 2.1, USB-PD rev. 3.1, BC1.2, QC2.0, WQFN-16	https://www.lcsc.com/datasheet/lcsc_datasheet_2412301710_Hynetek-HUSB238A-BB001-QN16R_C24833806.pdf
 IP2721	USB TYPEC  PD Controller Interface, TSSOP-16	https://datasheet.lcsc.com/lcsc/2006111335_INJOINIC-IP2721_C603176.pdf
 MA8601	USB 2.0 High Speed 4-Port Hub Controller, SSOP-28	https://datasheetspdf.com/pdf-file/1312067/Prolific/MA8601/1
@@ -6750,7 +6927,7 @@ TUSB2036	2- or 3-Port USB1.1 HUB with optional serial EEPROM	http://www.ti.com/l
 TUSB320	USB Type-C Configuration Channel Logic and Port Control, X2QFN-12	http://www.ti.com/lit/ds/symlink/tusb320.pdf
 TUSB321	USB Type-C Configuration Channel Logic and Port Control with VCONN, X2QFN-12	http://www.ti.com/lit/ds/symlink/tusb321.pdf
 TUSB322I	USB Type-C Configuration Channel Logic and Port Control with VCONN, X2QFN-12	www.ti.com/lit/ds/symlink/tusb322i.pdf
-TUSB4041I	four port USB 2.0 Hub	http://www.ti.com/lit/ds/symlink/tusb4041i.pdf
+TUSB4041I	Four-port USB 2.0 Hub, TQFP-64	http://www.ti.com/lit/ds/symlink/tusb4041i.pdf
 TUSB7340	USB 3.0 xHCI Host Controller	http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=tusb7320&fileType=pdf
 TUSB8041	four port USB 3.0 Hub	http://www.ti.com/lit/ds/symlink/tusb8041.pdf
 UPD720202K8-7x1-BAA	PCIe to USB 3.0 Host Controller, 2 ports, QFN-48	https://www.renesas.com/us/en/document/dst/upd720201upd720202-datasheet
@@ -6895,6 +7072,7 @@ MAX14850AEE+	Six-channel digital isolator, bidirectional, 3V3, 5V, QSOP-16	https
 MID400	AC Line Monitor Logic-Out Device, DIP-8	https://www.onsemi.com/pub/Collateral/MID400-D.pdf
 MOCD207M	8-pin SOIC Dual-Channel Phototransistor Output Optocoupler, VCEO 70V, VF 1.25-1.5V (IF 30mA), CTR 100-200%, SOIC8	https://www.onsemi.com/pdf/datasheet/mocd217m-d.pdf
 NSL-32	Optocoupler, LED Input, Photocell Output	http://lunainc.com/wp-content/uploads/2016/06/NSL-32.pdf
+Optocoupler_DC_PhotoNPN_AKEC	Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector	~
 PC3H4	AC/DC Optocoupler, Vce 70V, CTR 100-250%, SOP4	http://www.sharpsme.com/download/pc3h4-epdf
 PC817	DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4	http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
 PC827	Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8	http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF
@@ -6902,8 +7080,6 @@ PC837	DC Triple Optocoupler, Vce 35V, CTR 50-300%, DIP12	http://www.soselectroni
 PC847	DC Quad Optocoupler, Vce 35V, CTR 50-300%, DIP16	http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
 PS8802-1	Single DC Optocoupler Base Connected, Vcc 35V, CTR 15%, Viso 2500V, SSOP-8	http://www.cel.com/pdf/datasheets/ps8802.pdf
 PS8802-2	Dual DC Optocoupler Base Connected, Vcc 35V, CTR 15%, Viso 2500V, SSOP-8	http://www.cel.com/pdf/datasheets/ps8802.pdf
-SFH617A-1X007T	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, 8mm clearence SMD PDIP-4	http://www.vishay.com/docs/83740/sfh617a.pdf
-SFH617A-2X009T	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celsius, UL, BSI, FIMKO, SMD PDIP-4	http://www.vishay.com/docs/83740/sfh617a.pdf
 SFH620A-1	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-125, UL, cUL, BSI, THT PDIP-4	http://www.vishay.com/docs/83675/sfh620a.pdf
 SFH620A-1X006	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-125, UL, cUL, BSI, THT PDIP-4	http://www.vishay.com/docs/83675/sfh620a.pdf
 SFH620A-2X007T	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-200 UL, cUL, BSI, SMD-4	http://www.vishay.com/docs/83675/sfh620a.pdf
@@ -7036,10 +7212,12 @@ SFH601-1	Optocoupler, phototransistor output with base connection, CTR 40-80%, V
 SFH617A-1	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4	http://www.vishay.com/docs/83740/sfh617a.pdf
 SFH617A-1X001	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, VDE, UL, BSI, FIMKO, cUL, THT PDIP-4	http://www.vishay.com/docs/83740/sfh617a.pdf
 SFH617A-1X006	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, wide THT PDIP-4	http://www.vishay.com/docs/83740/sfh617a.pdf
+SFH617A-1X007T	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, 8mm clearence SMD PDIP-4	http://www.vishay.com/docs/83740/sfh617a.pdf
 SFH617A-1X016	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, VDE, UL, BSI, FIMKO, cUL, wide THT PDIP-4	http://www.vishay.com/docs/83740/sfh617a.pdf
 SFH617A-2	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4	http://www.vishay.com/docs/83740/sfh617a.pdf
 SFH617A-2X001	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celsius, VDE, UL, BSI, FIMKO, THT PDIP-4	http://www.vishay.com/docs/83740/sfh617a.pdf
 SFH617A-2X006	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, wide THT PDIP-4	http://www.vishay.com/docs/83740/sfh617a.pdf
+SFH617A-2X009T	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celsius, UL, BSI, FIMKO, SMD PDIP-4	http://www.vishay.com/docs/83740/sfh617a.pdf
 SFH617A-2X016	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celsius, VDE, UL, BSI, FIMKO, wide THT PDIP-4	http://www.vishay.com/docs/83740/sfh617a.pdf
 SFH617A-2X017T	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celsius, VDE, UL, BSI, FIMKO, 8mm clearence SMD PDIP-4	http://www.vishay.com/docs/83740/sfh617a.pdf
 SFH617A-2X019T	Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 63-125, -55 to +110 degree Celsius, VDE, UL, BSI, FIMKO, SMD PDIP-4	http://www.vishay.com/docs/83740/sfh617a.pdf
@@ -7206,12 +7384,19 @@ SFH601-2X007	Optocoupler, phototransistor output with base connection, CTR 63-12
 SFH601-3X017	Optocoupler, phototransistor output with base connection, CTR 100-200%, Vceo 100V, Viso 5000Vrms, DIP-6 (SMD, option 7)	https://www.vishay.com/docs/83663/sfh601.pdf
 ACPL-C790	Precision Isolation Amplifer, ±3% Gain Tolerance, Bandwidth 200kHz, SSO-8	http://docs.avagotech.com/docs/AV02-2460EN
 ACPL-C870	Precision Optycally Isolated Voltage Sensor, ±3% Gain Tolerance, Bandwidth 100kHz, SSO-8	www.avagotech.com/docs/AV02-3563EN
+AMC1100DWV	Fully-differential isolated amplifier, fixed gain = 8, peak isolation voltage 4250V, transient immunity 2.5kV/us, UL1577/IEC60747-5-2 approved, SOIC-8	http://www.ti.com/lit/ds/symlink/amc1100.pdf
+AMC1351DWV	Precision Reinforced Isolated Amplifier, 5V Input, 300 kHz Bandwidth, 0.4V/V, 0.2% Gain Tolerance, Differential Output, SOIC-8	https://www.ti.com/lit/gpn/AMC1351
 AMC3330	Reinforced Isolated Amplifier With Integrated DC/DC Converter, SOIC-16W	https://www.ti.com/lit/ds/symlink/amc3330.pdf
 IL300	Isolated Linear Photocoupler, High Gain, Wideband, DIP8/SMD-DIP8	http://www.vishay.com/docs/83622/il300.pdf
+ISO224xDWV	Precision Isolated Amplifier, 7071V-Peak Isolation, ±12V Single-Ended Input, ±4V Differential Output, 0.4V/V, 4.5-18V Single Supply on High-Side, SOIC-8	https://www.ti.com/lit/gpn/ISO224
 ACPL-C79A	Precision Isolation Amplifer, ±1% Gain Tolerance, Bandwidth 200kHz, SSO-8	http://docs.avagotech.com/docs/AV02-2460EN
 ACPL-C79B	Precision Isolation Amplifer, ±0.5% Gain Tolerance, Bandwidth 200kHz, SSO-8	http://docs.avagotech.com/docs/AV02-2460EN
 ACPL-C87A	Precision Optycally Isolated Voltage Sensor, ±1% Gain Tolerance, Bandwidth 100kHz, SSO-8	www.avagotech.com/docs/AV02-3563EN
 ACPL-C87B	Precision Optycally Isolated Voltage Sensor, ±0.5% Gain Tolerance, Bandwidth 100kHz, SSO-8	www.avagotech.com/docs/AV02-3563EN
+AMC1200BDWV	Fully-differential isolated amplifier, ±250-mV input, fixed gain = 8, peak isolation voltage 4250V, transient immunity 10kV/us, UL1577/VDE V 0884-10 approved, SOIC-8	http://www.ti.com/lit/ds/symlink/amc1200.pdf
+AMC1300BDWV	Fully-differental precision isolated amplifier, ±250-mV Input, reinforced isloation, fixed Gain = 8.2, peak isolation voltage 7071V, transient immunity 100kV/us, UL1577/VDE V 0884-11 approved, SOIC-8	http://www.ti.com/lit/ds/symlink/amc1300.pdf
+AMC1300DWV	Fully-differental isolated amplifier, ±250-mV Input, reinforced isloation, fixed gain = 8.2, peak isolation voltage 7071V, transient immunity 15kV/us, UL1577/VDE V 0884-11 approved, SOIC-8	http://www.ti.com/lit/ds/symlink/amc1300.pdf
+AMC1350DWV	Precision Reinforced Isolated Amplifier, ±5V Input, 300 kHz Bandwidth, 0.4V/V, 0.2% Gain Tolerance, Differential Output, SOIC-8	https://www.ti.com/lit/gpn/AMC1350
 LOC112	Isolated Linear Photocoupler, Wideband, DIP8	https://www.littelfuse.com/media?resourcetype=datasheets&itemid=996c6e8f-cc1b-44f6-811e-251c6e004c56&filename=littelfuse-integrated-circuits-loc112-datasheet
 LOC112P	Isolated Linear Photocoupler, Wideband, Flatpak-8	https://www.littelfuse.com/media?resourcetype=datasheets&itemid=996c6e8f-cc1b-44f6-811e-251c6e004c56&filename=littelfuse-integrated-circuits-loc112-datasheet
 LOC112S	Isolated Linear Photocoupler, Wideband, SMD-8	https://www.littelfuse.com/media?resourcetype=datasheets&itemid=996c6e8f-cc1b-44f6-811e-251c6e004c56&filename=littelfuse-integrated-circuits-loc112-datasheet
@@ -7253,8 +7438,9 @@ Inolux_IN-P55TATRGB	Inolux RGB LED, PLCC-6	https://www.inolux-corp.com/datasheet
 Inolux_IN-PI554FCH	5050 RGB LED 4-Pin with integrated IC	http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf
 Inolux_IN-PI556FCH	5050 RGB LED 6-Pin with integrated IC	http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI556FCH.pdf
 LD271	940nm IR-LED, 5mm	http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf
-LED_Cree_XHP50_12V	XLamp® XHP50 LED, 12V footprint (all 4 LEDs in series)	http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
-LED_Cree_XHP50_6V	XLamp® XHP50 LED, 6V footprint (2x2 serial LEDs in parallel)	http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
+LED_Cree_XHP50_12V_HighDensity	XLamp® XHP50 LED, 12V, 4 LEDs in series, high density	https://downloads.cree-led.com/files/ds/x/XLamp-XHP50.3.pdf
+LED_Cree_XHP50_3V_HighDensity	XLamp® XHP50 LED, 3V, 4 LEDs in parallel, high density	https://downloads.cree-led.com/files/ds/x/XLamp-XHP50.3.pdf
+LED_Cree_XHP50_6V_HighDensity	XLamp® XHP50 LED, 6V, 2x2 serial LEDs in parallel, high density	https://downloads.cree-led.com/files/ds/x/XLamp-XHP50.3.pdf
 LED_Cree_XHP70_12V	XLamp® XHP70 LED, 12V footprint (all 4 LEDs in series)	http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
 LED_Cree_XHP70_6V	XLamp® XHP70 LED, 6V footprint (2x2 serial LEDs in parallel)	http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
 LTST-C235KGKRKT	LED dual red/green, 4-pin, down-facing	https://optoelectronics.liteon.com/upload/download/DS22-2009-0219/LTST-C235KGKRKT.pdf
@@ -7278,6 +7464,9 @@ CLX6F-FKC	RGB LED, PLCC-6	https://assets.cree-led.com/a/ds/h/HB-CLX6F-FKC.pdf
 CQY99	950nm IR-LED, 5mm	https://www.prtice.info/IMG/pdf/CQY99.pdf
 IR204A	Infrared LED , 3mm LED package	http://www.everlight.com/file/ProductFile/IR204-A.pdf
 LD274	950nm IR-LED, 5mm	http://pdf.datasheetcatalog.com/datasheet/siemens/LD274.pdf
+LED_Cree_XHP50_12V_HighIntensity	XLamp® XHP50 LED, 12V, all 4 LEDs in series, high intensity	https://downloads.cree-led.com/files/ds/x/XLamp-XHP50.3.pdf
+LED_Cree_XHP50_3V_HighIntensity	XLamp® XHP50 LED, 3V, 4 LEDs in parallel, high intensity	https://downloads.cree-led.com/files/ds/x/XLamp-XHP50.3.pdf
+LED_Cree_XHP50_6V_HighIntensity	XLamp® XHP50 LED, 6V, 2x2 serial LEDs in parallel, high intensity	https://downloads.cree-led.com/files/ds/x/XLamp-XHP50.3.pdf
 QLS6B-FKW	Cree PLCC6 3 in 1 SMD LED, PLCC-6	https://www.cree.com/led-components/media/documents/1397-QLS6BFKW.pdf
 SFH4346	Infrared LED , 3mm LED package	http://cdn-reichelt.de/documents/datenblatt/A500/SFH4346.pdf
 SFH4546	High-Power IR LED 940nm	http://www.osram-os.com/Graphics/XPic1/00101982_0.pdf
@@ -7288,6 +7477,8 @@ WS2812	RGB LED with integrated controller	https://cdn-shop.adafruit.com/datashee
 74LVC2T45DC	Dual supply translating transceiver, 3-state, 2-bit, VSSOP-8	https://assets.nexperia.com/documents/data-sheet/74LVC_LVCH2T45.pdf
 CD40109BPW	CMOS Quad Low to High Voltage Level Shifter, Input 3 to 18V, up to 18V output , TSSOP-16	https://www.ti.com/lit/ds/symlink/cd40109b.pdf
 FXMA108	Dual-Supply, 8-Bit Signal Translator with Configurable Voltage Supplies and Signals Levels, 3-State Outputs and Auto Direction Sensing, WQFN-20	http://www.onsemi.com/pub/Collateral/FXMA108-D.pdf
+LSF0108BQ	8-bit Bidirectional Voltage Level Translator, Auto Direction Sensing, 0 to +5V, 100MHz , DHVQFN-20	https://assets.nexperia.com/documents/data-sheet/LSF0108.pdf
+LSF0108PW	8-bit Bidirectional Voltage Level Translator, Auto Direction Sensing, 0 to +5V, 100MHz , TSSOP-20	https://assets.nexperia.com/documents/data-sheet/LSF0108.pdf
 NCN4555MN	SIM Card Power Supply and Level Shifter, QFN-16	https://www.onsemi.com/pub/Collateral/NCN4555-D.PDF
 NLSV2T244D	Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, SOIC-8	http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
 NLSV2T244DM	Dual-Bit Dual-Supply Non-Inverting Level Translator, Output Enable, MSOP-8	http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
@@ -7341,10 +7532,12 @@ TXB0304RUT	4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing,
 TXS0101DCK	1-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, SOT-363	https://www.ti.com/lit/ds/symlink/txs0101.pdf
 TXS0101DRL	1-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, SOT-563	https://www.ti.com/lit/ds/symlink/txs0101.pdf
 TXS0104ED	Bidirectional  level-shifting voltage translator, SOIC-14	www.ti.com/lit/ds/symlink/txs0104e.pdf
+ATF16V8Bxx-xxPU	High-performance EE PLD, PAL Device Emulation / PAL Replacement, DIP-20	https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-0364-PLD-ATF16V8B-8BQ-8BQL-Datasheet.pdf
 GAL16V8	Programmable Logic Array, DIP-20/SOIC-20/PLCC-20	
-PAL16L8	Programmable Logic Array, DIP-20	
+PAL16L8	Programmable Array Logic (PAL), Active-Low Combinatorial, DIP-20 / PLCC-20	https://docs.rs-online.com/53eb/0900766b8002a354.pdf
+PAL16R8	Programmable Array Logic (PAL), 8 Registered Outputs, DIP-20 / PLCC-20	https://docs.rs-online.com/53eb/0900766b8002a354.pdf
 PAL20	generic 20-pin Programmable Array Logic (PAL) device	~
-PAL20L8	Programmable Logic Array, DIP-24	
+PAL20L8	Programmable Array Logic (PAL), Active-Low Combinatorial, DIP-24	https://rocelec.widen.net/view/pdf/pn0qtf2whd/VANTS00076-1.pdf
 PAL20RS10	Programmable Logic Array, DIP-24 (Narrow)	
 PAL24	generic 24-pin Programmable Array Logic (PAL) device	~
 PEEL22CV10AP	Not in Production, CMOS Programmable Electrically Erasable Logic Device, DIP-24	https://www.alldatasheet.com/datasheet-pdf/pdf/149182/ANACHIP/PEEL22CV10AP-15L.html
@@ -7389,11 +7582,12 @@ CYBL10563-56LQXQ	56-QFN, 48-MHz ARM® Cortex®-M0, 128KB Flash, 16kB SRAM, BLE 4
 DA14691	Multi-core BLE 5.1 SoC series, 96-MHz/32-bit ARM Cortex-M33, 128 kB ROM, 384 kB SRAM, 4 kB OTP Memory, 16 kB cache SRAM, VFBGA-86	https://www.dialog-semiconductor.com/sites/default/files/da1469x_datasheet_3v1.pdf
 DA14695	Multi-core BLE 5.1 Soc series, 96-MHz/32-bit ARM Cortex-M33, 128 kB ROM, 512 kB SRAM, 4 kB OTP Memory, 16 kB cache SRAM, VFBGA-86	https://www.dialog-semiconductor.com/sites/default/files/da1469x_datasheet_3v1.pdf
 ESP32-C3	RF Module, ESP32 SoC, RISC-V, WiFi 802.11b/n/g, Bluetooth LE 5, QFN32	https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf
-ESP32-PICO-D4	RF Module, ESP32 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.0-3.6V, external antenna, QFN-48	https://www.espressif.com/sites/default/files/documentation/esp32-pico_series_datasheet_en.pdf
+ESP32-PICO-D4	RF Module, ESP32 SoC, 4MB In-Package flash, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.0-3.6V, external antenna, QFN-48	https://www.espressif.com/sites/default/files/documentation/esp32-pico_series_datasheet_en.pdf
+ESP32-PICO-V3	RF Module, ESP32 SoC, 4MB In-Package flash, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.0-3.6V, external antenna, QFN-48	https://www.espressif.com/sites/default/files/documentation/esp32-pico_series_datasheet_en.pdf
+ESP32-PICO-V3-02	RF Module, ESP32 SoC, 8MB In-Package flash, 2MB In-Package PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.0-3.6V, external antenna, QFN-48	https://www.espressif.com/sites/default/files/documentation/esp32-pico_series_datasheet_en.pdf
 ESP32-S2	Microcontroller, Wi-Fi 802.11b/g/n, Bluetooth, 32bit	https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf
 ESP32-S3	Microcontroller, Wi-Fi 802.11b/g/n, Bluetooth, 32bit	https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf
 ESP8266EX	Highly integrated Wi-Fi SoC, QFN-32	http://espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf
-ESP32-PICO-V3	RF Module, ESP32 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.0-3.6V, external antenna, QFN-48	https://www.espressif.com/sites/default/files/documentation/esp32-pico_series_datasheet_en.pdf
 80186	High-Integration 16-Bit Microprocessor	http://datasheets.chipdb.org/Intel/x86/8018x/datashts/27243002.PDF
 80188	High-Integration 16-Bit Microprocessor	http://datasheets.chipdb.org/Intel/x86/8018x/datashts/27243002.PDF
 8035	MCS-48 8-bit Microcontroller, No (EP)ROM, 64B RAM, DIP-40	
@@ -8310,6 +8504,7 @@ PIC12LF1822-xSN	PIC12LF1822, 2kW FLASH, 128B SRAM, 256 EEPROM, SOIC-8	https://ww
 PIC12LF1840-xMC	PIC12LF1840, 4kW FLASH, 256B SRAM, 256B EEPROM, PDIP8	https://ww1.microchip.com/downloads/en/DeviceDoc/41441B.pdf
 PIC12LF1840-xP	4kW FLASH, 256B SRAM, 256B EEPROM, PDIP-8	https://ww1.microchip.com/downloads/en/DeviceDoc/41441B.pdf
 PIC12LF1840-xSN	PIC12LF1840, 4kW FLASH, 256B SRAM, 256B EEPROM, SOIC-8	https://ww1.microchip.com/downloads/en/DeviceDoc/41441B.pdf
+PIC16F13145-xP	14kB FLASH, 1024B SRAM, PDIP-20	https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC16F13145-Family-Microcontroller-Data-Sheet-DS40002519.pdf
 PIC16F1454-IML	PIC16F1454, 8192W FLASH, 1024B SRAM, QFN-16	http://ww1.microchip.com/downloads/en/DeviceDoc/41639A.pdf
 PIC16F1454-IP	8192W FLASH, 1024B SRAM, PDIP-14	http://ww1.microchip.com/downloads/en/DeviceDoc/41639A.pdf
 PIC16F1455-IML	PIC16F1454, 8192W FLASH, 1024B SRAM, QFN-16	http://ww1.microchip.com/downloads/en/DeviceDoc/41639A.pdf
@@ -12960,6 +13155,7 @@ STK14C88-3	256-Kbit (32K x 8-bit) AutoStore nvSRAM, single 3.3V +/-0.3V operatio
 STK14C88C	256-Kbit (32K x 8-bit) nvSRAM, single 5V +/-10% operation, 35ns, DIP-32	https://www.infineon.com/dgdl/Infineon-STK14C88C_256-Kbit_(32K_x_8)_nvSRAM-DataSheet-v02_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee81f447111
 CY14B256LA-SZ	256-Kbit (32K x 8-bit) nvSRAM, single 3V +20% to –10% operation, 25/45ns, SOIC-32	https://www.infineon.com/dgdl/Infineon-CY14B256LA_256-Kbit_(32_K_8)_nvSRAM-DataSheet-v13_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ebd9bf63054
 STK14C88C-3	256-Kbit (32K x 8-bit) nvSRAM, single 3.0V +20%/-10% (industrial) / single 3.3V +/-0.3V (military), 35ns, DIP-32	https://www.infineon.com/dgdl/Infineon-STK14C88C-35C35M-DataSheet-v02_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ee829987116
+23AA02M-ISN	Microchip 2 Mbit SRAM Memory, up to 143MHz, 1.7-3.6V supply, SOIC-8	https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/23AA02M-23LCV02M-2-Mbit-SPI-SDI-SQI-143-Mhz-Serial-RAM-DS20006861.pdf
 APS1604M-SQRx-SN	16 Mbit / 2M x 8-bits serial pseudo SRAM MEMORY, up to 144MHz, 1.62-1.98V supply, SOIC-8 (SOP-8)	https://www.mouser.com/datasheet/2/1127/APM_PSRAM_QSPI_APS1604M_SQR_v2_5_PKG-1954861.pdf
 APS1604M-SQRx-ZR	16 Mbit / 2M x 8-bits serial pseudo SRAM MEMORY, up to 144MHz, 1.62-1.98V supply, USON-8 (XSON-8)	https://www.mouser.com/datasheet/2/1127/APM_PSRAM_QSPI_APS1604M_SQR_v2_5_PKG-1954861.pdf
 AS4C256M16D3	4Gb (256Mx16 bit) Double Data Rate 3 Synchronous DRAM	https://www.alliancememory.com/wp-content/uploads/pdf/ddr3/4GB-AS4C256M16D3.pdf
@@ -12972,6 +13168,7 @@ AS6C4008-55PCN	512K x 8 Low Power CMOS RAM, DIP-32	https://www.alliancememory.co
 CY7C199		
 ESP-PSRAM32	32 Mbit serial pseudo SRAM device organized as 4Mx8 bits, 1.8 VCC, SOIC8 (SOP8)	https://www.espressif.com/sites/default/files/documentation/esp-psram32_datasheet_en.pdf
 H5AN8G8NAFR-UHC	8Gb CMOS Double Data Rate IV Synchronous RAM	https://www.skhynix.com/product/filedata/fileDownload.do?seq=7687
+HM50256P	262144 x 1 bit Dynamic RAM, 120/150/200ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (DP-16A package)	https://minuszerodegrees.net/memory/41256/datasheet_HM50256.pdf
 HM628128_DIP32_SOP32	128K-word x 8-bit High-Speed CMOS Static RAM, 70/85/100/120ns, 5V supply, DIP-32/SOP-32	https://www.silicon-ark.co.uk/datasheets/hm628128-datasheet-hitachi.pdf
 HM628128_TSOP32	128K-word x 8-bit High-Speed CMOS Static RAM, 70/85/100/120ns, 5V supply, TSOP-I-32	https://www.silicon-ark.co.uk/datasheets/hm628128-datasheet-hitachi.pdf
 HY6264AxP	Not in Production, 8Kx8 bit Static RAM, 70/85/100/120/150ns, DIP-28	https://www.farnell.com/datasheets/2159.pdf
@@ -12993,12 +13190,16 @@ M48Tx2	5.0 V, 16 Kbit (2 Kb x 8) TIMEKEEPER® SRAM, DIP-24	https://www.mouser.at
 MK4116N	16384 x 1 bit Dynamic RAM, 150/200/250ns access time, VBB -5V, VCC 5V, VDD 12V, ±10% tolerance on all power supplies, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)	https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=98
 MK4164N	65536 x 1 bit Dynamic RAM, 120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16 (Epoxy/Plastic package)	https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Mostek/1980_Mostek_Memory_Data_Book_and_Designers_Guide.pdf#page=134
 MT40A512M16JY	512M x 16-bit (8 Gbit) CMOS Double Data Rate IV Synchronous RAM, Rev. B, FBGA-96	https://eu.mouser.com/datasheet/2/671/8gb_ddr4_sdram-3178955.pdf
+MT41K256M16LY	32M x 16-bit x 8 Banks (4-Gbit / 512 MB) DDR3L SDRAM, 1.35V nominal supply voltage, Rev. N, FBGA-96 (7.5x13.5mm)	https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6128/MT41K1G4_MT41K512M8_MT41K256M16_RevR_Sep2018.pdf
 MT48LC16M16A2TG	256M – (16M x 16 bit) Synchronous DRAM (SDRAM), TSOP-II-54	https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
 MT48LC32M8A2TG	256M – (32M x 8 bit) Synchronous DRAM (SDRAM), TSOP-II-54	https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
 MT48LC64M4A2TG	256M – (64M x 4 bit) Synchronous DRAM (SDRAM), TSOP-II-54	https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
+TMM41256AP	262144 x 1 bit Dynamic RAM, 100/120/150ns access time, single 5V ±10% power supply, TTL compatible inputs, DIP-16	https://minuszerodegrees.net/memory/41256/datasheet_TMM41256A.pdf
 W9812G6KH-5	128Mb Synchronous DRAM, 2 Mb x 16 b x 4 Banks, 200 MHz, TSOP-II-54	https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf
 uPD4168C	8192 x 8-bit Static NMOS XRAM, 120/150/200ns access time, 5V ±10% supply, DIP-28 (600 mil)	https://archive.org/details/bitsavers_necdataBooBook_14399588/page/n233/mode/2up
 uPD4364CX	8192 x 8-bit Static CMOS RAM, 100/120/150ns access time, 5V ±10% supply, DIP-28 (300 mil)	https://www.silicon-ark.co.uk/datasheets/upd4364-datasheet-nec.pdf
+23AA02M-IP	Microchip 2 Mbit SRAM Memory, up to 143MHz, 1.7-3.6V supply, DIP-8	https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/23AA02M-23LCV02M-2-Mbit-SPI-SDI-SQI-143-Mhz-Serial-RAM-DS20006861.pdf
+23AA02M-IST	Microchip 2 Mbit SRAM Memory, up to 143MHz, 1.7-3.6V supply, TSSOP-8	https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/23AA02M-23LCV02M-2-Mbit-SPI-SDI-SQI-143-Mhz-Serial-RAM-DS20006861.pdf
 APS1604M-3SQRx-SN	16 Mbit / 2M x 8-bits serial pseudo SRAM MEMORY, up to 133MHz, 2.7-3.6V supply, SOIC-8 (SOP-8)	https://www.mouser.com/datasheet/2/1127/APM_PSRAM_QSPI_APS1604M_3SQR_v2_7_PKG-1954896.pdf
 APS1604M-3SQRx-ZR	16 Mbit / 2M x 8-bits serial pseudo SRAM MEMORY, up to 133MHz, 2.7-3.6V supply, USON-8 (XSON-8)	https://www.mouser.com/datasheet/2/1127/APM_PSRAM_QSPI_APS1604M_3SQR_v2_7_PKG-1954896.pdf
 APS6404L-SQRx-SN	64 Mbit / 8M x 8-bits serial pseudo SRAM MEMORY, up to 144MHz, 1.62-1.98V supply, SOIC-8 (SOP-8)	https://www.apmemory.com/en/downloadFiles/0324112120mm608993
@@ -13036,6 +13237,8 @@ IS6xC1024AL-xxT	128K x 8-bit High-Speed CMOS Static RAM, IS61C1024AL (commercial
 M48Zx2	5 V, 16 kbit (2 Kb x 8) ZEROPOWER® SRAM, DIP-24	https://www.mouser.at/datasheet/2/389/m48z02-1849661.pdf
 MT40A512M16LY	512M x 16-bit (8 Gbit) CMOS Double Data Rate IV Synchronous RAM, Rev. D / E / H, FBGA-96	https://eu.mouser.com/datasheet/2/671/8gb_ddr4_sdram-3178955.pdf
 MT40A512M16TB	512M x 16-bit (8 Gbit) CMOS Double Data Rate IV Synchronous RAM, Rev. J / R, FBGA-96	https://eu.mouser.com/datasheet/2/671/8gb_ddr4_sdram-3178955.pdf
+MT41K256M16HA	32M x 16-bit x 8 Banks (4-Gbit / 512 MB) DDR3L SDRAM, 1.35V nominal supply voltage, Rev. E, FBGA-96 (9x14mm)	https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6128/MT41K1G4_MT41K512M8_MT41K256M16_RevR_Sep2018.pdf
+MT41K256M16TW	32M x 16-bit x 8 Banks (4-Gbit / 512 MB) DDR3L SDRAM, 1.35V nominal supply voltage, Rev. P, FBGA-96 (8x14mm)	https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6128/MT41K1G4_MT41K512M8_MT41K256M16_RevR_Sep2018.pdf
 MT48LC16M16A2P	256M – (16M x 16 bit) Synchronous DRAM (SDRAM), TSOP-II-54	https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
 MT48LC32M8A2P	256M – (32M x 8 bit) Synchronous DRAM (SDRAM), TSOP-II-54	https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
 MT48LC64M4A2P	256M – (64M x 4 bit) Synchronous DRAM (SDRAM), TSOP-II-54	https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/256mb_sdr.pdf
@@ -13223,6 +13426,8 @@ MCP4019-xxxxLT	Low-Cost 128-Step Volatile I2C Digital Potentiometer, SC-70-5	htt
 MCP41010	Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm	http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
 MCP4131-xxxx-P	Single Digital Potentiometer, SPI interface, 129 taps, 5/10/50/100 kohm, volatile memory	https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22060b.pdf
 MCP4132-xxxx-P	Single Digital Rheostat, SPI interface, 129 taps, 5/10/50/100 kohm, volatile memory	https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22060b.pdf
+MCP41U83x-xxxx-7N	10-bit single-channel digital potentiometer, I2C / SPI interface, MTP memory, VQFN-16	https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP41U83-Data-Sheet-DS20007000.pdf
+MCP41U83x-xxxx-ST	10-bit single-channel digital potentiometer, I2C / SPI interface, MTP memory, TSSOP-14	https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP41U83-Data-Sheet-DS20007000.pdf
 MCP42010	Dual Digital Potentiometer, SPI interface, 256 taps, 10 kohm	http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
 MCP4251-xxxx-ML	Dual 8 Bit Digital Pot, SPI, Volatile Memory, QFN-16	http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf
 MCP4251-xxxx-P	Dual 8 Bit Digital Pot, SPI, Volatile Memory, PDIP-14	http://ww1.microchip.com/downloads/en/devicedoc/22060b.pdf
@@ -13376,6 +13581,7 @@ TPS2116DRL	2 Channnels Power Mux with Manual and Priority Switchover, 1.6-5.5V I
 TPS22810DBV	2.7..18V, 2A, 79mohms On-Resistance Load Switch With Thermal Protection, SOT-23-6	http://www.ti.com/lit/ds/symlink/tps22810.pdf
 TPS22810DRV	2.7..18V, 3A, 79mohms On-Resistance Load Switch With Thermal Protection, WSON-6	http://www.ti.com/lit/ds/symlink/tps22810.pdf
 TPS22917DBV	1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6	http://www.ti.com/lit/ds/symlink/tps22917.pdf
+TPS22917LDBV	1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, Active Low, SOT23-6	http://www.ti.com/lit/ds/symlink/tps22917.pdf
 TPS22929D	High side, power distribution switch, 1.4V-5.5V, 1.8A, SOT23-6 package	http://www.ti.com/lit/ds/symlink/tps22929d.pdf
 TPS22993	Quad Channel Load Switch with GPIO and I2C Control, Bias voltage: 4.5V-17.2V, Input voltage: 1.0V-3.6V, Max 1.2A per channel, WQFN-20	http://www.ti.com/lit/gpn/tps22993
 TPS2412D	N+1 and ORing Power Rail Controller, SOIC-8	http://www.ti.com/lit/ds/symlink/tps2412.pdf
@@ -13582,7 +13788,7 @@ SP0504BAJT	TVS Diode Array, 5.5V Standoff, 4 Channels, SC-70-5 package	http://ww
 SP0505BAHT	TVS Diode Array, 5.5V Standoff, 5 Channels, SOT-23-6 package	http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf
 SP0505BAJT	TVS Diode Array, 5.5V Standoff, 5 Channels, SC-70-6 package	http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf
 SRV05-4	ESD Protection Diodes with Low Clamping Voltage, SOT-23-6	http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF
-TBU-CA-025-050-WH	low capacitance single bidirectional high-speed protection, 250V 50mA 13.3ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA025-050-WH	low capacitance single bidirectional high-speed protection, 250V 50mA 13.3ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
 TPD1E05U06DPY	1-Channel ESD Protection for Super-Speed USB 3.0 Interface, X1SON-2	https://www.ti.com/lit/ds/symlink/tpd1e05u06.pdf
 TPD2E2U06DCK	Dual-Channel High-Speed ESD Protection, SC-70	http://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf
 TPD2E2U06DRL	Dual-Channel High-Speed ESD Protection, SOT-553	http://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf
@@ -13633,30 +13839,30 @@ RCLAMP0582B	Low capacitance unidirectional dual ESD protection diode, SC-75	http
 SN65240	USB port transient suppressors	http://www.ti.com/lit/ds/symlink/sn65220.pdf
 SP7538P	Low Capacitance TVS Diode Array, 5.0V Standoff, 8 Channels, UDFN-9	https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp7538p_datasheet.pdf.pdf
 SZNUP2105L	Dual Line CAN Bus Protector, 24Vrwm, Automotive Grade	https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF
-TBU-CA-025-100-WH	low capacitance single bidirectional high-speed protection, 250V 100mA 7.1ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-025-200-WH	low capacitance single bidirectional high-speed protection, 250V 200mA 4.2ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-025-300-WH	low capacitance single bidirectional high-speed protection, 250V 300mA 3.2ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-025-500-WH	low capacitance single bidirectional high-speed protection, 250V 500mA 2.6ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-040-050-WH	low capacitance single bidirectional high-speed protection, 400V 50mA 14.3ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-040-100-WH	low capacitance single bidirectional high-speed protection, 400V 100mA 8.1ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-040-200-WH	low capacitance single bidirectional high-speed protection, 400V 200mA 5.2ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-040-300-WH	low capacitance single bidirectional high-speed protection, 400V 300mA 4.3ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-040-500-WH	low capacitance single bidirectional high-speed protection, 400V 500mA 3.6ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-050-050-WH	low capacitance single bidirectional high-speed protection, 500V 50mA 15.7ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-050-100-WH	low capacitance single bidirectional high-speed protection, 500V 100mA 9.5ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-050-200-WH	low capacitance single bidirectional high-speed protection, 500V 200mA 6.6ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-050-300-WH	low capacitance single bidirectional high-speed protection, 500V 300mA 5.6ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-050-500-WH	low capacitance single bidirectional high-speed protection, 500V 500mA 5.0ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-065-050-WH	low capacitance single bidirectional high-speed protection, 650V 50mA 17.7ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-065-100-WH	low capacitance single bidirectional high-speed protection, 650V 100mA 11.5ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-065-200-WH	low capacitance single bidirectional high-speed protection, 650V 200mA 8.6ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-065-300-WH	low capacitance single bidirectional high-speed protection, 650V 300mA 7.6ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-065-500-WH	low capacitance single bidirectional high-speed protection, 650V 500mA 7.0ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-085-050-WH	low capacitance single bidirectional high-speed protection, 850V 50mA 21.4ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-085-100-WH	low capacitance single bidirectional high-speed protection, 850V 100mA 15.2ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-085-200-WH	low capacitance single bidirectional high-speed protection, 850V 200mA 12.3ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-085-300-WH	low capacitance single bidirectional high-speed protection, 850V 300mA 11.3ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
-TBU-CA-085-500-WH	low capacitance single bidirectional high-speed protection, 850V 500mA 10.7ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA025-100-WH	low capacitance single bidirectional high-speed protection, 250V 100mA 7.1ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA025-200-WH	low capacitance single bidirectional high-speed protection, 250V 200mA 4.2ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA025-300-WH	low capacitance single bidirectional high-speed protection, 250V 300mA 3.2ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA025-500-WH	low capacitance single bidirectional high-speed protection, 250V 500mA 2.6ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA040-050-WH	low capacitance single bidirectional high-speed protection, 400V 50mA 14.3ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA040-100-WH	low capacitance single bidirectional high-speed protection, 400V 100mA 8.1ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA040-200-WH	low capacitance single bidirectional high-speed protection, 400V 200mA 5.2ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA040-300-WH	low capacitance single bidirectional high-speed protection, 400V 300mA 4.3ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA040-500-WH	low capacitance single bidirectional high-speed protection, 400V 500mA 3.6ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA050-050-WH	low capacitance single bidirectional high-speed protection, 500V 50mA 15.7ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA050-100-WH	low capacitance single bidirectional high-speed protection, 500V 100mA 9.5ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA050-200-WH	low capacitance single bidirectional high-speed protection, 500V 200mA 6.6ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA050-300-WH	low capacitance single bidirectional high-speed protection, 500V 300mA 5.6ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA050-500-WH	low capacitance single bidirectional high-speed protection, 500V 500mA 5.0ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA065-050-WH	low capacitance single bidirectional high-speed protection, 650V 50mA 17.7ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA065-100-WH	low capacitance single bidirectional high-speed protection, 650V 100mA 11.5ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA065-200-WH	low capacitance single bidirectional high-speed protection, 650V 200mA 8.6ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA065-300-WH	low capacitance single bidirectional high-speed protection, 650V 300mA 7.6ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA065-500-WH	low capacitance single bidirectional high-speed protection, 650V 500mA 7.0ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA085-050-WH	low capacitance single bidirectional high-speed protection, 850V 50mA 21.4ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA085-100-WH	low capacitance single bidirectional high-speed protection, 850V 100mA 15.2ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA085-200-WH	low capacitance single bidirectional high-speed protection, 850V 200mA 12.3ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA085-300-WH	low capacitance single bidirectional high-speed protection, 850V 300mA 11.3ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
+TBU-CA085-500-WH	low capacitance single bidirectional high-speed protection, 850V 500mA 10.7ohm, https://www.bourns.com/data/global/pdfs/TBU-CA.pdf	https://www.bourns.com/data/global/pdfs/TBU-CA.pdf
 TPD1E05U06DYA	1-Channel ESD Protection for Super-Speed USB 3.0 Interface, SOD-523	https://www.ti.com/lit/ds/symlink/tpd1e05u06.pdf
 TPD2EUSB30A	2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3	http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf
 TPD3S044	Current Limit Switch and D+/D– ESD Protection for USB Host Port, 1.5A, SOT-23-6	http://www.ti.com/lit/ds/symlink/tpd3s014.pdf
@@ -14150,6 +14356,7 @@ LEA-M8T	GNSS Module LEA M8, VCC 2.7V to 3.6V	https://content.u-blox.com/sites/de
 MAX-8C	GNSS Module MAX M8, VCC 1.65V to 3.6V	https://www.u-blox.com/sites/default/files/MAX-8_DataSheet_%28UBX-16000093%29.pdf
 MAX-M10S	GNSS Module MAX M10, VCC 1.65V to 3.6V	https://content.u-blox.com/sites/default/files/MAX-M10S_DataSheet_UBX-20035208.pdf
 MAX-M8W	GNSS Module MAX M8, VCC 2.7V to 3.6V	https://www.u-blox.com/sites/default/files/MAX-M8-FW3_DataSheet_%28UBX-15031506%29.pdf
+MIA-M10Q	GNSS receiver module (GPS, Galileo, GLONASS, BeiDou), I2C / UART interface, LGA-53 (MIA M-LGA53)	https://content.u-blox.com/sites/default/files/documents/MIA-M10Q_DataSheet_UBX-22015849.pdf
 NEO-M8M	GNSS Module NEO M8, VCC 2.7V to 3.6V	https://content.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_UBX-15031086.pdf
 NEO-M8N	GNSS Module NEO M8, VCC 2.7V to 3.6V	https://content.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_UBX-15031086.pdf
 NEO-M8P	GNSS RTK Module NEO M8, VCC 2.7V to 3.6V	https://content.u-blox.com/sites/default/files/NEO-M8P_DataSheet_UBX-15016656.pdf
@@ -14324,6 +14531,7 @@ MASWSS0176	Macom GaAs RF SPDT switch, DC-3GHz, 0.35/21dB loss/isolation, SOT-363
 MASWSS0192	Macom GaAs RF SPDT switch, DC-3GHz, 0.33/13.5dB loss/isolation, SOT-363	https://cdn.macom.com/datasheets/MASWSS0192.pdf
 HF-A11-SMT	WiFi IEEE802.11b/g/n with Ethernet Module, UART, GPIO	http://www.hi-flying.com/index.php?route=tool/upload/download&code=190ec6c62d497905ed783d140f8e5af7a753b8ab
 USR-C322	802.11 b/g/n Wi-Fi Module	https://www.usriot.com/download/WIFI/USR-C322%20User%20Manual%20V2.3.pdf
+AT86RF233-Z	ZigBee  transceiver, 2.4GHz, AES, SPI, 1.8 to 3.6V, QFN-32	https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8351-MCU_Wireless-AT86RF233_Datasheet.pdf
 CC2520	2.4 GHz ZigBee/IEEE 802.15.4 RF transceiver	http://www.ti.com/lit/gpn/cc2520
 MC13192	2.4 GHz, Low Power Transceiver for 802.15.4 (Zigbee controller)	https://www.nxp.com/products/no-longer-manufactured/2.4-ghz-low-power-transceiver-for-802.15.4:MC13192
 TWE-L-DP-W	NXP JN5164/JN5169 breakout module, DIP	https://www.mono-wireless.com/jp/products/TWE-Lite-DIP/MW-PDS-TWELITEDIP-JP.pdf
@@ -16476,6 +16684,7 @@ LTC1502xS8-3.3	Single Alkaline / NiCd Cell to 3.3V Regulated Charge Pump DC/DC C
 LTC1503CMS8-2	Switched-Capacitor Voltage Step-Down Converter, 2V output, max output current 100mA, operating range 2.4V to 6V, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/1503f.pdf
 LTC1751	100mA charge-pump, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/1751f.pdf
 LTC1754	40mA charge-pump, SOT-23-6	https://www.analog.com/media/en/technical-documentation/data-sheets/175435f.pdf
+LTC3221EDC	Micropower, Regulated Charge Pump, 1.8..5.5V input supply, adjustable Vout (FB pin), output current up to 60mA, DFN-6 (WSON-6)	https://www.analog.com/media/en/technical-documentation/data-sheets/3221f.pdf
 LTC3260xDE	Low Noise Dual Supply Inverting Charge Pump with both positive and negative LDO regulators, V_{IN} range 4.5V to 32V, 50 mA LDO output current, DFN-14-1EP	https://www.analog.com/media/en/technical-documentation/data-sheets/ltc3260.pdf
 LTC3260xMSE	Low Noise Dual Supply Inverting Charge Pump with both positive and negative LDO regulators, V_{IN} range 4.5V to 32V, 50 mA LDO output current, MSOP-16	https://www.analog.com/media/en/technical-documentation/data-sheets/ltc3260.pdf
 LTC660	Monolithic CMOS switched-capacitor from 1.5V to 5.5V up to 100mA, SO-8/DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/660fa.pdf
@@ -16512,6 +16721,8 @@ AOZ6663DI	3A Buck Regulator, 4.5-18V input, 750kHz, pulse energy mode on light l
 AP3211K	1.5A, Adjustable Step-Down Voltage Regulator, 1.4MHz Frequency, Vin=4.5..18V, Vout=0.81..15V, SOT-23-6	https://www.diodes.com/assets/Datasheets/AP3211.pdf
 AP3402	1.0MHz 2A Step-Down DC-DC Buck Converter, TSOT-23-6	https://www.diodes.com/assets/Datasheets/AP3402.pdf
 AP3441SHE	3A step-Down DC-DC 1Mhz buck converter, Input 2.7 to 5.5V, Output: 0.6 to V_{IN} , DFN-8	https://www.diodes.com/assets/Datasheets/AP3441-L.pdf
+AP61200Z6	2.3V-5.5V input voltage, 0.6V-3.6V adjustable output voltage, 2A output current, Low IQ Synchronous Buck Converter, Pulse Frequency Modulation, SOT-563	https://www.diodes.com/datasheet/download/AP61200+AP61201+AP61202+AP61203.pdf
+AP61202Z6	2.3V-5.5V input voltage, 0.6V-3.6V adjustable output voltage, 2A output current, Low IQ Synchronous Buck Converter, Power Good Indicator, Pulse Frequency Modulation, SOT-563	https://www.diodes.com/datasheet/download/AP61200+AP61201+AP61202+AP61203.pdf
 AP62150WU	1.5A, 1.3MHz Buck DC/DC Converter, 4.2V-18V input voltage, 0.8V-7V adjustable output voltage, TSOT-23-6	https://www.diodes.com/assets/Datasheets/AP62150.pdf
 AP62150Z6	1.5A, 1.3MHz Buck DC/DC Converter, adjustable output voltage, SOT-563	https://www.diodes.com/assets/Datasheets/AP62150.pdf
 AP62300WU	3A, 750kHz Buck DC/DC Converter, PFM for light load efficiency, 4.2V-18V input voltage, 0.8V-7V adjustable output voltage, TSOT-23-6	https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf
@@ -16589,6 +16800,7 @@ LM5022MM	60-V Low-Side Controller for Boost and SEPIC, MSOP-10	http://www.ti.com
 LM5088-1	Wide Input Range Non-Synchronous Buck Controller, Frequency Dithering, 75V, HTSSOP-16	http://www.ti.com/lit/ds/symlink/lm5088.pdf
 LM5088-2	Wide Input Range Non-Synchronous Buck Controller, Hiccup Mode Restart, 75V, HTSSOP-16	http://www.ti.com/lit/ds/symlink/lm5088.pdf
 LM5118MH	Wide Voltage Range Buck-Boost Controller, HTSSOP-20	https://www.ti.com/lit/ds/symlink/lm5118.pdf
+LM5156HPWP	65V Wide Vin non-synchronous Boost/SEPIC/Flyback controller, HTSSOP-14	https://www.ti.com/lit/ds/symlink/lm5156h.pdf
 LM5161PWP	1A Synchronous Buck/Fly-buck Converter, 4.5V-100V input, adjustable output voltage, HTSSOP-14	http://www.ti.com/lit/ds/symlink/lm5161.pdf
 LM5164DDA	1A synchronous buck converter with ultra-low IQ, 6V - 100V input, adjustable output voltage, HSOP-8	https://www.ti.com/lit/ds/symlink/lm5164.pdf?ts=1598311864250&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM5164%253FHQS%253DTI-null-null-octopart-df-pf-null-wwe
 LM5165	150mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, adjustable output voltage, DFN-10	http://www.ti.com/lit/ds/symlink/lm5165.pdf
@@ -16890,6 +17102,10 @@ AOZ1282CI	1.2 A Simple Buck Regulator, 4.5-36V input, 450kHz	http://aosmd.com/re
 AOZ1282CI-1	600 mA Simple Buck Regulator, 4.5-36V input, 1MHz	http://www.aosmd.com/res/data_sheets/AOZ1282CI-1.pdf
 AOZ6663DI-01	3A Buck Regulator, 4.5-18V input, 750kHz,  fixed frequency on light load <= 4V, pulse energy mode on light load > 4V,DFN-8	http://aosmd.com/res/data_sheets/AOZ6663DI.pdf
 AP3012	500mA, Adjustable Step-Up Voltage Regulator, 1.5MHz Frequency, SOT-23-5	https://www.diodes.com/assets/Datasheets/AP3012.pdf
+AP61201Z6	2.3V-5.5V input voltage, 0.6V-3.6V adjustable output voltage, 2A output current, Low IQ Synchronous Buck Converter, Force Pulse Witdth Modulation, SOT-563	https://www.diodes.com/datasheet/download/AP61200+AP61201+AP61202+AP61203.pdf
+AP61203Z6	2.3V-5.5V input voltage, 0.6V-3.6V adjustable output voltage, 2A output current, Low IQ Synchronous Buck Converter, Power Good Indicator, Force Pulse Width Modulation, SOT-563	https://www.diodes.com/datasheet/download/AP61200+AP61201+AP61202+AP61203.pdf
+AP61300Z6	2.4V-5.5V input voltage, 0.6V-3.6V adjustable output voltage, 3A output current, Low IQ Synchronous Buck Converter, PFM/PWM, SOT-563	https://www.diodes.com/datasheet/download/AP61300%2FAP61302.pdf
+AP61302Z6	2.4V-5.5V input voltage, 0.6V-3.6V adjustable output voltage, 3A output current, Low IQ Synchronous Buck Converter, PFM/PWM, Power Good Indicator, SOT-563	https://www.diodes.com/datasheet/download/AP61300%2FAP61302.pdf
 AP62250WU	2.5A, 1.3MHz Buck DC/DC Converter, 4.2V-18V input voltage, 0.8V-7V adjustable output voltage, TSOT-23-6	https://www.diodes.com/assets/Datasheets/AP62250.pdf
 AP62250Z6	2.5A, 1.3MHz Buck DC/DC Converter, adjustable output voltage, SOT-563	https://www.diodes.com/assets/Datasheets/AP62250.pdf
 AP62300TWU	3A, 750kHz Buck DC/DC Converter, PFM for light load efficiency, 4.2V-18V input voltage, 0.8V-7V adjustable output voltage, TSOT-23-6	https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf
@@ -17061,6 +17277,7 @@ LM5008MM	500mA, High Voltage (100V) Step-Down Switching Regulator, Adjustable Ou
 LM5008SD	500mA, High Voltage (100V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8	http://www.ti.com/lit/ds/symlink/lm5008.pdf
 LM5009MM	150mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, MSOP-8	http://www.ti.com/lit/ds/symlink/lm5009.pdf
 LM5009SD	500mA, High Voltage (80V) Step-Down Switching Regulator, Adjustable Output Voltage, WSON-8	http://www.ti.com/lit/ds/symlink/lm5009.pdf
+LM51561HPWP	65V Wide Vin non-synchronous Boost/SEPIC/Flyback controller (hiccup enabled), HTSSOP-14	https://www.ti.com/lit/ds/symlink/lm5156h.pdf
 LM5165Y	150mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, 3.3V fixed output voltage, DFN-10	http://www.ti.com/lit/ds/symlink/lm5165.pdf
 LM5166	500mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, adjustable output voltage, DFN-10	http://www.ti.com/lit/ds/symlink/lm5166.pdf
 LM5166X	500mA Synchronous Buck Converter With Ultra-Low IQ, 3V-65V input, 5.0V fixed output voltage, DFN-10	http://www.ti.com/lit/ds/symlink/lm5166.pdf
@@ -17911,8 +18128,8 @@ AQH0213A	Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 300mA, SOIC-7	https://me
 AQH0223	Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, IT 300mA, DIP-7	https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/ac/cdn/e/control/relay/solid-state/catalog/semi_eng_aqh.pdf
 AQH0223A	Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, IT 300mA, SOIC-7	https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/ac/cdn/e/control/relay/solid-state/catalog/semi_eng_aqh.pdf
 ASSR-1218	Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4	https://docs.broadcom.com/docs/AV02-0173EN
-CPC1002N	Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, SOP-4	http://www.ixysic.com/home/pdfs.nsf/www/CPC1002N.pdf/$file/CPC1002N.pdf
-CPC1017N	Form A, Solid State Relay (Photo MOSFET) 60V, 0.1A, 16Ohm, SO-4	http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf
+CPC1002N	Form A, Solid State Relay (Photo MOSFET) 60V, 0.7A, 0.55Ohm, DC, SOP-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1002n-datasheet?assetguid=e3f473b5-dc7a-4246-906b-83ecf53ecf01
+CPC1017N	Form A, Solid State Relay (Photo MOSFET) 60V, 0.1A, 16Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1017n-datasheet?assetguid=b4f177f1-629f-4104-97a5-8b8d709e83de
 CPC1106N	Form B, Solid State Relay (Photo MOSFET) 60V, 0.075A, 10Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1106n-datasheet?assetguid=700e8e37-bfc3-4023-a153-1c031d201fce
 CPC2125N	Dual Form B, Solid State Relay (Photo MOSFET) 400V, 0.1A, 35Ohm, SO-8	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc2125n-datasheet?assetguid=a22cc393-173e-4525-944b-0453a5a13b51
 FOD420	Random Phase Opto-Triac, Vdrm 600V, Ift 0.75mA, Itm 300mA, DIP6	https://www.onsemi.com/pub/Collateral/FOD4218-D.PDF
@@ -17944,6 +18161,19 @@ AQH3213A	Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 1.2A, SOIC-7	https://med
 AQH3223	Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, IT 1.2A, DIP-7	https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/ac/cdn/e/control/relay/solid-state/catalog/semi_eng_aqh.pdf
 AQH3223A	Random Phase Opto-Triac, Vdrm 600V, Ift 10mA, IT 1.2A, SOIC-7	https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/ac/cdn/e/control/relay/solid-state/catalog/semi_eng_aqh.pdf
 BC2213A	Zero Cross Opto-Triac, Vdrm 600V, Ift 10mA, IT 900mA, SSO-7	https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312161855_BC-BC2213A_C596512.pdf
+CPC1004N	Form A, Solid State Relay (Photo MOSFET) 100V, 0.3A, 4Ohm, DC, SOP-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1004n-datasheet?assetguid=22b75c8c-9a9b-43b7-a575-a19a0130c371
+CPC1006N	Form A, Solid State Relay (Photo MOSFET) 60V, 0.075A, 10Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1006n-datasheet?assetguid=62c4d3a3-07a8-4904-8267-d2dbcff34e41
+CPC1008N	Form A, Solid State Relay (Photo MOSFET) 100V, 0.15A, 8Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1008n-datasheet?assetguid=55b0a818-3bfd-483f-9372-c078b9202476
+CPC1009N	Form A, Solid State Relay (Photo MOSFET) 100V, 0.15A, 8Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1009n-datasheet?assetguid=360c1860-94e5-4f8b-b6de-b035951b70bc
+CPC1010N	Form A, Solid State Relay (Photo MOSFET) 250V, 0.17A, 11.5Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1010n-datasheet?assetguid=554b5181-42cc-4056-a97c-a5b4587fbe84
+CPC1014N	Form A, Solid State Relay (Photo MOSFET) 60V, 0.4A, 2Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1014n-datasheet?assetguid=f8c29b23-94fc-4306-8fcd-2632e2f7140d
+CPC1016N	Form A, Solid State Relay (Photo MOSFET) 100V, 0.1A, 16Ohm, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1016n-datasheet?assetguid=3de6e59a-7339-46ae-83d1-ff86c8f3e121
+CPC1018N	Form A, Solid State Relay (Photo MOSFET) 60V, 0.6A, 0.8Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1018n-datasheet?assetguid=5754d8fa-80db-484b-bf90-fc616cb67e8f
+CPC1019N	Form A, Solid State Relay (Photo MOSFET) 60V, 0.75A, 0.6Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1019n-datasheet?assetguid=f53ebba8-909a-4e2e-b205-3cc8714f267a
+CPC1020N	Form A, Solid State Relay (Photo MOSFET) 30V, 1.2A, 0.25Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1020n-datasheet?assetguid=ccf92761-d571-4531-b987-0d7a91fc62dc
+CPC1025N	Form A, Solid State Relay (Photo MOSFET) 400V, 0.12A, 30Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1025n-datasheet?assetguid=f83a7ed9-4a5d-4b13-8652-7d093ca2e352
+CPC1030N	Form A, Solid State Relay (Photo MOSFET) 350V, 0.12A, 30Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1030n-datasheet?assetguid=facfd247-1195-414c-8f91-6dc240158537
+CPC1035N	Form A, Solid State Relay (Photo MOSFET) 350V, 0.1A, 35Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1035n-datasheet?assetguid=08bd8157-8d72-40fa-ab7a-62246e4327d5
 CPC1114N	Form B, Solid State Relay (Photo MOSFET) 60V, 0.4A, 2Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1114n-datasheet?assetguid=dbaad391-0a1b-4914-b92a-7b447aea7fb7
 CPC1117N	Form B, Solid State Relay (Photo MOSFET) 60V, 0.15A, AC/DC, 16Ohm, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1117n-datasheet?assetguid=b6b0537a-0143-41a4-a4c0-1f9a706a4d7a
 CPC1125N	Form B, Solid State Relay (Photo MOSFET) 400V, 0.1A, 35Ohm, AC/DC, SO-4	https://www.littelfuse.com/assetdocs/littelfuse-integrated-circuits-cpc1125n-datasheet?assetguid=3df1af1c-e64d-4dc9-bd80-e20ab839a1e0
@@ -19541,8 +19771,6 @@ C3M0065090D	36A Id, 900V Vds, 65mOhm, N-Channel SiC MOSFET, TO-247	https://www.w
 C3M0065090J	35A Id, 900V Vds, 65mOhm, N-Channel SiC MOSFET, TO-263-7	https://www.wolfspeed.com/media/downloads/145/C3M0065090J.pdf
 CSD13380F3	3.6A Id, 12V Vds, N-Channel MOSFET, 76mOhm Ron,max @ 4.5Vgs, 0.91nC Qg,typ @ 4.5Vgs, PicoStar 0.73x0.64mm max, 0.69x0.60mm nom	https://www.ti.com/lit/ds/symlink/csd13380f3.pdf
 CSD16301Q2	5A Id, 25V Vds, NexFET N-Channel Power MOSFET, 19mOhm Ron, SON-6	http://www.ti.com/lit/ds/symlink/csd16301q2.pdf
-CSD17578Q5A	25A Id, 30V Vds, NexFET N-Channel Power MOSFET, 6.9mOhm Ron, Qg (typ) 7.9nC, SON8 5x6mm	http://www.ti.com/lit/gpn/csd17578q5a
-CSD19537Q3	50A Id, 100V Vds, NexFET N-Channel Power MOSFET, 13mOhm Ron, Qg Typ 16.0nC, VSON8 3.3x3.3mm	http://www.ti.com/lit/ds/symlink/csd19537q3.pdf
 CSD25302Q2	-5A Id, -20V Vds, NexFET P-Channel Power MOSFET, 39mOhm Ron, SON-6	https://www.ti.com/lit/ds/slps234b/slps234b.pdf
 CSD25402Q3A	-76A Id, -20V Vds, NexFET P-Channel Power MOSFET, 7.7mOhm Ron, Qg (typ) 7.5 nC, VSON-8 3.3x3.3mm	https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf
 CSD25480F3	-1.7A Id, -20V Vds, P-Channel MOSFET, 159mOhm Ron,max @ 4.5Vgs, 0.70nC Qg,typ @ 4.5Vgs, PicoStar 0.73x0.64mm max, 0.69x0.60mm nom	https://www.ti.com/lit/ds/symlink/csd25480f3.pdf
@@ -19614,6 +19842,7 @@ Q_NMOS_GDSD	N-MOSFET transistor, gate/drain/source, drain connected to mounting 
 Q_NMOS_GSD	N-MOSFET transistor, gate/source/drain	~
 Q_NMOS_SDGD	N-MOSFET transistor, source/drain/gate, drain connected to mounting plane	~
 Q_NMOS_SGD	N-MOSFET transistor, source/gate/drain	~
+Q_NMOS_SSSGD_AvalancheRated	N-MOSFET transistor, source (pins 1-3)/gate/drain (pin 5), SO-8/SO-8F/SO-8FL/SON-8/PowerPAK-8/TDSON-8/VSON-8	~
 Q_PMOS_DGS	P-MOSFET transistor, drain/gate/source	~
 Q_PMOS_DSG	P-MOSFET transistor, drain/source/gate	~
 Q_PMOS_GDS	P-MOSFET transistor, gate/drain/source	~
@@ -19818,6 +20047,7 @@ CSD17573Q5B	100A Id, 30V Vds, NexFET N-Channel Power MOSFET, 1mOhm Ron, 49nC Qg(
 CSD17576Q5B	100A Id, 30V Vds, NexFET N-Channel Power MOSFET, 2mOhm Ron, 25nC Qg(typ), SON8 5x6mm	http://www.ti.com/lit/gpn/csd17576q5b
 CSD17577Q3A	35A Id, 30V Vds, NexFET N-Channel Power MOSFET, 4.0mOhm Ron, Qg Typ 12nC, VSON-8 3.3x3.3mm	https://www.ti.com/lit/ds/symlink/csd17577q3a.pdf
 CSD17577Q5A	60A Id, 30V Vds, NexFET N-Channel Power MOSFET, 4.2mOhm Ron, 13nC Qg(typ), SON8 5x6mm	http://www.ti.com/lit/gpn/csd17577q5a
+CSD17578Q5A	25A Id, 30V Vds, NexFET N-Channel Power MOSFET, 6.9mOhm Ron, Qg (typ) 7.9nC, SON8 5x6mm	http://www.ti.com/lit/gpn/csd17578q5a
 CSD17579Q5A	25A Id, 30V Vds, NexFET N-Channel Power MOSFET, 9.7mOhm Ron, Qg (typ) 5.4nC, SON8 5x6mm	http://www.ti.com/lit/gpn/csd17579q5a
 CSD17581Q3A	60A Id, 30V Vds, NexFET N-Channel Power MOSFET, 3.2mOhm Ron, Qg Typ 20nC, VSON-8 3.3x3.3mm	https://www.ti.com/lit/ds/symlink/csd17581q3a.pdf
 CSD18501Q5A	100A Id, 40V Vds, NexFET N-Channel Power MOSFET, 3.2mOhm Ron, 42nC Qg(typ), SON8 5x6mm	http://www.ti.com/lit/gpn/csd18501q5a
@@ -19839,6 +20069,7 @@ CSD19531Q5A	100A Id, 100V Vds, NexFET N-Channel Power MOSFET, 6.4mOhm Ron, 37nC 
 CSD19532Q5B	100A Id, 100V Vds, NexFET N-Channel Power MOSFET, 4.9mOhm Ron, 48nC Qg(typ), SON8 5x6mm	http://www.ti.com/lit/gpn/csd19532q5b
 CSD19533Q5A	100A Id, 100V Vds, NexFET N-Channel Power MOSFET, 9.5mOhm Ron, 27nC Qg(typ), SON8 5x6mm	http://www.ti.com/lit/gpn/csd19533q5a
 CSD19534Q5A	50A Id, 100V Vds, NexFET N-Channel Power MOSFET, 15.1mOhm Ron, 17nC Qg(typ), SON8 5x6mm	http://www.ti.com/lit/gpn/csd19534q5a
+CSD19537Q3	50A Id, 100V Vds, NexFET N-Channel Power MOSFET, 13mOhm Ron, Qg Typ 16.0nC, VSON8 3.3x3.3mm	http://www.ti.com/lit/ds/symlink/csd19537q3.pdf
 DMC3071LVT	3.4A/-2.7A Id, 30V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6	https://www.diodes.com/assets/Datasheets/DMC3071LVT.pdf
 DMG2301L	-3A Id, -20V Vds, P-Channel MOSFET, SOT-23	https://www.diodes.com/assets/Datasheets/DMG2301L.pdf
 DMG2302U	4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23	http://www.diodes.com/assets/Datasheets/DMG2302U.pdf
@@ -20000,6 +20231,7 @@ IRF8304M	28A Id, 30V Vds, 2.2mOhm Rds, N-Channel MOSFET, DirectFET MX	https://ww
 IRF8306M	23A Id, 30V Vds, 2.5mOhm Rds, N-Channel MOSFET, DirectFET MX	https://www.infineon.com/dgdl/irf8306mpbf.pdf?fileId=5546d462533600a40153560d29371d5f
 IRF8308M	27A Id, 30V Vds, 2.5mOhm Rds, N-Channel MOSFET, DirectFET MX	https://www.infineon.com/dgdl/irf8308mpbf.pdf?fileId=5546d462533600a40153560d319d1d61
 IRF8327S	13A Id, 30V Vds, 7.3mOhm Rds, N-Channel MOSFET, DirectFET SQ	https://www.infineon.com/dgdl/irf8327spbf.pdf?fileId=5546d462533600a40153560d40c41d65
+IRF840A	N-Channel MOSFET, 8A Id, 500V Vds, 850mΩ Rds, TO-220	https://www.vishay.com/docs/91065/91065.pdf
 IRFI4020H	9.1A Id, 200V Vds, 80mOhm Rds, Dual Half Bridge N-Channel MOSFET, TO-220-5	https://www.infineon.com/dgdl/irfi4020h-117p.pdf?fileId=5546d462533600a401535623e7271f73
 IRFI4212H	11A Id, 100V Vds, 58mOhm Rds, Dual Half Bridge N-Channel MOSFET, TO-220-5	https://www.infineon.com/dgdl/irfi4212h-117p.pdf?fileId=5546d462533600a401535623fc841f7a
 IRFP4468PbF	195A Id, 100V Vds, N-Channel Power MOSFET, TO-247	https://www.infineon.com/dgdl/irfp4468pbf.pdf?fileId=5546d462533600a40153562c73472019
@@ -20032,6 +20264,7 @@ MMBFJ111	20mA min, 35V, 30mOhm max, 3-10V Vgs(off), N-Channel JFET, SOT-23	https
 MMBFJ112	5mA min, 35V, 50mOhm max, 1-5V Vgs(off), N-Channel JFET, SOT-23	https://www.onsemi.com/pub/Collateral/MMBFJ113-D.PDF
 MMBFJ113	2mA min, 35V, 100mOhm max, 0.5-3V Vgs(off), N-Channel JFET, SOT-23	https://www.onsemi.com/pub/Collateral/MMBFJ113-D.PDF
 NDT3055L	4A Id, 60V Vds, N-Channel Logic Level Enhancement Mode MOSFET, SOT-223	https://www.onsemi.com/pdf/datasheet/ndt3055l-d.pdf
+NTMFS016N06CT1G	33A Id, 60V Vds, N-Channel Power MOSFET, 15.6mOhm Ron, -55 to 175 °C, SO-8FL	https://www.onsemi.com/download/data-sheet/pdf/NTMFS016N06C-D.pdf
 NTR2101P	-3.7A Id, -8V Vds, P-Channel MOSFET, SOT-23	http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF
 PGA26E19BA	13A Id, 600V Vds, 140mOhm, N-Channel GaN MOSFET, DFN-8	https://industrial.panasonic.com/content/data/SC/ds/ds4/PGA26E19BA_E.pdf
 PMDT290UCE	Nexperia 20 / 20 V, 800 / 550 mA N/P-channel Trench MOSFET, SOT-666	https://assets.nexperia.com/documents/data-sheet/PMDT290UCE.pdf
@@ -20249,11 +20482,11 @@ ADV7390BCPZ	10-Bit SD/HD Video Encoder, Macrovision Antitaping, LFCSP-32	https:/
 AV9173	Video Genlock PLL	http://www.ibselectronics.com/ibsstore/datasheet/Others/AV9173-01CN08.pdf
 CX7930		
 CXD3400N	6-channel Vertical Clock Driver for CCD Image Sensor, SSOP-20	video\\cxd3400n.pdf
-HD63484		
+HD63484P	Advanced CRT Controller (ACRTC), DIP-64	https://www.alldatasheet.com/datasheet-pdf/view/144378/HITACHI/HD63484.html
 HD63484_PLCC		
 ICX415AQ	Diagonal 8mm B/W Progressive Scan CCD Image Sensor with Square Pixel, CERDIP-22	
 ISL59885	Sync Separator for HD and SD Video, SOIC-8	https://www.renesas.com/us/en/document/dst/isl59885-datasheet?r=533081
-LM1881		
+LM1881	Video Sync Separator, composite sync and vertical sync outputs, DIP-8 / SOIC-8	https://www.ti.com/lit/ds/symlink/lm1881.pdf
 MAX310	8-Channel CMOS RF Video Multiplexer	https://datasheets.maximintegrated.com/en/ds/MAX310-MAX311.pdf
 MAX311	8-Channel CMOS RF Video Multiplexer	https://datasheets.maximintegrated.com/en/ds/MAX310-MAX311.pdf
 MB88303P		
@@ -20269,7 +20502,7 @@ TDA8772	Triple 8bit Video DAC, QFP-44	http://www.pa0qy.nl/pdf/TDA8772.PDF
 TDA9500		
 TEA2014	Video switching circuite for TV, DIP-8	http://pdf1.alldatasheet.com/datasheet-pdf/view/123244/STMICROELECTRONICS/TEA2014.html
 TEA5115		
-TFP410PAP	Digital Visual Interface Compliant PanelBus Digital Transmitter, HTQFP-64	http://www.ti.com/lit/ds/symlink/tfp410.pdf
+TFP410PAP	Digital Visual Interface Compliant PanelBus Digital Transmitter, TQFP-64	http://www.ti.com/lit/ds/symlink/tfp410.pdf
 ADA4430-1WYRTZ	Ultralow Power, Video Filter, Power-Down, SOT-23	https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4430-1.pdf
 ADV7391BCPZ	10-Bit SD/HD Video Encoder, LFCSP-32	https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7390_7391_7392_7393.pdf
 TDA1950F		
