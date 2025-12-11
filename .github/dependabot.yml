@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/kicad_parser"
+    schedule:
+      interval: "daily"
