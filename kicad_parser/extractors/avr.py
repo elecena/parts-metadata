@@ -64,6 +64,7 @@ def parse_pdf_from_url(url: str) -> pinout:
 
     with NamedTemporaryFile(prefix='avr-', suffix='.pdf') as pdf_file:
         pdf_file.write(resp.content)
+        pdf_file.flush()
 
         logger.info(f'Parsing PDF file: {pdf_file.name} ...')
         return parse_pdf(pdf_file.name)
