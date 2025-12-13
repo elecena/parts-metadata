@@ -4,6 +4,7 @@ Tries to get additional data for the parts from official datasheets.
 
 import logging
 import re
+from subprocess import CalledProcessError
 
 from extractors.avr import is_avr_datasheet, parse_pdf_from_url
 
@@ -34,6 +35,9 @@ def enrich_part(part: Part):
         try:
             parsed = parse_pdf_from_url(part.datasheet)
         # pylint:disable=broad-exception-caught
+        except CalledProcessError as ex:
+            logging.error(f"Handling of {part.name} failed: parse_pdf_from_url() raised {ex.stderr}")
+            return
         except Exception as ex:
             logging.error(f"Handling of {part.name} failed: {str(ex)}")
             return
