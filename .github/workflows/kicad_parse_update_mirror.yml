@@ -1,0 +1,44 @@
+name: Update kicad-parser files from GitLab
+
+on:
+  schedule:
+    # run daily
+    - cron:  '7 5 * * *'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  # For debug purposes
+  pull_request:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v6.0.2
+
+    - name: Update files from kicad-parser
+      working-directory: kicad_parser
+      run: ./update_mirror.sh
+
+    - name: Show diff
+      working-directory: kicad_parser
+      run: git diff
+
+    - name: Commit the changes
+      uses: stefanzweifel/git-auto-commit-action@v7
+      with:
+        # https://github.com/stefanzweifel/git-auto-commit-action
+        commit_message: "kicad_parser GitLab repo changes"
+        # Optional. Remote branch name where commit is going to be pushed to. 
+        # Defaults to the current branch.
+        branch: update/kicad_parser
+        # Optional. Create given branch name in local and remote repository.
+        create_branch: true
+
+    - name: Create a pull request
+      env:
+        # gh: To use GitHub CLI in a GitHub Actions workflow, set the GH_TOKEN environment variable
+        GH_TOKEN: ${{ github.token }}
+      run: gh pr create --head update/kicad_parser --title 'kicad_parser GitLab repo changes' --draft --fill || true
