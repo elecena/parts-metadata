@@ -41,4 +41,4 @@ jobs:
       env:
         # gh: To use GitHub CLI in a GitHub Actions workflow, set the GH_TOKEN environment variable
         GH_TOKEN: ${{ github.token }}
-      run: gh pr create --head update/kicad_parser --title 'kicad_parser GitLab repo changes' --draft || true
+      run: gh pr create --head update/kicad_parser --title 'kicad_parser GitLab repo changes' --draft --fill || true
