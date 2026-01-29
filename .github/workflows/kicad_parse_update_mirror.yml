@@ -1,0 +1,30 @@
+name: Update kicad-parser files from GitLab
+
+on:
+  schedule:
+    # run daily
+    - cron:  '7 5 * * *'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  # For debug purposes
+  pull_request:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v6.0.2
+
+    - name: Update files from kicad-parser
+      working-directory: kicad_parser
+      run: |
+        cd kicad_parser/
+        ./update_mirror.sh
+
+    - name: Show diff
+      working-directory: kicad_parser
+      run: |
+        git diff
