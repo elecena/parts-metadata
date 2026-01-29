@@ -21,7 +21,6 @@ jobs:
     - name: Update files from kicad-parser
       working-directory: kicad_parser
       run: |
-        cd kicad_parser/
         ./update_mirror.sh
 
     - name: Show diff
