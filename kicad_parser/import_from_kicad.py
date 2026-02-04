@@ -108,8 +108,9 @@ def main(archive_file: str):
 
             yaml_file.write("...\n")
 
-    # INFO:root:Found 20253 parts
+    # [main] Found 20780 parts
     logging.info(f"Found {parts_count} parts")
+    print(f'::notice::Found {parts_count} parts')  # for GitHub Actions
 
 
 if __name__ == "__main__":
@@ -121,6 +122,5 @@ if __name__ == "__main__":
     )
     # logging.basicConfig(level=logging.WARN)
 
-    # fetch by
-    # wget https://gitlab.com/kicad/libraries/kicad-symbols/-/archive/master/kicad-symbols-master.zip
+    # fetched via "make fetch_kicad_symbols"
     main(archive_file="kicad-symbols-master.zip")
