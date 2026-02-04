@@ -1,0 +1,63 @@
+name: Update parts metadata
+
+on:
+  schedule:
+    # run daily
+    - cron:  '7 5 * * *'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  # For testing purposes
+  pull_request:
+
+jobs:
+  kicad:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v6.0.2
+
+    - name: Set up Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: 3.x
+
+    - name: Install dependencies
+      working-directory: kicad_parser
+      run: |
+        pip install -r requirements.txt
+        sudo apt install -y poppler-utils
+
+    - name: Fetch the kicad symbols zip file
+      working-directory: kicad_parser
+      run: |
+        make fetch_kicad_symbols
+        ls -lh *.zip
+
+    - name: Parse the metadata
+      working-directory: kicad_parser
+      run: ./import_from_kicad.py
+
+    - name: Show diff
+      working-directory: kicad_parser
+      run: git diff
+
+    - name: Commit the changes
+      uses: stefanzweifel/git-auto-commit-action@v7
+      if: false
+      with:
+        # https://github.com/stefanzweifel/git-auto-commit-action
+        commit_message: "Parts metadata updates"
+        # Optional. Remote branch name where commit is going to be pushed to.
+        # Defaults to the current branch.
+        branch: update/parts
+        # Optional. Create given branch name in local and remote repository.
+        create_branch: true
+
+    - name: Create a pull request
+      if: false
+      env:
+        # gh: To use GitHub CLI in a GitHub Actions workflow, set the GH_TOKEN environment variable
+        GH_TOKEN: ${{ github.token }}
+      run: gh pr create --head update/kicad_parser --title 'kicad_parser GitLab repo changes' --draft --body 'See https://gitlab.com/kicad/libraries/kicad-library-utils' --assignee macbre || true
