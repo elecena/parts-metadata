@@ -212,7 +212,6 @@ class TextEffect(KicadSymbolBase):
     sizey: float
     is_italic: bool = False
     is_bold: bool = False
-    is_hidden: bool = False
     is_mirrored: bool = False
     h_justify: str = "center"
     v_justify: str = "center"
@@ -244,9 +243,6 @@ class TextEffect(KicadSymbolBase):
         if len(justify) > 1:
             sx.append(justify)
 
-        if self.is_hidden:
-            sx.append(["hide", "yes"])
-
         return sx
 
     @classmethod
@@ -257,10 +253,6 @@ class TextEffect(KicadSymbolBase):
         sizex, sizey = _get_xy(font, "size")
         is_italic = "italic" in font
         is_bold = "bold" in font
-        is_hidden = False
-        hidearray = _get_array2(sexpr, "hide")
-        if len(hidearray) and "yes" in hidearray[0]:
-            is_hidden = True
         is_mirrored = "mirror" in sexpr
         justify = _get_array2(sexpr, "justify")
         h_justify = "center"
@@ -279,7 +271,6 @@ class TextEffect(KicadSymbolBase):
             sizey,
             is_italic,
             is_bold,
-            is_hidden,
             is_mirrored,
             h_justify,
             v_justify,
@@ -798,6 +789,7 @@ class Text(KicadSymbolBase):
     posy: float
     rotation: float
     effects: TextEffect
+    is_hidden: bool
     unit: int = 0
     demorgan: int = 0
 
@@ -806,6 +798,7 @@ class Text(KicadSymbolBase):
             "text",
             self.quoted_string(self.text),
             ["at", self.posx, self.posy, self.rotation],
+            ["hide", "yes" if self.is_hidden else "no"],
             self.effects.get_sexpr(),
         ]
         return sx
@@ -817,7 +810,15 @@ class Text(KicadSymbolBase):
         text = sexpr.pop(0)
         posx, posy, rotation = _parse_at(sexpr)
         effects = TextEffect.from_sexpr(_get_array(sexpr, "effects")[0])
-        return Text(text, posx, posy, rotation, effects, unit=unit, demorgan=demorgan)
+
+        is_hidden = False
+        hidearray = _get_array2(sexpr, "hide")
+        if len(hidearray) and "yes" in hidearray[0]:
+            is_hidden = True
+
+        return Text(
+            text, posx, posy, rotation, effects, is_hidden, unit=unit, demorgan=demorgan
+        )
 
     @property
     def pos(self):
@@ -931,6 +932,7 @@ class Property(KicadSymbolBase):
     posx: float = 0.0
     posy: float = 0.0
     rotation: float = 0.0
+    is_hidden: bool = False
     effects: Optional[TextEffect] = None
     private: bool = False
     do_not_autoplace: bool = False
@@ -951,6 +953,8 @@ class Property(KicadSymbolBase):
 
         if self.do_not_autoplace:
             sx.append(["do_not_autoplace"])
+
+        sx.append(["hide", "yes" if self.is_hidden else "no"])
 
         if self.effects:
             sx.append(self.effects.get_sexpr())
@@ -982,8 +986,22 @@ class Property(KicadSymbolBase):
         posx, posy, rotation = _parse_at(sexpr)
         do_not_autoplace = _has_value(sexpr, "do_not_autoplace")
         effects = TextEffect.from_sexpr(_get_array(sexpr, "effects")[0])
+
+        is_hidden = False
+        hidearray = _get_array2(sexpr, "hide")
+        if len(hidearray) and "yes" in hidearray[0]:
+            is_hidden = True
+
         return Property(
-            name, value, posx, posy, rotation, effects, private, do_not_autoplace
+            name,
+            value,
+            posx,
+            posy,
+            rotation,
+            is_hidden,
+            effects,
+            private,
+            do_not_autoplace,
         )
 
 
@@ -1344,7 +1362,7 @@ class KicadLibrary(KicadSymbolBase):
     filename: str
     symbols: list[KicadSymbol] = field(default_factory=list)
     generator: str = "kicad-library-utils"
-    version: str = "20241209"
+    version: str = "20251024"
 
     def write(self) -> None:
         with open(self.filename, "w", encoding="utf-8") as lib_file:
@@ -1400,7 +1418,78 @@ class KicadLibrary(KicadSymbolBase):
             already_seen.add(symbol.name)
 
     @classmethod
-    def from_file(cls, filename: str, data=None) -> "KicadLibrary":
+    def from_path(cls, filename: str, data=None) -> "KicadLibrary":
+        if Path(filename).is_dir():
+            return KicadLibrary.from_dir(filename)
+        else:
+            return KicadLibrary.from_file(filename)
+
+    @classmethod
+    def from_dir(cls, dirname: str, data=None) -> "KicadLibrary":
+        """
+        Parse a symbol library from a kicad_symdir directory
+
+        raises KicadFileFormatError in case of problems
+        """
+        symdir = Path(dirname)
+        if not symdir.is_dir():
+            raise Exception(f'The directory "{dirname}" cannot be opened')
+
+        # create a empty library
+        # we kinda would need to set version and generator, but that is
+        # not simple, because they could differ in the sub-files in that kicad_symdir
+        library = KicadLibrary(dirname)
+
+        # for tracking derived symbols we need another dict
+        # (this is code-duplication from the from_file method)
+        symbol_names = {}
+
+        # iterate over all .kicad_sym files in the directory
+        for sub_lib_filename in os.listdir(dirname):
+            # read the sub library
+            sub_library = KicadLibrary.from_file(
+                symdir.joinpath(sub_lib_filename), check_inheritance=False
+            )
+            if len(sub_library.symbols) > 1:
+                raise KicadFileFormatError(
+                    f"Found more than one symbols in: {sub_lib_filename}"
+                )
+
+            # fetch the first symbol from the sub-library
+            # overwrite the libname with the name from the directory
+            symbol = sub_library.symbols[0]
+            symbol.libname = symdir.stem
+
+            # fill the symbol_names dict we need for inheritance checking laters
+            if symbol.name in symbol_names:
+                raise KicadFileFormatError(f"Duplicate symbols: {symbol.name}")
+            symbol_names[symbol.name] = symbol
+
+            # add this single symbol to our library
+            library.symbols.append(symbol)
+
+        # do some inheritance sanity checks (duplicated from from_file function)
+        for symbol in library.symbols:
+            cursor = symbol
+            while cursor.extends:
+                if symbol.name == symbol.extends:
+                    raise KicadFileFormatError(f"Symbol {symbol.name} extends itself")
+
+                if symbol.extends in symbol._inheritance:
+                    raise KicadFileFormatError(
+                        f"Symbol {symbol.name} has a circular inheritance"
+                    )
+
+                parent_sym = symbol_names.get(cursor.extends)
+                symbol._inheritance.append(parent_sym)
+                cursor = parent_sym
+
+        return library
+
+    @classmethod
+    def from_file(
+        cls, filename: str, data=None, check_inheritance=True
+    ) -> "KicadLibrary":
         """
         Parse a symbol library from a file.
 
@@ -1409,9 +1498,7 @@ class KicadLibrary(KicadSymbolBase):
 
         # Check if library exists and set the empty library if not
         if not Path(filename).is_file():
-            dir_path = os.path.dirname(os.path.realpath(__file__))
-            print(f"NO FILE FOUND, using {dir_path}/empty.kicad_sym")
-            filename = dir_path + "/empty.kicad_sym"
+            raise Exception(f'The file "{filename}" cannot be opened')
 
         library = KicadLibrary(filename)
 
@@ -1432,16 +1519,16 @@ class KicadLibrary(KicadSymbolBase):
         # to ensure that this parser is only used with v6 files. Any other version will most likely
         # not work as expected. So just don't load them at all.
         version = _get_value_of(sexpr_data, "version")
-        if str(version) != "20241209":
+        if str(version) != KicadLibrary.version:
             raise KicadFileFormatError(
-                f'Version of symbol file is "{version}", not "20241209"'
+                f'Version of symbol file is "{version}", not "{KicadLibrary.version}"'
             )
         library.generator = _get_value_of(sexpr_data, "generator")
 
         # for tracking derived symbols we need another dict
         symbol_names = {}
 
-        # itertate over symbol
+        # itertate over symbols
         sym_list = _get_array(sexpr_data, "symbol", max_level=2)
         for item in sym_list:
             item_type = item.pop(0)
@@ -1574,21 +1661,29 @@ class KicadLibrary(KicadSymbolBase):
             # add it to the list of symbols
             library.symbols.append(symbol)
 
-        for symbol in library.symbols:
+        # do some inheritance sanity checks
+        if check_inheritance:
+            for symbol in library.symbols:
+                cursor = symbol
+                while cursor.extends:
+                    if symbol.name == symbol.extends:
+                        raise KicadFileFormatError(
+                            f"Symbol {symbol.name} extends itself"
+                        )
 
-            cursor = symbol
-            while cursor.extends:
-                if symbol.name == symbol.extends:
-                    raise KicadFileFormatError(f"Symbol {symbol.name} extends itself")
+                    if symbol.extends in symbol._inheritance:
+                        raise KicadFileFormatError(
+                            f"Symbol {symbol.name} has a circular inheritance"
+                        )
 
-                if symbol.extends in symbol._inheritance:
-                    raise KicadFileFormatError(
-                        f"Symbol {symbol.name} has a circular inheritance"
-                    )
+                    parent_sym = symbol_names.get(cursor.extends)
+                    if not parent_sym:
+                        raise KicadFileFormatError(
+                            f"Parent {cursor.extends} of symbol {symbol.name} not found"
+                        )
 
-                parent_sym = symbol_names.get(cursor.extends)
-                symbol._inheritance.append(parent_sym)
-                cursor = parent_sym
+                    symbol._inheritance.append(parent_sym)
+                    cursor = parent_sym
 
         return library
 
