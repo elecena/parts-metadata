@@ -1,5 +1,5 @@
 # parts
-Electronics parts metadata with packages, pinout and datasheets
+Electronics parts metadata with packages, pinout and datasheets.
 
 
 ### Inspirations
@@ -9,3 +9,4 @@ Electronics parts metadata with packages, pinout and datasheets
 ### Sources
 
 * [Raspberry Pi GPIO Pinout from pinout.xyz](https://github.com/pinout-xyz/Pinout.xyz/blob/master/src/en/template/pinout.yaml)
+* [KiCad Symbols Library](https://gitlab.com/kicad/libraries/kicad-symbols)
