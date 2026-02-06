@@ -25,7 +25,7 @@ def test_74xx():
     # print(library)
 
     assert library.generator == "kicad_symbol_editor"
-    assert library.version == "20241209"
+    assert library.version == KicadLibrary.version
 
     assert len(library.symbols) == 2
     assert [symbol.name for symbol in library.symbols] == ["74469", "7454"]
