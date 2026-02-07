@@ -5,7 +5,8 @@ The CLI script to import KiCad symbols from the official repo.
 import logging
 
 from csv import DictWriter
-from tempfile import NamedTemporaryFile
+from os import listdir
+from tempfile import TemporaryDirectory
 from typing import Iterable
 from zipfile import ZipFile
 
@@ -14,48 +15,56 @@ from kicad.kicad_sym import KicadLibrary
 from part import Part
 
 
-def iterate_archive(zip_file: ZipFile) -> Iterable[str]:
+def iterate_archive(zip_file: ZipFile):
     """
     Reads the provided ZipFile and extract "_sym" files.
-    Yields temporary file names with the extracted content, file by file.
+    Yields the temporary directory path.
     """
     logger = logging.getLogger("iterate_archive")
 
-    # https://docs.python.org/3/library/zipfile.html
-    for item in zip_file.namelist():
-        # kicad-symbols-master/74xx.kicad_sym
-        if not item.endswith("_sym"):
-            continue
+    with TemporaryDirectory(prefix="kicad_") as tmp_dir:
+        logger.info(f"Created temporary directory for KiCad files: {tmp_dir}")
+        files_extracted = 0
 
-        # INFO:iterate_archive: > Found archive item: "kicad-symbols-master/power.kicad_sym"
-        # Connector_Generic.kicad_sym
-        # Mechanical.kicad_sym
-        if "power.kicad" in item or "/Connector" in item or "Mechanical" in item:
-            continue
+        # https://docs.python.org/3/library/zipfile.html
+        for item in zip_file.namelist():
+            # kicad-symbols-master/74xx.kicad_sym
+            if not item.endswith("_sym"):
+                continue
 
-        logger.info(f' > Found archive item: "{item}"')
+            # INFO:iterate_archive: > Found archive item: "kicad-symbols-master/power.kicad_sym"
+            # Connector_Generic.kicad_sym
+            # Mechanical.kicad_sym
+            if "power.kicad" in item or "/Connector" in item or "Mechanical" in item:
+                continue
 
-        with zip_file.open(item, mode="r") as my_file:
-            # e.g. /tmp/kicad_4ykd6li7_sym
-            with NamedTemporaryFile(
-                mode="wt", prefix="kicad_", suffix="_sym"
-            ) as temp_file:
-                with open(temp_file.name, "wt", encoding="utf-8") as temp_io:
-                    for line in my_file:
-                        temp_io.write(line.decode("utf-8"))
+            # e.g. kicad-symbols-master/Transistor_FET.kicad_symdir/IRF6622.kicad_sym
+            logger.info(f' > Found archive item: "{item}", extracting...')
+            zip_file.extract(item, tmp_dir)
 
-                logger.info(f' < Saved in "{temp_file.name}"')
-                yield temp_file.name
+            files_extracted += 1
+
+            # if files_extracted > 300:
+            #     break
+
+        logger.info(f"Extracted {files_extracted} symbol files to {tmp_dir}")
+
+        # now, iterate over all subdirectories so that we can parse each one them separately
+        for subdir in listdir(f'{tmp_dir}/kicad-symbols-master'):
+            subdir = f'{tmp_dir}/kicad-symbols-master/{subdir}'
+            yield subdir
 
 
 def iterate_parts(zip_file: ZipFile) -> Iterable[Part]:
     """
     Takes the KiCad repo zip file and yields parsed parts
     """
-    for sym_file in iterate_archive(zip_file):
-        library = KicadLibrary.from_file(sym_file)
+    logger = logging.getLogger("iterate_parts")
 
-        logging.info(f"Symbols found: {len(library.symbols)}")
+    for symbols_directory in iterate_archive(zip_file):
+        logger.info(f"Processing {symbols_directory} sub-directory...")
+        library = KicadLibrary.from_dir(symbols_directory)
+        logger.info(f"Symbols found in the {symbols_directory}: {len(library.symbols)}")
 
         for symbol in library.symbols:
             try:
@@ -63,13 +72,13 @@ def iterate_parts(zip_file: ZipFile) -> Iterable[Part]:
                 # try to fetch some additional data from the datasheets
                 enrich_part(part)
 
-                logging.info(f"* {part.name} ({part.description})")
+                logger.info(f"* {part.name} ({part.description})")
 
                 yield part
             except (AssertionError, TypeError) as ex:
                 # WARNING:root:Part 1N4934 not parsed: Pinout of 1N4934 is empty
                 # WARNING:root:Part ADAU1761 not parsed: '<' not supported between instances of 'str' and 'int'
-                logging.warning(f"Part {symbol.name} not parsed: {str(ex)}")
+                logger.warning(f"Part {symbol.name} not parsed: {str(ex)}")
                 # raise ex
 
 
