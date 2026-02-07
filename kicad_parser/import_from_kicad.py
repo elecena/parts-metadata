@@ -39,19 +39,20 @@ def iterate_archive(zip_file: ZipFile):
                 continue
 
             # e.g. kicad-symbols-master/Transistor_FET.kicad_symdir/IRF6622.kicad_sym
-            logger.info(f' > Found archive item: "{item}", extracting...')
+            # logger.info(f' > Found archive item: "{item}", extracting...')
             zip_file.extract(item, tmp_dir)
 
             files_extracted += 1
 
-            # if files_extracted > 300:
-            #     break
+            if files_extracted % 500 == 0:
+                logger.info(f"Symbols found so far: {files_extracted} ...")
 
         logger.info(f"Extracted {files_extracted} symbol files to {tmp_dir}")
 
         # now, iterate over all subdirectories so that we can parse each one them separately
-        for subdir in listdir(f'{tmp_dir}/kicad-symbols-master'):
+        for subdir in sorted(listdir(f'{tmp_dir}/kicad-symbols-master')):
             subdir = f'{tmp_dir}/kicad-symbols-master/{subdir}'
+            logger.info(f"Yielding {subdir} sub-directory...")
             yield subdir
 
 
@@ -62,7 +63,6 @@ def iterate_parts(zip_file: ZipFile) -> Iterable[Part]:
     logger = logging.getLogger("iterate_parts")
 
     for symbols_directory in iterate_archive(zip_file):
-        logger.info(f"Processing {symbols_directory} sub-directory...")
         library = KicadLibrary.from_dir(symbols_directory)
         logger.info(f"Symbols found in the {symbols_directory}: {len(library.symbols)}")
 
