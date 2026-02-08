@@ -44,6 +44,10 @@ def iterate_archive(zip_file: ZipFile):
 
             files_extracted += 1
 
+            # DEBUG
+            # if files_extracted > 750:
+            #     break
+
             if files_extracted % 500 == 0:
                 logger.info(f"Symbols found so far: {files_extracted} ...")
 
@@ -66,7 +70,8 @@ def iterate_parts(zip_file: ZipFile) -> Iterable[Part]:
         library = KicadLibrary.from_dir(symbols_directory)
         logger.info(f"Symbols found in the {symbols_directory}: {len(library.symbols)}")
 
-        for symbol in library.symbols:
+        # keep the order of symbols in the parts CSV and YML files
+        for symbol in sorted(library.symbols, key=lambda s: s.name):
             try:
                 part = Part.from_kicad_symbol(symbol)
                 # try to fetch some additional data from the datasheets
