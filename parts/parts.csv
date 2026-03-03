@@ -19036,6 +19036,9 @@ VT93xx	light dependent resistor	http://www.produktinfo.conrad.com/datenblaetter/
 40PC100G	Gauge pressure sensor, 0 to 100PSI, 5V supply, 0.2% accuracy, integrated signal conditioning, excellent media compatibility	http://www.honeywellscportal.com//index.php?ci_id=138832
 40PC150G	Gauge pressure sensor, 0 to 150PSI, 5V supply, 0.2% accuracy, integrated signal conditioning, excellent media compatibility	http://www.honeywellscportal.com//index.php?ci_id=138832
 40PC250G	Gauge pressure sensor, 0 to 250PSI, 5V supply, 0.2% accuracy, integrated signal conditioning, excellent media compatibility	http://www.honeywellscportal.com//index.php?ci_id=138832
+ABPxxxxxxxxx0	Basic Board Mount Absolute Pressure Sensor, 60 mbar to 10 bar, 6 kPa to 1 MPa, 1 psi to 150 psi, I2C digital output, DIP-6 package	https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/pressure-sensors/board-mount-pressure-sensors/basic-abp-series/documents/sps-siot-basic-board-mount-pressure-abp-series-datasheet-32305128-ciid-155789.pdf?download=false
+ABPxxxxxxxxxA	Basic Board Mount Absolute Pressure Sensor, 60 mbar to 10 bar, 6 kPa to 1 MPa, 1 psi to 150 psi, analog output, DIP-6 package	https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/pressure-sensors/board-mount-pressure-sensors/basic-abp-series/documents/sps-siot-basic-board-mount-pressure-abp-series-datasheet-32305128-ciid-155789.pdf?download=false
+ABPxxxxxxxxxS	Basic Board Mount Absolute Pressure Sensor, 60 mbar to 10 bar, 6 kPa to 1 MPa, 1 psi to 150 psi, SPI digital output, DIP-6 package	https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/pressure-sensors/board-mount-pressure-sensors/basic-abp-series/documents/sps-siot-basic-board-mount-pressure-abp-series-datasheet-32305128-ciid-155789.pdf?download=false
 BMP280	Absolute Barometric Pressure Sensor, LGA-8	https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf
 ILPS28QSW	Dual full-scale (mode 1: 260..1260 hPa; mode 2: 260..4060 hPa), absolute digital output barometer with Qvar detection in a water-resistant package, 1.7..3.6V supply voltage, LGA-7	https://www.st.com/resource/en/datasheet/ilps28qsw.pdf
 LPS22DF	MEMS absolute pressure sensor, 260-1260 hPa, 1-200Hz ODR, 24bit, I2C/I3C/SPI interface, 2x2mm ST_HLGA-10L	https://www.st.com/resource/en/datasheet/lps22df.pdf
@@ -19298,10 +19301,10 @@ SW_DPST_x2	Single Pole Single Throw (SPST) switch, separate symbol
 SW_E3_SA3216	Push button switch with LCD screen	http://www.e3-keys.com/files/SA%20Technical%20Datasheet%20v2.0.pdf
 SW_E3_SA3624	Push button switch with LCD screen	http://www.e3-keys.com/files/SA%20Technical%20Datasheet%20v2.0.pdf
 SW_E3_SA6432	Push button switch with LCD screen	http://www.e3-keys.com/files/SA%20Technical%20Datasheet%20v2.0.pdf
-SW_MEC_5E	MEC 5E single pole normally-open tactile switch	http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371
-SW_MEC_5G	MEC 5G single pole normally-open tactile switch	http://www.apem.com/int/index.php?controller=attachment&id_attachment=488
-SW_MEC_5G_2LED	MEC 5G single pole normally-open illuminated tactile switch with two LEDs	http://www.apem.com/int/index.php?controller=attachment&id_attachment=488
-SW_MEC_5G_LED	MEC 5G single pole normally-open illuminated tactile switch	http://www.apem.com/int/index.php?controller=attachment&id_attachment=488
+SW_MEC_5E	MEC 5E single pole normally-open tactile switch	https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5E.pdf
+SW_MEC_5G	MEC 5G single pole normally-open tactile switch	https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf
+SW_MEC_5G_2LED	MEC 5G single pole normally-open illuminated tactile switch with two LEDs	https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf
+SW_MEC_5G_LED	MEC 5G single pole normally-open illuminated tactile switch	https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf
 SW_MMI_Q5-100	Push button switch with LCD screen	http://latest.ledswitches.co.uk/media/pdf/Q5-PCB-V1-withQ5data.pdf
 SW_NKK_GW12LJPCF	Switch, single pole double throw, illuminated paddle, red and green LEDs	http://www.nkkswitches.com/pdf/gwillum.pdf
 SW_Nidec_CAS-120A1	Switch, single pole double throw	https://www.nidec-components.com/e/catalog/switch/cas.pdf
