@@ -20499,6 +20499,7 @@ PSMN5R2-60YL	100A, 60V Vds, N-Channel MOSFET, 5.2mOhm Ron, LFPAK56	https://asset
 QM6006D	35A Id, 60V Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252	http://www.jaolen.com/images/pdf/QM6006D.pdf
 QM6015D	-35A Id, -60V Vds, P-Channel Power MOSFET, 25mOhm Ron, 25.0nC Qg (typ), TO252	http://www.jaolen.com/images/pdf/QM6015D.pdf
 Q_Dual_NMOS_G1S2G2D2S1D1	Dual NMOS transistor, 6 pin package	
+Q_Dual_NMOS_PMOS_G1S2G2D2S1D1	Dual NMOS PMOS transistor, 6 pin package	~
 Q_Dual_NMOS_S1G1D2S2G2D1	Dual NMOS transistor, 6 pin package	
 Q_Dual_NMOS_S1G1S2G2D2D1	Dual NMOS transistor, 6 pin package	
 Q_Dual_NMOS_S1G1S2G2D2D2D1D1	Dual NMOS transistor, 8 pin package	
