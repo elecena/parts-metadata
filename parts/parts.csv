@@ -494,7 +494,7 @@ TC7PZ14FU	Dual schmitt inverter, VCC from 1.65 to 5.5 V, SOT-363	https://toshiba
 74LS240_Split	Octal Buffer and Line Driver With 3-State Output, active-low enables, inverting outputs, split symbol	http://www.ti.com/lit/ds/symlink/sn74ls240.pdf
 74LS241	Octal Buffer and Line Driver With 3-State Output, complementary enables, non-inverting outputs	http://www.ti.com/lit/ds/symlink/sn74ls241.pdf
 74LS241_Split	Octal Buffer and Line Driver With 3-State Output, complementary enables, non-inverting outputs, split symbol	http://www.ti.com/lit/ds/symlink/sn74ls241.pdf
-74LS242	quad bus transceiver, inverting 3-state outputs	http://www.ti.com/lit/gpn/sn74LS242
+74LS242	quad bus transceiver, inverting 3-state outputs	https://unicornelectronics.com/ftp/Data%20Sheets/74ls242-243.pdf
 74LS243	4-bit Bus Transceiver	http://www.ti.com/lit/gpn/sn74LS243
 74LS244	Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs	http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
 74LS244_Split	Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs, split symbol	http://www.ti.com/lit/ds/symlink/sn74ls241.pdf
