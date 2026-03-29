@@ -17000,6 +17000,7 @@ TPS7A0530PDBZ	200-mA Ultra-Low-Iq LDO, 3.0V, SOT-23-3	https://www.ti.com/lit/ds/
 TPS7A0531PDBV	200-mA Ultra-Low-Iq LDO, 3.1V, SOT-23-5	https://www.ti.com/lit/ds/symlink/tps7a05.pdf
 TPS7A0533PDBV	200-mA Ultra-Low-Iq LDO, 3.3V, SOT-23-5	https://www.ti.com/lit/ds/symlink/tps7a05.pdf
 TPS7A0533PDBZ	200-mA Ultra-Low-Iq LDO, 3.3V, SOT-23-3	https://www.ti.com/lit/ds/symlink/tps7a05.pdf
+TPS7A20xxxDBV	300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23	https://www.ti.com/lit/ds/symlink/tps7a20.pdf
 TPS7A20xxxDQN	300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, X2SON-5	https://www.ti.com/lit/ds/symlink/tps7a20.pdf
 TPS7A3301RGW	1A, Low-Noise Lod-Dropout Negative Voltage Regulator, -3..-36V Input, Adjustable -1.18...-33V Output, VQFN-20	https://www.ti.com/lit/ds/symlink/tps7a33.pdf
 TPS7A39	Dual, 150-mA, ±3.3V to ±33V Input, +1.2V to +30V and -30V to 0V Output, Wide VIN Positive and Negative LDO Voltage Regulator, 3x3mm WSON-10 package	https://www.ti.com/lit/ds/symlink/tps7a39.pdf
