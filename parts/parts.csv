@@ -18784,6 +18784,7 @@ INA219BxD	Zero-Drift, HighAccuracy, Bidirectional Current/Power Monitor (0-26V) 
 INA219BxDCN	Zero-Drift, HighAccuracy, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOT-23-8	http://www.ti.com/lit/ds/symlink/ina219.pdf
 INA226	High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)	http://www.ti.com/lit/ds/symlink/ina226.pdf
 INA228	High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-85V) with I2C, SMBus-, and PMBus-Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)	https://www.ti.com/lit/ds/symlink/ina228.pdf
+INA229	85V, 20-bit, Ultra-Precise Power/Energy/Charge Monitor, SPI Interface, TSSOP-10 (Texas DGS0010A / VSSOP)	https://www.ti.com/lit/ds/symlink/ina229.pdf
 INA233	High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C, SMBus-, and PMBus-Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)	https://www.ti.com/lit/ds/symlink/ina233.pdf
 INA237	High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-85V) with I2C, SMBus-, and PMBus-Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)	https://www.ti.com/lit/ds/symlink/ina237.pdf
 INA238	High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-85V) with I2C, SMBus-, and PMBus-Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)	https://www.ti.com/lit/ds/symlink/ina238.pdf
@@ -19969,6 +19970,7 @@ Q_NPN_Darlington_ECBC	NPN Darlington transistor, emitter/collector/base, collect
 Q_NPN_EBC	NPN transistor, emitter/base/collector	
 Q_NPN_ECB	NPN transistor, emitter/collector/base	
 Q_NPN_ECBC	NPN transistor, emitter/collector/base, collector connected to mounting plane	
+Q_PNP_ACAB	PNP transistor, all/cathodes/are/beautiful	
 Q_PNP_BCE	PNP transistor, base/collector/emitter	
 Q_PNP_BCEC	PNP transistor, base/collector/emitter, collector connected to mounting plane	
 Q_PNP_BEC	PNP transistor, base/emitter/collector	
