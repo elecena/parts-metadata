@@ -7,6 +7,7 @@ import math
 import os
 import re
 import sys
+from copy import deepcopy
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -388,6 +389,35 @@ class Pin(KicadSymbolBase):
             return "D"
         else:
             raise NotImplementedError(f"Invalid 'rotation' of Pin: {self.rotation}")
+
+    """
+    Since KiCad10 Pins can be natively stacked. They format just puts a list of pin numbers
+    into the normal pin_number field like so: [23, 45, 74]
+    This function splits 'unstacks' those pins and returns a list of the pins that are
+    part of the pinstack.
+    """
+
+    def unstack(self) -> List["Pin"]:
+        if stack_list := re.match(r"^\[(.*?)\]$", self.number):
+            pin_list = []
+            pins_in_stack = stack_list.group(1).split(",")
+            print(f"pins in native stack {pins_in_stack}")
+            for pin_number in pins_in_stack:
+                # we first make a copy of the pin, then overwrite its
+                # number with the unstacked number
+                pinstack_pin = deepcopy(self)
+                pinstack_pin.number = pin_number
+                pin_list.append(pinstack_pin)
+            return pin_list
+        else:
+            return []
+
+    """
+    Returns true when this pin is a native pin stack
+    """
+
+    def is_stack(self) -> bool:
+        return True if re.match(r"^\[(.*?)\]$", self.number) else False
 
     @classmethod
     def from_sexpr(cls, sexpr, unit: int, demorgan: int) -> "Pin":
@@ -1235,10 +1265,9 @@ class KicadSymbol(KicadSymbolBase):
                     loc = "x{0}_y{1}_u{2}_d{3}".format(
                         pin.posx, pin.posy, unit, demorgan
                     )
-                    if loc in stacks:
-                        stacks[loc].append(pin)
-                    else:
-                        stacks[loc] = [pin]
+                    # add this location to the dict if it does not exist
+                    stacks.setdefault(loc, [])
+                    stacks[loc].append(pin)
         return stacks
 
     def get_parent_symbol(self) -> "KicadSymbol":
@@ -1493,6 +1522,11 @@ class KicadLibrary(KicadSymbolBase):
                     )
 
                 parent_sym = symbol_names.get(cursor.extends)
+                if parent_sym is None:
+                    raise KicadFileFormatError(
+                        f"Symbol {symbol.name} is extended to a part not in the library"
+                    )
+
                 symbol._inheritance.append(parent_sym)
                 cursor = parent_sym
 
@@ -1510,7 +1544,7 @@ class KicadLibrary(KicadSymbolBase):
 
         # Check if library exists and set the empty library if not
         if not Path(filename).is_file():
-            raise Exception(f'The file "{filename}" cannot be opened')
+            raise FileNotFoundError(f'The file "{filename}" cannot be opened')
 
         library = KicadLibrary(filename)
 
@@ -1674,7 +1708,7 @@ class KicadLibrary(KicadSymbolBase):
 
         # do some inheritance sanity checks
         if check_inheritance:
-            for symbol in library.symbols:
+            for symbol in library.symbols[:]:
                 cursor = symbol
                 while cursor.extends:
                     if symbol.name == symbol.extends:
@@ -1686,6 +1720,30 @@ class KicadLibrary(KicadSymbolBase):
                         raise KicadFileFormatError(
                             f"Symbol {symbol.name} has a circular inheritance"
                         )
+
+                    # If a single file from a `kicad_symdir` is loaded, that means that we don't load the parent of a
+                    # derived symbol. So we need to guess its filename based on the parent name and load it as well.
+                    if cursor.extends not in symbol_names:
+                        parent_filename = (
+                            Path(library.filename).parent
+                            / f"{cursor.extends}.kicad_sym"
+                        )
+                        try:
+                            parent_lib = KicadLibrary.from_file(parent_filename)
+                        except FileNotFoundError:
+                            raise KicadFileFormatError(
+                                f"Could not open parent-library {parent_filename} while trying to load {symbol.name}"
+                            )
+                        for extra_sym in parent_lib.symbols:
+                            if (
+                                symbol_names.setdefault(extra_sym.name, extra_sym)
+                                is not extra_sym
+                            ):
+                                raise KicadFileFormatError(
+                                    f"Duplicate symbol while trying to load parent symbol: {extra_sym.name}"
+                                )
+                            if extra_sym.name == cursor.extends:
+                                library.symbols.append(extra_sym)
 
                     parent_sym = symbol_names.get(cursor.extends)
                     if not parent_sym:
