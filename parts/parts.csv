@@ -1666,7 +1666,6 @@ CA3300	Convertisseur A->D 6 bits rapide
 HX711	24-bit Analog-to-Digital Converter (ADC) for Weight Scales, SOIC-16 (SOP-16)	https://web.archive.org/web/20220615044707/https://akizukidenshi.com/download/ds/avia/hx711.pdf
 ICL7106CPL	3 1/2 Digit, LCD Display, A/D Converter, DIP-40	https://www.renesas.com/eu/en/www/doc/datasheet/icl7106-07-07s.pdf
 ICL7107CPL	3 1/2 Digit, LED Display, A/D Converter, DIP-40	https://www.renesas.com/eu/en/www/doc/datasheet/icl7106-07-07s.pdf
-INA234AxYBJ	Bidirectional Current/Voltage/Power Monitor (0-28V) With I2C Interface, DSBGA-8	https://www.ti.com/lit/ds/symlink/ina234.pdf
 LTC1406CGN	ADC 8bit Low Power 20Msps, SSOP-24	https://www.analog.com/media/en/technical-documentation/data-sheets/1406f.pdf
 LTC1406IGN	ADC 8bit Low Power 20Msps, SSOP-24	https://www.analog.com/media/en/technical-documentation/data-sheets/1406f.pdf
 LTC1594CS	Micropower 12-bit 4 Channel ADC, Serial IO, SOIC-16	https://www.analog.com/media/en/technical-documentation/data-sheets/15948fb.pdf
@@ -6131,6 +6130,7 @@ ICE40HX1K-TQ144	iCE40 HX FPGA, 1280 LUTs, 1.2V, TQFP-144	http://www.latticesemi.
 ICE40HX4K-BG121	iCE40 HX FPGA, 3520 LUTs, 1.2V, BGA-121	http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
 ICE40HX4K-TQ144	iCE40 HX FPGA, 3520 LUTs, 1.2V, TQFP-144	http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
 ICE40HX8K-BG121	iCE40 HX FPGA, 7680 LUTs, 1.2V, BGA-121	http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
+ICE40LP384-SG32	iCE40 LP FPGA, 384 LUTs, 21 GPIO, 1.2V core supply, VQFN-32	https://www.latticesemi.com/en/Products/FPGAandCPLD/iCE40
 ICE40UL1K-SWG16	iCE40 UltraPlus FPGA, 1.2V, WLCSP-16	https://www.latticesemi.com/view_document?document_id=50945
 ICE40UP5K-SG48ITR	iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN	http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra
 ICE5LP1K-SG48	iCE40 Ultra FPGA, 1100 LUTs, 1.2V, 48-pin QFN	http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra
@@ -18497,7 +18497,6 @@ BME280	3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.
 BME680	4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8	https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf
 CHT11	Temperature and humidity module	http://aosong.com/en/products-21.html
 DHT11	3.3V to 5.5V, temperature and humidity module, DHT11	http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
-INA260	Current/power/voltage monitor with Integrated 2mΩ Shunt Resistor, 2.7V - 5.5V, I2C, TSSOP-16	http://www.ti.com/lit/ds/symlink/ina260.pdf
 LTC2990	Temperature Voltage and Current Monitor, I2C Interface, MSOP-10	https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2990.pdf
 MAX30102	Heart Rate Sensor, 14-OLGA	https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf
 Nuclear-Radiation_Detector	Generic radiation detector	
@@ -18786,8 +18785,10 @@ INA226	High-Side or Low-Side Measurement, Bi-Directional Current and Power Monit
 INA228	High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-85V) with I2C, SMBus-, and PMBus-Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)	https://www.ti.com/lit/ds/symlink/ina228.pdf
 INA229	85V, 20-bit, Ultra-Precise Power/Energy/Charge Monitor, SPI Interface, TSSOP-10 (Texas DGS0010A / VSSOP)	https://www.ti.com/lit/ds/symlink/ina229.pdf
 INA233	High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C, SMBus-, and PMBus-Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)	https://www.ti.com/lit/ds/symlink/ina233.pdf
+INA234AxYBJ	Bidirectional Current/Voltage/Power Monitor (0-28V) With I2C Interface, DSBGA-8	https://www.ti.com/lit/ds/symlink/ina234.pdf
 INA237	High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-85V) with I2C, SMBus-, and PMBus-Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)	https://www.ti.com/lit/ds/symlink/ina237.pdf
 INA238	High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-85V) with I2C, SMBus-, and PMBus-Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)	https://www.ti.com/lit/ds/symlink/ina238.pdf
+INA260	Current/power/voltage monitor with Integrated 2mΩ Shunt Resistor, 2.7V - 5.5V, I2C, TSSOP-16	http://www.ti.com/lit/ds/symlink/ina260.pdf
 LTC4151xMS	High Voltage I2C Current and Voltage Monitor, MSOP-10	https://www.analog.com/media/en/technical-documentation/data-sheets/4151ff.pdf
 MCP39F521	Power Monitor, Calculation and Energy Accumulation, I2C, 16-bit, QFN-28	http://ww1.microchip.com/downloads/en/DeviceDoc/20005442A.pdf
 PAC1931x-xJ6CX	One Channel High-side Power Monitor, 32V, I2C, WLCSP-16	https://ww1.microchip.com/downloads/en/DeviceDoc/PAC1931-Family-Data-Sheet-DS20005850E.pdf
