@@ -393,7 +393,7 @@ TC7PZ14FU	Dual schmitt inverter, VCC from 1.65 to 5.5 V, SOT-363	https://toshiba
 74HC596	8-bit serial in/out Shift Register Open Collector Outputs	https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf
 74HC688	8-bit magnitude comparator	https://www.ti.com/lit/ds/symlink/cd54hc688.pdf
 74HC7014	Hex non-inverting buffer with precision Schmitt Trigger inputs, SOIC-14	https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf
-74HC74	Dual D Flip-flop, Set & Reset	74xx/74hc_hct74.pdf
+74HC74	Dual D Flip-flop, Set & Reset	https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf
 74HC85	4-bit Comparator	https://assets.nexperia.com/documents/data-sheet/74HC_HCT85.pdf
 74HC86	Quad 2-input XOR	http://www.ti.com/lit/gpn/sn74HC86
 74HCT00	quad 2-input NAND gate	http://www.ti.com/lit/gpn/sn74hct00
@@ -476,7 +476,7 @@ TC7PZ14FU	Dual schmitt inverter, VCC from 1.65 to 5.5 V, SOT-363	https://toshiba
 74LS173	4-bit D-type Register, 3 state out	http://www.ti.com/lit/gpn/sn74LS173
 74LS174	Hex D-type Flip-Flop, reset	http://www.ti.com/lit/gpn/sn74LS174
 74LS175	4-bit D Flip-Flop, reset	http://www.ti.com/lit/gpn/sn74LS175
-74LS181	Arithmetic logic unit	74xx/74F181.pdf
+74LS181	Arithmetic logic unit	https://datasheets.chipdb.org/Fairchild/74F181PC.pdf
 74LS182	Carry generator	http://www.ti.com/lit/gpn/sn74LS182
 74LS190	4-bit Synchronous Up/Down BCD Counter	http://www.ti.com/lit/gpn/sn74LS190
 74LS191	4-bit Synchronous Up/Down binary Counter	http://www.ti.com/lit/gpn/sn74LS191
@@ -544,7 +544,7 @@ TC7PZ14FU	Dual schmitt inverter, VCC from 1.65 to 5.5 V, SOT-363	https://toshiba
 74LS385	Quad serial Adder	http://www.ti.com/lit/gpn/sn74LS385
 74LS386	Quad 2-input XOR	http://www.ti.com/lit/gpn/sn74LS386
 74LS390	Dual BCD 4-bit counter	http://www.ti.com/lit/gpn/sn74LS390
-74LS393	Dual BCD 4-bit counter	74xx\\74LS393.pdf
+74LS393	Dual BCD 4-bit counter	https://www.ti.com/lit/ds/symlink/sn74ls393.pdf
 74LS395	4-bit universal shift register, 3-state outputs	http://www.ti.com/lit/gpn/sn74LS395
 74LS398	Quad 2 to 1 line Multiplexer, 3-state outputs	http://www.ti.com/lit/gpn/sn74LS398
 74LS399	Quad 2 to 1 line multiplexer with storage	http://www.ti.com/lit/gpn/sn74LS399
@@ -559,7 +559,7 @@ TC7PZ14FU	Dual schmitt inverter, VCC from 1.65 to 5.5 V, SOT-363	https://toshiba
 74LS541	8-bit Buffer/Line Driver 3-state outputs	http://www.ti.com/lit/gpn/sn74LS541
 74LS54N	And-Nor (Y = /(AB + CDE + FGH + IJ) ), DIP-14	https://www.ti.com/lit/ds/symlink/sn54ls54.pdf
 74LS55	AND-NOR ( S = / (ABCD + EFGH) )	http://www.ti.com/lit/gpn/sn74LS55
-74LS573	8-bit Latch 3-state outputs	74xx/74hc573.pdf
+74LS573	8-bit Latch 3-state outputs	https://assets.nexperia.com/documents/data-sheet/74HC_HCT573.pdf
 74LS574	8-bit Register, 3-state outputs	http://www.ti.com/lit/gpn/sn74LS574
 74LS590	8-bit Binary Counter with Output Register 3-State Outputs, DIP-16/SOIC-16/SOIC-16W	http://www.ti.com/lit/gpn/sn74ls590
 74LS595	8-bit serial in/out Shift Register 3-State Outputs	http://www.ti.com/lit/gpn/sn74ls595
@@ -568,14 +568,14 @@ TC7PZ14FU	Dual schmitt inverter, VCC from 1.65 to 5.5 V, SOT-363	https://toshiba
 74LS670	4 x 4 Register Files 3-State Outputs	http://www.ti.com/lit/gpn/sn74LS670
 74LS688	8-bit magnitude comparator	http://www.ti.com/lit/gpn/sn74LS688
 74LS73	Dual JK Flip-Flop, reset	http://www.ti.com/lit/gpn/sn74LS73
-74LS74	Dual D Flip-flop, Set & Reset	74xx/74hc_hct74.pdf
+74LS74	Dual D Flip-flop, Set & Reset	https://www.ti.com/lit/ds/symlink/sn74ls74a.pdf
 74LS75	4-bit Latch	http://www.ti.com/lit/gpn/sn74LS75
 74LS76	Dual JK Flip-flop, Set & Reset	http://www.ti.com/lit/gpn/sn74LS76
 74LS77	4-bit Latch	http://www.ti.com/lit/gpn/sn74LS77
 74LS78	Dual JK Flip-flop, Set, Common clock & reset	http://www.ti.com/lit/gpn/sn74LS78
 74LS83	4-bit Full Adder	http://www.ti.com/lit/gpn/sn74LS83
 74LS85	4-bit Comparator	http://www.ti.com/lit/gpn/sn74LS85
-74LS86	Quad 2-input XOR	74xx/74ls86.pdf
+74LS86	Quad 2-input XOR	https://www.jameco.com/Jameco/Products/ProdDS/48098.pdf
 74LS90	BCD Counter ( div 2 & div 5 )	http://www.ti.com/lit/gpn/sn74LS90
 74LS91	8-bit Serial Register	http://www.ti.com/lit/gpn/sn74LS91
 74LS92	Divide by 12 counter	http://www.ti.com/lit/gpn/sn74LS92
@@ -898,6 +898,7 @@ BUF634AxD	36-V, 210-MHz, 250-mA Output, High-Speed Buffer, SOIC-8	https://www.ti
 BUF634AxDDA	250mA High-Speed Buffer, PowerPAD SOIC-8	https://www.ti.com/lit/ds/symlink/buf634.pdf
 BUF634AxDRB	250mA High-Speed Buffer, VSON-8	https://www.ti.com/lit/ds/symlink/buf634a.pdf
 BUF634U	250mA High-Speed Buffer, SOIC-8	https://www.ti.com/lit/ds/symlink/buf634.pdf
+BUF802	High Speed, 3.1 GHz, Open Loop, High Impedance, Unity Gain Buffer, VQFN-16	https://www.ti.com/lit/ds/symlink/buf802.pdf
 EL2001CN	Monolithic high slew rate, buffer amplifier, DIP-8	http://www.datasheetlib.com/datasheet/677973/el2001_intersil.html#datasheet
 LH0002H	Wide-Band, High Current, Unity Gain Buffer Amplifier, TO-5-8	http://www.calogic.net/pdf/LH0002_Datasheet_Rev_A.pdf
 LM6321H	High Speed Buffer, TO-5-8	http://www.electronica60norte.com/mwfls/pdf/LM6221.pdf
@@ -2396,8 +2397,8 @@ SLG46583	GreenPAK Programmable Mixed-signal Matrix with Asynchronous State Machi
 SLG46826G	GreenPAK Programmable Mixed-Signal Matrix with In-System Programmability, TSSOP-20	https://www.renesas.com/in/en/document/dst/slg46826-datasheet
 SLG47011V	GreenPAK Programmable Mixed-Signal Matrix, 8/10/12/14-bit SAR ADC, 13 GPIO + 1 GPI, 1.71V - 3.6V supply, UQFN-16	https://www.renesas.com/en/document/dst/slg47011-datasheet
 XC7336	Xilinx CPLD, Obsolete	
-XC95108PC84	Xilinx CPLD, Obsolete	xilinx/xc95108.pdf
-XC95108PQ100	Xilinx CPLD, Obsolete	xilinx/xc95108.pdf
+XC95108PC84	Xilinx CPLD, Obsolete	https://www.mouser.com/datasheet/2/903/DS066-1595694.pdf
+XC95108PQ100	Xilinx CPLD, Obsolete	https://www.mouser.com/datasheet/2/903/DS066-1595694.pdf
 XC95144PQ100	Xilinx CPLD, Obsolete	
 XC95144XL-TQ100	CPLD, 144 Macrocells, 3200 Usable Gates	https://www.xilinx.com/support/documentation/data_sheets/ds056.pdf
 XC95144XL-TQ144	CPLD, 144 Macrocells, 3200 Usable Gates	https://www.xilinx.com/support/documentation/data_sheets/ds056.pdf
@@ -6179,13 +6180,13 @@ XC2018-PC84
 XC2064-PC68		
 XC2C256-TQ144	CoolRunner-II CPLD, 256 macrocells	https://www.xilinx.com/support/documentation/data_sheets/ds094.pdf
 XC2C256-VQ100	CoolRunner-II CPLD, 256 macrocells, TQFP-100 (VQ100)	https://www.xilinx.com/support/documentation/data_sheets/ds094.pdf
-XC2S100TQ144	spartan 2	xilinx/spartan2e/spartan2e.pdf
-XC2S150PQ208		xilinx/spartan2e/spartan2e.pdf
-XC2S200PQ208		xilinx/spartan2e/spartan2e.pdf
-XC2S300PQ208		xilinx/spartan2e/spartan2e.pdf
+XC2S100TQ144	spartan 2	https://docs.amd.com/v/u/en-US/ds001
+XC2S150PQ208		https://docs.amd.com/v/u/en-US/ds001
+XC2S200PQ208		https://docs.amd.com/v/u/en-US/ds001
+XC2S300PQ208		https://docs.amd.com/v/u/en-US/ds077
 XC2S400FT256		
 XC2S50-PQ208		
-XC2S64A-xQFG48	Xilinx CoolRunner	xilinx/xc2c64.pdf
+XC2S64A-xQFG48	Xilinx CoolRunner	https://www.xilinxsemi.com/datasheet/xilinxsemi/XC2C64A-7VQ44C.pdf
 XC3020-PC68		
 XC3030-PC44		
 XC3030-PC68		
@@ -6197,10 +6198,10 @@ XC3S1400A-FG484
 XC3S200AN-FT256	BGA256/1mm	
 XC3S400-FG320		
 XC3S400-PQ208		
-XC3S50-VQ100	spartan 2	xilinx/spartan2e/spartan2e.pdf
+XC3S50-VQ100	spartan 2	https://docs.amd.com/v/u/en-US/ds001
 XC3S50AN-TQG144		
 XC4003-PC84		
-XC4003-VQ100		xilinx/xc400x-pinout.pdf
+XC4003-VQ100		https://media.digikey.com/pdf/Data%20Sheets/Xilinx%20PDFs/XC4000%20Series%20Arrays.pdf
 XC4004-PQ160		
 XC4005-PC84		
 XC4005-PG156		
@@ -7058,7 +7059,7 @@ LTC2858xDD-1	RS-485, RS-422 Full duplex 20Mbps transceiver, DFN-10	https://www.a
 LTC2858xDD-2	RS-485, RS-422 Full duplex 250kbps transceiver, DFN-10	https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
 LTC2858xMS-1	RS-485, RS-422 Full duplex 20Mbps transceiver, MSOP-10	https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
 LTC2858xMS-2	RS-485, RS-422 Full duplex 250kbps transceiver, MSOP-10	https://www.analog.com/media/en/technical-documentation/data-sheets/285678fg.pdf
-LTC2861	20Mbps RS485 transceiver with tntegrated switchable termination	linear-tec\\ltc2859-2861.pdf
+LTC2861	20Mbps RS485 transceiver with tntegrated switchable termination	https://www.analog.com/media/en/technical-documentation/data-sheets/285961fc.pdf
 MAX13432EESD	RS485 transceiver, full duplex, dual supply, receiver/driver enable, 500kbps, SOIC-14 package	https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
 MAX13432EETD	RS485 transceiver, full duplex, dual supply, receiver/driver enable, 500kbps, DFN-14 package	https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
 MAX13433EESD	RS485 transceiver, full duplex, dual supply, receiver/driver enable, 16Mbps, SOIC-14 package	https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
@@ -9765,7 +9766,7 @@ LPC832M101FDH20	32-bit ARM Cortex-M0 microcontroller, 16kB flash, 4kB SRAM	http:
 LPC834M101FHI33	32-bit ARM Cortex-M0 microcontroller, 32kB flash, 4kB SRAM	http://www.nxp.com/docs/en/data-sheet/LPC83X.pdf
 MAC7101	Automotive ARM7TDMI-S-based Microcontroller, LQFP-144	https://www.nxp.com/docs/en/data-sheet/MAC7100EC.pdf
 MAC7111	Automotive ARM7TDMI-S-based Microcontroller, LQFP-144	https://www.nxp.com/docs/en/data-sheet/MAC7100EC.pdf
-MMC2114CFCPU	Motorola M*CORE  upro 100 pins	motorola/mmc2114.pdf
+MMC2114CFCPU	Motorola M*CORE  upro 100 pins	https://www.nxp.com/docs/en/data-sheet/MMC2114.pdf
 NHS3100	Temperature logger, VQFN-24	https://www.nxp.com/docs/en/data-sheet/NHS3100.pdf
 MC9S08AC128xFDE	8-bit Flexis Microcontroller, S08 core, 128kB Flash, 8kB RAM, QFN-48	https://www.nxp.com/docs/en/data-sheet/MC9S08AC128.pdf
 MC9S08AC128xFGE	8-bit Flexis Microcontroller, S08 core, 128kB Flash, 8kB RAM, LQFP-44	https://www.nxp.com/docs/en/data-sheet/MC9S08AC128.pdf
@@ -13603,7 +13604,7 @@ uPD41264C	256Kbit Dual-Port Dynamic NMOS RAM (64K x 4-bit), 120/150ns access tim
 uPD4168C	8192 x 8-bit Static NMOS XRAM, 120/150/200ns access time, 5V ±10% supply, DIP-28 (600 mil)	https://archive.org/details/bitsavers_necdataBooBook_14399588/page/n233/mode/2up
 uPD42832C	32K x 8-bit Static CMOS XRAM, 100/120/150ns access time, 5V ±10% supply, DIP-28 (600 mil)	https://archive.org/details/bitsavers_necdataBooBook_14399588/page/n241/mode/2up
 uPD4364CX	8192 x 8-bit Static CMOS RAM, 100/120/150ns access time, 5V ±10% supply, DIP-28 (300 mil)	https://www.silicon-ark.co.uk/datasheets/upd4364-datasheet-nec.pdf
-XC18V01SO20		xilinx/xc18v00proms.pdf
+XC18V01SO20		https://docs.amd.com/api/khub/documents/6MAHUFe3JhpT1bdCspA7mQ/content
 XCF08P	Platform Flash In-System PROM	https://www.xilinx.com/support/documentation/data_sheets/ds123.pdf
 DS2401P	Silicon Serial Number, TSOC-6	http://pdfserv.maximintegrated.com/en/ds/DS2401.pdf
 DS2401Z	Silicon Serial Number, SOT-223	http://pdfserv.maximintegrated.com/en/ds/DS2401.pdf
@@ -20768,7 +20769,7 @@ ADV7391BCPZ	10-Bit SD/HD Video Encoder, LFCSP-32	https://www.analog.com/media/en
 AV9173	Video Genlock PLL	http://www.ibselectronics.com/ibsstore/datasheet/Others/AV9173-01CN08.pdf
 CX7930		
 CXA1145P	Analog RGB to composite video encoder, compatible with NTSC/PAL systems, built-in 75 ohms output drivers, built-in audio buffer, DIP-24	https://wiki.console5.com/tw/images/f/fb/CXA1145PM.pdf
-CXD3400N	6-channel Vertical Clock Driver for CCD Image Sensor, SSOP-20	video\\cxd3400n.pdf
+CXD3400N	6-channel Vertical Clock Driver for CCD Image Sensor, SSOP-20	https://www.bndhep.net/Electronics/Data/CXD3400N.pdf
 HD63484P	Advanced CRT Controller (ACRTC), DIP-64	https://www.alldatasheet.com/datasheet-pdf/view/144378/HITACHI/HD63484.html
 HD63484_PLCC		
 ICX415AQ	Diagonal 8mm B/W Progressive Scan CCD Image Sensor with Square Pixel, CERDIP-22	
@@ -20785,8 +20786,8 @@ TDA1950F
 TDA2593		
 TDA7260		
 TDA8501	PAL/NTSC Encoder, RGB or Y/Y-R/Y-B Inputs, DIP/SOIC-20	https://assets.nexperia.com/documents/data-sheet/TDA8501.pdf
-TDA8702	8bit Video DAC (32 MHz), DIP-16	philips/tda8702.pdf
-TDA8702T	8bit Video DAC (32 MHz), SOIC-16	philips/tda8702.pdf
+TDA8702	8bit Video DAC (32 MHz), DIP-16	https://pdf.datasheet.live/0463ecba/semiconductors.philips.com/TDA8702T_C2.pdf
+TDA8702T	8bit Video DAC (32 MHz), SOIC-16	https://pdf.datasheet.live/0463ecba/semiconductors.philips.com/TDA8702T_C2.pdf
 TDA8772	Triple 8bit Video DAC, QFP-44	http://www.pa0qy.nl/pdf/TDA8772.PDF
 TDA9500		
 TDA9503		
