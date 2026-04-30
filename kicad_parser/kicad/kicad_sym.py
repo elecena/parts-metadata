@@ -236,9 +236,9 @@ class TextEffect(KicadSymbolBase):
         if self.face:
             fnt.append(["face", self.face])
         if self.is_italic:
-            fnt.append("italic")
+            fnt.append(["italic", "yes"])
         if self.is_bold:
-            fnt.append("bold")
+            fnt.append(["bold", "yes"])
         sx = ["effects", fnt]
         if self.is_mirrored:
             sx.append("mirror")
@@ -401,16 +401,26 @@ class Pin(KicadSymbolBase):
         if stack_list := re.match(r"^\[(.*?)\]$", self.number):
             pin_list = []
             pins_in_stack = stack_list.group(1).split(",")
-            print(f"pins in native stack {pins_in_stack}")
             for pin_number in pins_in_stack:
-                # we first make a copy of the pin, then overwrite its
-                # number with the unstacked number
-                pinstack_pin = deepcopy(self)
-                pinstack_pin.number = pin_number
-                pin_list.append(pinstack_pin)
+                # if the current 'pin-number' is a range, we need to unpack that
+                if "-" in pin_number and len(pin_number.split("-")) == 2:
+                    pin_prefix = Pin.get_pin_number_prefix(pin_number)
+                    pin_num_start, pin_num_end = [
+                        p.removeprefix(pin_prefix) for p in pin_number.split("-")
+                    ]
+                    for i in range(int(pin_num_start), int(pin_num_end) + 1):
+                        pinstack_pin = deepcopy(self)
+                        pinstack_pin.number = pin_prefix + str(i)
+                        pin_list.append(pinstack_pin)
+                else:
+                    # make a copy of the pin, then overwrite its
+                    # number with the unstacked number
+                    pinstack_pin = deepcopy(self)
+                    pinstack_pin.number = pin_number
+                    pin_list.append(pinstack_pin)
             return pin_list
         else:
-            return []
+            return [self]
 
     """
     Returns true when this pin is a native pin stack
@@ -418,6 +428,20 @@ class Pin(KicadSymbolBase):
 
     def is_stack(self) -> bool:
         return True if re.match(r"^\[(.*?)\]$", self.number) else False
+
+    """
+    Returns the pin native stack number or range alpha-char prefix
+    Like A4 -> "A", AM6 -> "AM", AD12-AD22 -> "AD" or non on simple numbers 4 -> ""
+    """
+
+    @staticmethod
+    def get_pin_number_prefix(pin_name) -> str:
+        # return everything up to the first digit...
+        for i in range(len(pin_name)):
+            if pin_name[i].isdigit():
+                return pin_name[:i]
+        # ...or the whole name
+        return pin_name
 
     @classmethod
     def from_sexpr(cls, sexpr, unit: int, demorgan: int) -> "Pin":
@@ -975,6 +999,7 @@ class Property(KicadSymbolBase):
     posy: float = 0.0
     rotation: float = 0.0
     is_hidden: bool = False
+    show_name: bool = False
     effects: Optional[TextEffect] = None
     private: bool = False
     do_not_autoplace: bool = False
@@ -993,9 +1018,13 @@ class Property(KicadSymbolBase):
         ]
         sx.append(["at", self.posx, self.posy, self.rotation])
 
+        sx.append(["show_name", "yes" if self.show_name else "no"])
+
         sx.append(["do_not_autoplace", "yes" if self.do_not_autoplace else "no"])
 
-        sx.append(["hide", "yes" if self.is_hidden else "no"])
+        # KiCad 10 only output when hidden
+        if self.is_hidden:
+            sx.append(["hide", "yes" if self.is_hidden else "no"])
 
         if self.effects:
             sx.append(self.effects.get_sexpr())
@@ -1034,6 +1063,8 @@ class Property(KicadSymbolBase):
         if len(hidearray) and "yes" in hidearray[0]:
             is_hidden = True
 
+        show_name = _get_yesno_value_of(sexpr, "show_name")
+
         return Property(
             name,
             value,
@@ -1041,6 +1072,7 @@ class Property(KicadSymbolBase):
             posy,
             rotation,
             is_hidden,
+            show_name,
             effects,
             private,
             do_not_autoplace,
@@ -1148,60 +1180,61 @@ class KicadSymbol(KicadSymbolBase):
         for prop in self.properties:
             sx.append(prop.get_sexpr())
 
-        if self.extends:
+        if not self.extends:
             # if the symbol extends another one, we do not add any graphical elements
             # or pins, those are all inherited from the parent symbol
-            return sx
 
-        # add embedded files
-        file_expression = []
-        for file in self.files:
-            file_expression.append(file.get_sexpr())
-        if len(file_expression) > 0:
-            sx.append(["embedded_files", *file_expression])
+            # add embedded files
+            file_expression = []
+            for file in self.files:
+                file_expression.append(file.get_sexpr())
+            if len(file_expression) > 0:
+                sx.append(["embedded_files", *file_expression])
 
-        def pin_sort_key(pin: Pin) -> tuple:
-            # This is a bit fiddly, and the comments in KiCad seems wrong
-            # Pins are sorted by:
-            #   pin position (y first, then x) in SCH_ITEM::compare
-            # then by pin-specific values:
-            #   pin number (as integer if possible, otherwise as string)
-            #   ...
-            return (
-                pin.posx,
-                -pin.posy,
-                pin.number,
-                pin.length,
-                pin.rotation,
-                pin.shape,
-                pin.etype,
-                pin.is_hidden,
-            )
+            def pin_sort_key(pin: Pin) -> tuple:
+                # This is a bit fiddly, and the comments in KiCad seems wrong
+                # Pins are sorted by:
+                #   pin position (y first, then x) in SCH_ITEM::compare
+                # then by pin-specific values:
+                #   pin number (as integer if possible, otherwise as string)
+                #   ...
+                return (
+                    pin.posx,
+                    -pin.posy,
+                    pin.number,
+                    pin.length,
+                    pin.rotation,
+                    pin.shape,
+                    pin.etype,
+                    pin.is_hidden,
+                )
 
-        # add units
-        for d in range(0, self.demorgan_count + 1):
-            for u in range(0, self.unit_count + 1):
-                unit_elements = []
-                for pin in (
-                    self.arcs
-                    + self.circles
-                    + self.texts
-                    + self.rectangles
-                    + self.beziers
-                    + self.polylines
-                    + sorted(self.pins, key=pin_sort_key)
-                ):
-                    if pin.is_unit(u, d):
-                        unit_elements.append(pin.get_sexpr())
+            # add units
+            for d in range(0, self.demorgan_count + 1):
+                for u in range(0, self.unit_count + 1):
+                    unit_elements = []
+                    for pin in (
+                        self.arcs
+                        + self.circles
+                        + self.texts
+                        + self.rectangles
+                        + self.beziers
+                        + self.polylines
+                        + sorted(self.pins, key=pin_sort_key)
+                    ):
+                        if pin.is_unit(u, d):
+                            unit_elements.append(pin.get_sexpr())
 
-                if unit_elements:
-                    subsym_name = self.quoted_string("{}_{}_{}".format(self.name, u, d))
-                    unit = ["symbol", subsym_name, *unit_elements]
+                    if unit_elements:
+                        subsym_name = self.quoted_string(
+                            "{}_{}_{}".format(self.name, u, d)
+                        )
+                        unit = ["symbol", subsym_name, *unit_elements]
 
-                    if n := self.unit_names.get(u):
-                        unit.append(["unit_name", n])
+                        if n := self.unit_names.get(u):
+                            unit.append(["unit_name", n])
 
-                    sx.append(unit)
+                        sx.append(unit)
 
         sx.append(["embedded_fonts", "yes" if self.embedded_fonts else "no"])
         return sx
