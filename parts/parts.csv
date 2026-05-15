@@ -19468,6 +19468,7 @@ MCP79512-xMS	Real-Time Clock, SPI, 64Bytes SRAM, 1Kbit EEPROM, Unique ID EUI-64,
 MCP79520-xMS	Real-Time Clock, SPI, 64Bytes SRAM, 2Kbit EEPROM, MSOP-10	https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/MCP7951X-MCP7952X-Battery-Backed-SPI-RTCC-DS20002300.pdf
 MCP79521-xMS	Real-Time Clock, SPI, 64Bytes SRAM, 2Kbit EEPROM, Unique ID EUI-48, MSOP-10	https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/MCP7951X-MCP7952X-Battery-Backed-SPI-RTCC-DS20002300.pdf
 MCP79522-xMS	Real-Time Clock, SPI, 64Bytes SRAM, 2Kbit EEPROM, Unique ID EUI-64, MSOP-10	https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/MCP7951X-MCP7952X-Battery-Backed-SPI-RTCC-DS20002300.pdf
+PCA2131	Nano-power highly accurate RTC with integrated quartz crystal for automotive, I2C / SPI interface, LSON-16	https://www.nxp.com/docs/en/data-sheet/PCA2131.pdf
 PCF85063ATL	I2C Real-Time Clock Calendar w/ Alarm, DFN-10	https://www.nxp.com/docs/en/data-sheet/PCF85063A.pdf
 PCF8523T	Realtime Clock/Calendar I2C Interface, SOIC-8	https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf
 PCF8523TK	Realtime Clock/Calendar I2C Interface, HVSON-8	https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf
