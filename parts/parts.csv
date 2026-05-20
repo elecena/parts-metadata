@@ -17616,12 +17616,15 @@ LTC3886	60V dual output buck output with digital power system management, UKG52(
 LTC7138xMSE	400mA High efficiency 140V step-down converter, MSOP-16(12)	https://www.analog.com/media/en/technical-documentation/data-sheets/7138f.pdf
 LV2862XDDC	60V, 0.6A, stepdown, DC/DC converter, 770kHz	https://www.ti.com/lit/ds/symlink/lv2862.pdf
 LV2862YDDC	60V, 0.6A, stepdown, DC/DC converter, 2.1MHz	https://www.ti.com/lit/ds/symlink/lv2862.pdf
-MAX15062A	60V, 300mA, synchronous step-down dc-dc converter, 3.3V fixed output voltage, DFN-8	http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf
-MAX15062B	60V, 300mA, synchronous step-down dc-dc converter, 5.0V fixed output voltage, DFN-8	http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf
-MAX15062C	60V, 300mA, synchronous step-down dc-dc converter, adjustable output voltage, DFN-8	http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf
+MAX15062A	60V, 300mA, synchronous step-down dc-dc converter, 3.3V fixed output voltage, DFN-8 / WSON-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max15062.pdf
+MAX15062B	60V, 300mA, synchronous step-down dc-dc converter, 5.0V fixed output voltage, DFN-8 / WSON-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max15062.pdf
+MAX15062C	60V, 300mA, synchronous step-down dc-dc converter, adjustable output voltage, DFN-8 / WSON-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max15062.pdf
 MAX1522	Boost converter, external switch, soft-start, latch on output fault, 2.5V..5.5Vin,  SOT-23-6	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX1522-MAX1524.pdf
 MAX1523	Boost converter, external switch, soft-start, retry on output fault, 2.5V..5.5Vin,  SOT-23-6	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX1522-MAX1524.pdf
 MAX1524	Boost converter, 1.5V startup, external switch, soft-start, bootstrapped operation, latch on output fault, 1.5V..5.5Vin,  SOT-23-6	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX1522-MAX1524.pdf
+MAX15462A	42V, 300mA, synchronous step-down dc-dc converter, 3.3V fixed output voltage, DFN-8 / WSON-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max15462.pdf
+MAX15462B	42V, 300mA, synchronous step-down dc-dc converter, 5V fixed output voltage, DFN-8 / WSON-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max15462.pdf
+MAX15462C	42V, 300mA, synchronous step-down dc-dc converter, adjustable output voltage, DFN-8 / WSON-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max15462.pdf
 MAX17501AxTB	4.5V–60Vin, 500mA, High-Efficiency, 3.3V Synchronous Step-Down DC-DC Converter, PFM Mode, TDFN-10	https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
 MAX17501BxTB	4.5V–60Vin, 500mA, High-Efficiency, 5V Synchronous Step-Down DC-DC Converter, PFM Mode, DFN-10	https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
 MAX17501ExTB	4.5V–60Vin, 500mA, High-Efficiency, 3.3V Synchronous Step-Down DC-DC Converter, PWM Mode, DFN-10	https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
