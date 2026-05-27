@@ -2250,11 +2250,11 @@ BQ76200PW	High Voltage Battery Pack Front-End Charge/Discharge High-Side NFET Dr
 BQ76920PW	Lithium battery monitor, 3-5 cells, integrated balancing, I2C interface, TSSOP-20	http://www.ti.com/lit/ds/symlink/bq76920.pdf
 BQ76930DBT	Lithium battery monitor, 6-10 cells, integrated balancing, I2C interface, TSSOP-30	http://www.ti.com/lit/ds/symlink/bq76930.pdf
 BQ76940DBT	Lithium battery monitor, 9-15 cells, integrated balancing, I2C interface, TSSOP-44	http://www.ti.com/lit/ds/symlink/bq76940.pdf
-BQ7695201PFBR	Lithium battery monitor, 3-16 cells, integrated balancing, SPI interface with CRC, REG1 LDO disabled, TQFP-48	https://www.ti.com/lit/ds/symlink/bq76952.pdf
-BQ7695202PFBR	Lithium battery monitor, 3-16 cells, integrated balancing, I2C interface with CRC, REG1 LDO 3V3, TQFP-48	https://www.ti.com/lit/ds/symlink/bq76952.pdf
-BQ7695203PFBR	Lithium battery monitor, 3-16 cells, integrated balancing, SPI interface with CRC, REG1 LDO 5V, TQFP-48	https://www.ti.com/lit/ds/symlink/bq76952.pdf
-BQ7695204PFBR	Lithium battery monitor, 3-16 cells, integrated balancing, SPI interface with CRC, REG1 LDO 3V3, TQFP-48	https://www.ti.com/lit/ds/symlink/bq76952.pdf
-BQ76952PFBR	Lithium battery monitor, 3-16 cells, integrated balancing, I2C interface without CRC, REG1 LDO disabled, TQFP-48	https://www.ti.com/lit/ds/symlink/bq76952.pdf
+BQ7695201PFB	Lithium battery monitor, 3-16 cells, integrated balancing, SPI interface with CRC, REG1 LDO disabled, TQFP-48	https://www.ti.com/lit/ds/symlink/bq76952.pdf
+BQ7695202PFB	Lithium battery monitor, 3-16 cells, integrated balancing, I2C interface with CRC, REG1 LDO 3V3, TQFP-48	https://www.ti.com/lit/ds/symlink/bq76952.pdf
+BQ7695203PFB	Lithium battery monitor, 3-16 cells, integrated balancing, SPI interface with CRC, REG1 LDO 5V, TQFP-48	https://www.ti.com/lit/ds/symlink/bq76952.pdf
+BQ7695204PFB	Lithium battery monitor, 3-16 cells, integrated balancing, SPI interface with CRC, REG1 LDO 3V3, TQFP-48	https://www.ti.com/lit/ds/symlink/bq76952.pdf
+BQ76952PFB	Lithium battery monitor, 3-16 cells, integrated balancing, I2C interface without CRC, REG1 LDO disabled, TQFP-48	https://www.ti.com/lit/ds/symlink/bq76952.pdf
 BQ78350DBT	Lithium battery fuel gauge, battery management controller for BQ769x0, TSSOP-30	http://www.ti.com/lit/ds/symlink/bq78350.pdf
 BQ78350DBT-R1	Lithium battery fuel gauge, battery management controller for BQ769x0, TSSOP-30	http://www.ti.com/lit/ds/symlink/bq78350-r1.pdf
 CN3063	Constant-current/constant voltage linear charger for single cell Li-ion and Li Polymer batteries ideally suited for solar powered systems, 0.6A, SOIC-8-1EP	https://www.lcsc.com/datasheet/C28078.pdf
@@ -7154,9 +7154,9 @@ CH224K	100W USB Type-C PD3.0/2.0, BC1.2 Sink Controller, SSOP-10	https://www.wch
 CH236D	USB fast charging interface PD2.0/3.0, PPS, BC1.2 , QFN-20	https://wch-ic.com/downloads/file/313.html
 CH246D	USB QII wireless charging interface PD2.0, BC1.2, QII 5W, 7.5W, 10W, 15W, QFN-20	https://wch-ic.com/downloads/file/307.html
 CH330N	USB serial converter, UART, SOIC-8	http://www.wch.cn/downloads/file/240.html
-CH334F	USB HUB controller, QFN-24	https://www.wch-ic.com/downloads/file/327.html
-CH334R	USB HUB controller, QSOP-16	https://www.wch-ic.com/downloads/file/327.html
-CH334U	USB HUB controller, QSOP-28	https://www.wch-ic.com/downloads/file/327.html
+CH334F	USB HUB controller, QFN-24	https://www.wch-ic.com/download/file?id=327
+CH334R	USB HUB controller, QSOP-16	https://www.wch-ic.com/download/file?id=327
+CH334U	USB HUB controller, QSOP-28	https://www.wch-ic.com/download/file?id=327
 CH340C	USB serial converter, crystal-less, UART, SOIC-16	https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf
 CH340E	USB serial converter, UART, MSOP-10	https://www.mpja.com/download/35227cpdata.pdf
 CH340G	USB serial converter, UART, SOIC-16	http://www.datasheet5.com/pdf-local-2195953
