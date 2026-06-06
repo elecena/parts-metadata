@@ -13417,6 +13417,7 @@ AM29F400Bx-xxEx	4-Mbit (512k x 8-bit / 256k x 16-bit) CMOS 5.0 Volt-only Boot Se
 AM29F400Bx-xxSx	4-Mbit (512k x 8-bit / 256k x 16-bit) CMOS 5.0 Volt-only Boot Sector Flash Memory, SOP-44	https://www.mouser.com/datasheet/2/380/AM29F400B_EOL_21505e8-9219.pdf
 AM29PDL128G	128 Megabit (8 M x 16-Bit/4 M x 32-Bit), Simultaneous Operation Flash Memory with VersatileIO™ Control	
 AT25DF041x-UxN-x	4-Mbit, 1.65V Minimum SPI Serial Flash Memory with Dual-I/O, WLCSP-8	http://www.adestotech.com/wp-content/uploads/DS-AT25DF041B_040.pdf
+AT25SF041B-SSHD-X	4-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8	https://www.renesas.com/en/document/dst/at25sf041b-datasheet?r=1608766
 AT25SF081-SSHD-X	8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8	https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
 AT25SF081-SSHF-X	8-Mbit, 2.3V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8	https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
 AT25SF081-XMHD-X	8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, TSSOP-8	https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
@@ -14393,9 +14394,9 @@ SX1276	137 MHz to 1020 MHz Low Power Long Range Transceiver, spreading factor fr
 SX1277	137 MHz to 525 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28	https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R0000001Rbr/6EfVZUorrpoKFfvaF_Fkpgp5kzjiNyiAbqcpqh9qSjE
 SX1278	137 MHz to 525 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28	https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R0000001Rbr/6EfVZUorrpoKFfvaF_Fkpgp5kzjiNyiAbqcpqh9qSjE
 SX1279	137 MHz to 960 MHz Low Power Long Range Transceiver, spreading factor from 6 to 12, LoRA, QFN-28	https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R0000001Rbr/6EfVZUorrpoKFfvaF_Fkpgp5kzjiNyiAbqcpqh9qSjE
-SYPD-1	Phase Detector, 1 to 100 MHz, 50 Ohm, Mini-Cicuits TTT167	https://www.minicircuits.com/pdfs/SYPD-1+.pdf
-SYPD-2	Phase Detector, 10 to 200 MHz, 50 Ohm, Mini-Cicuits TTT167	https://www.minicircuits.com/pdfs/SYPD-2.pdf
-SYPD-52	Phase Detector, 400 to 500 MHz, 50 Ohm, Mini-Cicuits TTT167	https://www.minicircuits.com/pdfs/SYPD-52+.pdf
+SYPD-1	Phase Detector, 1 to 100 MHz, 50 Ohm, Mini-Circuits TTT167	https://www.minicircuits.com/pdfs/SYPD-1+.pdf
+SYPD-2	Phase Detector, 10 to 200 MHz, 50 Ohm, Mini-Circuits TTT167	https://www.minicircuits.com/pdfs/SYPD-2.pdf
+SYPD-52	Phase Detector, 400 to 500 MHz, 50 Ohm, Mini-Circuits TTT167	https://www.minicircuits.com/pdfs/SYPD-52+.pdf
 Si4012-C1001xT	Crystal-Less FSK/OOK RF Transmitter, -13dBm to +10dBm, 27-960 MHz, MSOP-10	https://www.silabs.com/documents/public/data-sheets/Si4012.pdf
 Si4460	High-Performance, Low-Current Sub-GHz Transceiver, +13dBm, Major bands 142-1050 MHz, QFN-20	https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
 Si4461	High-Performance, Low-Current Sub-GHz Transceiver, +16dBm, Major bands 142-1050 MHz, QFN-20	https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
@@ -14781,6 +14782,7 @@ DWM3000	Ultra wide band RF module With ranging location capabilities	https://www
 E18-MS1-PCB	Zigbee RF Module	http://www.cdebyte.com/en/downpdf.aspx?id=122
 E73-2G4M04S-52810	nRF52810 BLE5 Module	http://www.cdebyte.com/en/downpdf.aspx?id=243
 E73-2G4M04S-52832	nRF52832 BLE5 Module	http://www.cdebyte.com/en/downpdf.aspx?id=243
+ESP-01	802.11 b/g/n Wi-Fi Module based on ESP8266	https://aithinker-static.oss-cn-shenzhen.aliyuncs.com/docs/_media_old/esp-01_product_specification_en.pdf
 ESP-07	802.11 b/g/n Wi-Fi Module	http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf
 ESP-12E	802.11 b/g/n Wi-Fi Module	http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf
 ESP-12F	802.11 b/g/n Wi-Fi Module	http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf
