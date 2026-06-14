@@ -27,6 +27,7 @@ jobs:
       working-directory: kicad_parser
       run: |
         pip install -r requirements.txt
+        sudo apt update
         sudo apt install -y poppler-utils
 
     - name: Fetch the kicad symbols zip file
