@@ -1261,7 +1261,7 @@ LTC6228xDC	Low Distortion Rail-to-Rail Output Op Amp with Shutdown, DFN-6	https:
 LTC6228xS6	Low Distortion Rail-to-Rail Output Op Amp with Shutdown, TSOT-23-6	https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf
 LTC6228xS8	Low Distortion Rail-to-Rail Output Op Amp with Shutdown, SO-8	https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf
 LTC6229xDD	Low Distortion Rail-to-Rail Output Op Amps with Shutdown, DFN-10	https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf
-LTC6229xMS8E	Low Distortion Rail-to-Rail Output Op Amps with Shutdown, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf
+LTC6229xMS8E	Low Distortion Rail-to-Rail Output Op Amps, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6228-6229.pdf
 LTC6253xMS8	720MHz, 3.5mA Power Efficient, Rail-to-Rail Op Amp, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/625234fc.pdf
 LTC6268xS6-10	500Mhz, Ultra-Low Bias Current, FET Input, Op Amp, TSOT-23	https://www.analog.com/media/en/technical-documentation/data-sheets/626810f.pdf
 LTC6268xS8-10	500Mhz, Ultra-Low Bias Current, FET Input, Op Amp, SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/626810f.pdf
@@ -3659,21 +3659,39 @@ TMR-4812	2W DC/DC industrial converter regulated, 36-75V input, 12V fixed output
 TMR-4821	2W DC/DC industrial converter regulated, 36-75V input, ±5V fixed output voltage, 200mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
 TMR-4822	2W DC/DC industrial converter regulated, 36-75V input, ±12V fixed output voltage, 83mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
 TMR-4823	2W DC/DC industrial converter regulated, 36-75V input, ±15V fixed output voltage, 67mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr2.pdf
+TMR10-1211WI	10W DC/DC industrial converter regulated, 4.5-18V input, 5.1V fixed output voltage, 2000mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
+TMR10-1212WI	10W DC/DC industrial converter regulated, 4.5-18V input, 12V fixed output voltage, 833mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
+TMR10-1213WI	10W DC/DC industrial converter regulated, 4.5-18V input, 15V fixed output voltage, 666mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
+TMR10-1215WI	10W DC/DC industrial converter regulated, 4.5-18V input, 24V fixed output voltage, 416mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
+TMR10-1222WI	10W DC/DC industrial converter regulated, 4.5-18V input, ±12V fixed output voltage, 416mA each output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
+TMR10-1223WI	10W DC/DC industrial converter regulated, 4.5-18V input, ±15V fixed output voltage, 333mA each output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
 TMR10-2410WIR	10W DC/DC railway converter regulated, 9-36V input, 3.3V fixed output voltage, 2.5A output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
+TMR10-2411WI	10W DC/DC industrial converter regulated, 9-36V input, 5.1V fixed output voltage, 2000mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
 TMR10-2411WIR	10W DC/DC railway converter regulated, 9-36V input, 5V fixed output voltage, 2A output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
+TMR10-2412WI	10W DC/DC industrial converter regulated, 9-36V input, 12V fixed output voltage, 833mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
 TMR10-2412WIR	10W DC/DC railway converter regulated, 9-36V input, 12V fixed output voltage, 840mA output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
+TMR10-2413WI	10W DC/DC industrial converter regulated, 9-36V input, 15V fixed output voltage, 666mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
 TMR10-2413WIR	10W DC/DC railway converter regulated, 9-36V input, 15V fixed output voltage, 670mA output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
+TMR10-2415WI	10W DC/DC industrial converter regulated, 9-36V input, 24V fixed output voltage, 416mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
 TMR10-2415WIR	10W DC/DC railway converter regulated, 9-36V input, 24V fixed output voltage, 420mA output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
 TMR10-2421WIR	10W DC/DC railway converter regulated, 9-36V input, ±5V fixed output voltage, 1A each output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
+TMR10-2422WI	10W DC/DC industrial converter regulated, 9-36V input, ±12V fixed output voltage, 416mA each output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
 TMR10-2422WIR	10W DC/DC railway converter regulated, 9-36V input, ±12V fixed output voltage, 420mA each output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
+TMR10-2423WI	10W DC/DC industrial converter regulated, 9-36V input, ±15V fixed output voltage, 333mA each output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
 TMR10-2423WIR	10W DC/DC railway converter regulated, 9-36V input, ±15V fixed output voltage, 336mA each output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
 TMR10-4810WIR	10W DC/DC railway converter regulated, 18-75V input, 3.3V fixed output voltage, 2.5A output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
+TMR10-4811WI	10W DC/DC industrial converter regulated, 18-75V input, 5.1V fixed output voltage, 2000mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
 TMR10-4811WIR	10W DC/DC railway converter regulated, 18-75V input, 5V fixed output voltage, 2A output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
+TMR10-4812WI	10W DC/DC industrial converter regulated, 18-75V input, 12V fixed output voltage, 833mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
 TMR10-4812WIR	10W DC/DC railway converter regulated, 18-75V input, 12V fixed output voltage, 840mA output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
+TMR10-4813WI	10W DC/DC industrial converter regulated, 18-75V input, 15V fixed output voltage, 666mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
 TMR10-4813WIR	10W DC/DC railway converter regulated, 18-75V input, 15V fixed output voltage, 670mA output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
+TMR10-4815WI	10W DC/DC industrial converter regulated, 18-75V input, 24V fixed output voltage, 416mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
 TMR10-4815WIR	10W DC/DC railway converter regulated, 18-75V input, 24V fixed output voltage, 420mA output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
 TMR10-4821WIR	10W DC/DC railway converter regulated, 18-75V input, ±5V fixed output voltage, 1A each output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
+TMR10-4822WI	10W DC/DC industrial converter regulated, 18-75V input, ±12V fixed output voltage, 416mA each output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
 TMR10-4822WIR	10W DC/DC railway converter regulated, 18-75V input, ±12V fixed output voltage, 420mA each output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
+TMR10-4823WI	10W DC/DC industrial converter regulated, 18-75V input, ±15V fixed output voltage, 333mA each output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wi.pdf
 TMR10-4823WIR	10W DC/DC railway converter regulated, 18-75V input, ±15V fixed output voltage, 336mA each output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
 TMR10-7210WIR	10W DC/DC railway converter regulated, 40-160V input, 3.3V fixed output voltage, 2.5A output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
 TMR10-7211WIR	10W DC/DC railway converter regulated, 40-160V input, 5V fixed output voltage, 2A output, 3.0kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr10wir.pdf
@@ -13973,6 +13991,7 @@ LM5069MM-1	Hot swap & Inrush current controller with power limiting, latch off o
 LM5069MM-2	Hot swap & Inrush current controller with power limiting, auto retry on fault, 9V to 80Vin, UVLO & OVLO, VSSOP-10	http://www.ti.com/lit/ds/symlink/lm5069.pdf
 LM66100DCK	Ideal Diode With Input Polarity Protection 1.5 - 5.5V  Input Voltage, 1.5A Output Current, Ron 141 mOhm, SC-70-6	https://www.ti.com/lit/ds/symlink/lm66100.pdf
 LM74700	Low Iq reverse battery protection ideal diode controller, SOT-23-6	http://www.ti.com/lit/gpn/LM74700-Q1
+LM74701-Q1	TVS Less Automotive Reverse Battery Protection Ideal Diode Controller, SOT-23-8	http://www.ti.com/lit/gpn/LM74701-Q1
 LMG3410	600-V 12-A Integrated GaN Power Stage, RWH0032A	http://www.ti.com/lit/ds/snosd10c/snosd10c.pdf
 LMG5200	80-V, 10-A GaN Half-Bridge Power Stage, MOF0009A	http://www.ti.com/lit/ds/symlink/lmg5200.pdf
 LT1641-1	High voltage hot swap controller, +9V to +80V, with latching feature, SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/164112fc.pdf
@@ -14074,6 +14093,7 @@ TPS22810DBV	2.7..18V, 2A, 79mohms On-Resistance Load Switch With Thermal Protect
 TPS22810DRV	2.7..18V, 3A, 79mohms On-Resistance Load Switch With Thermal Protection, WSON-6	http://www.ti.com/lit/ds/symlink/tps22810.pdf
 TPS22917DBV	1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6	http://www.ti.com/lit/ds/symlink/tps22917.pdf
 TPS22917LDBV	1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, Active Low, SOT23-6	http://www.ti.com/lit/ds/symlink/tps22917.pdf
+TPS22919DCK	1.6V to 5.5 V, 1.5 A, 90-mΩ Self-Protected Load Switch with Controlled Rise Time, SC-70-6	https://www.ti.com/lit/ds/symlink/tps22919.pdf
 TPS22929D	High side, power distribution switch, 1.4V-5.5V, 1.8A, SOT23-6 package	http://www.ti.com/lit/ds/symlink/tps22929d.pdf
 TPS22993	Quad Channel Load Switch with GPIO and I2C Control, Bias voltage: 4.5V-17.2V, Input voltage: 1.0V-3.6V, Max 1.2A per channel, WQFN-20	http://www.ti.com/lit/gpn/tps22993
 TPS2412D	N+1 and ORing Power Rail Controller, SOIC-8	http://www.ti.com/lit/ds/symlink/tps2412.pdf
