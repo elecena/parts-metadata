@@ -12926,6 +12926,7 @@ LM4F111C4QR	Replaced by TM4C1230D5PM, LQFP64	http://www.ti.com/lit/ds/symlink/tm
 LM4F111E5QR	Replaced by TM4C1230E6PM, LQFP64	http://www.ti.com/lit/ds/symlink/tm4c1230c3pm.pdf
 LM4F111H5QR	Replaced by TM4C1230H6PM, LQFP64	http://www.ti.com/lit/ds/symlink/tm4c1230h6pm.pdf
 MSP432E401Y	ARM Cortex-M4F MCU, 1024KB flash, 256KB RAM, 6KB EEPROM, 120MHz, 3.0-3.6V, TQFP-128	http://www.ti.com/lit/ds/symlink/msp432e401y.pdf
+MSPM0C110xSDDF	ARM Cortex-M0+ MCU, 16/8kB flash, 1kB SRAM, 24MHz, SOT-23-8	https://www.ti.com/lit/gpn/mspm0c1104
 TM4C1230C3PM	Tiva ARM 32bit CortexM4 Microcotroller, 80MHz, 32kB Flash, 12kB SRAM, 2k EEPROM, LQFP64	http://www.ti.com/lit/ds/symlink/tm4c1230c3pm.pdf
 TM4C1230D5PM	Tiva ARM 32bit CortexM4 Microcotroller, 80MHz, 64kB Flash, 24kB SRAM, 2k EEPROM, LQFP64	http://www.ti.com/lit/ds/symlink/tm4c1230d5pm.pdf
 TM4C1230E6PM	Tiva ARM 32bit CortexM4 Microcotroller, 80MHz, 128kB Flash, 32kB SRAM, 2k EEPROM, LQFP64	http://www.ti.com/lit/ds/symlink/tm4c1230e6pm.pdf
@@ -15000,6 +15001,19 @@ LM4040LP-4.1	4.096V Precision Micropower Shunt Voltage Reference, TO-92	http://w
 LM4040LP-5	5.000V Precision Micropower Shunt Voltage Reference, TO-92	http://www.ti.com/lit/ds/symlink/lm4040-n.pdf
 LM4040LP-8.2	8.192V Precision Micropower Shunt Voltage Reference, TO-92	http://www.ti.com/lit/ds/symlink/lm4040-n.pdf
 LM4041LP-ADJ	Adjustable Precision Micropower Shunt Voltage Reference, TO-92	http://www.ti.com/lit/ds/symlink/lm4041-n.pdf
+LM4050xEM3-2.1	Precision Micropower Shunt Voltage Reference 2.048V 50ppm/°C, SOT-23	https://www.analog.com/media/en/technical-documentation/data-sheets/LM4050-LM4051.pdf
+LM4050xEM3-2.5	Precision Micropower Shunt Voltage Reference 2.5V 50ppm/°C, SOT-23	https://www.analog.com/media/en/technical-documentation/data-sheets/LM4050-LM4051.pdf
+LM4050xEM3-3.0	Precision Micropower Shunt Voltage Reference 3.0V 50ppm/°C, SOT-23	https://www.analog.com/media/en/technical-documentation/data-sheets/LM4050-LM4051.pdf
+LM4050xEM3-3.3	Precision Micropower Shunt Voltage Reference 3.3V 50ppm/°C, SOT-23	https://www.analog.com/media/en/technical-documentation/data-sheets/LM4050-LM4051.pdf
+LM4050xEM3-4.1	Precision Micropower Shunt Voltage Reference 4.096V 50ppm/°C, SOT-23	https://www.analog.com/media/en/technical-documentation/data-sheets/LM4050-LM4051.pdf
+LM4050xEM3-5.0	Precision Micropower Shunt Voltage Reference 5.0V 50ppm/°C, SOT-23	https://www.analog.com/media/en/technical-documentation/data-sheets/LM4050-LM4051.pdf
+LM4050xEX3-2.1	Precision Micropower Shunt Voltage Reference 2.048V 50ppm/°C, SC-70	https://www.analog.com/media/en/technical-documentation/data-sheets/LM4050-LM4051.pdf
+LM4050xEX3-2.5	Precision Micropower Shunt Voltage Reference 2.5V 50ppm/°C, SC-70	https://www.analog.com/media/en/technical-documentation/data-sheets/LM4050-LM4051.pdf
+LM4050xEX3-3.3	Precision Micropower Shunt Voltage Reference 3.3V 50ppm/°C, SC-70	https://www.analog.com/media/en/technical-documentation/data-sheets/LM4050-LM4051.pdf
+LM4050xEX3-4.1	Precision Micropower Shunt Voltage Reference 4.096V 50ppm/°C, SC-70	https://www.analog.com/media/en/technical-documentation/data-sheets/LM4050-LM4051.pdf
+LM4050xEX3-5.0	Precision Micropower Shunt Voltage Reference 5.0V 50ppm/°C, SC-70	https://www.analog.com/media/en/technical-documentation/data-sheets/LM4050-LM4051.pdf
+LM4051xEM3-1.2	Precision Micropower Shunt Voltage Reference 1.225V 50ppm/°C, SOT-23	https://www.analog.com/media/en/technical-documentation/data-sheets/LM4050-LM4051.pdf
+LM4051xEX3-1.2	Precision Micropower Shunt Voltage Reference 1.225V 50ppm/°C, SC-70	https://www.analog.com/media/en/technical-documentation/data-sheets/LM4050-LM4051.pdf
 LM4125AIM5-2.5	2.5V ±0.2% Precision Micropower Low Dropout Voltage Reference, SOT-23-5	http://www.ti.com/lit/ds/symlink/lm4125.pdf
 LM4125IM5-2.0	2V ±0.5% Precision Micropower Low Dropout Voltage Reference, SOT-23-5	http://www.ti.com/lit/ds/symlink/lm4125.pdf
 LM4125IM5-2.5	2.5V ±0.5% Precision Micropower Low Dropout Voltage Reference, SOT-23-5	http://www.ti.com/lit/ds/symlink/lm4125.pdf
@@ -15147,7 +15161,6 @@ MCP1501-25xCH	2.5V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6	http://ww1
 MCP1501-25xRW	2.5V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8	http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 MCP1501-25xSN	2.5V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8	http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 MCP1501-30xCH	3V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6	http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
-MCP1501-30xRW	3V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8	http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 MCP1501-30xSN	3V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8	http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 MCP1501-33xCH	3.3V, 0.1%, 20mA, Precision Voltage Reference, SOT-23-6	http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
 MCP1501-33xRW	3.3V, 0.1%, 20mA, Precision Voltage Reference, WDFN-8	http://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
