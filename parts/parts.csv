@@ -20678,6 +20678,7 @@ Q_NMOS_Depletion_GDS	Depletion-mode N-channel MOSFET gate/drain/source
 Q_NMOS_Depletion_GSD	Depletion-mode N-channel MOSFET gate/source/drain	
 Q_NMOS_Depletion_SDG	Depletion-mode N-channel MOSFET source/drain/gate	
 Q_NMOS_Depletion_SGD	Depletion-mode N-channel MOSFET source/gate/drain	
+SP010N70T8	6A Ids, 100 Vds, 70mOhm@10V N-channel MOSFET, SOT-89-3	https://www.siliup.com/upload/pdf/202205/SP010N70T8.pdf
 VNB35N07xx-E	Fully autoprotected Power MOSFET, OMNIFET, 35A Ilim, 70V Vclamp, 0.028 ohms Rds(on), diagnostic/fault feedback, TO-263-2 (D2PAK)	https://www.st.com/resource/en/datasheet/vnp35n07-e.pdf
 VNP10N07	10A Id, 70V Vds, N-Channel Power MOSFET, fully autoprotected, TO-220	https://www.st.com/resource/en/datasheet/vnp10n07.pdf
 VNP35N07xx-E	Fully autoprotected Power MOSFET, OMNIFET, 35A Ilim, 70V Vclamp, 0.028 ohms Rds(on), diagnostic/fault feedback, TO-220	https://www.st.com/resource/en/datasheet/vnp35n07-e.pdf
