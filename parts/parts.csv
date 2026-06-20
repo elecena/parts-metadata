@@ -3313,6 +3313,7 @@ RPMH15-1.5	1.5A non-isolated switching regulator power module, 17-60V input volt
 RPMH24-1.5	1.5A non-isolated switching regulator power module, 26-60V input voltage, 24V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
 RPMH3.3-1.5	1.5A non-isolated switching regulator power module, 5-60V input voltage, 3.3V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
 RPMH5.0-1.5	1.5A non-isolated switching regulator power module, 7-60V input voltage, 5V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
+SMU02L-24N	2W, 1500 VDC isolated unregulated DC/DC converter, 5V input, 24V output, SIP-4	https://www.meanwell.com/upload/pdf/SMU02-N/SMU02-N-spec.pdf
 TBA1-0310	1W DC/DC converter unregulated, 2.97-3.63V input, 3.3V output voltage, 260mA output, 1.5kVDC isolation, SIP-4	https://www.tracopower.com/products/tba1.pdf
 TBA1-0311	1W DC/DC converter unregulated, 2.97-3.63V input, 5V output voltage, 200mA output, 1.5kVDC isolation, SIP-4	https://www.tracopower.com/products/tba1.pdf
 TBA1-0510	1W DC/DC converter unregulated, 4.5-5.5V input, 3.3V output voltage, 260mA output, 1.5kVDC isolation, SIP-4	https://www.tracopower.com/products/tba1.pdf
@@ -4499,6 +4500,7 @@ SparkGap	Spark gap
 Speaker	Speaker	
 Speaker_Crystal	Crystal speaker/transducer	
 Speaker_Ultrasound	Ultrasonic transducer	
+Thermal_Jumper	Thermal Bridge/Jumper	https://datasheets.kyocera-avx.com/Q-Bridge-Thermal-Conductor.pdf
 Thermistor	Temperature dependent resistor	
 Thermistor_NTC	Temperature dependent resistor, negative temperature coefficient	
 Thermistor_NTC_3Wire	Temperature dependent resistor, negative temperature coefficient, 3-wire interface	
