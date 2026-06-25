@@ -3313,6 +3313,7 @@ RPMH15-1.5	1.5A non-isolated switching regulator power module, 17-60V input volt
 RPMH24-1.5	1.5A non-isolated switching regulator power module, 26-60V input voltage, 24V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
 RPMH3.3-1.5	1.5A non-isolated switching regulator power module, 5-60V input voltage, 3.3V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
 RPMH5.0-1.5	1.5A non-isolated switching regulator power module, 7-60V input voltage, 5V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
+SMU02L-24N	2W, 1500 VDC isolated unregulated DC/DC converter, 5V input, 24V output, SIP-4	https://www.meanwell.com/upload/pdf/SMU02-N/SMU02-N-spec.pdf
 TBA1-0310	1W DC/DC converter unregulated, 2.97-3.63V input, 3.3V output voltage, 260mA output, 1.5kVDC isolation, SIP-4	https://www.tracopower.com/products/tba1.pdf
 TBA1-0311	1W DC/DC converter unregulated, 2.97-3.63V input, 5V output voltage, 200mA output, 1.5kVDC isolation, SIP-4	https://www.tracopower.com/products/tba1.pdf
 TBA1-0510	1W DC/DC converter unregulated, 4.5-5.5V input, 3.3V output voltage, 260mA output, 1.5kVDC isolation, SIP-4	https://www.tracopower.com/products/tba1.pdf
@@ -4499,6 +4500,7 @@ SparkGap	Spark gap
 Speaker	Speaker	
 Speaker_Crystal	Crystal speaker/transducer	
 Speaker_Ultrasound	Ultrasonic transducer	
+Thermal_Jumper	Thermal Bridge/Jumper	https://datasheets.kyocera-avx.com/Q-Bridge-Thermal-Conductor.pdf
 Thermistor	Temperature dependent resistor	
 Thermistor_NTC	Temperature dependent resistor, negative temperature coefficient	
 Thermistor_NTC_3Wire	Temperature dependent resistor, negative temperature coefficient, 3-wire interface	
@@ -17593,6 +17595,7 @@ LT1373HVCN8	1.5A Low Supply Current High Efficiency Switching Regulators, 250kHz
 LT1373HVCS8	1.5A Low Supply Current High Efficiency Switching Regulators, 250kHz, 42V Switch Voltage, Adjustable Output Voltage, SO-8	https://www.analog.com/media/en/technical-documentation/data-sheets/1373fbs.pdf
 LT1377CN8	1.5A High Efficiency Switching Regulators, 1MHz, 35V Switch Voltage, Adjustable Output Voltage, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/13727fbs.pdf
 LT1377CS8	1.5A High Efficiency Switching Regulators, 1MHz, 35V Switch Voltage, Adjustable Output Voltage, SO-8	https://www.analog.com/media/en/technical-documentation/data-sheets/13727fbs.pdf
+LT1931	1.2MHz Cuk-topology Converter, SOT-23-5	https://www.analog.com/media/en/technical-documentation/data-sheets/1931fa.pdf
 LT1945	Dual Micropower DC/DC Converter with Positive and Negative Outputs, MSOP-10	https://www.analog.com/media/en/technical-documentation/data-sheets/1945fa.pdf
 LT3430	3A High Voltage 200kHz Step-Down Switching Regulator, TSSOP-16	https://www.analog.com/media/en/technical-documentation/data-sheets/34301fa.pdf
 LT3430-1	3A High Voltage 100kHz Step-Down Switching Regulator, TSSOP-16	https://www.analog.com/media/en/technical-documentation/data-sheets/34301fa.pdf
@@ -20678,6 +20681,7 @@ Q_NMOS_Depletion_GDS	Depletion-mode N-channel MOSFET gate/drain/source
 Q_NMOS_Depletion_GSD	Depletion-mode N-channel MOSFET gate/source/drain	
 Q_NMOS_Depletion_SDG	Depletion-mode N-channel MOSFET source/drain/gate	
 Q_NMOS_Depletion_SGD	Depletion-mode N-channel MOSFET source/gate/drain	
+SP010N70T8	6A Ids, 100 Vds, 70mOhm@10V N-channel MOSFET, SOT-89-3	https://www.siliup.com/upload/pdf/202205/SP010N70T8.pdf
 VNB35N07xx-E	Fully autoprotected Power MOSFET, OMNIFET, 35A Ilim, 70V Vclamp, 0.028 ohms Rds(on), diagnostic/fault feedback, TO-263-2 (D2PAK)	https://www.st.com/resource/en/datasheet/vnp35n07-e.pdf
 VNP10N07	10A Id, 70V Vds, N-Channel Power MOSFET, fully autoprotected, TO-220	https://www.st.com/resource/en/datasheet/vnp10n07.pdf
 VNP35N07xx-E	Fully autoprotected Power MOSFET, OMNIFET, 35A Ilim, 70V Vclamp, 0.028 ohms Rds(on), diagnostic/fault feedback, TO-220	https://www.st.com/resource/en/datasheet/vnp35n07-e.pdf
