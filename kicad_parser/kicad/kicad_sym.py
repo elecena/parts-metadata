@@ -4,7 +4,6 @@ Library for processing KiCad's symbol files.
 
 import json
 import math
-import os
 import re
 import sys
 from copy import deepcopy
@@ -1111,7 +1110,9 @@ class KicadEmbeddedFile(KicadSymbolBase):
         return sx
 
     @classmethod
-    def from_file(cls, filename: str) -> Optional["KicadEmbeddedFile"]:
+    def from_file(cls, filename: str | Path) -> Optional["KicadEmbeddedFile"]:
+        filename = Path(filename)
+
         # needs implementing :)
         return None
 
@@ -1130,7 +1131,7 @@ class KicadEmbeddedFile(KicadSymbolBase):
 class KicadSymbol(KicadSymbolBase):
     name: str
     libname: str
-    filename: str = field(compare=False)
+    filename: Path = field(compare=False)
     properties: List[Property] = field(default_factory=list)
     pins: List[Pin] = field(default_factory=list)
     rectangles: List[Rectangle] = field(default_factory=list)
@@ -1163,9 +1164,9 @@ class KicadSymbol(KicadSymbolBase):
     _inheritance: list["KicadSymbol"] = field(default_factory=list)
 
     def __post_init__(self):
-        if self.filename == "":
+        if self.filename == Path(""):
             raise ValueError("Filename can not be empty")
-        self.libname = Path(self.filename).stem
+        self.libname = self.filename.stem
 
     def get_sexpr(self) -> List[str]:
         # add header
@@ -1373,7 +1374,7 @@ class KicadSymbol(KicadSymbolBase):
         unit_names: dict = None,
     ):
         unit_names = unit_names or {}
-        sym = cls(name, libname, libname + ".kicad_sym", unit_names=unit_names)
+        sym = cls(name, libname, Path(f"{libname}.kicad_sym"), unit_names=unit_names)
         sym.add_default_properties()
         sym.get_property("Reference").value = reference
         sym.get_property("Footprint").value = footprint
@@ -1503,6 +1504,70 @@ class KicadSymbol(KicadSymbolBase):
 
         return result
 
+    def derive(self, name: str, new_prop_values: dict = {}) -> "KicadSymbol":
+        """
+        Create a new symbol deriving from an existing one.
+
+        A derived symbol inherits all the properties, standard and custom, from the base symbol.
+        Here, by default, the property Value is set to the new symbol name while Reference is set
+        equal to the base symbol value. All the other standard properties of the derived symbol are
+        instead reset. It is also possible to specify custom initial values by passing a dictionary
+        new_prop_values where the keys are the property names.
+        """
+        newsym = deepcopy(self)
+        newsym._inheritance = [self]
+
+        # remove graphical part
+        newsym.pins = []
+        newsym.rectangles = []
+        newsym.circles = []
+        newsym.arcs = []
+        newsym.polylines = []
+        newsym.beziers = []
+        newsym.texts = []
+
+        # reset members related to graphical part
+        newsym.unit_names = {}
+        newsym.unit_count = 0
+        newsym.body_styles = []
+        newsym.body_style_count = 0
+
+        newsym.name = name
+        newsym.extends = self.name
+        if self.filename.parent.suffix == ".kicad_symdir":
+            newsym.filename = newsym.filename.with_name(f"{name}.kicad_sym")
+        elif self.filename.suffix == ".kicad_sym":
+            pass  # same filename
+        else:
+            raise Exception(f"unsupported library name {self.filename}")
+
+        # standard properties
+        prop_list = [
+            "Reference",
+            "Value",
+            "Footprint",
+            "Datasheet",
+            "Description",
+            "ki_keywords",
+            "ki_fp_filters",
+        ]
+
+        for p in prop_list:
+            if p in new_prop_values:
+                newsym.get_property(p).value = new_prop_values[p]
+            else:
+                # default values
+                if p == "Value":
+                    # Value is update with new symbol name
+                    newsym.get_property(p).value = name
+                elif p == "Reference":
+                    # Reference is likely the same (same library) -> preserved
+                    pass
+                else:
+                    newsym.get_property(p).value = ""
+
+        return newsym
+
 
 @dataclass
 class KicadLibrary(KicadSymbolBase):
@@ -1510,7 +1575,7 @@ class KicadLibrary(KicadSymbolBase):
     A class to parse kicad_sym files format of the KiCad
     """
 
-    filename: str
+    filename: Path
     symbols: list[KicadSymbol] = field(default_factory=list)
     generator: str = "kicad-library-utils"
     version: str = "20251024"
@@ -1551,22 +1616,24 @@ class KicadLibrary(KicadSymbolBase):
             already_seen.add(symbol.name)
 
     @classmethod
-    def from_path(cls, filename: str, data=None) -> "KicadLibrary":
-        if Path(filename).is_dir():
+    def from_path(cls, filename: str | Path, data=None) -> "KicadLibrary":
+        filename = Path(filename)
+        if filename.is_dir():
             return KicadLibrary.from_dir(filename)
         else:
             return KicadLibrary.from_file(filename)
 
     @classmethod
-    def from_dir(cls, dirname: str, data=None) -> "KicadLibrary":
+    def from_dir(cls, dirname: str | Path, data=None) -> "KicadLibrary":
         """
         Parse a symbol library from a kicad_symdir directory
 
         raises KicadFileFormatError in case of problems
         """
-        symdir = Path(dirname)
-        if not symdir.is_dir():
-            raise Exception(f'The directory "{dirname}" cannot be opened')
+
+        dirname = Path(dirname)
+        if not dirname.is_dir():
+            raise NotADirectoryError(f'The library "{dirname}" is not a directory')
 
         # create a empty library
         # we kinda would need to set version and generator, but that is
@@ -1578,10 +1645,10 @@ class KicadLibrary(KicadSymbolBase):
         symbol_names = {}
 
         # iterate over all .kicad_sym files in the directory
-        for sub_lib_filename in os.listdir(dirname):
+        for sub_lib_filename in sorted(dirname.glob("*.kicad_sym")):
             # read the sub library
             sub_library = KicadLibrary.from_file(
-                symdir.joinpath(sub_lib_filename), check_inheritance=False
+                sub_lib_filename, check_inheritance=False
             )
             if len(sub_library.symbols) > 1:
                 raise KicadFileFormatError(
@@ -1591,7 +1658,7 @@ class KicadLibrary(KicadSymbolBase):
             # fetch the first symbol from the sub-library
             # overwrite the libname with the name from the directory
             symbol = sub_library.symbols[0]
-            symbol.libname = symdir.stem
+            symbol.libname = dirname.stem
 
             # fill the symbol_names dict we need for inheritance checking laters
             if symbol.name in symbol_names:
@@ -1626,7 +1693,7 @@ class KicadLibrary(KicadSymbolBase):
 
     @classmethod
     def from_file(
-        cls, filename: str, data=None, check_inheritance=True
+        cls, filename: str | Path, data=None, check_inheritance=True
     ) -> "KicadLibrary":
         """
         Parse a symbol library from a file.
@@ -1634,9 +1701,11 @@ class KicadLibrary(KicadSymbolBase):
         raises KicadFileFormatError in case of problems
         """
 
+        filename = Path(filename)
+
         # Check if library exists and set the empty library if not
-        if not Path(filename).is_file():
-            raise FileNotFoundError(f'The file "{filename}" cannot be opened')
+        if not filename.is_file():
+            raise FileNotFoundError(f'The library "{filename}" is not a file')
 
         library = KicadLibrary(filename)
 
@@ -1681,34 +1750,35 @@ class KicadLibrary(KicadSymbolBase):
             partname = str(item.pop(0).split(":")[-1])
 
             # we found a new part, extract the symbol name
-            symbol = KicadSymbol(partname, libname=filename, filename=filename)
+            symbol = KicadSymbol(partname, libname=str(filename), filename=filename)
 
             # build a dict of symbolname -> symbol
             if partname in symbol_names:
                 raise KicadFileFormatError(f"Duplicate symbols: {partname}")
             symbol_names[partname] = symbol
 
-            # Extract body_styles field, it is not always present and contains a list of style names.
-            # After parsing, the body_styles member will be a list that always contains:
-            # - a "standard" element as first and only entry if 1 style is present,
-            #   in datafile: body_styles not present
-            # - "standard" and "demorgan" elements for 2 styles where the second is DeMorgan style,
-            #   in datafile: (body_styles demorgan)
-            # - the style names saved in the datafile (generic case since kicad 10),
-            #   in datafile: (body_styles "name1" "name2" ...)
-            bs = _get_array2(item, "body_styles")
-            if bs:
-                if bs[0][1] == "demorgan":
-                    symbol.body_styles = ["standard", "demorgan"]
-                else:
-                    symbol.body_styles.extend(bs[0][1:])
-            else:
-                symbol.body_styles = ["standard"]
-
             # extract extends field
             extends = _get_array2(item, "extends")
             if extends:
                 symbol.extends = extends[0][1]
+            else:
+                # Extract body_styles field, it is not always present and contains a list of style names.
+                # After parsing, the body_styles member will be a list that always contains:
+                # - a "standard" element as first and only entry if 1 style is present,
+                #   in datafile: body_styles not present
+                # - "standard" and "demorgan" elements for 2 styles where the second is DeMorgan style,
+                #   in datafile: (body_styles demorgan)
+                # - the style names saved in the datafile (generic case since kicad 10),
+                #   in datafile: (body_styles "name1" "name2" ...)
+                bs = _get_array2(item, "body_styles")
+                if bs:
+                    if bs[0][1] == "demorgan":
+                        symbol.body_styles = ["standard", "demorgan"]
+                    else:
+                        symbol.body_styles.extend(bs[0][1:])
+                else:
+                    symbol.body_styles = ["standard"]
+                symbol.body_style_count = len(symbol.body_styles)
 
             # extract properties
             for prop in _get_array(item, "property"):
@@ -1849,8 +1919,7 @@ class KicadLibrary(KicadSymbolBase):
                     # derived symbol. So we need to guess its filename based on the parent name and load it as well.
                     if cursor.extends not in symbol_names:
                         parent_filename = (
-                            Path(library.filename).parent
-                            / f"{cursor.extends}.kicad_sym"
+                            library.filename.parent / f"{cursor.extends}.kicad_sym"
                         )
                         try:
                             parent_lib = KicadLibrary.from_file(parent_filename)
@@ -1888,6 +1957,53 @@ class KicadLibrary(KicadSymbolBase):
             if symbol.name == name:
                 return symbol
         return None
+
+    def add_derived_symbol(
+        self,
+        base_name: str,
+        derived_name: str,
+        overwrite: bool = False,
+        allow_recursive_inheritance: bool = False,
+    ):
+        """
+        Add a new derived symbol derived_name starting from base_name.
+
+        It is possible to overwrite an already present symbol or allow recursive derivation
+        (inheritance).
+        """
+        basesym = None
+        idx_to_remove = None
+        for idx in range(0, len(self.symbols)):
+            s = self.symbols[idx]
+            if derived_name == s.name:
+                if not overwrite:
+                    raise ValueError(
+                        f"a symbol {derived_name} already exists, overwrite if sure"
+                    )
+                else:
+                    idx_to_remove = idx
+            if base_name == s.name:
+                basesym = s
+        if not basesym:
+            raise ValueError(
+                f"a symbol {base_name} doesn't exist, cannot use it as base symbol"
+            )
+        if basesym.extends and not allow_recursive_inheritance:
+            raise Exception(
+                "derivation of a derived symbol is technically feasible but discouraged"
+            )
+        # overwrite symbol
+        if idx_to_remove:
+            self.symbols.pop(idx_to_remove)
+
+        newsym = basesym.derive(derived_name)
+
+        parent = self.get_symbol(newsym.extends)
+        while parent.extends:
+            parent = self.get_symbol(parent.extends)
+            newsym._inheritance.append(parent)
+
+        self.symbols.append(newsym)
 
 
 if __name__ == "__main__":
