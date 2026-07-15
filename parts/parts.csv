@@ -950,6 +950,8 @@ INA201D	Current Shunt Monitor, integrated comparator and reference, -16V to +80V
 INA201DGK	Current Shunt Monitor, integrated comparator and reference, -16V to +80V Common-Mode Range, 50V/V, VSSOP-8	https://www.ti.com/lit/ds/symlink/ina201.pdf
 INA202D	Current Shunt Monitor, integrated comparator and reference, -16V to +80V Common-Mode Range, 100V/V, SOIC-8	https://www.ti.com/lit/ds/symlink/ina201.pdf
 INA202DGK	Current Shunt Monitor, integrated comparator and reference, -16V to +80V Common-Mode Range, 100V/V, VSSOP-8	https://www.ti.com/lit/ds/symlink/ina201.pdf
+INA2180AxxDGK	26V, Dual-Channel, Voltage Output, Current-Sense Amplifier, TSSOP-8 (Texas VSSOP-8 / DGK0008A)	https://www.ti.com/lit/gpn/INA2180
+INA2180AxxDSG	26V, Dual-Channel, Voltage Output, Current-Sense Amplifier, WSON-8 (Texas DSG0008A)	https://www.ti.com/lit/gpn/INA2180
 INA225	36-V, Bidirectional Current Sense Amplifier, With Four Pin-Selectable Gain Settings, VSSOP-8	https://www.ti.com/lit/ds/symlink/ina225-q1.pdf
 INA240A1D	High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8	http://www.ti.com/lit/ds/symlink/ina240.pdf
 INA240A1PW	High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, TSSOP-8	http://www.ti.com/lit/ds/symlink/ina240.pdf
@@ -1460,6 +1462,8 @@ OPA858xDSG	5.5-GHz Gain Bandwidth Product, Gain of 7 V/V Stable, FET Input Ampli
 OPA859xDSG	1.8 GHz Unity-Gain Bandwidth FET Input Amplifier, WSON-8	http://www.ti.com/lit/ds/symlink/opa859.pdf
 OPA890xD	Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SO-8	https://www.ti.com/lit/ds/symlink/opa890.pdf
 OPA890xDBV	Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SOT-23-6	https://www.ti.com/lit/ds/symlink/opa890.pdf
+Opamp_Dual	Dual operational amplifier	
+Opamp_Quad	Quad operational amplifier	
 RC4558	Dual General Purpose, Operational Amplifier, DIP-8/SOIC-8/SSOP-8	http://www.ti.com/lit/ds/symlink/rc4558.pdf
 RC4560	Dual Audio Operational Amplifier, DIP-8/SOIC-8/SSOP-8	http://www.ti.com/lit/ds/symlink/rc4560.pdf
 RC4580	Dual Audio Operational Amplifier, SOIC-8/SSOP-8	http://www.ti.com/lit/ds/symlink/rc4580.pdf
@@ -2757,6 +2761,188 @@ VTX-214-015-115	15V Vigortronix 15W ACDC Converters	http://www.vigortronix.com/1
 VTX-214-015-118	18V Vigortronix 15W ACDC Converters	http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC
 VTX-214-015-124	24V Vigortronix 15W ACDC Converters	http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC
 VTX-214-015-148	48V Vigortronix 15W ACDC Converters	http://www.vigortronix.com/15WattSMPSPCBModuleAC-DC
+C11204-01	SiPM supply temperature compendsated, input 5V, output 20V-90V, UART	https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/c11204-01_kacc1203e.pdf
+LMZ13608	8A Adjustable Step-Down DC/DC Power Module in 15x15mm, Texas NDY0011A	http://www.ti.com/lit/ds/snvs710i/snvs710i.pdf
+LMZ22003TZ	3A Adjustable Step-Down DC/DC Power Module, Vin: 6-20V	http://www.ti.com/lit/gpn/LMZ22003
+LMZ22005TZ	5A Adjustable Step-Down DC/DC Power Module, Vin: 6-20V	http://www.ti.com/lit/gpn/LMZ22005
+LMZ23603TZ	3A Adjustable Step-Down DC/DC Power Module, Vin: 6-36V	http://www.ti.com/lit/gpn/lmz23603
+LMZ23605TZ	5A Adjustable Step-Down DC/DC Power Module, Vin: 6-36V	http://www.ti.com/lit/gpn/lmz23605
+LMZM23600	0.5A Adjustable Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10	http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
+LMZM23600V3	0.5A 3.3V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10	http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
+LMZM23600V5	0.5A 5V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10	http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
+LMZM23601	1A Adjustable Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10	http://www.ti.com/lit/ds/symlink/lmzm23601.pdf
+LMZM23601V3	1A 3.3V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10	http://www.ti.com/lit/ds/symlink/lmzm23601.pdf
+LMZM23601V5	1A 5V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10	http://www.ti.com/lit/ds/symlink/lmzm23601.pdf
+LT1026	voltage doubler and inverter	https://www.analog.com/media/en/technical-documentation/data-sheets/1026fb.pdf
+LTM4626	Analog Devices 20VIN, 12A Step-Down DC/DC uModule Regulator, BGA-49	https://www.analog.com/media/en/technical-documentation/data-sheets/ltm4626.pdf
+LTM4637xV	20A DC/DC µModule Step-Down Regulator, LGA-133	https://www.analog.com/media/en/technical-documentation/data-sheets/4637fc.pdf
+LTM4637xY	20A DC/DC µModule Step-Down Regulator, BGA-133	https://www.analog.com/media/en/technical-documentation/data-sheets/4637fc.pdf
+LTM4638	Analog Devices 20VIN, 15A Step-Down DC/DC uModule Regulator, BGA-49	https://www.analog.com/media/en/technical-documentation/data-sheets/ltm4638.pdf
+LTM4657	Analog Devices 20VIN, 8A Step-Down DC/DC uModule Regulator, BGA-49	https://www.analog.com/media/en/technical-documentation/data-sheets/ltm4657.pdf
+LTM4668	Quad DC/DC μModule Regulator with Configurable 1.2A Output Array	https://www.analog.com/media/en/technical-documentation/data-sheets/ltm4668.pdf
+LTM4668A	Quad DC/DC μModule Regulator with Configurable 1.2A Output Array	https://www.analog.com/media/en/technical-documentation/data-sheets/ltm4668a.pdf
+LTM4671	Quad DC/DC uModule Regulator with Configurable Dual 0.6-3.3V/12A, Dual 0.6-5.5V/5A Output Array, 3.1-20Vin (BGA-209)	https://www.analog.com/media/en/technical-documentation/data-sheets/LTM4671.pdf
+LTM8049	Dual SEPIC or Inverting μModule DC/DC Converter, 2.6 to 20V input, 2.5V to 24V or -2.5V to -24V output, 1A @ 5V output current per converter, BGA-77 package.	https://www.analog.com/media/en/technical-documentation/data-sheets/LTM8049.pdf
+LTM8063	40VIN, 2A Silent Switcher µModule Regulator, BGA-28	https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
+MUN12AD01-SH	DC/DC Switching Regulator, Power Module, 1A, Cyntec MUN12AD01	http://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD01-SH_Datasheet.pdf
+MUN12AD03-SH	DC/DC Switching Regulator, Power Module, 3A, Cyntec MUN12AD03	http://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD03-SH_Datasheet.pdf
+MYRGPxx0060x21RC	PicoBK Inductor Built-in Step-Down “mini DC/DC” Converters. 3MHz, input 2V to 6V, fixed output voltage 0.8V to 4V, 600mA output current. 2.5 x 2.0mm.	https://www.murata.com/products/productdata/8816428285982/MYRGP-WB-RC.pdf
+MYRGPxx0060x21RF	PicoBK Inductor Built-in Step-Down “mini DC/DC” Converters. 3MHz, input 1.8V to 6V, adjustable output voltage 0.9V to 4V, 600mA output current. 2.5 x 2.0mm.	https://www.murata.com/products/productdata/8816428318750/MYRGP-WB-RF.pdf
+OKI-78SR-12_1.0-W36-C	1.0A Step-Down DC/DC-Regulator, 15-36V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical	https://power.murata.com/data/power/oki-78sr.pdf
+OKI-78SR-12_1.0-W36H-C	1.0A Step-Down DC/DC-Regulator, 15-36V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Horizontal	https://power.murata.com/data/power/oki-78sr.pdf
+OKI-78SR-3.3_1.5-W36-C	1.5A Step-Down DC/DC-Regulator, 7-36V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical	https://power.murata.com/data/power/oki-78sr.pdf
+OKI-78SR-3.3_1.5-W36H-C	1.5A Step-Down DC/DC-Regulator, 7-36V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Horizontal	https://power.murata.com/data/power/oki-78sr.pdf
+OKI-78SR-5_1.5-W36-C	1.5A Step-Down DC/DC-Regulator, 7-36V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical	https://power.murata.com/data/power/oki-78sr.pdf
+OKI-78SR-5_1.5-W36H-C	1.5A Step-Down DC/DC-Regulator, 7-36V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Horizontal	https://power.murata.com/data/power/oki-78sr.pdf
+PTN78000H_EUS-5	1.5A non-isolated switching regulator power module, 7-36V input voltage, 11.85-22V output voltage, EUS-5	https://www.ti.com/lit/ds/symlink/ptn78000w.pdf
+PTN78000W_EUS-5	1.5A non-isolated switching regulator power module, 7-36V input voltage, 2.5-12.6V output voltage, EUS-5	https://www.ti.com/lit/ds/symlink/ptn78000w.pdf
+PTN78020H_EUK-7	6A non-isolated switching regulator power module, 7-36V input voltage, 11.85-22V output voltage, EUK-7	https://www.ti.com/lit/ds/symlink/ptn78020w.pdf
+PTN78020W_EUK-7	6A non-isolated switching regulator power module, 7-36V input voltage, 2.5-12.6V output voltage, EUK-7	https://www.ti.com/lit/ds/symlink/ptn78020w.pdf
+PTN78060H_EUW-7	3A non-isolated switching regulator power module, 7-36V input voltage, 11.85-22V output voltage, EUW-7	https://www.ti.com/lit/ds/symlink/ptn78060w.pdf
+PTN78060W_EUW-7	3A non-isolated switching regulator power module, 7-36V input voltage, 2.5-12.6V output voltage, EUW-7	https://www.ti.com/lit/ds/symlink/ptn78060w.pdf
+R-781.5-0.5	500mA Step-Down DC/DC-Regulator, 4.75-30V input, 1.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
+R-781.8-0.5	500mA Step-Down DC/DC-Regulator, 4.75-32V input, 1.8V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
+R-781.8-1.0	1A Step-Down DC/DC-Regulator, 4.75-18V input, 1.8V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-1.0.pdf
+R-7812-0.5	500mA Step-Down DC/DC-Regulator, 15-32V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
+R-7815-0.5	500mA Step-Down DC/DC-Regulator, 18-32V input, 15V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
+R-782.5-0.5	500mA Step-Down DC/DC-Regulator, 4.75-18V input, 2.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
+R-782.5-1.0	1A Step-Down DC/DC-Regulator, 4.75-18V input, 2.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-1.0.pdf
+R-783.3-0.5	500mA Step-Down DC/DC-Regulator, 4.75-18V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
+R-783.3-1.0	1A Step-Down DC/DC-Regulator, 4.75-18V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-1.0.pdf
+R-785.0-0.5	500mA Step-Down DC/DC-Regulator, 6.5-18V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
+R-785.0-1.0	1A Step-Down DC/DC-Regulator, 6.5-18V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-1.0.pdf
+R-786.5-0.5	500mA Step-Down DC/DC-Regulator, 8-32V input, 6.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
+R-78B1.2-2.0	2A Step-Down DC/DC-Regulator, 4.75-32V input, 1.2V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
+R-78B1.5-2.0	2A Step-Down DC/DC-Regulator, 4.75-32V input, 1.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
+R-78B1.8-2.0	2A Step-Down DC/DC-Regulator, 4.75-32V input, 1.8V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
+R-78B12-2.0	2A Step-Down DC/DC-Regulator, 15-32V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
+R-78B15-2.0	2A Step-Down DC/DC-Regulator, 18-32V input, 15V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
+R-78B2.5-2.0	2A Step-Down DC/DC-Regulator, 4.75-32V input, 2.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
+R-78B3.3-2.0	2A Step-Down DC/DC-Regulator, 4.75-32V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
+R-78B5.0-2.0	2A Step-Down DC/DC-Regulator, 6.5-32V input, 5.0V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
+R-78B9.0-2.0	2A Step-Down DC/DC-Regulator, 11-32V input, 9.0V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
+R-78C1.8-1.0	1A Step-Down DC/DC-Regulator, 5-42V input, 1.8V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Cxx-1.0.pdf
+R-78C12-1.0	1A Step-Down DC/DC-Regulator, 15-42V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Cxx-1.0.pdf
+R-78C15-1.0	1A Step-Down DC/DC-Regulator, 18-42V input, 15V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Cxx-1.0.pdf
+R-78C3.3-1.0	1A Step-Down DC/DC-Regulator, 6-42V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Cxx-1.0.pdf
+R-78C5.0-1.0	1A Step-Down DC/DC-Regulator, 7-42V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Cxx-1.0.pdf
+R-78C9.0-1.0	1A Step-Down DC/DC-Regulator, 12-42V input, 9V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Cxx-1.0.pdf
+R-78E12-0.5	500mA Step-Down DC/DC-Regulator, 15-28V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
+R-78E15-0.5	500mA Step-Down DC/DC-Regulator, 18-28V input, 15V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
+R-78E3.3-0.5	500mA Step-Down DC/DC-Regulator, 6-28V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
+R-78E3.3-1.0	1A Step-Down DC/DC-Regulator, 6-28V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf
+R-78E5.0-0.5	500mA Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
+R-78E5.0-1.0	1A Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf
+R-78E9.0-0.5	500mA Step-Down DC/DC-Regulator, 12-28V input, 9V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
+R-78HB12-0.5	500mA Step-Down DC/DC-Regulator, 17-72V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
+R-78HB15-0.5	500mA Step-Down DC/DC-Regulator, 20-72V input, 15V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
+R-78HB24-0.3	300mA Step-Down DC/DC-Regulator, 36-72V input, 24V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
+R-78HB3.3-0.5	500mA Step-Down DC/DC-Regulator, 9-72V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
+R-78HB5.0-0.5	500mA Step-Down DC/DC-Regulator, 9-72V input, 5.0V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
+R-78HB6.5-0.5	500mA Step-Down DC/DC-Regulator, 9-72V input, 6.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
+R-78HB9.0-0.5	500mA Step-Down DC/DC-Regulator, 14-72V input, 9.0V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
+R-78S3.3-0.1	100mA Step-Up DC/DC-Regulator, 0.65-3.15V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP4	https://www.recom-power.com/pdf/Innoline/R-78Sxx-0.1.pdf
+RPM3.3-1.0	1A non-isolated switching regulator power module, 3-17V input voltage, 3.3V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-1.0.pdf
+RPM3.3-2.0	2A non-isolated switching regulator power module, 3-17V input voltage, 3.3V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-2.0.pdf
+RPM3.3-3.0	3A non-isolated switching regulator power module, 3-17V input voltage, 3.3V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-3.0.pdf
+RPM3.3-6.0	6A non-isolated switching regulator power module, 4-15V input voltage, 3.3V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-6.0.pdf
+RPM5.0-1.0	1A non-isolated switching regulator power module, 3-17V input voltage, 5.0V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-1.0.pdf
+RPM5.0-2.0	2A non-isolated switching regulator power module, 3-17V input voltage, 5.0V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-2.0.pdf
+RPM5.0-3.0	3A non-isolated switching regulator power module, 3-17V input voltage, 5.0V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-3.0.pdf
+RPM5.0-6.0	6A non-isolated switching regulator power module, 4-15V input voltage, 5.0V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-6.0.pdf
+RPMH12-1.5	1.5A non-isolated switching regulator power module, 14-60V input voltage, 12V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
+RPMH15-1.5	1.5A non-isolated switching regulator power module, 17-60V input voltage, 15V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
+RPMH24-1.5	1.5A non-isolated switching regulator power module, 26-60V input voltage, 24V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
+RPMH3.3-1.5	1.5A non-isolated switching regulator power module, 5-60V input voltage, 3.3V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
+RPMH5.0-1.5	1.5A non-isolated switching regulator power module, 7-60V input voltage, 5V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
+TC7662AxPA	Charge Pump DC-to-DC Converter, 3 - 18V, 40mA, DIP-8	http://ww1.microchip.com/downloads/en/DeviceDoc/21468B.pdf
+TC7662Bx0A	Charge Pump DC-to-DC Converter, 1.5 - 15V, 100mA, SOIC-8	http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf
+TC7662BxPA	Charge Pump DC-to-DC Converter, 1.5 - 15V, 100mA, DIP-8	http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf
+TPS43060RTE	Low Quiescent Current Synchronous Boost DC-DC Controller, 7.5V Gate Driver,  Input 4.5 to 38V, Output Vin to 58V, WQFN-16	https://www.ti.com/lit/ds/symlink/tps43060.pdf
+TPS54240DGQ	3.5-V to 42-V 2.5A Step-Down DC DC Converter, SSOP-10	http://www.ti.com/lit/ds/symlink/tps54240.pdf
+TPS54240DRC	3.5-V to 42-V 2.5A Step-Down DC DC Converter, VSON-10	http://www.ti.com/lit/ds/symlink/tps54240.pdf
+TPS61022	8A Boost Converter, 0.5-5.5 V input, 2.2-5.5V output, Texas RWU0007A VQFN-7	https://www.ti.com/lit/ds/symlink/tps61022.pdf
+TPS82130	17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8	http://www.ti.com/lit/ds/symlink/tps82130.pdf
+TPS82140	17V Input 2A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8	http://www.ti.com/lit/ds/symlink/tps82140.pdf
+TPS82150	17V Input 1A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8	http://www.ti.com/lit/ds/symlink/tps82150.pdf
+TPSM53602RDA	36-V, 2A input, stepdown, DC/DC converter, Texas B3QFN-14	https://www.ti.com/lit/ds/symlink/tpsm53602.pdf
+TPSM53603RDA	36-V, 3A input, stepdown, DC/DC converter, Texas B3QFN-14	https://www.ti.com/lit/ds/symlink/tpsm53603.pdf
+TPSM53604RDA	36-V, 4A input, stepdown, DC/DC converter, Texas B3QFN-14	https://www.ti.com/lit/ds/symlink/tpsm53604.pdf
+TSR0.5-24120	0.5A step-down regulator, fixed 12V output voltage, 15-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
+TSR0.5-24120SM	0.5A step-down regulator, fixed 12V output voltage, 15-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
+TSR0.5-2415	0.5A step-down regulator, fixed 1.5V output voltage, 4.75-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
+TSR0.5-24150	0.5A step-down regulator, fixed 15V output voltage, 18-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
+TSR0.5-24150SM	0.5A step-down regulator, fixed 15V output voltage, 18-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
+TSR0.5-2415SM	0.5A step-down regulator, fixed 1.5V output voltage, 4.75-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
+TSR0.5-2418	0.5A step-down regulator, fixed 1.8V output voltage, 4.75-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
+TSR0.5-2418SM	0.5A step-down regulator, fixed 1.8V output voltage, 4.75-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
+TSR0.5-2425	0.5A step-down regulator, fixed 2.5V output voltage, 4.75-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
+TSR0.5-2425SM	0.5A step-down regulator, fixed 2.5V output voltage, 4.75-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
+TSR0.5-2433	0.5A step-down regulator, fixed 3.3V output voltage, 4.75-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
+TSR0.5-2433SM	0.5A step-down regulator, fixed 3.3V output voltage, 4.75-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
+TSR0.5-2450	0.5A step-down regulator, fixed 5V output voltage, 6.5-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
+TSR0.5-2450SM	0.5A step-down regulator, fixed 5V output voltage, 6.5-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
+TSR0.5-2465	0.5A step-down regulator, fixed 6.5V output voltage, 8-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
+TSR0.5-2465SM	0.5A step-down regulator, fixed 6.5V output voltage, 8-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
+TSR0.5-2490	0.5A step-down regulator, fixed 9V output voltage, 11-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
+TSR0.5-2490SM	0.5A step-down regulator, fixed 9V output voltage, 11-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
+TSR0.6-48120WI	0.6A step-down regulator, fixed 12V output voltage, 17-72V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr0.6wi.pdf
+TSR0.6-48150WI	0.6A step-down regulator, fixed 15V output voltage, 20-72V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr0.6wi.pdf
+TSR0.6-48240WI	0.4A step-down regulator, fixed 24V output voltage, 33-72V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr0.6wi.pdf
+TSR0.6-4833WI	0.6A step-down regulator, fixed 3.3V output voltage, 9-72V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr0.6wi.pdf
+TSR0.6-4850WI	0.6A step-down regulator, fixed 5V output voltage, 9-72V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr0.6wi.pdf
+TSR0.6-4865WI	0.6A step-down regulator, fixed 6.5V output voltage, 9-72V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr0.6wi.pdf
+TSR0.6-4890WI	0.6A step-down regulator, fixed 9V output voltage, 14-72V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr0.6wi.pdf
+TSR1-2433E	1A step-down regulator, fixed 3.3V output voltage, 6-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr1e.pdf
+TSR1-2450E	1A step-down regulator, fixed 5V output voltage, 7-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr1e.pdf
+TSR1.5-24120E	1A step-down regulator, fixed 12V output voltage, 15-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr1.5e.pdf
+TSR1.5-2433E	1.5A step-down regulator, fixed 3.3V output voltage, 7-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr1.5e.pdf
+TSR1.5-2450E	1.5A step-down regulator, fixed 5V output voltage, 7-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr1.5e.pdf
+TSR2-0512	2A step-down regulator, fixed 1.2V output voltage, 3-5.5V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
+TSR2-0515	2A step-down regulator, fixed 1.5V output voltage, 3-5.5V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
+TSR2-0518	2A step-down regulator, fixed 1.8V output voltage, 3-5.5V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
+TSR2-0525	2A step-down regulator, fixed 2.5V output voltage, 3.8-5.5V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
+TSR2-2412	2A step-down regulator, fixed 1.2V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
+TSR2-24120	2A step-down regulator, fixed 12V output voltage, 15-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
+TSR2-24120N	2A step-down regulator, fixed 12V output voltage, 15-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
+TSR2-2412N	2A step-down regulator, fixed 1.2V output voltage, 4.6-28V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
+TSR2-2415	2A step-down regulator, fixed 1.5V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
+TSR2-24150	2A step-down regulator, fixed 15V output voltage, 18-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
+TSR2-24150N	2A step-down regulator, fixed 15V output voltage, 18-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
+TSR2-2415N	2A step-down regulator, fixed 1.5V output voltage, 4.6-32V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
+TSR2-2418	2A step-down regulator, fixed 1.8V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
+TSR2-2418N	2A step-down regulator, fixed 1.8V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
+TSR2-2425	2A step-down regulator, fixed 2.5V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
+TSR2-2425N	2A step-down regulator, fixed 2.5V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
+TSR2-2433	2A step-down regulator, fixed 3.3V output voltage, 4.75-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
+TSR2-2433N	2A step-down regulator, fixed 3.3V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
+TSR2-2450	2A step-down regulator, fixed 5V output voltage, 6.5-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
+TSR2-2450N	2A step-down regulator, fixed 5V output voltage, 6.5-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
+TSR2-2465	2A step-down regulator, fixed 6.5V output voltage, 9-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
+TSR2-2465N	2A step-down regulator, fixed 6.5V output voltage, 9-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
+TSR2-2490	2A step-down regulator, fixed 9V output voltage, 12-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
+TSR2-2490N	2A step-down regulator, fixed 9V output voltage, 11-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
+TSR3-24120N	3A step-down regulator, fixed 12V output voltage, 15-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
+TSR3-2412N	3A step-down regulator, fixed 1.2V output voltage, 4.6-28V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
+TSR3-24150N	3A step-down regulator, fixed 15V output voltage, 18-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
+TSR3-2415N	3A step-down regulator, fixed 1.5V output voltage, 4.6-32V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
+TSR3-2418N	3A step-down regulator, fixed 1.8V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
+TSR3-2425N	3A step-down regulator, fixed 2.5V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
+TSR3-2433N	3A step-down regulator, fixed 3.3V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
+TSR3-2450N	3A step-down regulator, fixed 5V output voltage, 6.5-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
+TSR3-2465N	3A step-down regulator, fixed 6.5V output voltage, 9-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
+TSR3-2490N	3A step-down regulator, fixed 9V output voltage, 11-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
+TSR_1-2412	1A step-down regulator module, fixed 1.2V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
+TSR_1-24120	1A step-down regulator module, fixed 12V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
+TSR_1-2415	1A step-down regulator module, fixed 1.5V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
+TSR_1-24150	1A step-down regulator module, fixed 15V output voltage, 8-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
+TSR_1-2418	1A step-down regulator module, fixed 1.8V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
+TSR_1-2425	1A step-down regulator module, fixed 2.5V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
+TSR_1-2433	1A step-down regulator module, fixed 3.3V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
+TSR_1-2450	1A step-down regulator module, fixed 5V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
+TSR_1-2465	1A step-down regulator module, fixed 6.5V output voltage, 9-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
+TSR_1-2490	1A step-down regulator module, fixed 9V output voltage, 2-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
+ADuM6000	Isolated 5 kV DC-to-DC Converter	https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF
 ATA00A18S-L	Artesyn 3W Isolated DC/DC Converter Module, 5V Output Voltage, 9-36V Input Voltage	https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
 ATA00A36S-L	Artesyn 3W Isolated DC/DC Converter Module, 5V Output Voltage, 18-75V Input Voltage	https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
 ATA00AA18S-L	Artesyn 3W Isolated DC/DC Converter Module, ±5V Output Voltage, 9-36V Input Voltage	https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
@@ -2774,57 +2960,65 @@ ATA00F36S-L	Artesyn 2W Isolated DC/DC Converter Module, 3.3V Output Voltage, 18-
 ATA00H18S-L	Artesyn 3W Isolated DC/DC Converter Module, 24V Output Voltage, 9-36V Input Voltage	https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
 ATA00H36S-L	Artesyn 3W Isolated DC/DC Converter Module, 24V Output Voltage, 18-75V Input Voltage	https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf
 Ag9905LP	Regulated 7W DC/DC PoE converter IEEE 802.3af, 36V-57V input, +5V Output Voltage, LP-DIL-8	https://silvertel.com/images/datasheets/Ag9900M-datasheet-ultra-miniature-isolated-Power-over-Ethernet-POE-module.pdf
-C11204-01	SiPM supply temperature compendsated, input 5V, output 20V-90V, UART	https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/c11204-01_kacc1203e.pdf
-IA0305D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 3.3V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA0305S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 3.3V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA0503D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 5V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA0503S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 5V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA0505D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 5V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA0505S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 5V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA0509D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 5V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA0509S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 5V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA0512D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 5V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA0512S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 5V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA0515D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 5V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA0515S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 5V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA0524D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 5V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA0524S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 5V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA1203D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 12V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA1203S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 12V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA1205D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 12V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA1205S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 12V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA1209D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 12V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA1209S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 12V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA1212D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 12V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA1212S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 12V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA1215D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 12V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA1215S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 12V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA1224D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 12V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA1224S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 12V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA2403D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 24V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA2403S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 24V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA2405D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 24V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA2405S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 24V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA2409D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 24V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA2409S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 24V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA2412D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 24V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA2412S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 24V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA2415D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 24V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA2415S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 24V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA2424D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 24V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA2424S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 24V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA4803D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 48V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA4803S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 48V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA4805D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 48V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA4805S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 48V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA4809D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 48V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA4809S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 48V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA4812D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 48V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA4812S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 48V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA4815D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 48V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA4815S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 48V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA4824D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 48V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IA.pdf
-IA4824S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 48V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IA.pdf
+CRE1S0305S3C	3.3V to 5V 200mA, Isolated 2W Single-Output DC-DC Converter Modules with 3kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
+CRE1S0505DC	5V to 5V 200mA DC-DC Converter with 1kV isolation, DC-package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
+CRE1S0505S3C	5V to 5V 200mA, Isolated 2W Single-Output DC-DC Converter Modules with 3kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
+CRE1S0505SC	5V to 5V 200mA DC-DC Converter with 1kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
+CRE1S0515SC	15V to 5V 67mA DC-DC Converter with 1kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
+CRE1S1205SC	12V to 5V 200mA DC-DC Converter with 1kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
+CRE1S1212SC	12V to 12V 83mA DC-DC Converter with 1kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
+CRE1S2405SC	24V to 5V 200mA DC-DC Converter with 1kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
+CRE1S2412SC	24V to 12V 83mA DC-DC Converter with 1kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
+IA0305D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 3.3V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA0305S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 3.3V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA0503D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 5V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA0503S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 5V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA0505D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 5V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA0505S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 5V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA0509D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 5V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA0509S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 5V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA0512D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 5V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA0512S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 5V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA0515D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 5V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA0515S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 5V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA0524D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 5V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA0524S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 5V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA1203D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 12V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA1203S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 12V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA1205D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 12V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA1205S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 12V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA1209D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 12V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA1209S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 12V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA1212D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 12V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA1212S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 12V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA1215D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 12V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA1215S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 12V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA1224D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 12V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA1224S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 12V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA2403D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 24V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA2403S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 24V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA2405D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 24V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA2405S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 24V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA2409D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 24V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA2409S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 24V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA2412D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 24V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA2412S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 24V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA2415D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 24V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA2415S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 24V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA2424D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 24V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA2424S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 24V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA4803D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 48V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA4803S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±151mA, 48V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA4805D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 48V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA4805S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±5V, ±100mA, 48V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA4809D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 48V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA4809S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V, ±55mA, 48V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA4812D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 48V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA4812S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±12V, ±42mA, 48V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA4815D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 48V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA4815S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±15V, ±33mA, 48V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA4824D	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 48V Input Voltage, DIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
+IA4824S	XP Power 1W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±24V, ±21mA, 48V Input Voltage, SIP	https://www.xppower.com/portals/0/pdfs/SF_IA.pdf
 IH0503D	XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 5V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IH.pdf
 IH0503DH	XP Power 2W, 3000-6000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 5V Input Voltage, DIP	https://www.xppower.com/pdfs/SF_IH.pdf
 IH0503S	XP Power 2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±3.3V, ±200mA, 5V Input Voltage, SIP	https://www.xppower.com/pdfs/SF_IH.pdf
@@ -3152,50 +3346,28 @@ JTE0624D05	XP Power 6W Isolated DC/DC Converter Module, Dual Output Voltage ±5V
 JTE0624D12	XP Power 6W Isolated DC/DC Converter Module, Dual Output Voltage ±12V, 9-36V Input Voltage	https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
 JTE0624D15	XP Power 6W Isolated DC/DC Converter Module, Dual Output Voltage ±15V, 9-36V Input Voltage	https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
 JTE0624D24	XP Power 6W Isolated DC/DC Converter Module, Dual Output Voltage ±24V, 9-36V Input Voltage	https://www.xppower.com/Portals/0/pdfs/SF_JTE06.pdf
-LMZ13608	8A Adjustable Step-Down DC/DC Power Module in 15x15mm, Texas NDY0011A	http://www.ti.com/lit/ds/snvs710i/snvs710i.pdf
-LMZ22003TZ	3A Adjustable Step-Down DC/DC Power Module, Vin: 6-20V	http://www.ti.com/lit/gpn/LMZ22003
-LMZ22005TZ	5A Adjustable Step-Down DC/DC Power Module, Vin: 6-20V	http://www.ti.com/lit/gpn/LMZ22005
-LMZ23603TZ	3A Adjustable Step-Down DC/DC Power Module, Vin: 6-36V	http://www.ti.com/lit/gpn/lmz23603
-LMZ23605TZ	5A Adjustable Step-Down DC/DC Power Module, Vin: 6-36V	http://www.ti.com/lit/gpn/lmz23605
-LMZM23600	0.5A Adjustable Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10	http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
-LMZM23600V3	0.5A 3.3V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10	http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
-LMZM23600V5	0.5A 5V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10	http://www.ti.com/lit/ds/symlink/lmzm23600.pdf
-LMZM23601	1A Adjustable Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10	http://www.ti.com/lit/ds/symlink/lmzm23601.pdf
-LMZM23601V3	1A 3.3V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10	http://www.ti.com/lit/ds/symlink/lmzm23601.pdf
-LMZM23601V5	1A 5V Step-Down DC/DC Power Module in 3.8x3mm, MicroSIP-10	http://www.ti.com/lit/ds/symlink/lmzm23601.pdf
-LT1026	voltage doubler and inverter	https://www.analog.com/media/en/technical-documentation/data-sheets/1026fb.pdf
-LTM4626	Analog Devices 20VIN, 12A Step-Down DC/DC uModule Regulator, BGA-49	https://www.analog.com/media/en/technical-documentation/data-sheets/ltm4626.pdf
-LTM4637xV	20A DC/DC µModule Step-Down Regulator, LGA-133	https://www.analog.com/media/en/technical-documentation/data-sheets/4637fc.pdf
-LTM4637xY	20A DC/DC µModule Step-Down Regulator, BGA-133	https://www.analog.com/media/en/technical-documentation/data-sheets/4637fc.pdf
-LTM4638	Analog Devices 20VIN, 15A Step-Down DC/DC uModule Regulator, BGA-49	https://www.analog.com/media/en/technical-documentation/data-sheets/ltm4638.pdf
-LTM4657	Analog Devices 20VIN, 8A Step-Down DC/DC uModule Regulator, BGA-49	https://www.analog.com/media/en/technical-documentation/data-sheets/ltm4657.pdf
-LTM4668	Quad DC/DC μModule Regulator with Configurable 1.2A Output Array	https://www.analog.com/media/en/technical-documentation/data-sheets/ltm4668.pdf
-LTM4668A	Quad DC/DC μModule Regulator with Configurable 1.2A Output Array	https://www.analog.com/media/en/technical-documentation/data-sheets/ltm4668a.pdf
-LTM4671	Quad DC/DC uModule Regulator with Configurable Dual 0.6-3.3V/12A, Dual 0.6-5.5V/5A Output Array, 3.1-20Vin (BGA-209)	https://www.analog.com/media/en/technical-documentation/data-sheets/LTM4671.pdf
-LTM8049	Dual SEPIC or Inverting μModule DC/DC Converter, 2.6 to 20V input, 2.5V to 24V or -2.5V to -24V output, 1A @ 5V output current per converter, BGA-77 package.	https://www.analog.com/media/en/technical-documentation/data-sheets/LTM8049.pdf
-LTM8063	40VIN, 2A Silent Switcher µModule Regulator, BGA-28	https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
-MEE1S0303SC	1W, 1000 VDC isolated DC/DC converter, 3V3 input, 3V3 output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S0305SC	1W, 1000 VDC isolated DC/DC converter, 3V3 input, 5V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S0309SC	1W, 1000 VDC isolated DC/DC converter, 3V3 input, 9V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S0312SC	1W, 1000 VDC isolated DC/DC converter, 3V3 input, 12V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S0315SC	1W, 1000 VDC isolated DC/DC converter, 3V3 input, 15V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S0503SC	1W, 1000 VDC isolated DC/DC converter, 5V input, 3V3 output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S0505SC	1W, 1000 VDC isolated DC/DC converter, 5V input, 5V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S0509SC	1W, 1000 VDC isolated DC/DC converter, 5V input, 9V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S0512SC	1W, 1000 VDC isolated DC/DC converter, 5V input, 12V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S0515SC	1W, 1000 VDC isolated DC/DC converter, 5V input, 15V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S1205SC	1W, 1000 VDC isolated DC/DC converter, 12V input, 5V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S1209SC	1W, 1000 VDC isolated DC/DC converter, 12V input, 9V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S1212SC	1W, 1000 VDC isolated DC/DC converter, 12V input, 12V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S1215SC	1W, 1000 VDC isolated DC/DC converter, 12V input, 15V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S1505SC	1W, 1000 VDC isolated DC/DC converter, 15V input, 5V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S1509SC	1W, 1000 VDC isolated DC/DC converter, 15V input, 9V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S1512SC	1W, 1000 VDC isolated DC/DC converter, 15V input, 12V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S1515SC	1W, 1000 VDC isolated DC/DC converter, 15V input, 15V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S2405SC	1W, 1000 VDC isolated DC/DC converter, 24V input, 5V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S2409SC	1W, 1000 VDC isolated DC/DC converter, 24V input, 9V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S2412SC	1W, 1000 VDC isolated DC/DC converter, 24V input, 12V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
-MEE1S2415SC	1W, 1000 VDC isolated DC/DC converter, 24V input, 15V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee1.pdf
+MEE1S0303SC	1W, 1000 VDC isolated DC/DC converter, 3V3 input, 3V3 output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S0305SC	1W, 1000 VDC isolated DC/DC converter, 3V3 input, 5V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S0309SC	1W, 1000 VDC isolated DC/DC converter, 3V3 input, 9V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S0312SC	1W, 1000 VDC isolated DC/DC converter, 3V3 input, 12V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S0315SC	1W, 1000 VDC isolated DC/DC converter, 3V3 input, 15V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S0503SC	1W, 1000 VDC isolated DC/DC converter, 5V input, 3V3 output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S0505SC	1W, 1000 VDC isolated DC/DC converter, 5V input, 5V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S0509SC	1W, 1000 VDC isolated DC/DC converter, 5V input, 9V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S0512SC	1W, 1000 VDC isolated DC/DC converter, 5V input, 12V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S0515SC	1W, 1000 VDC isolated DC/DC converter, 5V input, 15V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S1205SC	1W, 1000 VDC isolated DC/DC converter, 12V input, 5V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S1209SC	1W, 1000 VDC isolated DC/DC converter, 12V input, 9V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S1212SC	1W, 1000 VDC isolated DC/DC converter, 12V input, 12V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S1215SC	1W, 1000 VDC isolated DC/DC converter, 12V input, 15V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S1505SC	1W, 1000 VDC isolated DC/DC converter, 15V input, 5V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S1509SC	1W, 1000 VDC isolated DC/DC converter, 15V input, 9V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S1512SC	1W, 1000 VDC isolated DC/DC converter, 15V input, 12V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S1515SC	1W, 1000 VDC isolated DC/DC converter, 15V input, 15V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S2405SC	1W, 1000 VDC isolated DC/DC converter, 24V input, 5V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S2409SC	1W, 1000 VDC isolated DC/DC converter, 24V input, 9V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S2412SC	1W, 1000 VDC isolated DC/DC converter, 24V input, 12V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
+MEE1S2415SC	1W, 1000 VDC isolated DC/DC converter, 24V input, 15V output, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_MEE1_PDF_ISOLATEDDCDCCONVERTER
 MEE3S0505SC	3W, 1000 VDC isolated DC/DC converter, 5V input, 5V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee3.pdf
 MEE3S0509SC	3W, 1000 VDC isolated DC/DC converter, 5V input, 9V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee3.pdf
 MEE3S0512SC	3W, 1000 VDC isolated DC/DC converter, 5V input, 12V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee3.pdf
@@ -3204,115 +3376,73 @@ MEE3S1205SC	3W, 1000 VDC isolated DC/DC converter, 12V input, 5V output, SIP	htt
 MEE3S1209SC	3W, 1000 VDC isolated DC/DC converter, 12V input, 9V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee3.pdf
 MEE3S1212SC	3W, 1000 VDC isolated DC/DC converter, 12V input, 12V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee3.pdf
 MEE3S1215SC	3W, 1000 VDC isolated DC/DC converter, 12V input, 15V output, SIP	https://power.murata.com/pub/data/power/ncl/kdc_mee3.pdf
-MGJ2D051505SC	5.2kVDC Isolated 2W Gate Drive, 5V Vin, +15V/-5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D051509SC	5.2kVDC Isolated 2W Gate Drive, 5V Vin, +15V/-8.7V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D051515SC	5.2kVDC Isolated 2W Gate Drive, 5V Vin, +15V/-15V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D051802SC	5.2kVDC Isolated 2W Gate Drive, 5V Vin, +18V/-2.5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D052003SC	5.2kVDC Isolated 2W Gate Drive, 5V Vin, +20V/-3.5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D052005SC	5.2kVDC Isolated 2W Gate Drive, 5V Vin, +20V/-5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D121505SC	5.2kVDC Isolated 2W Gate Drive, 12V Vin, +15V/-5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D121509SC	5.2kVDC Isolated 2W Gate Drive, 12V Vin, +15V/-8.7V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D121802SC	5.2kVDC Isolated 2W Gate Drive, 12V Vin, +18V/-2.5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D122003SC	5.2kVDC Isolated 2W Gate Drive, 12V Vin, +18V/-3.5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D122005SC	5.2kVDC Isolated 2W Gate Drive, 12V Vin, +20V/-5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D151505SC	5.2kVDC Isolated 2W Gate Drive, 15V Vin, +15V/-5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D151509SC	5.2kVDC Isolated 2W Gate Drive, 15V Vin, +15V/-8.7V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D151515SC	5.2kVDC Isolated 2W Gate Drive, 15V Vin, +15V/-15V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D151802SC	5.2kVDC Isolated 2W Gate Drive, 15V Vin, +18V/-2.5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D152003SC	5.2kVDC Isolated 2W Gate Drive, 15V Vin, +20V/-3.5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D152005SC	5.2kVDC Isolated 2W Gate Drive, 15V Vin, +20V/-5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D241505SC	5.2kVDC Isolated 2W Gate Drive, 24V Vin, +15V/-5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D241509SC	5.2kVDC Isolated 2W Gate Drive, 24V Vin, +15V/-8.7V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D241709SC	5.2kVDC Isolated 2W Gate Drive, 24V Vin, +17V/-9V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D241802SC	5.2kVDC Isolated 2W Gate Drive, 24V Vin, +18V/-2.5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D242003SC	5.2kVDC Isolated 2W Gate Drive, 24V Vin, +20V/-3.5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
-MGJ2D242005SC	5.2kVDC Isolated 2W Gate Drive, 24V Vin, +20V/-5V Vout	https://power.murata.com/pub/data/power/ncl/kdc_mgj2.pdf
+MGJ2D051505SC	5.2kVDC Isolated 2W Gate Drive, 5V Vin, +15V/-5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D051509SC	5.2kVDC Isolated 2W Gate Drive, 5V Vin, +15V/-8.7V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D051515SC	5.2kVDC Isolated 2W Gate Drive, 5V Vin, +15V/-15V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D051802SC	5.2kVDC Isolated 2W Gate Drive, 5V Vin, +18V/-2.5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D052003SC	5.2kVDC Isolated 2W Gate Drive, 5V Vin, +20V/-3.5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D052005SC	5.2kVDC Isolated 2W Gate Drive, 5V Vin, +20V/-5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D121505SC	5.2kVDC Isolated 2W Gate Drive, 12V Vin, +15V/-5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D121509SC	5.2kVDC Isolated 2W Gate Drive, 12V Vin, +15V/-8.7V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D121802SC	5.2kVDC Isolated 2W Gate Drive, 12V Vin, +18V/-2.5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D122003SC	5.2kVDC Isolated 2W Gate Drive, 12V Vin, +18V/-3.5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D122005SC	5.2kVDC Isolated 2W Gate Drive, 12V Vin, +20V/-5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D151505SC	5.2kVDC Isolated 2W Gate Drive, 15V Vin, +15V/-5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D151509SC	5.2kVDC Isolated 2W Gate Drive, 15V Vin, +15V/-8.7V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D151515SC	5.2kVDC Isolated 2W Gate Drive, 15V Vin, +15V/-15V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D151802SC	5.2kVDC Isolated 2W Gate Drive, 15V Vin, +18V/-2.5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D152003SC	5.2kVDC Isolated 2W Gate Drive, 15V Vin, +20V/-3.5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D152005SC	5.2kVDC Isolated 2W Gate Drive, 15V Vin, +20V/-5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D241505SC	5.2kVDC Isolated 2W Gate Drive, 24V Vin, +15V/-5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D241509SC	5.2kVDC Isolated 2W Gate Drive, 24V Vin, +15V/-8.7V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D241709SC	5.2kVDC Isolated 2W Gate Drive, 24V Vin, +17V/-9V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D241802SC	5.2kVDC Isolated 2W Gate Drive, 24V Vin, +18V/-2.5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D242003SC	5.2kVDC Isolated 2W Gate Drive, 24V Vin, +20V/-3.5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
+MGJ2D242005SC	5.2kVDC Isolated 2W Gate Drive, 24V Vin, +20V/-5V Vout	https://pim.murata.com/asset/pim4/isolatedGateDrivePower/KDC_MGJ2_PDF_ISOLATEDGATEDRIVEPOWER
 MGJ3T05150505MC	5.2kVDC Isolated 3W Gate Drive, 4.5-9V Vin, +15V/-5V or +15V/-10V or +20V/-5V Vout	https://power.murata.com/datasheet?/data/power/ncl/kdc_mgj3.pdf
 MGJ3T12150505MC	5.2kVDC Isolated 3W Gate Drive, 9-18V Vin, +15V/-5V or +15V/-10V or +20V/-5V Vout	https://power.murata.com/datasheet?/data/power/ncl/kdc_mgj3.pdf
 MGJ3T24150505MC	5.2kVDC Isolated 3W Gate Drive, 18-36V Vin, +15V/-5V or +15V/-10V or +20V/-5V Vout	https://power.murata.com/datasheet?/data/power/ncl/kdc_mgj3.pdf
-MUN12AD01-SH	DC/DC Switching Regulator, Power Module, 1A, Cyntec MUN12AD01	http://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD01-SH_Datasheet.pdf
-MUN12AD03-SH	DC/DC Switching Regulator, Power Module, 3A, Cyntec MUN12AD03	http://www.cyntec.com/upfile/products/download/Cyntec%20MUN12AD03-SH_Datasheet.pdf
-MYRGPxx0060x21RC	PicoBK Inductor Built-in Step-Down “mini DC/DC” Converters. 3MHz, input 2V to 6V, fixed output voltage 0.8V to 4V, 600mA output current. 2.5 x 2.0mm.	https://www.murata.com/products/productdata/8816428285982/MYRGP-WB-RC.pdf
-MYRGPxx0060x21RF	PicoBK Inductor Built-in Step-Down “mini DC/DC” Converters. 3MHz, input 1.8V to 6V, adjustable output voltage 0.9V to 4V, 600mA output current. 2.5 x 2.0mm.	https://www.murata.com/products/productdata/8816428318750/MYRGP-WB-RF.pdf
-NCS1S1203SC	Isolated 1W 4:1 input DC/DC converter module, 4.5-18V input voltage, 3.3V output voltage, SIP	https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
-NCS1S1205SC	Isolated 1W 4:1 input DC/DC converter module, 4.5-18V input voltage, 5.0V output voltage, SIP	https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
-NCS1S1212SC	Isolated 1W 4:1 input DC/DC converter module, 4.5-18V input voltage, 12.0V output voltage, SIP	https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
-NCS1S2403SC	Isolated 1W 4:1 input DC/DC converter module, 9-36V input voltage, 3.3V output voltage, SIP	https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
-NCS1S2405SC	Isolated 1W 4:1 input DC/DC converter module, 9-36V input voltage, 5.0V output voltage, SIP	https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
-NCS1S2412SC	Isolated 1W 4:1 input DC/DC converter module, 9-36V input voltage, 12.0V output voltage, SIP	https://power.murata.com/data/power/ncl/kdc_ncs1.pdf
+NCS1S1203SC	Isolated 1W 4:1 input DC/DC converter module, 4.5-18V input voltage, 3.3V output voltage, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NCS1_PDF_ISOLATEDDCDCCONVERTER
+NCS1S1205SC	Isolated 1W 4:1 input DC/DC converter module, 4.5-18V input voltage, 5.0V output voltage, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NCS1_PDF_ISOLATEDDCDCCONVERTER
+NCS1S1212SC	Isolated 1W 4:1 input DC/DC converter module, 4.5-18V input voltage, 12.0V output voltage, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NCS1_PDF_ISOLATEDDCDCCONVERTER
+NCS1S2403SC	Isolated 1W 4:1 input DC/DC converter module, 9-36V input voltage, 3.3V output voltage, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NCS1_PDF_ISOLATEDDCDCCONVERTER
+NCS1S2405SC	Isolated 1W 4:1 input DC/DC converter module, 9-36V input voltage, 5.0V output voltage, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NCS1_PDF_ISOLATEDDCDCCONVERTER
+NCS1S2412SC	Isolated 1W 4:1 input DC/DC converter module, 9-36V input voltage, 12.0V output voltage, SIP	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NCS1_PDF_ISOLATEDDCDCCONVERTER
+NMA0505DC	±100mA Isolated 1W Dual output DC/DC Converter, 5V Input Voltage, ±5V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA0505SC	±100mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±5V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA0509DC	±55mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±9V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA0509SC	±55mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±9V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA0512DC	±42mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±12V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA0512SC	±42mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±12V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA0515DC	±33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±15V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA0515SC	±33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±15V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA1205DC	±100mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±5V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA1205SC	±100mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±5V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA1209DC	±55mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±9V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA1209SC	±55mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±9V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA1212DC	±42mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±12V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA1212SC	±42mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±12V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA1215DC	±33mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±15V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA1215SC	±33mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±15V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA1505DC	±100mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, ±5V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA1505SC	±100mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, ±5V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA1512DC	±42mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, ±12V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA1512SC	±42mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, ±12V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA1515DC	±33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±15V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
+NMA1515SC	±33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±15V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
 NSD10-xxDyy	MeanWell 10W DC/DC converter, dual fixed output, 1kVDC isolation	https://www.meanwell.com/webapp/product/search.aspx?prod=NSD10-D
 NSD10-xxSyy	MeanWell 10W DC/DC converter, fixed output, 1kVDC isolation	https://www.meanwell.com/webapp/product/search.aspx?prod=NSD10-S
-OKI-78SR-12_1.0-W36-C	1.0A Step-Down DC/DC-Regulator, 15-36V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical	https://power.murata.com/data/power/oki-78sr.pdf
-OKI-78SR-12_1.0-W36H-C	1.0A Step-Down DC/DC-Regulator, 15-36V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Horizontal	https://power.murata.com/data/power/oki-78sr.pdf
-OKI-78SR-3.3_1.5-W36-C	1.5A Step-Down DC/DC-Regulator, 7-36V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical	https://power.murata.com/data/power/oki-78sr.pdf
-OKI-78SR-3.3_1.5-W36H-C	1.5A Step-Down DC/DC-Regulator, 7-36V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Horizontal	https://power.murata.com/data/power/oki-78sr.pdf
-OKI-78SR-5_1.5-W36-C	1.5A Step-Down DC/DC-Regulator, 7-36V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Vertical	https://power.murata.com/data/power/oki-78sr.pdf
-OKI-78SR-5_1.5-W36H-C	1.5A Step-Down DC/DC-Regulator, 7-36V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, OKI-78SR_Horizontal	https://power.murata.com/data/power/oki-78sr.pdf
-PTN78000H_EUS-5	1.5A non-isolated switching regulator power module, 7-36V input voltage, 11.85-22V output voltage, EUS-5	https://www.ti.com/lit/ds/symlink/ptn78000w.pdf
-PTN78000W_EUS-5	1.5A non-isolated switching regulator power module, 7-36V input voltage, 2.5-12.6V output voltage, EUS-5	https://www.ti.com/lit/ds/symlink/ptn78000w.pdf
-PTN78020H_EUK-7	6A non-isolated switching regulator power module, 7-36V input voltage, 11.85-22V output voltage, EUK-7	https://www.ti.com/lit/ds/symlink/ptn78020w.pdf
-PTN78020W_EUK-7	6A non-isolated switching regulator power module, 7-36V input voltage, 2.5-12.6V output voltage, EUK-7	https://www.ti.com/lit/ds/symlink/ptn78020w.pdf
-PTN78060H_EUW-7	3A non-isolated switching regulator power module, 7-36V input voltage, 11.85-22V output voltage, EUW-7	https://www.ti.com/lit/ds/symlink/ptn78060w.pdf
-PTN78060W_EUW-7	3A non-isolated switching regulator power module, 7-36V input voltage, 2.5-12.6V output voltage, EUW-7	https://www.ti.com/lit/ds/symlink/ptn78060w.pdf
-R-781.5-0.5	500mA Step-Down DC/DC-Regulator, 4.75-30V input, 1.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
-R-781.8-0.5	500mA Step-Down DC/DC-Regulator, 4.75-32V input, 1.8V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
-R-781.8-1.0	1A Step-Down DC/DC-Regulator, 4.75-18V input, 1.8V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-1.0.pdf
-R-7812-0.5	500mA Step-Down DC/DC-Regulator, 15-32V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
-R-7815-0.5	500mA Step-Down DC/DC-Regulator, 18-32V input, 15V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
-R-782.5-0.5	500mA Step-Down DC/DC-Regulator, 4.75-18V input, 2.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
-R-782.5-1.0	1A Step-Down DC/DC-Regulator, 4.75-18V input, 2.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-1.0.pdf
-R-783.3-0.5	500mA Step-Down DC/DC-Regulator, 4.75-18V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
-R-783.3-1.0	1A Step-Down DC/DC-Regulator, 4.75-18V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-1.0.pdf
-R-785.0-0.5	500mA Step-Down DC/DC-Regulator, 6.5-18V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
-R-785.0-1.0	1A Step-Down DC/DC-Regulator, 6.5-18V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-1.0.pdf
-R-786.5-0.5	500mA Step-Down DC/DC-Regulator, 8-32V input, 6.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf
-R-78B1.2-2.0	2A Step-Down DC/DC-Regulator, 4.75-32V input, 1.2V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
-R-78B1.5-2.0	2A Step-Down DC/DC-Regulator, 4.75-32V input, 1.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
-R-78B1.8-2.0	2A Step-Down DC/DC-Regulator, 4.75-32V input, 1.8V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
-R-78B12-2.0	2A Step-Down DC/DC-Regulator, 15-32V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
-R-78B15-2.0	2A Step-Down DC/DC-Regulator, 18-32V input, 15V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
-R-78B2.5-2.0	2A Step-Down DC/DC-Regulator, 4.75-32V input, 2.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
-R-78B3.3-2.0	2A Step-Down DC/DC-Regulator, 4.75-32V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
-R-78B5.0-2.0	2A Step-Down DC/DC-Regulator, 6.5-32V input, 5.0V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
-R-78B9.0-2.0	2A Step-Down DC/DC-Regulator, 11-32V input, 9.0V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Bxx-2.0.pdf
-R-78C1.8-1.0	1A Step-Down DC/DC-Regulator, 5-42V input, 1.8V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Cxx-1.0.pdf
-R-78C12-1.0	1A Step-Down DC/DC-Regulator, 15-42V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Cxx-1.0.pdf
-R-78C15-1.0	1A Step-Down DC/DC-Regulator, 18-42V input, 15V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Cxx-1.0.pdf
-R-78C3.3-1.0	1A Step-Down DC/DC-Regulator, 6-42V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Cxx-1.0.pdf
-R-78C5.0-1.0	1A Step-Down DC/DC-Regulator, 7-42V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Cxx-1.0.pdf
-R-78C9.0-1.0	1A Step-Down DC/DC-Regulator, 12-42V input, 9V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Cxx-1.0.pdf
-R-78E12-0.5	500mA Step-Down DC/DC-Regulator, 15-28V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
-R-78E15-0.5	500mA Step-Down DC/DC-Regulator, 18-28V input, 15V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
-R-78E3.3-0.5	500mA Step-Down DC/DC-Regulator, 6-28V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
-R-78E3.3-1.0	1A Step-Down DC/DC-Regulator, 6-28V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf
-R-78E5.0-0.5	500mA Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
-R-78E5.0-1.0	1A Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf
-R-78E9.0-0.5	500mA Step-Down DC/DC-Regulator, 12-28V input, 9V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
-R-78HB12-0.5	500mA Step-Down DC/DC-Regulator, 17-72V input, 12V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
-R-78HB15-0.5	500mA Step-Down DC/DC-Regulator, 20-72V input, 15V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
-R-78HB24-0.3	300mA Step-Down DC/DC-Regulator, 36-72V input, 24V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
-R-78HB3.3-0.5	500mA Step-Down DC/DC-Regulator, 9-72V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
-R-78HB5.0-0.5	500mA Step-Down DC/DC-Regulator, 9-72V input, 5.0V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
-R-78HB6.5-0.5	500mA Step-Down DC/DC-Regulator, 9-72V input, 6.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
-R-78HB9.0-0.5	500mA Step-Down DC/DC-Regulator, 14-72V input, 9.0V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3	https://www.recom-power.com/pdf/Innoline/R-78HBxx-0.5_L.pdf
-R-78S3.3-0.1	100mA Step-Up DC/DC-Regulator, 0.65-3.15V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP4	https://www.recom-power.com/pdf/Innoline/R-78Sxx-0.1.pdf
+NXE1S0303MC	1W 3.3V to 3.3V 303mA DC-DC Converter with 3kV isolation	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NXE1_PDF_ISOLATEDDCDCCONVERTER
+NXE1S0305MC	1W 3.3V to 5V 200mA DC-DC Converter with 3kV isolation	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NXE1_PDF_ISOLATEDDCDCCONVERTER
+NXE1S0505MC	1W 5V to 5V 200mA DC-DC Converter with 3kV isolation	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NXE1_PDF_ISOLATEDDCDCCONVERTER
+NXE2S0505MC	2W 5V to 5V 400mA DC-DC Converter with 3kV isolation	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NXE2_PDF_ISOLATEDDCDCCONVERTER
+NXE2S1205MC	2W 12V to 5V 400mA DC-DC Converter with 3kV isolation	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NXE2_PDF_ISOLATEDDCDCCONVERTER
+NXE2S1212MC	2W 12V to 12V 400mA DC-DC Converter with 3kV isolation	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NXE2_PDF_ISOLATEDDCDCCONVERTER
+NXE2S1215MC	2W 12V to 15V 400mA DC-DC Converter with 3kV isolation	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NXE2_PDF_ISOLATEDDCDCCONVERTER
 RPA60-2405SFW	Isolated 60W 4:1 input DC/DC converter module, 9-36V input voltage, 5V output voltage, DIP	https://recom-power.com/pdf/Powerline_DC-DC/RPA60-FW.pdf
 RPA60-2412SFW	Isolated 60W 4:1 input DC/DC converter module, 9-36V input voltage, 12V output voltage, DIP	https://recom-power.com/pdf/Powerline_DC-DC/RPA60-FW.pdf
 RPA60-2415SFW	Isolated 60W 4:1 input DC/DC converter module, 9-36V input voltage, 15V output voltage, DIP	https://recom-power.com/pdf/Powerline_DC-DC/RPA60-FW.pdf
 RPA60-2424SFW	Isolated 60W 4:1 input DC/DC converter module, 9-36V input voltage, 24V output voltage, DIP	https://recom-power.com/pdf/Powerline_DC-DC/RPA60-FW.pdf
-RPM3.3-1.0	1A non-isolated switching regulator power module, 3-17V input voltage, 3.3V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-1.0.pdf
-RPM3.3-2.0	2A non-isolated switching regulator power module, 3-17V input voltage, 3.3V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-2.0.pdf
-RPM3.3-3.0	3A non-isolated switching regulator power module, 3-17V input voltage, 3.3V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-3.0.pdf
-RPM3.3-6.0	6A non-isolated switching regulator power module, 4-15V input voltage, 3.3V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-6.0.pdf
-RPM5.0-1.0	1A non-isolated switching regulator power module, 3-17V input voltage, 5.0V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-1.0.pdf
-RPM5.0-2.0	2A non-isolated switching regulator power module, 3-17V input voltage, 5.0V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-2.0.pdf
-RPM5.0-3.0	3A non-isolated switching regulator power module, 3-17V input voltage, 5.0V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-3.0.pdf
-RPM5.0-6.0	6A non-isolated switching regulator power module, 4-15V input voltage, 5.0V output voltage, DOSA	https://www.recom-power.com/pdf/Innoline/RPM-6.0.pdf
-RPMH12-1.5	1.5A non-isolated switching regulator power module, 14-60V input voltage, 12V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
-RPMH15-1.5	1.5A non-isolated switching regulator power module, 17-60V input voltage, 15V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
-RPMH24-1.5	1.5A non-isolated switching regulator power module, 26-60V input voltage, 24V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
-RPMH3.3-1.5	1.5A non-isolated switching regulator power module, 5-60V input voltage, 3.3V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
-RPMH5.0-1.5	1.5A non-isolated switching regulator power module, 7-60V input voltage, 5V output voltage	https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf
 SMU02L-24N	2W, 1500 VDC isolated unregulated DC/DC converter, 5V input, 24V output, SIP-4	https://www.meanwell.com/upload/pdf/SMU02-N/SMU02-N-spec.pdf
 TBA1-0310	1W DC/DC converter unregulated, 2.97-3.63V input, 3.3V output voltage, 260mA output, 1.5kVDC isolation, SIP-4	https://www.tracopower.com/products/tba1.pdf
 TBA1-0311	1W DC/DC converter unregulated, 2.97-3.63V input, 5V output voltage, 200mA output, 1.5kVDC isolation, SIP-4	https://www.tracopower.com/products/tba1.pdf
@@ -3365,9 +3495,6 @@ TBA2-2413	2W DC/DC converter unregulated, 21.6-26.4V input, 15V output voltage, 
 TBA2-2421	2W DC/DC converter unregulated, 21.6-26.4V input, ±5V output voltage, 200mA each output, 1.5kVDC isolation, SIP-7	https://www.tracopower.com/products/tba2.pdf
 TBA2-2422	2W DC/DC converter unregulated, 21.6-26.4V input, ±12V output voltage, 80mA each output, 1.5kVDC isolation, SIP-7	https://www.tracopower.com/products/tba2.pdf
 TBA2-2423	2W DC/DC converter unregulated, 21.6-26.4V input, ±15V output voltage, 65mA each output, 1.5kVDC isolation, SIP-7	https://www.tracopower.com/products/tba2.pdf
-TC7662AxPA	Charge Pump DC-to-DC Converter, 3 - 18V, 40mA, DIP-8	http://ww1.microchip.com/downloads/en/DeviceDoc/21468B.pdf
-TC7662Bx0A	Charge Pump DC-to-DC Converter, 1.5 - 15V, 100mA, SOIC-8	http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf
-TC7662BxPA	Charge Pump DC-to-DC Converter, 1.5 - 15V, 100mA, DIP-8	http://ww1.microchip.com/downloads/en/DeviceDoc/21469a.pdf
 TDU1-0511	1W DC/DC converter unregulated, 4.5-5.5V input, 5V output voltage, 200mA output, 1.5kVDC isolation, DIP-8	https://www.tracopower.com/products/tdu1.pdf
 TDU1-0512	1W DC/DC converter unregulated, 4.5-5.5V input, 12V output voltage, 84mA output, 1.5kVDC isolation, DIP-8	https://www.tracopower.com/products/tdu1.pdf
 TDU1-0513	1W DC/DC converter unregulated, 4.5-5.5V input, 15V output voltage, 67mA output, 1.5kVDC isolation, DIP-8	https://www.tracopower.com/products/tdu1.pdf
@@ -3728,6 +3855,50 @@ TMR4-4813WI	4W DC/DC industrial converter regulated, 18-75V input, 15V fixed out
 TMR4-4815WI	4W DC/DC industrial converter regulated, 18-75V input, 24V fixed output voltage, 166mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr4wi.pdf
 TMR4-4822WI	4W DC/DC industrial converter regulated, 18-75V input, ±12V fixed output voltage, 166mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr4wi.pdf
 TMR4-4823WI	4W DC/DC converter regulated, 18-75V input, ±15V fixed output voltage, 133mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr4wi.pdf
+TMR_1-0511	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 5V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-0511SM	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 5V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-0512	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-0512SM	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-0513	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-0513SM	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-0515	42mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 24V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-0522	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, ±12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-0522SM	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, ±12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-0523	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, ±15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-0523SM	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, ±15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-1211	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, 5V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-1211SM	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, 5V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-1212	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, 12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-1212SM	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, 12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-1213	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, 15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-1213SM	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, 15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-1215	42mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, 24V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-1222	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, ±12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-1222SM	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, ±12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-1223	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, ±15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-1223SM	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, ±15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-2411	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, 5V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-2411SM	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, 5V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-2412	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, 12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-2412SM	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, 12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-2413	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, 15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-2413SM	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, 15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-2415	42mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, 24V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-2422	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, ±12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-2422SM	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, ±12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-2423	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, ±15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-2423SM	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, ±15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-4811	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 5V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-4811SM	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 5V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-4812	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-4812SM	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-4813	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-4813SM	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-4815	42mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 24V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-4822	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, ±12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-4822SM	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, ±12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
+TMR_1-4823	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, ±15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
+TMR_1-4823SM	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, ±15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
 TMU3-0511	3W DC/DC converter unregulated, 4.5-5.5V input, 5V output voltage, 600mA output, 1.5kVDC isolation, SIP-4	https://www.tracopower.com/products/tmu3.pdf
 TMU3-0512	3W DC/DC converter unregulated, 4.5-5.5V input, 12V output voltage, 250mA output, 1.5kVDC isolation, SIP-4	https://www.tracopower.com/products/tmu3.pdf
 TMU3-0513	3W DC/DC converter unregulated, 4.5-5.5V input, 15V output voltage, 200mA output, 1.5kVDC isolation, SIP-4	https://www.tracopower.com/products/tmu3.pdf
@@ -3756,16 +3927,6 @@ TMV2412D	1W DC/DC converter unregulated, 21.6-26.4V input, ±12V output voltage,
 TMV2412S	1W DC/DC converter unregulated, 21.6-26.4V input, 12V output voltage, 84mA output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
 TMV2415D	1W DC/DC converter unregulated, 21.6-26.4V input, ±15V output voltage, 34mA each output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
 TMV2415S	1W DC/DC converter unregulated, 21.6-26.4V input, 15V output voltage, 67mA output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
-TPS43060RTE	Low Quiescent Current Synchronous Boost DC-DC Controller, 7.5V Gate Driver,  Input 4.5 to 38V, Output Vin to 58V, WQFN-16	https://www.ti.com/lit/ds/symlink/tps43060.pdf
-TPS54240DGQ	3.5-V to 42-V 2.5A Step-Down DC DC Converter, SSOP-10	http://www.ti.com/lit/ds/symlink/tps54240.pdf
-TPS54240DRC	3.5-V to 42-V 2.5A Step-Down DC DC Converter, VSON-10	http://www.ti.com/lit/ds/symlink/tps54240.pdf
-TPS61022	8A Boost Converter, 0.5-5.5 V input, 2.2-5.5V output, Texas RWU0007A VQFN-7	https://www.ti.com/lit/ds/symlink/tps61022.pdf
-TPS82130	17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8	http://www.ti.com/lit/ds/symlink/tps82130.pdf
-TPS82140	17V Input 2A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8	http://www.ti.com/lit/ds/symlink/tps82140.pdf
-TPS82150	17V Input 1A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8	http://www.ti.com/lit/ds/symlink/tps82150.pdf
-TPSM53602RDA	36-V, 2A input, stepdown, DC/DC converter, Texas B3QFN-14	https://www.ti.com/lit/ds/symlink/tpsm53602.pdf
-TPSM53603RDA	36-V, 3A input, stepdown, DC/DC converter, Texas B3QFN-14	https://www.ti.com/lit/ds/symlink/tpsm53603.pdf
-TPSM53604RDA	36-V, 4A input, stepdown, DC/DC converter, Texas B3QFN-14	https://www.ti.com/lit/ds/symlink/tpsm53604.pdf
 TRA3-0511	3W DC/DC industrial converter unregulated, 4.5-5.5V input, 5V output voltage, 600mA output, 1.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tra3.pdf
 TRA3-0512	3W DC/DC industrial converter unregulated, 4.5-5.5V input, 12V output voltage, 250mA output, 1.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tra3.pdf
 TRA3-0513	3W DC/DC industrial converter unregulated, 4.5-5.5V input, 15V output voltage, 200mA output, 1.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tra3.pdf
@@ -3891,80 +4052,6 @@ TRN3-4815	3W DC/DC converter regulated, 36-75V input, 24V fixed output voltage, 
 TRN3-4821	3W DC/DC converter regulated, 36-75V input, ±5V fixed output voltage, 300mA each output, 1.6kVDC isolation, SIP-5	https://www.tracopower.com/products/trn3.pdf
 TRN3-4822	3W DC/DC converter regulated, 36-75V input, ±12V fixed output voltage, 125mA each output, 1.6kVDC isolation, SIP-5	https://www.tracopower.com/products/trn3.pdf
 TRN3-4823	3W DC/DC converter regulated, 36-75V input, ±15V fixed output voltage, 100mA each output, 1.6kVDC isolation, SIP-5	https://www.tracopower.com/products/trn3.pdf
-TSR0.5-24120	0.5A step-down regulator, fixed 12V output voltage, 15-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
-TSR0.5-24120SM	0.5A step-down regulator, fixed 12V output voltage, 15-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
-TSR0.5-2415	0.5A step-down regulator, fixed 1.5V output voltage, 4.75-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
-TSR0.5-24150	0.5A step-down regulator, fixed 15V output voltage, 18-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
-TSR0.5-24150SM	0.5A step-down regulator, fixed 15V output voltage, 18-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
-TSR0.5-2415SM	0.5A step-down regulator, fixed 1.5V output voltage, 4.75-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
-TSR0.5-2418	0.5A step-down regulator, fixed 1.8V output voltage, 4.75-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
-TSR0.5-2418SM	0.5A step-down regulator, fixed 1.8V output voltage, 4.75-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
-TSR0.5-2425	0.5A step-down regulator, fixed 2.5V output voltage, 4.75-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
-TSR0.5-2425SM	0.5A step-down regulator, fixed 2.5V output voltage, 4.75-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
-TSR0.5-2433	0.5A step-down regulator, fixed 3.3V output voltage, 4.75-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
-TSR0.5-2433SM	0.5A step-down regulator, fixed 3.3V output voltage, 4.75-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
-TSR0.5-2450	0.5A step-down regulator, fixed 5V output voltage, 6.5-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
-TSR0.5-2450SM	0.5A step-down regulator, fixed 5V output voltage, 6.5-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
-TSR0.5-2465	0.5A step-down regulator, fixed 6.5V output voltage, 8-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
-TSR0.5-2465SM	0.5A step-down regulator, fixed 6.5V output voltage, 8-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
-TSR0.5-2490	0.5A step-down regulator, fixed 9V output voltage, 11-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr0.5.pdf
-TSR0.5-2490SM	0.5A step-down regulator, fixed 9V output voltage, 11-32V input voltage, LM78xx replacement, SMD-10	https://www.tracopower.com/products/tsr0.5sm.pdf
-TSR0.6-48120WI	0.6A step-down regulator, fixed 12V output voltage, 17-72V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr0.6wi.pdf
-TSR0.6-48150WI	0.6A step-down regulator, fixed 15V output voltage, 20-72V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr0.6wi.pdf
-TSR0.6-48240WI	0.4A step-down regulator, fixed 24V output voltage, 33-72V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr0.6wi.pdf
-TSR0.6-4833WI	0.6A step-down regulator, fixed 3.3V output voltage, 9-72V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr0.6wi.pdf
-TSR0.6-4850WI	0.6A step-down regulator, fixed 5V output voltage, 9-72V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr0.6wi.pdf
-TSR0.6-4865WI	0.6A step-down regulator, fixed 6.5V output voltage, 9-72V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr0.6wi.pdf
-TSR0.6-4890WI	0.6A step-down regulator, fixed 9V output voltage, 14-72V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr0.6wi.pdf
-TSR1-2433E	1A step-down regulator, fixed 3.3V output voltage, 6-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr1e.pdf
-TSR1-2450E	1A step-down regulator, fixed 5V output voltage, 7-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr1e.pdf
-TSR1.5-24120E	1A step-down regulator, fixed 12V output voltage, 15-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr1.5e.pdf
-TSR1.5-2433E	1.5A step-down regulator, fixed 3.3V output voltage, 7-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr1.5e.pdf
-TSR1.5-2450E	1.5A step-down regulator, fixed 5V output voltage, 7-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr1.5e.pdf
-TSR2-0512	2A step-down regulator, fixed 1.2V output voltage, 3-5.5V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
-TSR2-0515	2A step-down regulator, fixed 1.5V output voltage, 3-5.5V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
-TSR2-0518	2A step-down regulator, fixed 1.8V output voltage, 3-5.5V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
-TSR2-0525	2A step-down regulator, fixed 2.5V output voltage, 3.8-5.5V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
-TSR2-2412	2A step-down regulator, fixed 1.2V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
-TSR2-24120	2A step-down regulator, fixed 12V output voltage, 15-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
-TSR2-24120N	2A step-down regulator, fixed 12V output voltage, 15-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
-TSR2-2412N	2A step-down regulator, fixed 1.2V output voltage, 4.6-28V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
-TSR2-2415	2A step-down regulator, fixed 1.5V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
-TSR2-24150	2A step-down regulator, fixed 15V output voltage, 18-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
-TSR2-24150N	2A step-down regulator, fixed 15V output voltage, 18-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
-TSR2-2415N	2A step-down regulator, fixed 1.5V output voltage, 4.6-32V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
-TSR2-2418	2A step-down regulator, fixed 1.8V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
-TSR2-2418N	2A step-down regulator, fixed 1.8V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
-TSR2-2425	2A step-down regulator, fixed 2.5V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
-TSR2-2425N	2A step-down regulator, fixed 2.5V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
-TSR2-2433	2A step-down regulator, fixed 3.3V output voltage, 4.75-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
-TSR2-2433N	2A step-down regulator, fixed 3.3V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
-TSR2-2450	2A step-down regulator, fixed 5V output voltage, 6.5-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
-TSR2-2450N	2A step-down regulator, fixed 5V output voltage, 6.5-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
-TSR2-2465	2A step-down regulator, fixed 6.5V output voltage, 9-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
-TSR2-2465N	2A step-down regulator, fixed 6.5V output voltage, 9-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
-TSR2-2490	2A step-down regulator, fixed 9V output voltage, 12-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3	https://www.tracopower.com/products/tsr2.pdf
-TSR2-2490N	2A step-down regulator, fixed 9V output voltage, 11-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr2n.pdf
-TSR3-24120N	3A step-down regulator, fixed 12V output voltage, 15-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
-TSR3-2412N	3A step-down regulator, fixed 1.2V output voltage, 4.6-28V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
-TSR3-24150N	3A step-down regulator, fixed 15V output voltage, 18-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
-TSR3-2415N	3A step-down regulator, fixed 1.5V output voltage, 4.6-32V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
-TSR3-2418N	3A step-down regulator, fixed 1.8V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
-TSR3-2425N	3A step-down regulator, fixed 2.5V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
-TSR3-2433N	3A step-down regulator, fixed 3.3V output voltage, 4.6-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
-TSR3-2450N	3A step-down regulator, fixed 5V output voltage, 6.5-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
-TSR3-2465N	3A step-down regulator, fixed 6.5V output voltage, 9-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
-TSR3-2490N	3A step-down regulator, fixed 9V output voltage, 11-36V input voltage, TO-220 compatible LM78xx replacement	https://www.tracopower.com/products/tsr3n.pdf
-TSR_1-2412	1A step-down regulator module, fixed 1.2V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
-TSR_1-24120	1A step-down regulator module, fixed 12V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
-TSR_1-2415	1A step-down regulator module, fixed 1.5V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
-TSR_1-24150	1A step-down regulator module, fixed 15V output voltage, 8-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
-TSR_1-2418	1A step-down regulator module, fixed 1.8V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
-TSR_1-2425	1A step-down regulator module, fixed 2.5V output voltage, 6-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
-TSR_1-2433	1A step-down regulator module, fixed 3.3V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
-TSR_1-2450	1A step-down regulator module, fixed 5V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
-TSR_1-2465	1A step-down regulator module, fixed 6.5V output voltage, 9-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
-TSR_1-2490	1A step-down regulator module, fixed 9V output voltage, 2-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement	http://www.tracopower.com/products/tsr1.pdf
 ADAU1450	SigmaDSP SigmaDSP Digital Audio Processor, 147.456 MHz, 8kword Data RAM, I2C/SPI, LFCSP-72	https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1452_1451_1450.pdf
 ADAU1451	SigmaDSP SigmaDSP Digital Audio Processor, 294.912 MHz, 40kword Data RAM, I2C/SPI, S/PDIF I/O, 16-Channel ASRC, LFCSP-72	https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1452_1451_1450.pdf
 ADAU1452	SigmaDSP SigmaDSP Digital Audio Processor, 294.912 MHz, 40kword Data RAM, I2C/SPI, S/PDIF I/O, 16-Channel ASRC, LFCSP-72	https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU1452_1451_1450.pdf
@@ -4189,7 +4276,7 @@ D_Zener_Dual_CommonCathode_AKA	Dual Zener diode, common cathode on pin 2
 D_Zener_Dual_CommonCathode_AKA_Parallel	Dual Zener diode, common anode on pin 1	
 D_Zener_Dual_CommonCathode_AKA_Split	Dual Zener diode, common anode on pin 1	
 D_Zener_Dual_CommonCathode_KAA	Dual Zener diode, common cathode on pin 1	
-D_Zener_Dual_CommonCathode_KAA_Parallel	Dual Zener diode, common anode on pin 1	
+D_Zener_Dual_CommonCathode_KAA_Parallel	Dual Zener diode, common anode on pin 3	
 D_Zener_Dual_CommonCathode_KAA_Split	Dual Zener diode, common anode on pin 1	
 D_Zener_Filled	Zener diode, filled shape	
 D_Zener_Small	Zener diode, small symbol	
@@ -4340,8 +4427,6 @@ NetTie_3_Tee	Net tie, 3 pins, tee
 NetTie_4	Net tie, 4 pins	
 NetTie_4_Cross	Net tie, 4 pins, cross	
 Ohmmeter	Ohmmeter	
-Opamp_Dual	Dual operational amplifier	
-Opamp_Quad	Quad operational amplifier	
 Oscilloscope	Oscilloscope	
 PeltierElement	Peltier element, thermoelectric cooler	
 Polyfuse	Resettable fuse, polymeric positive temperature coefficient	
@@ -6542,6 +6627,10 @@ MAX7422xUA	5th-Order Active Low Pass Filter, 0.001 to 45kHz, Elliptic Response, 
 MAX7423xUA	5th-Order Active Low Pass Filter, 0.001 to 45kHz, Bessel Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf
 MAX7424xUA	5th-Order Active Low Pass Filter, 0.001 to 45kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf
 MAX7425xUA	5th-Order Active Low Pass Filter, 0.001 to 45kHz, Elliptic Response, 1.25 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 3V Max supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/max7418-max7425.pdf
+MAX7426xPA	5th-Order Active Low Pass Filter, 0.001 to 9kHz, Elliptic Response, 1.25 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 4.5-5.5V supply, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7426-MAX7427.pdf
+MAX7426xUA	5th-Order Active Low Pass Filter, 0.001 to 9kHz, Elliptic Response, 1.25 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 4.5-5.5V supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7426-MAX7427.pdf
+MAX7427xPA	5th-Order Active Low Pass Filter, 0.001 to 12kHz, Elliptic Response, 1.25 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 2.7-3.6V supply, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7426-MAX7427.pdf
+MAX7427xUA	5th-Order Active Low Pass Filter, 0.001 to 12kHz, Elliptic Response, 1.25 Transition Ratio, Clock Tunable, 100:1 Clock to Cutoff Frequency, 2.7-3.6V supply, MSOP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7426-MAX7427.pdf
 MAX7480xPA	8th-Order Active Low Pass Filter, 0.001 to 2kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, DIP-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7480.pdf
 MAX7480xSA	8th-Order Active Low Pass Filter, 0.001 to 2kHz, Butterworth Response, Clock Tunable, 100:1 Clock to Cutoff Frequency, 5V Max supply, SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX7480.pdf
 P300PL104M275xC222	EMI suppression capacitor PZB300 series, metallized paper, X2 and Y2 classes, 275 VAC, Cx 0.10uF, Cy 2.2nF, legacy P/N: PZB300MC11xxx	https://content.kemet.com/datasheets/KEM_F3019_PZB300X2_2XY2_275.pdf
@@ -6565,122 +6654,6 @@ SF14-1575F5UUC1	1575MHz SAW filter, SMD 1411	https://global.kyocera.com/prdct/el
 MC6845	CRT Controller 1MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheet_pdf/motorola/MC6845L_and_MC6845P.pdf
 MC68A45	CRT Controller 1.5MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheet_pdf/motorola/MC6845L_and_MC6845P.pdf
 MC68B45	CRT Controller 2MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheet_pdf/motorola/MC6845L_and_MC6845P.pdf
-5PB1108PGxx	1:8 LVCMOS High-Performance Clock Buffer, 1.8V to 3.3V, TSSOP-16	https://www.renesas.com/us/en/document/dst/5pb11xx-family-datasheet
-6821	Peripheral Interface Adapter 1MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheet/motorola/6821.pdf
-6822	Peripheral Interface Adapter 1MHz, DIP-40	http://pdf1.alldatasheet.com/datasheet-pdf/view/135452/MOTOROLA/MC6822.html
-68230	PIT Parallel Interface and Timer	https://www.nxp.com/docs/en/data-sheet/MC68230.pdf
-68681	dual universal asynchronous receiver/transmitter with parallel port	https://www.nxp.com/docs/en/user-guide/MC68681UM.pdf
-68901_PLCC	Multi-Function Peripheral, USART, Four timers, 8 DIO, 16-source interrupt controller	https://www.nxp.com/docs/en/reference-manual/MC68901UM.pdf
-8237	Programmable DMA Controller, PDIP-40	https://pdos.csail.mit.edu/6.828/2012/readings/hardware/8237A.pdf
-8255	Programmable Peripheral Interface, PDIP-40	http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf
-8255A	Programmable Peripheral Interface, PDIP-40	http://aturing.umcs.maine.edu/~meadow/courses/cos335/Intel8255A.pdf
-8259	8259, Programmable Interrupt Controller, PDIP-28	http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf
-8259A	8259, Programmable Interrupt Controller, PDIP-28	http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf
-8259A-2	8259, Programmable Interrupt Controller, PDIP-28	http://pdos.csail.mit.edu/6.828/2005/readings/hardware/8259A.pdf
-8288	Bus Controller for Intel 8086/8088/80186/80188 microprocessors, DIP-20	http://www.datasheets360.com/pdf/7208679415653955300
-82C55A	CHMOS Programmable Peripheral Interface, PDIP-40	http://jap.hu/electronic/8255.pdf
-82C55A_PLCC	CHMOS Programmable Peripheral Interface, PLCC-44	http://jap.hu/electronic/8255.pdf
-88SE9125C0-NAA	One-Lane PCIe SATA Two-Ports Controller, QFN-76	https://www.marvell.com/documents/bqcwxsoiqfjkcjdjhkvc/
-AD9833xRM	10 bit 25 MHz Programmable Waveform Generator, 2.3V to 5.5V, 12.65mW, MSOP-10	https://www.analog.com/media/en/technical-documentation/data-sheets/ad9833.pdf
-AD9834	10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3V to 5.5V, 20mW, TSSOP-20	https://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
-AD9850	CMOS, 125 MHz, Complete DDS Synthesizer, SSOP-28	https://www.analog.com/media/en/technical-documentation/data-sheets/AD9850.pdf
-AD9851	CMOS, 180 MHz, DDS/DAC Synthesizer, SSOP-28	https://www.analog.com/media/en/technical-documentation/data-sheets/AD9851.pdf
-AD9910	1 GSPS, 14-Bit, 3.3V CMOS, Direct Digital Synthesizer, QFP-100	https://www.analog.com/media/en/technical-documentation/data-sheets/AD9910.pdf
-AD9912	1 GSPS, 14-bit DAC, Direct Digital Synthesizer, LFCSP-64	https://www.analog.com/media/en/technical-documentation/data-sheets/ad9912.pdf
-AD9951	14-Bit Direct Digital Synthesizer with 400MSPS DAC, 1.8V, TQFP48	https://www.analog.com/static/imported-files/data_sheets/AD9951.pdf
-AD9954	14-Bit Direct Digital Synthesizer with 400MSPS DAC, 1.8V, TQFP48	https://www.analog.com/static/imported-files/data_sheets/AD9954.pdf
-AM26LS31CD	32Mbps 3.3V RS485 Quad Line Drivers, SOIC-16	https://www.ti.com/lit/ds/symlink/am26ls31.pdf
-AM26LS31CDB	32Mbps 3.3V RS485 Quad Line Drivers, SSOP-16	https://www.ti.com/lit/ds/symlink/am26ls31.pdf
-AM26LS31CN	32Mbps 3.3V RS485 Quad Line Drivers, DIP-16	https://www.ti.com/lit/ds/symlink/am26ls31.pdf
-AM26LS31MJ	32Mbps 3.3V RS485 Quad Line Drivers, DIP-16	https://www.ti.com/lit/ds/symlink/am26ls31.pdf
-AM26LS31xNS	32Mbps 3.3V RS485 Quad Line Drivers, SO-16	https://www.ti.com/lit/ds/symlink/am26ls31.pdf
-AM26LV32xD	32Mbps 3.3V RS485 Quad Line Receivers, SOIC-16	http://www.ti.com/lit/ds/symlink/am26lv32.pdf
-AM26LV32xNS	32Mbps 3.3V RS485 Quad Line Receivers, SO-16	http://www.ti.com/lit/ds/symlink/am26lv32.pdf
-CDCLVP1102RGT	Two-LVPECL Output, High-Performance Clock Buffer, VQFN-16	http://www.ti.com/lit/ds/symlink/cdclvp1102.pdf
-CH376T	File Management USB Flash Card SD Interface, SSOP-20	https://www.mpja.com/download/ch376ds1.pdf
-DS90C124	DC-Balanced 24-Bit FPD-Link II Deserializer, TQFP-48	http://www.ti.com/lit/ds/symlink/ds90c241.pdf
-DS90C241	DC-Balanced 24-Bit FPD-Link II Serializer, TQFP-48	http://www.ti.com/lit/ds/symlink/ds90c241.pdf
-DS90C402	Dual LVDS Receiver, >155Mbps, 5V, SOIC-8	http://www.ti.com/lit/ds/symlink/ds90c402.pdf
-DS90LV011A	LVDS Single High Speed Differential Driver, 400Mbps, SOT-23-5	http://www.ti.com/lit/ds/symlink/ds90lv011a.pdf
-DS90LV027A	LVDS Dual High Speed Differential Driver, >600MBps, SOIC-8	http://www.ti.com/lit/ds/symlink/ds90lv027a.pdf
-FD1771	Floppy disk controller, DIP-40	https://amaus.net/static/S100/western%20digital/datasheet/Western%20Digital%20FD1771%20Specification%20197710.pdf
-FIN1019M	3.3V LVDS High Speed Differential Driver/Receiver, 400Mbps, SOIC-14	http://www.onsemi.com/pub/Collateral/FIN1019-D.pdf
-FIN1019MTC	3.3V LVDS High Speed Differential Driver/Receiver, 400Mbps, TSSOP-14	http://www.onsemi.com/pub/Collateral/FIN1019-D.pdf
-HT12D	2^12 serial decoder, SOP-20	https://www.holtek.com/documents/10179/116711/2_12dv120.pdf
-HT12E	2^12 serial encoder, SOP-20	https://www.holtek.com/documents/10179/116711/2_12ev120.pdf
-LTC1518	52Mbps Precision Delay RS485 Quad Line Receivers	https://www.analog.com/media/en/technical-documentation/data-sheets/15189fa.pdf
-LTC1519	52Mbps Precision Delay RS485 Quad Line Receivers	https://www.analog.com/media/en/technical-documentation/data-sheets/15189fa.pdf
-LTC1688	100Mbps RS485 Hot Swapable Quad Drivers	https://www.analog.com/media/en/technical-documentation/data-sheets/16889fa.pdf
-LTC1689	100Mbps RS485 Hot Swapable Quad Drivers	https://www.analog.com/media/en/technical-documentation/data-sheets/16889fa.pdf
-LTC6957xDD-1	Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, LVPECL, DFN-12	https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
-LTC6957xDD-2	Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, LVDS, DFN-12	https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
-LTC6957xDD-3	Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, CMOS In-Phase Outputs, DFN-12	https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
-LTC6957xDD-4	Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, CMOS Complementary Outputs, DFN-12	https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
-LTC6957xMS-1	Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, LVPECL, MSOP-12	https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
-LTC6957xMS-2	Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, LVDS, MSOP-12	https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
-LTC6957xMS-3	Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, CMOS In-Phase Outputs, MSOP-12	https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
-LTC6957xMS-4	Low Phase Noise, Dual Output Buffer/Driver/Logic Converter, CMOS Complementary Outputs, MSOP-12	https://www.analog.com/media/en/technical-documentation/data-sheets/6957fb.pdf
-MAX6816	Single Switch  Debouncer, SOT-143	https://datasheets.maximintegrated.com/en/ds/1896.pdf
-MC100EPT22D	3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator, SOIC-8	https://www.onsemi.com/pub/Collateral/MC100EPT22-D.PDF
-MC100EPT22DT	3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator, TSSOP-8	https://www.onsemi.com/pub/Collateral/MC100EPT22-D.PDF
-MC100LVELT22D	3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator, SOIC-8	https://www.onsemi.com/pub/Collateral/MC100LVELT22-D.PDF
-MC100LVELT22DT	3.3 V Dual LVTTL/LVCMOS to Differential LVPECL Translator, TSSOP-8	https://www.onsemi.com/pub/Collateral/MC100LVELT22-D.PDF
-MC6840	Motorola Programmable Timer Module, 1.0MHz, DIP-28	http://pdf.datasheetcatalog.com/datasheet/motorola/MC6840.pdf
-MC6843	Floppy Disc Controller, DIP-40	http://www.datasheetarchive.com/pdf/download.php?id=355f4f5379c550317997643252fd5cac1bb08e&type=M&query=MC6843P
-MC6844	Direct Memory Access Controller 1MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheets/560/501527_DS.pdf
-MC68A21	Peripheral Interface Adapter 1.5MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheet/motorola/6821.pdf
-MC68A40	Motorola Programmable Timer Module, 1.5MHz, DIP-28	http://pdf.datasheetcatalog.com/datasheet/motorola/MC6840.pdf
-MC68A44	Direct Memory Access Controller 1.5MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheets/560/501527_DS.pdf
-MC68B21	Peripheral Interface Adapter 2MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheet/motorola/6821.pdf
-MC68B40	Motorola Programmable Timer Module, 2.0MHz, DIP-28	http://pdf.datasheetcatalog.com/datasheet/motorola/MC6840.pdf
-MC68B44	Direct Memory Access Controller 2MHz, DIP-40	http://pdf.datasheetcatalog.com/datasheets/560/501527_DS.pdf
-NB3N551MN	1:4 Low Skew Clock Buffer, DFN-8	https://www.onsemi.com/pub/Collateral/NB3N551-D.PDF
-ONET1191PRGT	11.3-Gbps Limiting Amplifier, VQFN-16	http://www.ti.com/lit/ds/symlink/onet1191p.pdf
-PCA9306	Dual bidirectional I2C Bus and SMBus voltage level translator	http://www.ti.com/lit/ds/symlink/pca9306.pdf
-PCA9306D	Dual bidirectional I2C Bus and SMBus voltage level translator, SO-8	https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf
-PCA9306DC	Dual bidirectional I2C Bus and SMBus voltage level translator, VSSOP-8, Discontinued	https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf
-PCA9306DC1	Dual bidirectional I2C Bus and SMBus voltage level translator, VSSOP-8	https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf
-PCA9306DP	Dual bidirectional I2C Bus and SMBus voltage level translator, TSSOP-8	https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf
-PCA9600D	Dual bidirectional bus buffer, SO-8	https://www.nxp.com/docs/en/data-sheet/PCA9600.pdf
-PCA9600DP	Dual bidirectional bus buffer, TSSOP-8	https://www.nxp.com/docs/en/data-sheet/PCA9600.pdf
-PCA9615DP	Dual bidirectional hot-swap multipoint bus buffer, SO-8	https://www.nxp.com/docs/en/data-sheet/PCA9615.pdf
-PCI9030-PQFP176	PCI SMARTarget I/O Accelerator	http://lhcb-online.web.cern.ch/lhcb-online/ecs/ccpc/docs/plc-9030-databook.pdf
-S5933_PQ160	PCI 2.1 Compliant Master/Slave Device, PQFP-160	http://datasheet.datasheetarchive.com/originals/distributors/Datasheets-35/DSA-684194.pdf
-SI9986	Integrated, buffered H-bridge with TTL compatible inputs, 1A, 12V, SOIC-8	http://www.vishay.com/docs/70007/si9986.pdf
-SLB9660xT	Trusted Platform Module 1.2 with Low Pin Count interface, TSSOP-28	https://www.infineon.com/dgdl/Infineon-data-sheet-SLB9660_1.2_Rev1.2-DS-v01_02-EN.pdf?fileId=5546d462689a790c016929d1cb874fe5
-SLB9665xT	Trusted Platform Module 2.0 with Low Pin Count interface, TSSOP-28	https://www.infineon.com/dgdl/Infineon-data-sheet-SLB9665_2.0_Rev1.2-DS-v01_02-EN.pdf?fileId=5546d462689a790c016929d1d3054feb
-SN65LVDS047D	Quad LVDS Differential Line Driver, 400Mbps, SOIC-16	http://www.ti.com/lit/ds/symlink/sn65lvds047.pdf
-SN65LVDS047PW	Quad LVDS Differential Line Driver, 400Mbps, TSSOP-16	http://www.ti.com/lit/ds/symlink/sn65lvds047.pdf
-SN65LVDS1D	High-Speed Differential Line Driver, 630Mbps, SOIC-8	http://www.ti.com/lit/ds/symlink/sn65lvds1.pdf
-SN65LVDS1DBV	High-Speed Differential Line Driver, 630Mbps, SOT-23-5	http://www.ti.com/lit/ds/symlink/sn65lvds1.pdf
-SN65LVDS2D	High-Speed Differential Line Receiver, 630Mbps, SOIC-8	https://www.ti.com/lit/ds/symlink/sn65lvds2.pdf
-SN65LVDS2DBV	High-Speed Differential Line Receiver, 630Mbps, SOT-23-5	https://www.ti.com/lit/ds/symlink/sn65lvds2.pdf
-SN65LVDT2D	High-Speed Differential Line Receiver, 110 Ω Terminated, 630Mbps, SOIC-8	https://www.ti.com/lit/ds/symlink/sn65lvdt2.pdf
-SN65LVDT2DBV	High-Speed Differential Line Receiver, 110 Ω Terminated, 630Mbps, SOT-23-5	https://www.ti.com/lit/ds/symlink/sn65lvdt2.pdf
-SN74LV8153N	UART, Single wire input, Output 40mA, Open Collector or Push Pull, PDIP-20	https://www.ti.com/lit/ds/symlink/sn74lv8153.pdf
-SN74LV8153PW	UART, Single wire input, Output 40mA, Open Collector or Push Pull, TSSOP-20	https://www.ti.com/lit/ds/symlink/sn74lv8153.pdf
-SN75160BDW	Octal general-purpose interface bus transceiver, SOIC-20	http://www.ti.com/lit/ds/symlink/sn75160b.pdf
-SN75160BN	Octal general-purpose interface bus transceiver, DIP-20	http://www.ti.com/lit/ds/symlink/sn75160b.pdf
-TB5D1MD	Quad differential PECL driver	http://www.ti.com/lit/ds/symlink/tb5d2h.pdf
-TB5D1MDW	Quad differential PECL driver	http://www.ti.com/lit/ds/symlink/tb5d2h.pdf
-TB5D2H	Quad differential PECL driver	http://www.ti.com/lit/ds/symlink/tb5d2h.pdf
-TB5D2HDW	Quad differential PECL driver	http://www.ti.com/lit/ds/symlink/tb5d2h.pdf
-TB5R1D	Quad differential PECL reciver	http://www.ti.com/lit/ds/symlink/tb5r1.pdf
-TB5R1DW	Quad differential PECL reciver	http://www.ti.com/lit/ds/symlink/tb5r1.pdf
-TB5R2D	Quad differential PECL reciver	http://www.ti.com/lit/ds/symlink/tb5r1.pdf
-TB5R2DW	Quad differential PECL reciver	http://www.ti.com/lit/ds/symlink/tb5r1.pdf
-TCA9406DC	2-Bit Bidirectional 1-MHz, I2C Bus and SMBus Voltage-Level Translator With 8-kV HBM ESD	www.ti.com/lit/ds/symlink/tca9406.pdf
-TCA9800	Level-Translating I2C Bus Buffer/Repeater 0.54mA Current Source, VSSOP-8	http://www.ti.com/lit/ds/symlink/tca9800.pdf
-TCA9801	Level-Translating I2C Bus Buffer/Repeater 1.1mA Current Source, VSSOP-8	http://www.ti.com/lit/ds/symlink/tca9801.pdf
-TCA9802	Level-Translating I2C Bus Buffer/Repeater 2.2mA Current Source, VSSOP-8	http://www.ti.com/lit/ds/symlink/tca9802.pdf
-TCA9803	Level-Translating I2C Bus Buffer/Repeater 3.3mA Current Source, VSSOP-8	http://www.ti.com/lit/ds/symlink/tca9803.pdf
-U2270B	IDIC read/write base stations in contactless identification and immobilizer systems, SO-16	http://www.farnell.com/datasheets/94393.pdf
-WD2791	Floppy disk controller, DIP-40	http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
-WD2793	Floppy disk controller, DIP-40	http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
-WD2795	Floppy disk controller, DIP-40	http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
-WD2797	Floppy disk controller, DIP-40	http://pdf.datasheetcatalog.com/datasheets2/12/1229802_1.pdf
-Z8420	Parallel I/O, DIP-40	https://www.zilog.com/appnotes_download.php?FromPage=DirectLink&dn=PS0180&ft=Product%20Specification%20(Data%20Sheet)%20%20&f=YUhSMGNEb3ZMM2QzZHk1NmFXeHZaeTVqYjIwdlpHOWpjeTk2T0RBdmNITXdNVGd3TG5Ca1pnPT0=
-Z84C20	Parallel I/O, CMOS, DIP-40	https://www.zilog.com/appnotes_download.php?FromPage=DirectLink&dn=PS0180&ft=Product%20Specification%20(Data%20Sheet)%20%20&f=YUhSMGNEb3ZMM2QzZHk1NmFXeHZaeTVqYjIwdlpHOWpjeTk2T0RBdmNITXdNVGd3TG5Ca1pnPT0=
 ADM3053	Isolated CAN Transceiver, integrated isolated DC-DC converter, 1Mbps	https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3053.pdf
 ADM3057ExRW	Isolated CAN FD Transceiver, integrated isolated DC-DC converter, 12Mbps, SOIC-20W	https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3055E-3057E.pdf
 CA-IF1042LVS	High-Speed CAN Transceiver up to 5 Mbps, separate VIO, standby mode, ±30V bus common mode voltage, 5V supply, SOIC-8	https://datasheet.lcsc.com/lcsc/2401191740_Chipanalog-CA-IF1042LS-Q1_C20598901.pdf
@@ -7896,7 +7869,6 @@ PAL20L10xxNS	Programmable Array Logic (PAL), 20 array inputs (12 dedicated input
 PAL20L8	Programmable Array Logic (PAL), Active-Low Combinatorial, DIP-24	https://rocelec.widen.net/view/pdf/pn0qtf2whd/VANTS00076-1.pdf
 PAL20R8xx-P	Programmable Array Logic (PAL), 20 array inputs (12 dedicated inputs), 8 registered outputs (active-low), DIP-24	https://rocelec.widen.net/view/pdf/pn0qtf2whd/VANTS00076-1.pdf
 PAL20RS10	Programmable Logic Array, DIP-24 (Narrow)	
-PAL24	generic 24-pin Programmable Array Logic (PAL) device	
 PALCE16V8	EE CMOS Universal Programmable Array Logic (PAL), 8 / 10 dedicated inputs, 8 I/O, DIP-20 / PLCC-20 / SOIC-20	https://www.alldatasheet.com/datasheet-pdf/view/55541/AMD/PALCE16V8.html
 PEEL22CV10AP	Not in Production, CMOS Programmable Electrically Erasable Logic Device, DIP-24	https://www.alldatasheet.com/datasheet-pdf/pdf/149182/ANACHIP/PEEL22CV10AP-15L.html
 PEEL22CV10AS	Not in Production, CMOS Programmable Electrically Erasable Logic Device, SOIC-24W	https://www.alldatasheet.com/datasheet-pdf/download/149182/ANACHIP/PEEL22CV10AP-15L.html
@@ -14000,7 +13972,6 @@ LMG5200	80-V, 10-A GaN Half-Bridge Power Stage, MOF0009A	http://www.ti.com/lit/d
 LT1641-1	High voltage hot swap controller, +9V to +80V, with latching feature, SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/164112fc.pdf
 LT1641-2	High voltage hot swap controller, +9V to +80V operation, with auto-retry feature	https://www.analog.com/media/en/technical-documentation/data-sheets/164112fc.pdf
 LT4230xDD	Ideal Diode Bridge Controller, DC to 60Hz, DFN-8	https://www.analog.com/media/en/technical-documentation/data-sheets/4320fb.pdf
-LT4231xUF	PoE Ideal Diode Bridge Controller, QFN-16	https://www.analog.com/media/en/technical-documentation/data-sheets/4321f.pdf
 LT4320xDD-1	Ideal Diode Bridge Controller, DC to 600Hz, DFN-8	https://www.analog.com/media/en/technical-documentation/data-sheets/4320fb.pdf
 LTC4242xUHF	Dual Slot Hot Swap Controller for PCI Express, WQFN-38	https://www.analog.com/media/en/technical-documentation/data-sheets/4242f.pdf
 LTC4357DCB	Ideal diode controller, 9-80V operation, DFN-6	https://www.analog.com/media/en/technical-documentation/data-sheets/4357fd.pdf
@@ -17147,7 +17118,6 @@ ADP2360xCP-5.0	High Efficiency Buck Regulator, Vin 60V, Vout 5.0V, 50mA, LFCSP-8
 ADP5054	250kHz to 2MHz, 6A/6A/2A/2A Quad Buck Regulator, -40 to +125C, QFN-48	https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5054.pdf
 ADP5070AREZ	1A/0.6A DC-to-DC Switching Regulator with Independent Positive and Negative Outputs	https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5070.pdf
 ADP5071AREZ	2A/1.2A DC-to-DC Switching Regulator with Independent Positive and Negative Outputs	https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5071.pdf
-ADuM6000	Isolated 5 kV DC-to-DC Converter	https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF
 AOZ1280CI	1.2 A Simple Buck Regulator, 3-26V input, 1.5Mhz	http://aosmd.com/res/data_sheets/AOZ1280CI.pdf
 AOZ1282CI	1.2 A Simple Buck Regulator, 4.5-36V input, 450kHz	http://aosmd.com/res/data_sheets/AOZ1282CI.pdf
 AOZ1282CI-1	600 mA Simple Buck Regulator, 4.5-36V input, 1MHz	http://www.aosmd.com/res/data_sheets/AOZ1282CI-1.pdf
@@ -17197,15 +17167,6 @@ BD9778F	35V 2A, Flexible Step-Down Switching Regulator, SO-8	http://rohmfs.rohm.
 BD9778HFP	35V 2A, Flexible Step-Down Switching Regulator, HRP7	http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd9778f-e.pdf
 BD9781HFP	35V 4A, Flexible Step-Down Switching Regulator, HRP7	http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd9778f-e.pdf
 BD9G341EFJ	12V-76V input voltage range 3A output current, Buck Converter, Integrated FET, HTSOP-8	https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/BD9G341EFJ.pdf
-CRE1S0305S3C	3.3V to 5V 200mA, Isolated 2W Single-Output DC-DC Converter Modules with 3kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
-CRE1S0505DC	5V to 5V 200mA DC-DC Converter with 1kV isolation, DC-package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
-CRE1S0505S3C	5V to 5V 200mA, Isolated 2W Single-Output DC-DC Converter Modules with 3kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
-CRE1S0505SC	5V to 5V 200mA DC-DC Converter with 1kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
-CRE1S0515SC	15V to 5V 67mA DC-DC Converter with 1kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
-CRE1S1205SC	12V to 5V 200mA DC-DC Converter with 1kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
-CRE1S1212SC	12V to 12V 83mA DC-DC Converter with 1kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
-CRE1S2405SC	24V to 5V 200mA DC-DC Converter with 1kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
-CRE1S2412SC	24V to 12V 83mA DC-DC Converter with 1kV isolation, SIP-4	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_CRE1_PDF_ISOLATEDDCDCCONVERTER
 DIO6970	High-Efficiency 2A, 24V Input Synchronous Step Down Converter, SOT-23-6	http://www.dioo.com/uploads/product/20190313/7a4d03690a9be004035eb1035a429f24.pdf
 EA3036CQB	3CH power management IC, input range: 2.7V - 5.5V, output range: 0.6V - VIN, 1.5 MHz, WQFN-20	https://atta.szlcsc.com/upload/public/pdf/source/20200529/C570857_65255DA4FBC4C795D9FF4AFE8A3669F7.pdf
 EA3058QD	4-channel power management IC, 2.7..5.5V input, 1.5 MHz switching frequency, VQFN-24	https://www.lcsc.com/datasheet/lcsc_datasheet_2006041834_Everanalog-IC-design-EA3058QDR_C575412.pdf
@@ -17722,7 +17683,6 @@ MIC2177-5.0	2.5A Synchronous Buck Regulator, 5.0V Fixed Output Voltage, SO-20W	h
 MIC2178	2.5A Synchronous Buck Regulator, 4.5-16.5V Input Voltage, Adjustable Output Voltage, SO-20W	http://ww1.microchip.com/downloads/en/DeviceDoc/mic2177.pdf
 MIC2178-3.3	2.5A Synchronous Buck Regulator, 4.5-16.5V Input Voltage, 3.3V Fixed Output Voltage, SO-20W	http://ww1.microchip.com/downloads/en/DeviceDoc/mic2177.pdf
 MIC2178-5.0	2.5A Synchronous Buck Regulator, 4.5-16.5V Input Voltage, 5.0V Fixed Output Voltage, SO-20W	http://ww1.microchip.com/downloads/en/DeviceDoc/mic2177.pdf
-MIC2207	3A 2MHz Non-Synchronous Buck Regulator, DFN-12	https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC2207-2MHz-3A-PWM-Buck-Regulator-DS20006470A.pdf
 MIC2253	3.5A 1 MHz boost regulator, 2.5V to 10V input, up to 30V output, DFN-12	https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/MIC2253-High-Current-1MHz-High-Efficiency-Boost-Regulator-with-OVP-and-Soft-Start-DS20006070A.pdf
 MIC2290	1.2 Mhz PWM Boost Regulator with Internal Schotty Diode, MLF-8	http://ww1.microchip.com/downloads/en/DeviceDoc/mic2290.pdf
 MIC23050-4YML	4MHz PWM Buck Regulator with HyperLight Load Switching Scheme, 1.2V Fixed Output Voltage	http://ww1.microchip.com/downloads/en/DeviceDoc/mic23050.pdf
@@ -17786,35 +17746,6 @@ NID60S24-05	4A/20W Step Down Converter Module, fixed 5V Output Voltage, 250kHz, 
 NID60S24-12	4A/48W Step Down Converter Module, fixed 12V Output Voltage, 250kHz, 20-53V Input Voltage	http://www.meanwell.com/78ddf876-a86c-4a52-8a41-4ee24dd9913d
 NID60S24-15	4A/60W Step Down Converter Module, fixed 15V Output Voltage, 250kHz, 20-53V Input Voltage	http://www.meanwell.com/78ddf876-a86c-4a52-8a41-4ee24dd9913d
 NID60S48-24	2.5A/60W Step Down Converter Module, fixed 24V Output Voltage, 250kHz, 30-53V Input Voltage	http://www.meanwell.com/78ddf876-a86c-4a52-8a41-4ee24dd9913d
-NMA0505DC	±100mA Isolated 1W Dual output DC/DC Converter, 5V Input Voltage, ±5V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA0505SC	±100mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±5V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA0509DC	±55mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±9V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA0509SC	±55mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±9V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA0512DC	±42mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±12V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA0512SC	±42mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±12V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA0515DC	±33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±15V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA0515SC	±33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±15V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA1205DC	±100mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±5V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA1205SC	±100mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±5V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA1209DC	±55mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±9V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA1209SC	±55mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±9V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA1212DC	±42mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±12V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA1212SC	±42mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±12V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA1215DC	±33mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±15V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA1215SC	±33mA Isolated 1W Dual output DC/DC Converter Module, 12V Input Voltage, ±15V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA1505DC	±100mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, ±5V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA1505SC	±100mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, ±5V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA1512DC	±42mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, ±12V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA1512SC	±42mA Isolated 1W Dual output DC/DC Converter Module, 15V Input Voltage, ±12V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA1515DC	±33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±15V Output Voltage, DIP Package	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NMA1515SC	±33mA Isolated 1W Dual output DC/DC Converter Module, 5V Input Voltage, ±15V Output Voltage, SIP3	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NMA_PDF_ISOLATEDDCDCCONVERTER
-NXE1S0303MC	1W 3.3V to 3.3V 303mA DC-DC Converter with 3kV isolation	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NXE1_PDF_ISOLATEDDCDCCONVERTER
-NXE1S0305MC	1W 3.3V to 5V 200mA DC-DC Converter with 3kV isolation	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NXE1_PDF_ISOLATEDDCDCCONVERTER
-NXE1S0505MC	1W 5V to 5V 200mA DC-DC Converter with 3kV isolation	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NXE1_PDF_ISOLATEDDCDCCONVERTER
-NXE2S0505MC	2W 5V to 5V 400mA DC-DC Converter with 3kV isolation	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NXE2_PDF_ISOLATEDDCDCCONVERTER
-NXE2S1205MC	2W 12V to 5V 400mA DC-DC Converter with 3kV isolation	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NXE2_PDF_ISOLATEDDCDCCONVERTER
-NXE2S1212MC	2W 12V to 12V 400mA DC-DC Converter with 3kV isolation	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NXE2_PDF_ISOLATEDDCDCCONVERTER
-NXE2S1215MC	2W 12V to 15V 400mA DC-DC Converter with 3kV isolation	https://pim.murata.com/asset/pim4/isolatedDCDCconverter/KDC_NXE2_PDF_ISOLATEDDCDCCONVERTER
 PAM2301CAAB120	800mA, Step-Down DC/DC-Converter, 1.2V Fixed Output Voltage, 1.5MHz, TSOT-23-5	https://www.diodes.com/assets/Datasheets/products_inactive_data/PAM2301.pdf
 PAM2301CAAB330	800mA, Step-Down DC/DC-Converter, 3.3V Fixed Output Voltage, 1.5MHz, TSOT-23-5	https://www.diodes.com/assets/Datasheets/products_inactive_data/PAM2301.pdf
 PAM2301CAABADJ	800mA, Step-Down DC/DC-Converter, Adjustable Output Voltage, 1.5MHz, TSOT-23-5	https://www.diodes.com/assets/Datasheets/products_inactive_data/PAM2301.pdf
@@ -17906,50 +17837,6 @@ TLV62569ADRL	High Efficiency Synchronous Buck Converter with forced PWM, Adjusta
 TLV62569DBV	High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5	http://www.ti.com/lit/ds/symlink/tlv62569.pdf
 TLV62569DDC	High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-6	http://www.ti.com/lit/ds/symlink/tlv62569.pdf
 TLV62569DRL	High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-563-6	http://www.ti.com/lit/ds/symlink/tlv62569.pdf
-TMR_1-0511	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 5V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-0511SM	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 5V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-0512	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-0512SM	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-0513	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-0513SM	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-0515	42mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 24V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-0522	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, ±12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-0522SM	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, ±12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-0523	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, ±15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-0523SM	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, ±15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-1211	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, 5V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-1211SM	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, 5V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-1212	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, 12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-1212SM	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, 12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-1213	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, 15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-1213SM	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, 15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-1215	42mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, 24V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-1222	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, ±12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-1222SM	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, ±12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-1223	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, ±15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-1223SM	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 9V-18V input, ±15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-2411	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, 5V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-2411SM	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, 5V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-2412	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, 12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-2412SM	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, 12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-2413	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, 15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-2413SM	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, 15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-2415	42mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, 24V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-2422	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, ±12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-2422SM	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, ±12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-2423	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, ±15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-2423SM	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 18V-36V input, ±15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-4811	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 5V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-4811SM	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 5V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-4812	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-4812SM	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-4813	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-4813SM	67mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-4815	42mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, 24V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-4822	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, ±12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-4822SM	±42mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, ±12V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
-TMR_1-4823	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, ±15V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
-TMR_1-4823SM	±33mA Regulated 1W DC/DC converter with 1.5kV isolation, 36V-75V input, ±15V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
 TNY263G	TinySwitch-II Family, 4.7W Output Power, SMD-8B	http://www.powerint.com/sites/default/files/product-docs/tny263_268.pdf
 TNY263P	TinySwitch-II Family, 4.7W Output Power, DIP-8B	http://www.powerint.com/sites/default/files/product-docs/tny263_268.pdf
 TNY264G	TinySwitch-II Family, 6W Output Power, SMD-8B	http://www.powerint.com/sites/default/files/product-docs/tny263_268.pdf
