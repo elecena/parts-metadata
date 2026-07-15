@@ -11,7 +11,7 @@ from typing import Iterable
 from zipfile import ZipFile
 
 from enrich_part import enrich_part
-from kicad.kicad_sym import KicadLibrary
+from kicad.kicad_sym import KicadLibrary, KicadFileFormatError
 from part import Part
 
 
@@ -67,24 +67,30 @@ def iterate_parts(zip_file: ZipFile) -> Iterable[Part]:
     logger = logging.getLogger("iterate_parts")
 
     for symbols_directory in iterate_archive(zip_file):
-        library = KicadLibrary.from_dir(symbols_directory)
-        logger.info(f"Symbols found in the {symbols_directory}: {len(library.symbols)}")
+        try:
+            library = KicadLibrary.from_dir(symbols_directory)
+            logger.info(f"Symbols found in the {symbols_directory}: {len(library.symbols)}")
 
-        # keep the order of symbols in the parts CSV and YML files
-        for symbol in sorted(library.symbols, key=lambda s: s.name):
-            try:
-                part = Part.from_kicad_symbol(symbol)
-                # try to fetch some additional data from the datasheets
-                enrich_part(part)
+            # keep the order of symbols in the parts CSV and YML files
+            for symbol in sorted(library.symbols, key=lambda s: s.name):
+                try:
+                    part = Part.from_kicad_symbol(symbol)
+                    # try to fetch some additional data from the datasheets
+                    enrich_part(part)
 
-                logger.info(f"* {part.name} ({part.description})")
+                    logger.info(f"* {part.name} ({part.description})")
 
-                yield part
-            except (AssertionError, TypeError) as ex:
-                # WARNING:root:Part 1N4934 not parsed: Pinout of 1N4934 is empty
-                # WARNING:root:Part ADAU1761 not parsed: '<' not supported between instances of 'str' and 'int'
-                logger.warning(f"Part {symbol.name} not parsed: {str(ex)}")
-                # raise ex
+                    yield part
+                except (AssertionError, TypeError) as ex:
+                    # WARNING:root:Part 1N4934 not parsed: Pinout of 1N4934 is empty
+                    # WARNING:root:Part ADAU1761 not parsed: '<' not supported between instances of 'str' and 'int'
+                    logger.warning(f"Part {symbol.name} not parsed: {str(ex)}")
+                    # raise ex
+
+        except KicadFileFormatError as ex:
+            # kicad.kicad_sym.KicadFileFormatError: The amount of body styles found for symbol LTC1519
+            # does not match the metadata: there are 3 different styles, but the list of body styles has 2 entries.
+            logger.error(f"Directory {symbols_directory} not parsed: {str(ex)}")
 
 
 def main(archive_file: str):
