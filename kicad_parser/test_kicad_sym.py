@@ -24,7 +24,7 @@ def test_74xx():
     library = KicadLibrary.from_file(get_fixture_file("74xx.sym"))
     # print(library)
 
-    assert library.generator == "kicad_symbol_editor"
+    assert library.generator == "kicad-library-utils"
     assert library.version == KicadLibrary.version
 
     assert len(library.symbols) == 2
