@@ -3717,6 +3717,18 @@ THN10-7215UIR	"10W DC/DC railway converter regulated, 14-160V input, 24V fixed o
 THN10-7221UIR	"10W DC/DC railway converter regulated, 14-160V input, ±5V fixed output voltage, 1A each output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
 THN10-7222UIR	"10W DC/DC railway converter regulated, 14-160V input, ±12V fixed output voltage, 416mA each output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
 THN10-7223UIR	"10W DC/DC railway converter regulated, 14-160V input, ±15V fixed output voltage, 333mA each output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn10uir.pdf
+THN15-3611UIR	"15W DC/DC railway converter regulated, 9-75V input, 5.1V fixed output voltage, 3A output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn15uir.pdf
+THN15-3612UIR	"15W DC/DC railway converter regulated, 9-75V input, 12V fixed output voltage, 1.25A output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn15uir.pdf
+THN15-3613UIR	"15W DC/DC railway converter regulated, 9-75V input, 15V fixed output voltage, 1A output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn15uir.pdf
+THN15-3615UIR	"15W DC/DC railway converter regulated, 9-75V input, 24V fixed output voltage, 625mA output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn15uir.pdf
+THN15-3622UIR	"15W DC/DC railway converter regulated, 9-75V input, ±12V fixed output voltage, 625mA each output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn15uir.pdf
+THN15-3623UIR	"15W DC/DC railway converter regulated, 9-75V input, ±15V fixed output voltage, 500mA each output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn15uir.pdf
+THN15-7211UIR	"15W DC/DC railway converter regulated, 14-160V input, 5.1V fixed output voltage, 3A output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn15uir.pdf
+THN15-7212UIR	"15W DC/DC railway converter regulated, 14-160V input, 12V fixed output voltage, 1.25A output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn15uir.pdf
+THN15-7213UIR	"15W DC/DC railway converter regulated, 14-160V input, 15V fixed output voltage, 1A output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn15uir.pdf
+THN15-7215UIR	"15W DC/DC railway converter regulated, 14-160V input, 24V fixed output voltage, 625mA output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn15uir.pdf
+THN15-7222UIR	"15W DC/DC railway converter regulated, 14-160V input, ±12V fixed output voltage, 625mA each output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn15uir.pdf
+THN15-7223UIR	"15W DC/DC railway converter regulated, 14-160V input, ±15V fixed output voltage, 500mA each output, 3.0kVDC isolation, 1""x1"""	https://www.tracopower.com/products/thn15uir.pdf
 THR40-7211WI	40W DC/DC industrial converter regulated, 36-160V input, 5V fixed output voltage, 8A output, 3.0kVAC isolation, 2”x1”	https://www.tracopower.com/products/thr40wi.pdf
 THR40-7212WI	40W DC/DC industrial converter regulated, 36-160V input, 12V fixed output voltage, 3.33A output, 3.0kVAC isolation, 2”x1”	https://www.tracopower.com/products/thr40wi.pdf
 THR40-7213WI	40W DC/DC industrial converter regulated, 36-160V input, 15V fixed output voltage, 2.67A output, 3.0kVAC isolation, 2”x1”	https://www.tracopower.com/products/thr40wi.pdf
@@ -7869,7 +7881,9 @@ PAL20L10xxNS	Programmable Array Logic (PAL), 20 array inputs (12 dedicated input
 PAL20L8	Programmable Array Logic (PAL), Active-Low Combinatorial, DIP-24	https://rocelec.widen.net/view/pdf/pn0qtf2whd/VANTS00076-1.pdf
 PAL20R8xx-P	Programmable Array Logic (PAL), 20 array inputs (12 dedicated inputs), 8 registered outputs (active-low), DIP-24	https://rocelec.widen.net/view/pdf/pn0qtf2whd/VANTS00076-1.pdf
 PAL20RS10	Programmable Logic Array, DIP-24 (Narrow)	
+PAL22V10-xxP	24-pin TTL Versatile PAL Device, DIP-24	https://web.archive.org/web/20251006042442/https://www.silicon-ark.co.uk/datasheets/pal22v10-pal22v10a-datasheet-amd.pdf
 PALCE16V8	EE CMOS Universal Programmable Array Logic (PAL), 8 / 10 dedicated inputs, 8 I/O, DIP-20 / PLCC-20 / SOIC-20	https://www.alldatasheet.com/datasheet-pdf/view/55541/AMD/PALCE16V8.html
+PALCE22V10x-xxP	24-pin EE CMOS Versatile PAL Device, DIP-24	https://docs.rs-online.com/4e85/0900766b80026541.pdf
 PEEL22CV10AP	Not in Production, CMOS Programmable Electrically Erasable Logic Device, DIP-24	https://www.alldatasheet.com/datasheet-pdf/pdf/149182/ANACHIP/PEEL22CV10AP-15L.html
 PEEL22CV10AS	Not in Production, CMOS Programmable Electrically Erasable Logic Device, SOIC-24W	https://www.alldatasheet.com/datasheet-pdf/download/149182/ANACHIP/PEEL22CV10AP-15L.html
 ADUC816BSZ	MicroConverter, Dual-Channel 16-bit ADCs with Embedded Flash MCU, 12-bit DAC, 256 Bytes User RAM, 8KB Flash/EE Program Memory, 640 Bytes Flash/EE Data Memory, PQFP-52 (MQFP-52, case S-52-2)	https://www.analog.com/static/imported-files/data_sheets/ADUC816.pdf
