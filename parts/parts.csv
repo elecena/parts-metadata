@@ -3867,6 +3867,24 @@ TMR4-4813WI	4W DC/DC industrial converter regulated, 18-75V input, 15V fixed out
 TMR4-4815WI	4W DC/DC industrial converter regulated, 18-75V input, 24V fixed output voltage, 166mA output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr4wi.pdf
 TMR4-4822WI	4W DC/DC industrial converter regulated, 18-75V input, ±12V fixed output voltage, 166mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr4wi.pdf
 TMR4-4823WI	4W DC/DC converter regulated, 18-75V input, ±15V fixed output voltage, 133mA each output, 1.6kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr4wi.pdf
+TMR8-1211WI	8W DC/DC industrial converter regulated, 4.5-18V input, 5V fixed output voltage, 1600mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-1212WI	8W DC/DC industrial converter regulated, 4.5-18V input, 12V fixed output voltage, 665mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-1213WI	8W DC/DC industrial converter regulated, 4.5-18V input, 15V fixed output voltage, 535mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-1215WI	8W DC/DC industrial converter regulated, 4.5-18V input, 24V fixed output voltage, 335mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-1222WI	8W DC/DC industrial converter regulated, 4.5-18V input, ±12V fixed output voltage, 335mA each output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-1223WI	8W DC/DC industrial converter regulated, 4.5-18V input, ±15V fixed output voltage, 265mA each output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-2411WI	8W DC/DC industrial converter regulated, 9-36V input, 5V fixed output voltage, 1600mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-2412WI	8W DC/DC industrial converter regulated, 9-36V input, 12V fixed output voltage, 665mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-2413WI	8W DC/DC industrial converter regulated, 9-36V input, 15V fixed output voltage, 535mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-2415WI	8W DC/DC industrial converter regulated, 9-36V input, 24V fixed output voltage, 335mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-2422WI	8W DC/DC industrial converter regulated, 9-36V input, ±12V fixed output voltage, 335mA each output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-2423WI	8W DC/DC industrial converter regulated, 9-36V input, ±15V fixed output voltage, 265mA each output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-4811WI	8W DC/DC industrial converter regulated, 18-75V input, 5V fixed output voltage, 1600mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-4812WI	8W DC/DC industrial converter regulated, 18-75V input, 12V fixed output voltage, 665mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-4813WI	8W DC/DC industrial converter regulated, 18-75V input, 15V fixed output voltage, 535mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-4815WI	8W DC/DC industrial converter regulated, 18-75V input, 24V fixed output voltage, 335mA output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-4822WI	8W DC/DC industrial converter regulated, 18-75V input, ±12V fixed output voltage, 335mA each output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
+TMR8-4823WI	8W DC/DC industrial converter regulated, 18-75V input, ±15V fixed output voltage, 265mA each output, 1.5kVDC isolation, SIP-8	https://www.tracopower.com/products/tmr8wi.pdf
 TMR_1-0511	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 5V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
 TMR_1-0511SM	200mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 5V fixed Output Voltage, SMD	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1sm_datasheet.pdf
 TMR_1-0512	83mA Regulated 1W DC/DC converter with 1.5kV isolation, 4.5V-9V input, 12V fixed Output Voltage, SIP-6	https://www.tracopower.com/sites/default/files/products/datasheets/tmr1_datasheet.pdf
