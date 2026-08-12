@@ -13456,6 +13456,7 @@ AT45DB161B-RC-2.5	16Mb Serial DataFlash, 2.5V Vcc, SOIC-28	http://ww1.microchip.
 AT45DB161B-TC	16Mb Serial DataFlash, 2.7V Vcc, TSOP-28	http://ww1.microchip.com/downloads/en/devicedoc/doc2224.pdf
 AT45DB161B-TC-2.5	16Mb Serial DataFlash, 2.5V Vcc, TSOP-28	http://ww1.microchip.com/downloads/en/devicedoc/doc2224.pdf
 AT45DB161D-SU	16Mb Serial DataFlash, 2.5V Vcc, SOIC-8	https://www.mouser.com/datasheet/2/698/doc3500-2956563.pdf
+EPC2Lx20	FPGA Configuration Device, 1.6Mbit Flash Memory, JTAG, 3.0-3.6V and 4.5-5.5V, PLCC-20	https://web.archive.org/web/20230628024332if_/https://cdrdv2-public.intel.com/653809/cfg_cf52004.pdf
 EPCQ16ASI8N	16Mbit / 2MiB Serial NOR Flash Memory, Standard/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)	https://www.intel.com/programmable/technical-pdfs/683078.pdf
 EPCQ32ASI8N	32Mbit / 4MiB Serial NOR Flash Memory, Standard/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)	https://www.intel.com/programmable/technical-pdfs/683078.pdf
 GD25D05CT	512kbit, 3.0V Standard and Dual Serial Flash, JEITA SOIC-8 (SOP-8)	http://www.elm-tech.com/en/products/spi-flash-memory/gd25d10/gd25d10.pdf
