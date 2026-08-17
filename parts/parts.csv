@@ -15273,7 +15273,6 @@ REF6033xDGK	3.3V 0.05% 4mA Extremely Low Noise High Precision Voltage Reference,
 REF6041xDGK	4.1V 0.05% 4mA Extremely Low Noise High Precision Voltage Reference, VSSOP-8	https://www.ti.com/lit/ds/symlink/ref6025.pdf
 REF6045xDGK	4.5V 0.05% 4mA Extremely Low Noise High Precision Voltage Reference, VSSOP-8	https://www.ti.com/lit/ds/symlink/ref6025.pdf
 REF6050xDGK	5.0V 0.05% 4mA Extremely Low Noise High Precision Voltage Reference, VSSOP-8	https://www.ti.com/lit/ds/symlink/ref6025.pdf
-TL431D	Shunt Regulator, SO-8	http://www.ti.com/lit/ds/symlink/tl431.pdf
 TL431DBV	Shunt Regulator, SOT-23-5	http://www.ti.com/lit/ds/symlink/tl431.pdf
 TL431DBZ	Shunt Regulator, SOT-23	http://www.ti.com/lit/ds/symlink/tl431.pdf
 TL431DCK	Shunt Regulator, SC-70	http://www.ti.com/lit/ds/symlink/tl431.pdf
@@ -20716,42 +20715,3 @@ NOS-6418	Subminiature Pentode	https://frank.pocnet.net/sheets/127/6/6418.pdf
 PABC80	triple diode triode	https://frank.pocnet.net/sheets/082/e/EABC80.pdf
 STABI		
 UABC80	triple diode triode	https://frank.pocnet.net/sheets/082/e/EABC80.pdf
-AD725	Low Cost RGB to NTSC/PAL Encoder with Luma Trap Port	https://www.analog.com/media/en/technical-documentation/data-sheets/AD725.pdf
-AD9708AR	Video DAC (32 MHz), SOIC/TSSOP-28	https://www.analog.com/media/en/technical-documentation/data-sheets/AD9708.pdf
-AD9891	CCD Signal Processor, 20MHz 10bits, CSPBGA-64	https://www.analog.com/static/imported-files/data_sheets/AD9891_9895.pdf
-AD9895	CCD Signal Processor, 30MHz 12bits, CSPBGA-64	https://www.analog.com/static/imported-files/data_sheets/AD9891_9895.pdf
-AD9984AKST	High Performance 10-Bit Display Interface 140/170MSPS, LQFP-80	http://www.analog.com/media/en/technical-documentation/data-sheets/AD9984A.pdf
-ADA4430-1WYRTZ	Ultralow Power, Video Filter, Power-Down, SOT-23	https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4430-1.pdf
-ADA4430-1YKSZ	Ultralow Power, Video Filter, Power-Down, SOT-363	https://www.analog.com/media/en/technical-documentation/data-sheets/ADA4430-1.pdf
-ADV7280xCP	10-Bit, 4x Oversampled SDTV Video Decoder with Deinterlacer, LFCSP-32	https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7280.PDF
-ADV7390BCPZ	10-Bit SD/HD Video Encoder, Macrovision Antitaping, LFCSP-32	https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7390_7391_7392_7393.pdf
-ADV7391BCPZ	10-Bit SD/HD Video Encoder, LFCSP-32	https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7390_7391_7392_7393.pdf
-AV9173	Video Genlock PLL	http://www.ibselectronics.com/ibsstore/datasheet/Others/AV9173-01CN08.pdf
-CX7930		
-CXA1145P	Analog RGB to composite video encoder, compatible with NTSC/PAL systems, built-in 75 ohms output drivers, built-in audio buffer, DIP-24	https://wiki.console5.com/tw/images/f/fb/CXA1145PM.pdf
-CXD3400N	6-channel Vertical Clock Driver for CCD Image Sensor, SSOP-20	https://www.bndhep.net/Electronics/Data/CXD3400N.pdf
-HD63484P	Advanced CRT Controller (ACRTC), DIP-64	https://www.alldatasheet.com/datasheet-pdf/view/144378/HITACHI/HD63484.html
-HD63484_PLCC		
-ICX415AQ	Diagonal 8mm B/W Progressive Scan CCD Image Sensor with Square Pixel, CERDIP-22	
-ISL59885	Sync Separator for HD and SD Video, SOIC-8	https://www.renesas.com/us/en/document/dst/isl59885-datasheet?r=533081
-LM1881	Video Sync Separator, composite sync and vertical sync outputs, DIP-8 / SOIC-8	https://www.ti.com/lit/ds/symlink/lm1881.pdf
-MAX310	8-Channel CMOS RF Video Multiplexer	https://datasheets.maximintegrated.com/en/ds/MAX310-MAX311.pdf
-MAX311	8-Channel CMOS RF Video Multiplexer	https://datasheets.maximintegrated.com/en/ds/MAX310-MAX311.pdf
-MB88303P		
-S178		
-SAA7182	Digital Video Encoder, Obsolete	http://rcl-radio.ru/wp-content/uploads/2014/11/SAA7182.pdf
-SI582		
-TDA1950		
-TDA1950F		
-TDA2593		
-TDA7260		
-TDA8501	PAL/NTSC Encoder, RGB or Y/Y-R/Y-B Inputs, DIP/SOIC-20	https://assets.nexperia.com/documents/data-sheet/TDA8501.pdf
-TDA8702	8bit Video DAC (32 MHz), DIP-16	https://pdf.datasheet.live/0463ecba/semiconductors.philips.com/TDA8702T_C2.pdf
-TDA8702T	8bit Video DAC (32 MHz), SOIC-16	https://pdf.datasheet.live/0463ecba/semiconductors.philips.com/TDA8702T_C2.pdf
-TDA8772	Triple 8bit Video DAC, QFP-44	http://www.pa0qy.nl/pdf/TDA8772.PDF
-TDA9500		
-TDA9503		
-TDA9513		
-TEA2014	Video switching circuite for TV, DIP-8	http://pdf1.alldatasheet.com/datasheet-pdf/view/123244/STMICROELECTRONICS/TEA2014.html
-TEA5115		
-TFP410PAP	Digital Visual Interface Compliant PanelBus Digital Transmitter, TQFP-64	http://www.ti.com/lit/ds/symlink/tfp410.pdf
