@@ -14,14 +14,14 @@ def get_fixture_file(file: str) -> str:
 
 
 def get_part() -> Part:
-    library = KicadLibrary.from_file(get_fixture_file("attiny.sym"))
+    library = KicadLibrary.from_file(get_fixture_file("attiny.kicad_sym"))
     attiny48 = Part.from_kicad_symbol(library.symbols[0])
     return attiny48
 
 
 # https://gitlab.com/kicad/libraries/kicad-symbols/-/raw/master/74xx.kicad_sym?ref_type=heads
 def test_74xx():
-    library = KicadLibrary.from_file(get_fixture_file("74xx.sym"))
+    library = KicadLibrary.from_file(get_fixture_file("74xx.kicad_sym"))
     # print(library)
 
     assert library.generator == "kicad-library-utils"
@@ -38,7 +38,7 @@ def test_74xx():
 
 
 def test_parse_symbol():
-    library = KicadLibrary.from_file(get_fixture_file("74xx.sym"))
+    library = KicadLibrary.from_file(get_fixture_file("74xx.kicad_sym"))
     symbol = library.symbols[0]
 
     part = Part.from_kicad_symbol(symbol)
@@ -64,7 +64,7 @@ def test_parse_symbol():
 
 
 def test_parse_symbol_with_inheritance():
-    library = KicadLibrary.from_file(get_fixture_file("attiny.sym"))
+    library = KicadLibrary.from_file(get_fixture_file("attiny.kicad_sym"))
 
     assert len(library.symbols) == 2
     assert [symbol.name for symbol in library.symbols] == ["ATtiny48-P", "ATtiny88-P"]
@@ -98,7 +98,7 @@ def test_parse_symbol_with_inheritance():
 
 
 def test_parse_symbol_with_multiple_inheritance():
-    library = KicadLibrary.from_file(get_fixture_file("Amplifier_Current.sym"))
+    library = KicadLibrary.from_file(get_fixture_file("Amplifier_Current.kicad_sym"))
 
     assert len(library.symbols) == 3
     assert [symbol.name for symbol in library.symbols] == [
