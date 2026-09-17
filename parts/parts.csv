@@ -1374,6 +1374,9 @@ OPA1692xD	Dual SoundPlus Low Power, Low Noise & Low Distortion Audio Operational
 OPA1692xDGK	Dual SoundPlus Low Power, Low Noise & Low Distortion Audio Operational Amplifiers, VSSOP-8	https://www.ti.com/lit/ds/symlink/opa1692.pdf
 OPA188xxD	Precision, Low-Noise, Rail-to-Rail Output, 36-V, Zero-Drift Operational Amplifier, SOIC-8	http://www.ti.com/lit/ds/symlink/opa188.pdf
 OPA188xxDBV	Zero-Drift, Precision, Low-Noise, Rail-to-Rail Output, 36-V Operational Amplifier, TSOT-23-5	http://www.ti.com/lit/ds/symlink/opa188.pdf
+OPA189xD	36-V, 14-MHz, low-noise, low-offset, zero-drift, rail-to-rail, CMOS precision operational amplifier, SOIC-8	https://www.ti.com/lit/ds/symlink/opa189.pdf
+OPA189xDBV	36-V, 14-MHz, low-noise, low-offset, zero-drift, rail-to-rail, CMOS precision operational amplifier, SOT-23	https://www.ti.com/lit/ds/symlink/opa189.pdf
+OPA189xDGK	36-V, 14-MHz, low-noise, low-offset, zero-drift, rail-to-rail, CMOS precision operational amplifier, VSSOP-8	https://www.ti.com/lit/ds/symlink/opa189.pdf
 OPA196xD	Sing, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-8	http://www.ti.com/lit/ds/symlink/opa4196.pdf
 OPA196xDBV	Single, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOT-23-5	http://www.ti.com/lit/ds/symlink/opa4196.pdf
 OPA196xDGK	Single, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, VSSOP-8	http://www.ti.com/lit/ds/symlink/opa4196.pdf
@@ -1383,6 +1386,8 @@ OPA197xDGK	Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage,
 OPA2134	Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8	http://www.ti.com/lit/ds/symlink/opa134.pdf
 OPA2156xD	Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8	https://www.ti.com/lit/ds/symlink/opa2156.pdf
 OPA2156xDGK	Dual 36V, Ultra Low Noise, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8	http://www.ti.com/lit/ds/symlink/opa2156.pdf
+OPA2189xD	Dual, 36-V, 14-MHz, low-noise, low-offset, zero-drift, rail-to-rail, CMOS precision operational amplifier, SOIC-8	https://www.ti.com/lit/ds/symlink/opa189.pdf
+OPA2189xDGK	Dual, 36-V, 14-MHz, low-noise, low-offset, zero-drift, rail-to-rail, CMOS precision operational amplifier, VSSOP-8	https://www.ti.com/lit/ds/symlink/opa189.pdf
 OPA2196xD	Dual, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-8	http://www.ti.com/lit/ds/symlink/opa4196.pdf
 OPA2196xDGK	Dual, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, VSSOP-8	http://www.ti.com/lit/ds/symlink/opa4196.pdf
 OPA2197xD	Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8	http://www.ti.com/lit/ds/symlink/opa2197.pdf
@@ -1431,6 +1436,8 @@ OPA376xxD	Single Low-Noise, Low Quiescent Current, Precision Operational Amplifi
 OPA376xxDBV	Single Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SOT-23-5	http://www.ti.com/lit/ds/symlink/opa376.pdf
 OPA376xxDCK	Single Low-Noise, Low Quiescent Current, Precision Operational Amplifier e-trim Series, SC-70-5	http://www.ti.com/lit/ds/symlink/opa376.pdf
 OPA4134	Quad SoundPlus High Performance Audio Operational Amplifiers, SOIC-14	http://www.ti.com/lit/ds/symlink/opa134.pdf
+OPA4189xD	Quad, 36-V, 14-MHz, low-noise, low-offset, zero-drift, rail-to-rail, CMOS precision operational amplifier, SOIC-14	https://www.ti.com/lit/ds/symlink/opa189.pdf
+OPA4189xPW	Quad, 36-V, 14-MHz, low-noise, low-offset, zero-drift, rail-to-rail, CMOS precision operational amplifier, TSSOP-14	https://www.ti.com/lit/ds/symlink/opa189.pdf
 OPA4196xD	Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, SOIC-14	http://www.ti.com/lit/ds/symlink/opa4196.pdf
 OPA4196xPW	Quad, Low-Power, Low Offset Voltage, Rail-to-Rail Operational Amplifier, TSSOP-14	http://www.ti.com/lit/ds/symlink/opa4196.pdf
 OPA4197xD	Quad 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-14	http://www.ti.com/lit/ds/symlink/opa4197.pdf
@@ -2719,6 +2726,12 @@ TMLM20105	5V 3600mA AC/DC low noise power module	https://www.tracopower.com/prod
 TMLM20112	12V 1660mA AC/DC low noise power module	https://www.tracopower.com/products/tmlm.pdf
 TMLM20115	12V 1330mA AC/DC low noise power module	https://www.tracopower.com/products/tmlm.pdf
 TMLM20124	24V 833mA AC/DC low noise power module	https://www.tracopower.com/products/tmlm.pdf
+TMPS03-103	3W AC/DC power supply, 3.3V fixed output voltage, 900mA output, 3.0kVAC isolation, 1”x1”	https://www.tracopower.com/products/tmps03.pdf
+TMPS03-105	3W AC/DC power supply, 5V fixed output voltage, 600mA output, 3.0kVAC isolation, 1”x1”	https://www.tracopower.com/products/tmps03.pdf
+TMPS03-109	3W AC/DC power supply, 9V fixed output voltage, 333mA output, 3.0kVAC isolation, 1”x1”	https://www.tracopower.com/products/tmps03.pdf
+TMPS03-112	3W AC/DC power supply, 12V fixed output voltage, 250mA output, 3.0kVAC isolation, 1”x1”	https://www.tracopower.com/products/tmps03.pdf
+TMPS03-115	3W AC/DC power supply, 15V fixed output voltage, 200mA output, 3.0kVAC isolation, 1”x1”	https://www.tracopower.com/products/tmps03.pdf
+TMPS03-124	3W AC/DC power supply, 24V fixed output voltage, 125mA output, 3.0kVAC isolation, 1”x1”	https://www.tracopower.com/products/tmps03.pdf
 TMPW10-105	10W AC/DC power supply, 5V fixed output voltage, 2A output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw10.pdf
 TMPW10-112	10W AC/DC power supply, 12V fixed output voltage, 833mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw10.pdf
 TMPW10-115	10W AC/DC power supply, 15V fixed output voltage, 667mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw10.pdf
@@ -2731,6 +2744,9 @@ TMPW5-103	5W AC/DC power supply, 3.3V fixed output voltage, 1515mA output, 4.0kV
 TMPW5-105	5W AC/DC power supply, 5V fixed output voltage, 1000mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw5.pdf
 TMPW5-112	5W AC/DC power supply, 12V fixed output voltage, 420mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw5.pdf
 TMPW5-124	5W AC/DC power supply, 24V fixed output voltage, 210mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw5.pdf
+TMPW50-112	50W AC/DC power supply, 12V fixed output voltage, 4167mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw50.pdf
+TMPW50-115	50W AC/DC power supply, 15V fixed output voltage, 3333mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw50.pdf
+TMPW50-124	50W AC/DC power supply, 24V fixed output voltage, 2083mA output, 4.0kVAC isolation	https://www.tracopower.com/products/tmpw50.pdf
 TPP-15-103-D	3.3V, 4000mA, 15W, Isolated, AC-DC, Traco	https://www.tracopower.com/sites/default/files/products/datasheets/tpp15_d_datasheet.pdf
 TPP-15-105-D	5V, 3000mA, 15W, Isolated, AC-DC, Traco	https://www.tracopower.com/sites/default/files/products/datasheets/tpp15_d_datasheet.pdf
 TPP-15-109-D	9V, 1670mA, 15W, Isolated, AC-DC, Traco	https://www.tracopower.com/sites/default/files/products/datasheets/tpp15_d_datasheet.pdf
@@ -3617,6 +3633,18 @@ TEN3-11015WIRH	3W DC/DC railway converter regulated, 36-160V input, 24V fixed ou
 TEN3-11021WIRH	3W DC/DC railway converter regulated, 36-160V input, ±5V fixed output voltage, 300mA each output, 3.0kVAC isolation, DIP-24	https://www.tracopower.com/products/ten3wirh.pdf
 TEN3-11022WIRH	3W DC/DC railway converter regulated, 36-160V input, ±12V fixed output voltage, 125mA each output, 3.0kVAC isolation, DIP-24	https://www.tracopower.com/products/ten3wirh.pdf
 TEN3-11023WIRH	3W DC/DC railway converter regulated, 36-160V input, ±15V fixed output voltage, 100mA each output, 3.0kVAC isolation, DIP-24	https://www.tracopower.com/products/ten3wirh.pdf
+TEN30-3611UIR	30W DC/DC railway converter regulated, 9-75V input, 5.1V fixed output voltage, 6A output, 3.0kVDC isolation, 2”x1”	https://www.tracopower.com/products/ten30uir.pdf
+TEN30-3612UIR	30W DC/DC railway converter regulated, 9-75V input, 12V fixed output voltage, 2.5A output, 3.0kVDC isolation, 2”x1”	https://www.tracopower.com/products/ten30uir.pdf
+TEN30-3613UIR	30W DC/DC railway converter regulated, 9-75V input, 15V fixed output voltage, 2A output, 3.0kVDC isolation, 2”x1”	https://www.tracopower.com/products/ten30uir.pdf
+TEN30-3615UIR	30W DC/DC railway converter regulated, 9-75V input, 24V fixed output voltage, 1.25A output, 3.0kVDC isolation, 2”x1”	https://www.tracopower.com/products/ten30uir.pdf
+TEN30-3622UIR	30W DC/DC railway converter regulated, 9-75V input, ±12V fixed output voltage, 1.25A each output, 3.0kVDC isolation, 2”x1”	https://www.tracopower.com/products/ten30uir.pdf
+TEN30-3623UIR	30W DC/DC railway converter regulated, 9-75V input, ±15V fixed output voltage, 1A each output, 3.0kVDC isolation, 2”x1”	https://www.tracopower.com/products/ten30uir.pdf
+TEN30-7211UIR	30W DC/DC railway converter regulated, 14-160V input, 5.1V fixed output voltage, 6A output, 3.0kVDC isolation, 2”x1”	https://www.tracopower.com/products/ten30uir.pdf
+TEN30-7212UIR	30W DC/DC railway converter regulated, 14-160V input, 12V fixed output voltage, 2.5A output, 3.0kVDC isolation, 2”x1”	https://www.tracopower.com/products/ten30uir.pdf
+TEN30-7213UIR	30W DC/DC railway converter regulated, 14-160V input, 15V fixed output voltage, 2A output, 3.0kVDC isolation, 2”x1”	https://www.tracopower.com/products/ten30uir.pdf
+TEN30-7215UIR	30W DC/DC railway converter regulated, 14-160V input, 24V fixed output voltage, 1.25A output, 3.0kVDC isolation, 2”x1”	https://www.tracopower.com/products/ten30uir.pdf
+TEN30-7222UIR	30W DC/DC railway converter regulated, 14-160V input, ±12V fixed output voltage, 1.25A each output, 3.0kVDC isolation, 2”x1”	https://www.tracopower.com/products/ten30uir.pdf
+TEN30-7223UIR	30W DC/DC railway converter regulated, 14-160V input, ±15V fixed output voltage, 1A each output, 3.0kVDC isolation, 2”x1”	https://www.tracopower.com/products/ten30uir.pdf
 TEN40-11011WIRH	40W DC/DC railway converter regulated, 36-160V input, 5.1V fixed output voltage, 8A output, 3.0kVAC isolation, 2”x1”	https://www.tracopower.com/products/ten40wirh.pdf
 TEN40-11012WIRH	40W DC/DC railway converter regulated, 36-160V input, 12V fixed output voltage, 3.33A output, 3.0kVAC isolation, 2”x1”	https://www.tracopower.com/products/ten40wirh.pdf
 TEN40-11013WIRH	40W DC/DC railway converter regulated, 36-160V input, 15V fixed output voltage, 2.666A output, 3.0kVAC isolation, 2”x1”	https://www.tracopower.com/products/ten40wirh.pdf
@@ -7468,6 +7496,8 @@ ADuM1201WU	Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Temp. Grade, bidi
 ADuM120N	Dual-channel digital isolator,1.8 to 5V, 150Mbs, 3kV	https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM120N_121N.pdf
 ADuM121N	Dual-channel digital isolator,1.8 to 5V, 150Mbs, 3kV	https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM120N_121N.pdf
 ADuM1250	Dual-channel I2C digital isolator, Bidirectional communication, 3V/5V level translation, SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1250_1251.pdf
+ADuM1255ASA+	Dual-channel I2C digital isolator, Bidirectional communication, 4mm creepage, 3V/5V level translation, SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/adum1255.pdf
+ADuM1255AWA+	Dual-channel I2C digital isolator, Bidirectional communication, 8mm creepage, 3V/5V level translation, SOIC-8 (300mil)	https://www.analog.com/media/en/technical-documentation/data-sheets/adum1255.pdf
 ADuM1281	Dual-channel digital isolator, bidirectional communication, 3V/5V level translation, SOIC-8	https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1280_1281_1285_1286.pdf
 ADuM1300xRW	Three Channel Digital Isolator, 10Mbps, SOICW-16	https://www.analog.com/media/en/technical-documentation/data-sheets/adum1300_1301.pdf
 ADuM1400xRW	Quad Channel Digital Isolator, 10Mbps, SOIC-16	https://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1400_1401_1402.pdf
@@ -7814,6 +7844,7 @@ TLP184xSE	AC/DC Optocoupler, Vce 80V, CTR 50-100%, SOIC-4-6 (MFSOP-4-6)	https://
 TLP185	DC Optocoupler, Vce 80V, CTR 50-100%, SOIC-4-6 (MFSOP-4-6)	https://toshiba.semicon-storage.com/info/docget.jsp?did=11791&prodName=TLP185
 TLP185xSE	DC Optocoupler, Vce 80V, CTR 50-100%, SOIC-4-6 (MFSOP-4-6)	https://toshiba.semicon-storage.com/info/docget.jsp?did=14111&prodName=TLP185(SE
 TLP2310	5-Mbps low-power non inverting photocouple, 3.75 kVrms, 2.7 - 5.5 Vdd, push-pull output	https://toshiba.semicon-storage.com/info/TLP2310_datasheet_en_20220913.pdf?did=29657&prodName=TLP2310
+TLP2361	15-Mbps low-power inverting photocouple, 3.75 kVrms, 2.7 - 5.5 Vdd, push-pull output, SO-5-6	https://toshiba.semicon-storage.com/info/docget.jsp?did=14229&prodName=TLP2361
 TLP2703	100 kbps, High-speed GaA&As, high-gain, 4.5 - 18 VCC, 5 kVrms, CTR 900%, SO-6L	https://toshiba.semicon-storage.com/info/docget.jsp?did=15216&prodName=TLP2703
 TLP2745	10-Mbps low-power non inverting photocouple,5 kVrms, 4.5 - 30 Vdd, push-pull output	https://toshiba.semicon-storage.com/info/docget.jsp?did=29405&prodName=TLP2745
 TLP2748	10-Mbps inverting photocouple,5 kVrms, 4.5 - 30 Vdd, push-pull output, SO-6L	https://toshiba.semicon-storage.com/info/docget.jsp?did=29407&prodName=TLP2748
@@ -7987,7 +8018,6 @@ TXB0101DBV	1-Bit Bidirectional Voltage-Level Translator With Auto Direction Sens
 TXB0101DCK	1-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, SC-70-6	http://www.ti.com/lit/ds/symlink/txb0101.pdf
 TXB0101DRL	1-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, SOT-563	http://www.ti.com/lit/ds/symlink/txb0101.pdf
 TXB0101YZP	1-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, DSBGA-6	http://www.ti.com/lit/ds/symlink/txb0101.pdf
-TXB0102DCT	2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, TSSOP-8	http://www.ti.com/lit/ds/symlink/txb0102.pdf
 TXB0102DCU	2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, VSSOP-8	http://www.ti.com/lit/ds/symlink/txb0102.pdf
 TXB0102YZP	2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, DSBGA-8	http://www.ti.com/lit/ds/symlink/txb0102.pdf
 TXB0104BQA	4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, WQFN-14-EP (BQB)	https://www.ti.com/lit/ds/symlink/txb0104.pdf
@@ -8016,8 +8046,12 @@ TXS0104ED	Bidirectional  level-shifting voltage translator, SOIC-14	www.ti.com/l
 TXS0104EPW	Bidirectional  level-shifting voltage translator, TSSOP-14	www.ti.com/lit/ds/symlink/txs0104e.pdf
 TXS0108EPW	Bidirectional  level-shifting voltage translator, TSSOP-20	www.ti.com/lit/ds/symlink/txs0108e.pdf
 TXS02612RTW	SDIO port expander with voltage-level translation, 6:12 Demultiplexer/Multiplexer, 1.1V to 3.6V supply range, QFN-24	https://www.ti.com/lit/gpn/TXS02612
+TXU0304BQA	4-Bit Fixed Direction Voltage-Level Translator with Schmitt-Trigger Inputs and 3-State Outputs, WQFN-14	https://www.ti.com/lit/ds/symlink/txu0304.pdf
+TXU0304PW	4-Bit Fixed Direction Voltage-Level Translator with Schmitt-Trigger Inputs and 3-State Outputs, TSSOP-14	https://www.ti.com/lit/ds/symlink/txu0304.pdf
+TXU0304RUT	4-Bit Fixed Direction Voltage-Level Translator with Schmitt-Trigger Inputs and 3-State Outputs, Texas_PUQFN-12	https://www.ti.com/lit/ds/symlink/txu0304.pdf
 ATF16V8Bxx-xxPU	High-performance EE PLD, PAL Device Emulation / PAL Replacement, DIP-20	https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-0364-PLD-ATF16V8B-8BQ-8BQL-Datasheet.pdf
 GAL16V8	High Performance E²CMOS PLD, Generic Array Logic, PAL Device Emulation, DIP-20 / PLCC-20 / SOIC-20	https://www.bitsavers.org/components/latticeSemiconductor/_dataBooks/1988_Lattice_GAL_Data_Book.pdf#page=6
+N82S100	Field-Programmable Logic Array (16x48x8), Tri-state outputs, DIP-28 (600 mils)	https://www.bitsavers.org/components/signetics/_dataBooks/1981_Integrated_Fuse_Logic.pdf.pdf#page=4
 PAL16L8	Programmable Array Logic (PAL), Active-Low Combinatorial, DIP-20 / PLCC-20	https://docs.rs-online.com/53eb/0900766b8002a354.pdf
 PAL16R8	Programmable Array Logic (PAL), 8 Registered Outputs, DIP-20 / PLCC-20	https://docs.rs-online.com/53eb/0900766b8002a354.pdf
 PAL16RP8A	Programmable Array Logic (PAL), 16 array inputs (8 dedicated inputs), 8 registered outputs, programmable output polarity, DIP-20 / PLCC-20	https://bitsavers.org/components/amd/_dataBooks/1988_AMD_PAL_Device_Data_Book.pdf#page=487
@@ -8025,7 +8059,7 @@ PAL16RP8A_Programming	Programmable Array Logic (PAL), 16 array inputs (8 dedicat
 PAL20L10xxNS	Programmable Array Logic (PAL), 20 array inputs (12 dedicated inputs), 10 active-low combinatorial outputs, DIP-24	https://www.datasheet.directory/pdfviewer?url=https%3A%2F%2Fdatasheet.iiic.cc%2Fdatasheets-0%2Fadvanced_micro_devices%2FPAL20L10ACNS.pdf
 PAL20L8	Programmable Array Logic (PAL), Active-Low Combinatorial, DIP-24	https://rocelec.widen.net/view/pdf/pn0qtf2whd/VANTS00076-1.pdf
 PAL20R8xx-P	Programmable Array Logic (PAL), 20 array inputs (12 dedicated inputs), 8 registered outputs (active-low), DIP-24	https://rocelec.widen.net/view/pdf/pn0qtf2whd/VANTS00076-1.pdf
-PAL20RS10	Programmable Logic Array, DIP-24 (Narrow)	
+PAL20RS10xNS	Programmable Array Logic (PAL), 20 array inputs (10 dedicated inputs), 10 registered outputs (programmable polarity), product-term steering, DIP-24 (300 mils)	https://bitsavers.org/components/amd/_dataBooks/1988_AMD_PAL_Device_Data_Book.pdf#page=573
 PAL22V10-xxP	24-pin TTL Versatile PAL Device, DIP-24	https://web.archive.org/web/20251006042442/https://www.silicon-ark.co.uk/datasheets/pal22v10-pal22v10a-datasheet-amd.pdf
 PALCE16V8	EE CMOS Universal Programmable Array Logic (PAL), 8 / 10 dedicated inputs, 8 I/O, DIP-20 / PLCC-20 / SOIC-20	https://www.alldatasheet.com/datasheet-pdf/view/55541/AMD/PALCE16V8.html
 PALCE22V10x-xxP	24-pin EE CMOS Versatile PAL Device, DIP-24	https://docs.rs-online.com/4e85/0900766b80026541.pdf
@@ -10119,6 +10153,7 @@ nRF52833_QDxx	Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, QFN-40	http
 nRF52833_QIxx	Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73	https://infocenter.nordicsemi.com/pdf/nRF52833_PS_v1.5.pdf
 nRF52840	Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73	http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html
 nRF5340-QKxx	nRF5340, BLE, NFC, Thread, Zigbee, ARM M33 SoC, Dual Core, AQFN-94	https://infocenter.nordicsemi.com/pdf/nRF5340_PS_v1.2.pdf
+nRF9151-LAxx	Low power SiP with integrated LTE-M/NB-IoT and DECT NR+ modem, and GNSS, 1.7..5.5V, 1 MB flash, 256 kB RAM,  LGA-80-33EP	https://docs-be.nordicsemi.com/bundle/ps_nrf9151/page/nRF9151_PS_v1.0.pdf
 nRF9160-SIxA	Low power SiP with integrated LTE-M/NB-IoT modem and GNSS	https://docs-be.nordicsemi.com/bundle/ps_nrf9160/attach/nRF9160_PS_v2.2.pdf
 P8X32A-D40	Parallax Propeller 8 core, 32 bit, 80 MHz microcontroller, 3.3VDC, 40-pin DIP	https://www.parallax.com/sites/default/files/downloads/P8X32A-Propeller-Datasheet-v1.4.0_0.pdf
 P8X32A-M44	Parallax Propeller 8 core, 32 bit, 80 MHz microcontroller, 3.3VDC, 44-pin QFN	https://www.parallax.com/sites/default/files/downloads/P8X32A-Propeller-Datasheet-v1.4.0_0.pdf
@@ -15039,6 +15074,7 @@ MSW-2-20	SPDT DC-2.0GHz reflective switch, 50 Ohm, SOP-8	https://www.minicircuit
 MSW2-50	SPDT DC-5.0GHz reflective switch, 50 Ohm, QFN-12	https://www.minicircuits.com/pdfs/MSW2-50+.pdf
 MSWA-2-20	SPDT DC-2.0GHz absorbative switch, 50 Ohm, SOP-8	https://www.minicircuits.com/pdfs/MSWA-2-20+.pdf
 MSWA2-50	SPDT DC-5.0GHz absorbative switch, 50 Ohm, QFN-12	https://www.minicircuits.com/pdfs/MSWA2-50+.pdf
+SKY13351-378LF	20 MHz to 6.0 GHz GaAs SPDT Switch, MLPD-6	https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/401-500/SKY13351_378LF_201132I.pdf
 SKY13380-350LF	SP4T 20MHz-3GHz high power switch, 50 Ohm, QFN-16	https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/601-700/201486C.pdf
 SKY13575-639LF	SP4T 100MHz-6GHz absorptive switch, 50 Ohm, QFN-14	https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/2201-2300/SKY13575_639LF_203270D.pdf
 HF-A11-SMT	WiFi IEEE802.11b/g/n with Ethernet Module, UART, GPIO	http://www.hi-flying.com/index.php?route=tool/upload/download&code=190ec6c62d497905ed783d140f8e5af7a753b8ab
@@ -15408,7 +15444,6 @@ TL431LP	Shunt Regulator, TO-92	http://www.ti.com/lit/ds/symlink/tl431.pdf
 TL431P	Shunt Regulator, PDIP-8	http://www.ti.com/lit/ds/symlink/tl431.pdf
 TL431PK	Shunt Regulator, SOT-89	http://www.ti.com/lit/ds/symlink/tl431.pdf
 TL431PS	Shunt Regulator, MSOP-8	http://www.ti.com/lit/ds/symlink/tl431.pdf
-TL431PW	Shunt Regulator, TSSOP-8	http://www.ti.com/lit/ds/symlink/tl431.pdf
 TL432DBV	Shunt Regulator, SOT-23-5	http://www.ti.com/lit/ds/symlink/tl431.pdf
 TL432DBZ	Shunt Regulator, SOT-23	http://www.ti.com/lit/ds/symlink/tl431.pdf
 TL432PK	Shunt Regulator, SOT-89	http://www.ti.com/lit/ds/symlink/tl431.pdf
@@ -17185,6 +17220,10 @@ TPS7A90	0.5A, High-Accuracy, Low-Noise LDO Voltage Regulator, Texas S-PDSO-N10	h
 TPS7A91	1A, High-Accuracy, Low-Noise LDO Voltage Regulator, Texas S-PDSO-N10	http://www.ti.com/lit/ds/symlink/tps7a91.pdf
 TPS7B8133DRV	150-mA Low-IQ LDO, 3.3V, WSON 6	https://www.ti.com/lit/ds/symlink/tps7b81.pdf
 TPS7B8150DRV	150-mA Low-IQ LDO, 5.0V, WSON 6	https://www.ti.com/lit/ds/symlink/tps7b81.pdf
+TPS7E8101DBV	150mA, 40Vin, 2.8μA low IQ low-dropout regulator, adjustable voltage, SOT-23-5	https://www.ti.com/lit/ds/symlink/tps7e81.pdf
+TPS7E8125DBV	150mA, 40Vin, 2.5Vout, 2.8μA low IQ low-dropout regulator, fixed voltage, SOT-23-5	https://www.ti.com/lit/ds/symlink/tps7e81.pdf
+TPS7E8133DBV	150mA, 40Vin, 3.3Vout, 2.8μA low IQ low-dropout regulator, fixed voltage, SOT-23-5	https://www.ti.com/lit/ds/symlink/tps7e81.pdf
+TPS7E8150DBV	150mA, 40Vin, 5.0Vout, 2.8μA low IQ low-dropout regulator, fixed voltage, SOT-23-5	https://www.ti.com/lit/ds/symlink/tps7e81.pdf
 UA78M05QDCYRQ1	Positive 500mA 25V Linear Regulator, Fixed Output 5V, SOT-223	https://www.ti.com/lit/gpn/UA78M-Q1
 UA78M08QDCYRQ1	Positive 500mA 25V Linear Regulator, Fixed Output 8V, SOT-223	https://www.ti.com/lit/gpn/UA78M-Q1
 UA78M10QDCYRQ1	Positive 500mA 28V Linear Regulator, Fixed Output 10V, SOT-223	https://www.ti.com/lit/gpn/UA78M-Q1
@@ -17897,6 +17936,7 @@ NCP1077STBT	High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 25W/15W,
 NCP1077STCT	High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 25W/15W, 230V/85-265V, 130kHz, 4.7Ohm Rds(on), 800mA Ipk, SOT-223	http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
 NCP1529A	1.7MHz, 1A, High Efficiency, Low Ripple, Adjustable Output Voltage Step-down Converter, SOT-23-5	https://www.onsemi.com/pub/Collateral/NCP1529-D.PDF
 NCV33063AVD	1.5A, step-up/down/inverting switching regulator, 3-40V Vin, 100kHz, SO-8	http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+NEX40400xDAZ	40-4.5 VIN, 600 mA, synchronous step-down converter, TSOT-23-6	https://assets.nexperia.com/documents/data-sheet/NEX40400.pdf
 NID30S24-05	2.5A/12.5W Step Down Converter Module, fixed 5V Output Voltage, 250kHz, 20-53V Input Voltage	https://www.meanwellusa.com/upload/pdf/NID30/NID30-spec.pdf
 NID30S24-12	2.5A/30W Step Down Converter Module, fixed 12V Output Voltage, 250kHz, 20-53V Input Voltage	https://www.meanwellusa.com/upload/pdf/NID30/NID30-spec.pdf
 NID30S24-15	2.5A/30W Step Down Converter Module, fixed 15V Output Voltage, 250kHz, 20-53V Input Voltage	https://www.meanwellusa.com/upload/pdf/NID30/NID30-spec.pdf
@@ -19424,6 +19464,7 @@ SW_Rotary_3x4	3 rotary switches with 4 positions	http://cdn-reichelt.de/document
 SW_Rotary_4x3	4 rotary switches with 3 positions	http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf
 SW_SP3T	Switch, three position, single pole triple throw, 3 position switch, SP3T	
 SW_SPDT	Switch, single pole double throw	
+SW_SPDT_201	Switch, single pole double throw	
 SW_SPDT_312	Switch, single pole double throw	
 SW_SPDT_321	Switch, single pole double throw	
 SW_SPDT_MSM	Switch, single pole double throw, center OFF position	
