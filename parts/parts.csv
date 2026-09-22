@@ -4479,6 +4479,7 @@ L_Iron_Coupled_Small_1342	Coupled inductor with iron core, small symbol
 L_Iron_Coupled_Small_1423	Coupled inductor with iron core, small symbol	
 L_Iron_Small	Inductor with iron core, small symbol	
 L_Pack04	4 inductor network, parallel topology	
+L_Polarized	Polarised inductor	
 L_Small	Inductor, small symbol	
 L_Trim	Variable inductor	
 Lamp	Lamp	
