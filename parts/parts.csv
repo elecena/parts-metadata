@@ -1180,6 +1180,7 @@ CA3080A	2MHz, Operational Transconductance Amplifier (OTA), gM spread 1.6:1, DIP
 CA3130	15MHz, BiMOS Operational Amplifier with MOSFET Input/CMOS Output, DIP-8/SOIC-8	http://www.intersil.com/content/dam/intersil/documents/ca31/ca3130-a.pdf
 CA3140	4.5MHz, BiMOS Operational Amplifier with MOSFET Input/Bipolar Output, DIP-8/SOIC-8	http://www.intersil.com/content/dam/intersil/documents/ca31/ca3140-a.pdf
 HMC799LP3E	DC - 700 MHz, 10 kOhm Transimpedance amplifier, QFN-16	https://www.analog.com/media/en/technical-documentation/data-sheets/hmc799.pdf
+ISL28291FUZ	Dual Single Supply Ultra-Low Noise, Low Distortion Rail-to-Rail Output, Op Amp, MSOP-10	https://www.renesas.com/en/document/dst/isl28191-isl28291-datasheet
 L272	Dual Power Operation Amplifier, DIP-16	www.st.com/resource/en/datasheet/l272.pdf
 L272D	Dual Power Operation Amplifier, SOIC-16	www.st.com/resource/en/datasheet/l272.pdf
 L272M	Dual Power Operation Amplifier, DIP-8	www.st.com/resource/en/datasheet/l272.pdf
@@ -19057,6 +19058,8 @@ TMAG5111B4xxDBV	2-dimensional, dual channel, speed & dir output, Hall effect lat
 TMAG5111C2xxDBV	2-dimensional, dual channel, speed & dir output, Hall effect latch, ZY, 1.4 mT, SOT-23-5	https://www.ti.com/lit/ds/symlink/tmag5111.pdf
 TMAG5111C4xxDBV	2-dimensional, dual channel, speed & dir output, Hall effect latch, ZY, 3  mT, SOT-23-5	https://www.ti.com/lit/ds/symlink/tmag5111.pdf
 TMAG5170-Q1	Magnetic 3-axis linear sensor, 12-bit, Automotive, SPI Interface, VSSOP-8	https://www.ti.com/lit/ds/symlink/tmag5170-q1.pdf
+TMAG5273x1QDBV	3D linear Hall effect sensor, ±80 mT, I2C, SOT-23-6	https://www.ti.com/lit/ds/symlink/tmag5273.pdf
+TMAG5273x2QDBV	3D linear Hall effect sensor, ±266 mT, I2C, SOT-23-6	https://www.ti.com/lit/ds/symlink/tmag5273.pdf
 ADXL343	3-Axis MEMS Accelerometer, 2/4/8/16g range, I2C/SPI, LGA-14	https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf
 ADXL363	Micropower 3-Axis Accelerometer, Thermometer, 2/4/8g range, SPI, LGA-16	https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL363.pdf
 BMF055	Custom programmable 9-axis motion sensor	https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmf055-ds000.pdf
