@@ -18201,6 +18201,7 @@ TPS54360DDA	3.5A, Step Down DC-DC Converter with Eco-mode, 4.5-60V Input Voltage
 TPS54560BDDA	5A, Step Down DC-DC Converter, 4.5-60V Input Voltage, Texas R-PDSO-G8	https://www.ti.com/lit/ds/symlink/tps54560b.pdf
 TPS54561	5A non-synchronous Buck Converter, 4.5..60Vin, 0.8..58.8Vout, 100kHz..2.5MHz switching frequency, WSON-10	https://www.ti.com/lit/ds/symlink/tps54561.pdf
 TPS560200	500mA, Synchronous Step-Down Converter With, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-5	http://www.ti.com/lit/ds/symlink/tps560200.pdf
+TPS561300	1A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-30V Input Voltage, SOT-23-6	http://www.ti.com/lit/ds/symlink/tps561300.pdf
 TPS562200	2A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6	http://www.ti.com/lit/ds/symlink/tps563200.pdf
 TPS562202	2A Synchronous Step-Down Voltage Regulator 580kHz, adjustable output voltage, 4.5-17V Input Voltage, 0.804V-7V Output Voltage, SOT-563	https://www.ti.com/lit/gpn/tps562202
 TPS562202S	2A Synchronous Step-Down Voltage Regulator 580kHz, Adjustable Output Voltage, 4.5-17V Input Voltage, 0.804V-7V Output Voltage, SOT-563	https://www.ti.com/lit/ds/symlink/tps562202s.pdf
