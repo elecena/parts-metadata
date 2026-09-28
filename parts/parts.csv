@@ -1180,6 +1180,7 @@ CA3080A	2MHz, Operational Transconductance Amplifier (OTA), gM spread 1.6:1, DIP
 CA3130	15MHz, BiMOS Operational Amplifier with MOSFET Input/CMOS Output, DIP-8/SOIC-8	http://www.intersil.com/content/dam/intersil/documents/ca31/ca3130-a.pdf
 CA3140	4.5MHz, BiMOS Operational Amplifier with MOSFET Input/Bipolar Output, DIP-8/SOIC-8	http://www.intersil.com/content/dam/intersil/documents/ca31/ca3140-a.pdf
 HMC799LP3E	DC - 700 MHz, 10 kOhm Transimpedance amplifier, QFN-16	https://www.analog.com/media/en/technical-documentation/data-sheets/hmc799.pdf
+ISL28291FRUZ	Dual Single Supply Ultra-Low Noise, Low Distortion Rail-to-Rail Output, Op Amp, UQFN-10	https://www.renesas.com/en/document/dst/isl28191-isl28291-datasheet
 ISL28291FUZ	Dual Single Supply Ultra-Low Noise, Low Distortion Rail-to-Rail Output, Op Amp, MSOP-10	https://www.renesas.com/en/document/dst/isl28191-isl28291-datasheet
 L272	Dual Power Operation Amplifier, DIP-16	www.st.com/resource/en/datasheet/l272.pdf
 L272D	Dual Power Operation Amplifier, SOIC-16	www.st.com/resource/en/datasheet/l272.pdf
