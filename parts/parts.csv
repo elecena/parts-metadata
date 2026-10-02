@@ -13956,6 +13956,7 @@ AD5280	Digital potentiometer, 256 position, single output, I2C interface	https:/
 AD5282	Digital potentiometer, 256 position, dual output, I2C interface	https://www.analog.com/media/en/technical-documentation/data-sheets/AD5280_5282.pdf
 AD5290	Digital Potentiometer, 256 steps, SPI interface, +30V/±15V supply, MSOP-10	https://www.analog.com/media/en/technical-documentation/data-sheets/AD5290.pdf
 AD5293	Digital potentiometer 1024 pos (SPI), TSSOP-14	https://www.analog.com/media/en/technical-documentation/data-sheets/AD5293.pdf
+CAT5171	I2C 256 position digital potentiometer, SOT-23-8	https://www.onsemi.com/pdf/datasheet/cat5171-d.pdf
 DS1267_DIP	Dual Digital Potentiometer, Serial, 256 Steps, DIP-14	https://datasheets.maximintegrated.com/en/ds/DS1267.pdf
 DS1267_SOIC	Dual Digital Potentiometer, Serial, 256 Steps, SOIC-16	https://datasheets.maximintegrated.com/en/ds/DS1267.pdf
 DS1267_TSSOP	Dual Digital Potentiometer, Serial, 256 Steps, TSSOP-20	https://datasheets.maximintegrated.com/en/ds/DS1267.pdf
