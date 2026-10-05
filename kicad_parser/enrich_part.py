@@ -33,12 +33,13 @@ def enrich_part(part: Part):
         # 'PB6': ['MISO', 'DO', 'PCINT6'],
         # 'PD2': ['CKOUT', 'XCK', 'INT0'],
         try:
-            parsed = parse_pdf_from_url(part.datasheet)
-        # pylint:disable=broad-exception-caught
+            parsed = parse_pdf_from_url(str(part.datasheet))
         except CalledProcessError as ex:
-            logging.error(f"Handling of {part.name} failed: parse_pdf_from_url() raised {ex.stderr}")
+            logging.error(
+                f"Handling of {part.name} failed: parse_pdf_from_url() raised {ex.stderr}"
+            )
             return
-        except Exception as ex:
+        except Exception as ex:  # pylint:disable=broad-exception-caught
             logging.error(f"Handling of {part.name} failed: {str(ex)}")
             return
 
