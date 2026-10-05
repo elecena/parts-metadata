@@ -48,8 +48,7 @@ def test_enrich_attiny2313():
 
     yaml_output = attiny2313.as_yaml()
     # print(yaml_output)
-    assert (
-        """
+    assert """
   '16':
     name: PB4
     type: bidirectional
@@ -64,12 +63,9 @@ def test_enrich_attiny2313():
     - DI
     - SDA
     - PCINT5
-"""
-        in yaml_output
-    )
+""" in yaml_output
 
-    assert (
-        """
+    assert """
   '19':
     name: PB7
     type: bidirectional
@@ -77,9 +73,7 @@ def test_enrich_attiny2313():
     - UCSK
     - SCK
     - PCINT7
-"""
-        in yaml_output
-    )
+""" in yaml_output
 
 
 def test_enrich_pic12():
