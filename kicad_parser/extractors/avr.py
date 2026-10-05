@@ -54,6 +54,9 @@ def is_avr_datasheet(datasheet: Optional[str]) -> bool :
 def parse_pdf_from_url(url: str) -> pinout:
     """
     Fetches the PDF file from the given URL and parses it.
+
+    :throws: requests.exceptions.RequestException if the HTTP request fails
+    :throws: subprocess.CalledProcessError if the pdftotext command fails
     """
     logger = logging.getLogger(__name__)
     logger.info(f'Fetching PDF from URL: {url}')

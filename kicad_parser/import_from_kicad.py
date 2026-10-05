@@ -2,6 +2,7 @@
 """
 The CLI script to import KiCad symbols from the official repo.
 """
+
 import logging
 
 from csv import DictWriter
@@ -54,8 +55,8 @@ def iterate_archive(zip_file: ZipFile):
         logger.info(f"Extracted {files_extracted} symbol files to {tmp_dir}")
 
         # now, iterate over all subdirectories so that we can parse each one them separately
-        for subdir in sorted(listdir(f'{tmp_dir}/kicad-symbols-master')):
-            subdir = f'{tmp_dir}/kicad-symbols-master/{subdir}'
+        for subdir in sorted(listdir(f"{tmp_dir}/kicad-symbols-master")):
+            subdir = f"{tmp_dir}/kicad-symbols-master/{subdir}"
             logger.info(f"Yielding {subdir} sub-directory...")
             yield subdir
 
@@ -69,7 +70,9 @@ def iterate_parts(zip_file: ZipFile) -> Iterable[Part]:
     for symbols_directory in iterate_archive(zip_file):
         try:
             library = KicadLibrary.from_dir(symbols_directory)
-            logger.info(f"Symbols found in the {symbols_directory}: {len(library.symbols)}")
+            logger.info(
+                f"Symbols found in the {symbols_directory}: {len(library.symbols)}"
+            )
 
             # keep the order of symbols in the parts CSV and YML files
             for symbol in sorted(library.symbols, key=lambda s: s.name):
@@ -130,7 +133,7 @@ def main(archive_file: str):
 
     # [main] Found 20780 parts
     logging.info(f"Found {parts_count} parts")
-    print(f'::notice::Found {parts_count} parts')  # for GitHub Actions
+    print(f"::notice::Found {parts_count} parts")  # for GitHub Actions
 
 
 if __name__ == "__main__":

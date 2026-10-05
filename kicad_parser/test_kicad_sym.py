@@ -157,16 +157,13 @@ def test_part_as_yaml():
     # print(dump)
 
     assert "name: ATtiny48-P" in dump
-    assert (
-        """pinout:
+    assert """pinout:
   '1':
     name: ~{RESET}/PC6
     type: bidirectional
   '2':
     name: PD0
-    type: bidirectional"""
-        in dump
-    )
+    type: bidirectional""" in dump
 
     part = Part.from_dict(yaml.safe_load(dump))
 
