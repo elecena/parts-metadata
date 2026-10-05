@@ -9487,6 +9487,7 @@ PIC32MX575F512H	32-bit Microcontrollers (64KB Flash and 16KB SRAM TQFP-64 QFN-64
 PIC32MX795F512L-80x-PF	MIPS MCU, 80MHz, 512KB Flash, 12KB Boot Flash, 128KB RAM, 2.3-3.6V, USB, CAN, Ethernet, TQFP-100	http://ww1.microchip.com/downloads/en/DeviceDoc/60001156J.pdf
 PIC32MX795F512L-80x-PT	MIPS MCU, 80MHz, 512KB Flash, 12KB Boot Flash, 128KB RAM, 2.3-3.6V, USB, CAN, Ethernet, TQFP-100	http://ww1.microchip.com/downloads/en/DeviceDoc/60001156J.pdf
 ATSAMA5D21	ARM Cortex-A5 MPU, 500 MHz max, 1x SDIO/SD-CARD/eMMC/QSPI memory, 128 kB SRAM, 16-bit bus DDR2/DDR3 RAM, 1.1-1.32 V, 72 GPIO, TFBGA-196	http://ww1.microchip.com/downloads/en/DeviceDoc/SAMA5D2-Series-Data-Sheet-DS60001476C.pdf
+SAMA7D65-4HB	ARM Cortex-A7 MPU, 1 GHz max, 3x SD/SDIO/eMMC + QSPI/OSPI memory, 128 kB SRAM, 16-bit bus DDR2/DDR3/DDR3L/LPDDR2/LPDDR3 RAM (up to 533 MHz), 142 GPIO	https://ww1.microchip.com/downloads/aemDocuments/documents/MPU32/ProductDocuments/DataSheets/SAMA7D6-Series-Data-Sheet-DS60001851.pdf
 ATSAMD09C13A-SS	ARM Cortex-M0+ MCU, 48MHz, 8KB Flash, 4KB RAM, 2.4-3.6V, 12 GPIO, SOIC-14	http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42414-SAM-D09_Datasheet.pdf
 ATSAMD09D14A-M	ARM Cortex-M0+ MCU, 48MHz, 16KB Flash, 4KB RAM, 2.4-3.6V, 22 GPIO, QFN-24	http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42414-SAM-D09_Datasheet.pdf
 ATSAMD10C13A-SS	ARM Cortex-M0+ MCU, 48MHz, 8KB Flash, 4KB RAM, 1.6-3.6V, 12 GPIO, SOIC-14	http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42242-SAM-D10_Datasheet.pdf
