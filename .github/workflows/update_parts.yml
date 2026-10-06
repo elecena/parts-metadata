@@ -15,9 +15,6 @@ jobs:
   kicad:
     runs-on: ubuntu-latest
 
-    env:
-      BRANCH_NAME: update/parts
-
     steps:
     - uses: actions/checkout@v7.0.1
 
@@ -66,5 +63,5 @@ jobs:
         GH_TOKEN: ${{ secrets.PAT_TOKEN }}
       run: |
         set -x
-        gh pr create --head ${ BRANCH_NAME } --title 'Update parts' --body 'Update parts metadata using kicad-symbols repository [$( date +'%d-%m-%Y' )]' --assignee macbre \
-          && gh pr merge --auto --squash ${ BRANCH_NAME } || true
+        gh pr create --head update/parts --title 'Update parts' --body 'Update parts metadata using kicad-symbols repository [$( date +'%d-%m-%Y' )]' --assignee macbre \
+          && gh pr merge --auto --squash update/parts || true
