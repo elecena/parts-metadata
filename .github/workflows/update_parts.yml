@@ -9,11 +9,14 @@ on:
   workflow_dispatch:
 
   # For testing purposes
-  # pull_request:
+  pull_request:
 
 jobs:
   kicad:
     runs-on: ubuntu-latest
+
+    env:
+      BRANCH_NAME: update/parts
 
     steps:
     - uses: actions/checkout@v7.0.1
@@ -59,5 +62,9 @@ jobs:
       #if: false
       env:
         # gh: To use GitHub CLI in a GitHub Actions workflow, set the GH_TOKEN environment variable
-        GH_TOKEN: ${{ github.token }}
-      run: gh pr create --head update/parts --title 'Update parts' --draft --body 'Update parts metadata using kicad-symbols repository' --assignee macbre || true
+        # Using PAT token to be able to auto-merge pull requests from here
+        GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+      run: |
+        set -x
+        gh pr create --head ${ env.BRANCH_NAME ) --title 'Update parts' --body 'Update parts metadata using kicad-symbols repository [$( date +'%d-%m-%Y' )]' --assignee macbre \
+          && gh pr merge --auto --squash ${ env.BRANCH_NAME ) || true
