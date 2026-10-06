@@ -40,5 +40,9 @@ jobs:
     - name: Create a pull request
       env:
         # gh: To use GitHub CLI in a GitHub Actions workflow, set the GH_TOKEN environment variable
-        GH_TOKEN: ${{ github.token }}
-      run: gh pr create --head update/kicad_parser --title 'kicad_parser GitLab repo changes' --draft --body 'See https://gitlab.com/kicad/libraries/kicad-library-utils' --assignee macbre || true
+        # Using PAT token to be able to auto-merge pull requests from here
+        GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+      run: |
+        set -x
+        gh pr create --head update/kicad_parser --title 'kicad_parser GitLab repo changes' --body 'See https://gitlab.com/kicad/libraries/kicad-library-utils' --assignee macbre \
+          && gh pr merge --auto --squash update/kicad_parser || true
