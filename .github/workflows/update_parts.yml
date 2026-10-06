@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
   # For testing purposes
-  pull_request:
+  # pull_request:
 
 jobs:
   kicad:
