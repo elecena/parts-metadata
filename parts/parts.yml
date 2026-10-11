@@ -2315018,6 +2315018,28 @@ pinout:
     name: PAD
     type: passive
 ---
+name: TLV77601PDBV
+description: 600mA Low-Dropout Linear Regulator, Adjustable Output 0.8-3.3V, 1.6-5.5V
+  Input, SOT-23-5
+datasheet: https://www.ti.com/lit/ds/symlink/tlv776.pdf
+footprint: Package_TO_SOT_SMD:SOT-23-5
+pinout:
+  '1':
+    name: IN
+    type: power_in
+  '2':
+    name: GND
+    type: power_in
+  '3':
+    name: EN
+    type: input
+  '4':
+    name: FB
+    type: input
+  '5':
+    name: OUT
+    type: power_out
+---
 name: TPS51200DRC
 description: Sink and Source DDR Termination Regulator, VSON-10
 datasheet: http://www.ti.com/lit/ds/symlink/tps51200.pdf

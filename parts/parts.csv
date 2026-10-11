@@ -17068,6 +17068,7 @@ TLV76750QWDRBxQ1	1A, 16V Precision Linear Voltage Regulator, with enable pin, Fi
 TLV76760QWDRBxQ1	1A, 16V Precision Linear Voltage Regulator, with enable pin, Fixed Output 6.0V, VSON-8	www.ti.com/lit/gpn/TLV767-q1
 TLV76780QWDRBxQ1	1A, 16V Precision Linear Voltage Regulator, with enable pin, Fixed Output 8.0V, VSON-8	www.ti.com/lit/gpn/TLV767-q1
 TLV76790QWDRBxQ1	1A, 16V Precision Linear Voltage Regulator, with enable pin, Fixed Output 9.0V, VSON-8	www.ti.com/lit/gpn/TLV767-q1
+TLV77601PDBV	600mA Low-Dropout Linear Regulator, Adjustable Output 0.8-3.3V, 1.6-5.5V Input, SOT-23-5	https://www.ti.com/lit/ds/symlink/tlv776.pdf
 TPS51200DRC	Sink and Source DDR Termination Regulator, VSON-10	http://www.ti.com/lit/ds/symlink/tps51200.pdf
 TPS70202_HTSSOP20	500mA/250mA Dual Adjustable Low Drop-out Regulator with Voltage Supervisor, PowerPAD TSSOP-20	http://www.ti.com/lit/ds/symlink/tps702.pdf
 TPS70245_HTSSOP20	3.3V 500mA/1.2V 250mA Dual Low Drop-out Regulator with Voltage Supervisor, PowerPAD TSSOP-20	http://www.ti.com/lit/ds/symlink/tps702.pdf
