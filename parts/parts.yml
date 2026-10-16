@@ -2234554,6 +2234554,30 @@ pinout:
     name: ''
     type: passive
 ---
+name: NX5P3090UK
+description: USB PD and type C current-limited power switch, WLCSP-12
+datasheet: https://www.nxp.com/docs/en/data-sheet/NX5P3090.pdf
+footprint: Package_CSP:NXP_WLCSP-12_1.055x1.405mm_Layout3x4_P0.35mm
+pinout:
+  A1:
+    name: EN
+    type: input
+  A2:
+    name: ~{FAULT}
+    type: output
+  A3:
+    name: ILIM
+    type: output
+  '[B1,B2,C1]':
+    name: VINT
+    type: power_in
+  '[B3,C3,D3]':
+    name: GND
+    type: power_in
+  '[C2,D1,D2]':
+    name: VBUS
+    type: power_out
+---
 name: PCMF3USB3S
 description: Common-mode EMI filter for differential channels with integrated ESD
   protection
