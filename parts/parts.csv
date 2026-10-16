@@ -14337,6 +14337,7 @@ NUF4401MN	4 channel EMI filters with integrated ESD protection, DFN-8	https://ww
 NUP2105L	Dual Line CAN Bus Protector, 24Vrwm	https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF
 NUP2202	Transient voltage suppressor designed to protect high speed data lines from ESD, EFT, and lightning	https://www.onsemi.com/pdf/datasheet/nup2202w1-d.pdf
 NUP4202	Transient voltage suppressor designed to protect high speed data lines from ESD, EFT, and lightning	http://www.onsemi.com/pub_link/Collateral/NUP4202W1-D.PDF
+NX5P3090UK	USB PD and type C current-limited power switch, WLCSP-12	https://www.nxp.com/docs/en/data-sheet/NX5P3090.pdf
 PCMF3USB3S	Common-mode EMI filter for differential channels with integrated ESD protection	https://assets.nexperia.com/documents/data-sheet/PCMFXUSB3S_SER.pdf
 PESD3V3L4UF	Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-886	https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf
 PESD3V3L4UG	Low capacitance unidirectional quadruple ESD protection diode array, 3.3V, Common Anode, SOT-353	https://assets.nexperia.com/documents/data-sheet/PESDXL4UF_G_W.pdf
