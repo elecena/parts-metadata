@@ -60,6 +60,7 @@ jobs:
       env:
         # gh: To use GitHub CLI in a GitHub Actions workflow, set the GH_TOKEN environment variable
         # Using PAT token to be able to auto-merge pull requests from here
+        # with contents: write + pull-requests: write
         GH_TOKEN: ${{ secrets.PAT_TOKEN }}
       run: |
         set -x
