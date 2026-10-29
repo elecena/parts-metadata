@@ -252,6 +252,54 @@ pinout:
     name: VDD
     type: power_in
 ---
+name: 4007UB
+description: Dual complementary pair and inverter
+datasheet: https://assets.nexperia.com/documents/data-sheet/HEF4007UB.pdf
+footprint: ''
+pinout:
+  '1':
+    name: ''
+    type: passive
+  '2':
+    name: ''
+    type: passive
+  '3':
+    name: ''
+    type: input
+  '4':
+    name: ''
+    type: passive
+  '5':
+    name: ''
+    type: passive
+  '6':
+    name: ''
+    type: input
+  '7':
+    name: VSS
+    type: power_in
+  '8':
+    name: ''
+    type: passive
+  '9':
+    name: ''
+    type: passive
+  '10':
+    name: ''
+    type: input
+  '11':
+    name: ''
+    type: passive
+  '12':
+    name: ''
+    type: passive
+  '13':
+    name: ''
+    type: passive
+  '14':
+    name: VDD
+    type: power_in
+---
 name: '4009'
 description: Hex Buffer Inverter
 datasheet: http://www.sycelectronica.com.ar/semiconductores/CD4009.pdf

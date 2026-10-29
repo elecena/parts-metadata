@@ -4,6 +4,7 @@ name	description	datasheet
 14538	Monostable	https://www.onsemi.com/pub/Collateral/MC14538B-D.PDF
 4001	Quad Nor 2 inputs	http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf
 4002	Dual  4 input NOR gate	http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf
+4007UB	Dual complementary pair and inverter	https://assets.nexperia.com/documents/data-sheet/HEF4007UB.pdf
 4009	Hex Buffer Inverter	http://www.sycelectronica.com.ar/semiconductores/CD4009.pdf
 4010	Hex Buffer	http://www.ti.com/lit/ds/symlink/cd4010b-q1.pdf
 40106	Hex Schmitt trigger inverter	https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf
