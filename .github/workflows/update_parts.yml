@@ -64,5 +64,5 @@ jobs:
         GH_TOKEN: ${{ secrets.PAT_TOKEN }}
       run: |
         set -x
-        gh pr create --head update/parts --title 'Update parts' --body 'Update parts metadata using kicad-symbols repository [$( date +'%d-%m-%Y' )]' --assignee macbre \
+        gh pr create --head update/parts --title 'Update parts' --body 'Update parts metadata using kicad-symbols repository' --assignee macbre \
           && gh pr merge --auto --squash update/parts || true
