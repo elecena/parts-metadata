@@ -1252337,9 +1252337,6 @@ pinout:
   C7:
     name: P3_6
     type: bidirectional
-  C8:
-    name: VSS
-    type: power_in
   C9:
     name: P6_11
     type: bidirectional
@@ -1252355,12 +1252352,6 @@ pinout:
   D3:
     name: USB0_VSSA_TERM
     type: power_in
-  D4:
-    name: VSS
-    type: passive
-  D5:
-    name: VSS
-    type: passive
   D6:
     name: I2C0_SCL
     type: bidirectional
@@ -1252385,12 +1252376,6 @@ pinout:
   E3:
     name: USB0_VBUS
     type: power_in
-  E4:
-    name: VDDREG
-    type: power_in
-  E5:
-    name: VDDREG
-    type: passive
   E6:
     name: I2C0_SDA
     type: bidirectional
@@ -1252406,18 +1252391,12 @@ pinout:
   F1:
     name: USB0_ID
     type: input
-  F10:
-    name: VDDIO
-    type: power_in
   F2:
     name: USB0_VSSA_REF
     type: power_in
   F3:
     name: USB0_RREF
     type: input
-  F4:
-    name: VDDREG
-    type: passive
   F5:
     name: P2_2
     type: bidirectional
@@ -1252457,9 +1252436,6 @@ pinout:
   G7:
     name: P2_1
     type: bidirectional
-  G8:
-    name: VSS
-    type: passive
   G9:
     name: P2_6
     type: bidirectional
@@ -1252502,18 +1252478,12 @@ pinout:
   J2:
     name: P1_4
     type: bidirectional
-  J3:
-    name: VSS
-    type: passive
   J4:
     name: P1_5
     type: bidirectional
   J5:
     name: P1_9
     type: bidirectional
-  J6:
-    name: VSS
-    type: passive
   J7:
     name: P1_11
     type: bidirectional
@@ -1252538,9 +1252508,6 @@ pinout:
   K4:
     name: P1_6
     type: bidirectional
-  K5:
-    name: VDDIO
-    type: passive
   K6:
     name: CLK2
     type: bidirectional
@@ -1252553,6 +1252520,15 @@ pinout:
   K9:
     name: P1_19
     type: bidirectional
+  '[C8,D4,D5,G8,J3,J6]':
+    name: VSS
+    type: power_in
+  '[E4,E5,F4]':
+    name: VDDREG
+    type: power_in
+  '[F10,K5]':
+    name: VDDIO
+    type: power_in
 ---
 name: LPC811M001JDH16
 description: 32-bit ARM Cortex-M0 microcontroller, 8kB flash, 2kB SRAM
@@ -2351404,6 +2351380,55 @@ pinout:
   '9':
     name: GND
     type: passive
+---
+name: TPS566242DRL
+description: 6A Synchronous Step-Down, Adjustable Output, 3-16V Input, eco-mode, SOT-563
+datasheet: https://www.ti.com/lit/ds/symlink/tps566242.pdf
+footprint: Package_TO_SOT_SMD:SOT-563
+pinout:
+  '1':
+    name: VIN
+    type: power_in
+  '2':
+    name: SW
+    type: power_out
+  '3':
+    name: GND
+    type: power_in
+  '4':
+    name: AGND
+    type: power_in
+  '5':
+    name: EN
+    type: input
+  '6':
+    name: FB
+    type: input
+---
+name: TPS566247DRL
+description: 6A Synchronous Step-Down, Adjustable Output, 3-16V Input, forced CCM
+  mode, SOT-563
+datasheet: https://www.ti.com/lit/ds/symlink/tps566247.pdf
+footprint: Package_TO_SOT_SMD:SOT-563
+pinout:
+  '1':
+    name: VIN
+    type: power_in
+  '2':
+    name: SW
+    type: power_out
+  '3':
+    name: GND
+    type: power_in
+  '4':
+    name: AGND
+    type: power_in
+  '5':
+    name: EN
+    type: input
+  '6':
+    name: FB
+    type: input
 ---
 name: TPS568215RNN
 description: 4.5V-17V Input, 8A Synchronous Step-Down SWIFT Converter, Adjustable
