@@ -18224,6 +18224,8 @@ TPS563300	3.8-28V, 3A Synchronous Buck Converters with pulse frequency modulatio
 TPS56339DDC	4.5V to 24V Input, 3-A Output Synchronous Buck Converter, SOT-23-6	https://www.ti.com/lit/ds/symlink/tps56339.pdf
 TPS565208	5A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6	http://www.ti.com/lit/ds/symlink/tps565208.pdf
 TPS56528DDA	5A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage 0.6-7V, 4.5-18V Input Voltage, SO-8EP	https://www.ti.com/lit/ds/symlink/tps56528.pdf
+TPS566242DRL	6A Synchronous Step-Down, Adjustable Output, 3-16V Input, eco-mode, SOT-563	https://www.ti.com/lit/ds/symlink/tps566242.pdf
+TPS566247DRL	6A Synchronous Step-Down, Adjustable Output, 3-16V Input, forced CCM mode, SOT-563	https://www.ti.com/lit/ds/symlink/tps566247.pdf
 TPS568215RNN	4.5V-17V Input, 8A Synchronous Step-Down SWIFT Converter, Adjustable Output, 400kHz/800kHz/1.2MHz Switching Frequency, Texas VQFN-18	http://www.ti.com/lit/ds/symlink/tps568215.pdf
 TPS568230	4.5V to 18V Input, 8A Synchronous Step-Down Voltage Regulator, VQFN-20	https://www.ti.com/lit/gpn/tps568230
 TPS61040DBV	Synchronous Boost Regulator, Adjustable Output up to 28V, 400 mA Switch Current Limit, SOT-23-5	http://www.ti.com/lit/ds/symlink/tps61040.pdf
