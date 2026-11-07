@@ -2091,6 +2091,8 @@ TS5A3160DBV	Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 
 TS5A3160DCK	Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SC-70-6	http://www.ti.com/lit/ds/symlink/ts5a3160.pdf
 TS5A3166DBVR	Single SPST Analog Switch, 5-V/3.3-V, normally OFF, 0.9Ohm Ron, SOT-23-5	http://www.ti.com/lit/ds/symlink/ts5a3166.pdf
 TS5A3166DCKR	Single SPST Analog Switch, 5-V/3.3-V, normally OFF, 0.9Ohm Ron, SC-70	http://www.ti.com/lit/ds/symlink/ts5a3166.pdf
+TS5A3359DCU	1-Ω SP3T Bidirectional Analog Switch, 5-V/3.3-V Single-Channel 3:1 Multiplexer and Demultiplexer	https://www.ti.com/lit/ds/symlink/ts5a3359.pdf
+TS5A3359YZP	1-Ω SP3T Bidirectional Analog Switch, 5-V/3.3-V Single-Channel 3:1 Multiplexer and Demultiplexer	https://www.ti.com/lit/ds/symlink/ts5a3359.pdf
 TS5A63157DBV	Single SPDT Analog Switch, 5V/3.3V Single-Supply Operation, 12Ohm Ron, SOT-23-6	https://www.ti.com/lit/ds/symlink/ts5a63157.pdf
 AD1853	Stereo, 24-Bit, 192 kHz, Multibit Sigma-Delta DAC, SSOP-28	https://www.analog.com/media/en/technical-documentation/data-sheets/AD1853.pdf
 AD1855	Stereo, 96 kHz, Multibit Sigma-Delta DAC, SSOP-28	https://www.analog.com/media/en/technical-documentation/data-sheets/AD1855.pdf
