@@ -96896,6 +96896,68 @@ pinout:
     name: V+
     type: power_in
 ---
+name: TS5A3359DCU
+description: "1-\u03A9 SP3T Bidirectional Analog Switch, 5-V/3.3-V Single-Channel\
+  \ 3:1 Multiplexer and Demultiplexer"
+datasheet: https://www.ti.com/lit/ds/symlink/ts5a3359.pdf
+footprint: Package_SO:VSSOP-8_2.3x2mm_P0.5mm
+pinout:
+  '1':
+    name: NO0
+    type: passive
+  '2':
+    name: NO1
+    type: passive
+  '3':
+    name: NO2
+    type: passive
+  '4':
+    name: GND
+    type: power_in
+  '5':
+    name: IN2
+    type: input
+  '6':
+    name: IN1
+    type: input
+  '7':
+    name: COM
+    type: passive
+  '8':
+    name: VCC
+    type: power_in
+---
+name: TS5A3359YZP
+description: "1-\u03A9 SP3T Bidirectional Analog Switch, 5-V/3.3-V Single-Channel\
+  \ 3:1 Multiplexer and Demultiplexer"
+datasheet: https://www.ti.com/lit/ds/symlink/ts5a3359.pdf
+footprint: Package_BGA:Texas_DSBGA-8_0.9x1.9mm_Layout2x4_P0.5mm
+pinout:
+  A1:
+    name: NO0
+    type: passive
+  A2:
+    name: VCC
+    type: power_in
+  B1:
+    name: NO1
+    type: passive
+  B2:
+    name: COM
+    type: passive
+  C1:
+    name: NO2
+    type: passive
+  C2:
+    name: IN1
+    type: input
+  D1:
+    name: GND
+    type: power_in
+  D2:
+    name: IN2
+    type: input
+---
 name: TS5A63157DBV
 description: Single SPDT Analog Switch, 5V/3.3V Single-Supply Operation, 12Ohm Ron,
   SOT-23-6
@@ -285401,7 +285463,7 @@ pinout:
 name: ZXBM5210-SP
 description: Reversible DC motor drive with speed control, 3-18V, 0.85A, SOIC-8EP
 datasheet: https://www.diodes.com/assets/Datasheets/ZXBM5210.pdf
-footprint: Package_SO:Diodes_SO-8EP
+footprint: Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.05mm
 pinout:
   '1':
     name: OUT1
@@ -2286383,7 +2286445,7 @@ name: AP2204MP-ADJ
 description: 150mA low dropout adjustable linear regulator, wide input voltage range,
   PSOP-8 package
 datasheet: https://www.diodes.com/assets/Datasheets/AP2204.pdf
-footprint: Package_SO:Diodes_PSOP-8
+footprint: Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.05mm
 pinout:
   '1':
     name: VOUT
@@ -2323766,7 +2323828,7 @@ pinout:
 name: AP6502
 description: 340kHz 18V 2A Synchronous DC/DC Buck Converter
 datasheet: https://www.diodes.com/assets/Datasheets/AP6502.pdf
-footprint: ''
+footprint: Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.05mm
 pinout:
   '1':
     name: BST
@@ -2323799,7 +2323861,7 @@ pinout:
 name: AP6503
 description: 340kHz 23V 3A Synchonous DC/DC Buck Converter
 datasheet: https://www.diodes.com/assets/Datasheets/AP6503.pdf
-footprint: ''
+footprint: Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.05mm
 pinout:
   '1':
     name: BST
