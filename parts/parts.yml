@@ -215686,6 +215686,47 @@ pinout:
     name: +Vout
     type: power_out
 ---
+name: TMV0505DEN
+description: "1W DC/DC industrial converter unregulated, 4.5-5.5V input, \xB15V output\
+  \ voltage, 100mA each output, 3.0kVAC isolation, SIP-7"
+datasheet: https://www.tracopower.com/products/tmv-en.pdf
+footprint: Converter_DCDC:Converter_DCDC_TRACO_TMV-xxxxDEN_Dual_THT
+pinout:
+  '1':
+    name: +Vin
+    type: power_in
+  '2':
+    name: -Vin
+    type: power_in
+  '5':
+    name: -Vout
+    type: power_out
+  '6':
+    name: Com
+    type: power_out
+  '7':
+    name: +Vout
+    type: power_out
+---
+name: TMV0505EN
+description: 1W DC/DC industrial converter unregulated, 4.5-5.5V input, 5V output
+  voltage, 200mA output, 3.0kVAC isolation, SIP-7
+datasheet: https://www.tracopower.com/products/tmv-en.pdf
+footprint: Converter_DCDC:Converter_DCDC_TRACO_TMV-xxxxEN_Single_THT
+pinout:
+  '1':
+    name: +Vin
+    type: power_in
+  '2':
+    name: -Vin
+    type: power_in
+  '5':
+    name: -Vout
+    type: power_out
+  '7':
+    name: +Vout
+    type: power_out
+---
 name: TMV0505S
 description: 1W DC/DC converter unregulated, 4.5-5.5V input, 5V output voltage, 200mA
   output, 3.0kVDC isolation, SIP-7
@@ -215746,6 +215787,47 @@ pinout:
     name: +Vout
     type: power_out
 ---
+name: TMV0512DEN
+description: "1W DC/DC industrial converter unregulated, 4.5-5.5V input, \xB112V output\
+  \ voltage, 40mA each output, 3.0kVAC isolation, SIP-7"
+datasheet: https://www.tracopower.com/products/tmv-en.pdf
+footprint: Converter_DCDC:Converter_DCDC_TRACO_TMV-xxxxDEN_Dual_THT
+pinout:
+  '1':
+    name: +Vin
+    type: power_in
+  '2':
+    name: -Vin
+    type: power_in
+  '5':
+    name: -Vout
+    type: power_out
+  '6':
+    name: Com
+    type: power_out
+  '7':
+    name: +Vout
+    type: power_out
+---
+name: TMV0512EN
+description: 1W DC/DC industrial converter unregulated, 4.5-5.5V input, 12V output
+  voltage, 80mA output, 3.0kVAC isolation, SIP-7
+datasheet: https://www.tracopower.com/products/tmv-en.pdf
+footprint: Converter_DCDC:Converter_DCDC_TRACO_TMV-xxxxEN_Single_THT
+pinout:
+  '1':
+    name: +Vin
+    type: power_in
+  '2':
+    name: -Vin
+    type: power_in
+  '5':
+    name: -Vout
+    type: power_out
+  '7':
+    name: +Vout
+    type: power_out
+---
 name: TMV0512S
 description: 1W DC/DC converter unregulated, 4.5-5.5V input, 12V output voltage, 84mA
   output, 3.0kVDC isolation, SIP-7
@@ -215782,6 +215864,47 @@ pinout:
     type: power_out
   '6':
     name: Com
+    type: power_out
+  '7':
+    name: +Vout
+    type: power_out
+---
+name: TMV0515DEN
+description: "1W DC/DC industrial converter unregulated, 4.5-5.5V input, \xB115V output\
+  \ voltage, 35mA each output, 3.0kVAC isolation, SIP-7"
+datasheet: https://www.tracopower.com/products/tmv-en.pdf
+footprint: Converter_DCDC:Converter_DCDC_TRACO_TMV-xxxxDEN_Dual_THT
+pinout:
+  '1':
+    name: +Vin
+    type: power_in
+  '2':
+    name: -Vin
+    type: power_in
+  '5':
+    name: -Vout
+    type: power_out
+  '6':
+    name: Com
+    type: power_out
+  '7':
+    name: +Vout
+    type: power_out
+---
+name: TMV0515EN
+description: 1W DC/DC industrial converter unregulated, 4.5-5.5V input, 15V output
+  voltage, 65mA output, 3.0kVAC isolation, SIP-7
+datasheet: https://www.tracopower.com/products/tmv-en.pdf
+footprint: Converter_DCDC:Converter_DCDC_TRACO_TMV-xxxxEN_Single_THT
+pinout:
+  '1':
+    name: +Vin
+    type: power_in
+  '2':
+    name: -Vin
+    type: power_in
+  '5':
+    name: -Vout
     type: power_out
   '7':
     name: +Vout
@@ -215828,6 +215951,47 @@ pinout:
     name: +Vout
     type: power_out
 ---
+name: TMV1205DEN
+description: "1W DC/DC industrial converter unregulated, 10.8-13.2V input, \xB15V\
+  \ output voltage, 100mA each output, 3.0kVAC isolation, SIP-7"
+datasheet: https://www.tracopower.com/products/tmv-en.pdf
+footprint: Converter_DCDC:Converter_DCDC_TRACO_TMV-xxxxDEN_Dual_THT
+pinout:
+  '1':
+    name: +Vin
+    type: power_in
+  '2':
+    name: -Vin
+    type: power_in
+  '5':
+    name: -Vout
+    type: power_out
+  '6':
+    name: Com
+    type: power_out
+  '7':
+    name: +Vout
+    type: power_out
+---
+name: TMV1205EN
+description: 1W DC/DC industrial converter unregulated, 10.8-13.2V input, 5V output
+  voltage, 200mA output, 3.0kVAC isolation, SIP-7
+datasheet: https://www.tracopower.com/products/tmv-en.pdf
+footprint: Converter_DCDC:Converter_DCDC_TRACO_TMV-xxxxEN_Single_THT
+pinout:
+  '1':
+    name: +Vin
+    type: power_in
+  '2':
+    name: -Vin
+    type: power_in
+  '5':
+    name: -Vout
+    type: power_out
+  '7':
+    name: +Vout
+    type: power_out
+---
 name: TMV1205S
 description: 1W DC/DC converter unregulated, 10.8-13.2V input, 5V output voltage,
   200mA output, 3.0kVDC isolation, SIP-7
@@ -215869,6 +216033,47 @@ pinout:
     name: +Vout
     type: power_out
 ---
+name: TMV1212DEN
+description: "1W DC/DC industrial converter unregulated, 10.8-13.2V input, \xB112V\
+  \ output voltage, 40mA each output, 3.0kVAC isolation, SIP-7"
+datasheet: https://www.tracopower.com/products/tmv-en.pdf
+footprint: Converter_DCDC:Converter_DCDC_TRACO_TMV-xxxxDEN_Dual_THT
+pinout:
+  '1':
+    name: +Vin
+    type: power_in
+  '2':
+    name: -Vin
+    type: power_in
+  '5':
+    name: -Vout
+    type: power_out
+  '6':
+    name: Com
+    type: power_out
+  '7':
+    name: +Vout
+    type: power_out
+---
+name: TMV1212EN
+description: 1W DC/DC industrial converter unregulated, 10.8-13.2V input, 12V output
+  voltage, 80mA output, 3.0kVAC isolation, SIP-7
+datasheet: https://www.tracopower.com/products/tmv-en.pdf
+footprint: Converter_DCDC:Converter_DCDC_TRACO_TMV-xxxxEN_Single_THT
+pinout:
+  '1':
+    name: +Vin
+    type: power_in
+  '2':
+    name: -Vin
+    type: power_in
+  '5':
+    name: -Vout
+    type: power_out
+  '7':
+    name: +Vout
+    type: power_out
+---
 name: TMV1212S
 description: 1W DC/DC converter unregulated, 10.8-13.2V input, 12V output voltage,
   84mA output, 3.0kVDC isolation, SIP-7
@@ -215905,6 +216110,47 @@ pinout:
     type: power_out
   '6':
     name: Com
+    type: power_out
+  '7':
+    name: +Vout
+    type: power_out
+---
+name: TMV1215DEN
+description: "1W DC/DC industrial converter unregulated, 10.8-13.2V input, \xB115V\
+  \ output voltage, 35mA each output, 3.0kVAC isolation, SIP-7"
+datasheet: https://www.tracopower.com/products/tmv-en.pdf
+footprint: Converter_DCDC:Converter_DCDC_TRACO_TMV-xxxxDEN_Dual_THT
+pinout:
+  '1':
+    name: +Vin
+    type: power_in
+  '2':
+    name: -Vin
+    type: power_in
+  '5':
+    name: -Vout
+    type: power_out
+  '6':
+    name: Com
+    type: power_out
+  '7':
+    name: +Vout
+    type: power_out
+---
+name: TMV1215EN
+description: 1W DC/DC industrial converter unregulated, 10.8-13.2V input, 15V output
+  voltage, 65mA output, 3.0kVAC isolation, SIP-7
+datasheet: https://www.tracopower.com/products/tmv-en.pdf
+footprint: Converter_DCDC:Converter_DCDC_TRACO_TMV-xxxxEN_Single_THT
+pinout:
+  '1':
+    name: +Vin
+    type: power_in
+  '2':
+    name: -Vin
+    type: power_in
+  '5':
+    name: -Vout
     type: power_out
   '7':
     name: +Vout
