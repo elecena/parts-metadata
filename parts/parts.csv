@@ -3982,17 +3982,29 @@ TMU3-2411	3W DC/DC converter unregulated, 21.6-26.4V input, 5V output voltage, 6
 TMU3-2412	3W DC/DC converter unregulated, 21.6-26.4V input, 12V output voltage, 250mA output, 1.5kVDC isolation, SIP-4	https://www.tracopower.com/products/tmu3.pdf
 TMU3-2413	3W DC/DC converter unregulated, 21.6-26.4V input, 15V output voltage, 200mA output, 1.5kVDC isolation, SIP-4	https://www.tracopower.com/products/tmu3.pdf
 TMV0505D	1W DC/DC converter unregulated, 4.5-5.5V input, ±5V output voltage, 100mA each output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
+TMV0505DEN	1W DC/DC industrial converter unregulated, 4.5-5.5V input, ±5V output voltage, 100mA each output, 3.0kVAC isolation, SIP-7	https://www.tracopower.com/products/tmv-en.pdf
+TMV0505EN	1W DC/DC industrial converter unregulated, 4.5-5.5V input, 5V output voltage, 200mA output, 3.0kVAC isolation, SIP-7	https://www.tracopower.com/products/tmv-en.pdf
 TMV0505S	1W DC/DC converter unregulated, 4.5-5.5V input, 5V output voltage, 200mA output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
 TMV0509S	1W DC/DC converter unregulated, 4.5-5.5V input, 9V output voltage, 110mA output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
 TMV0512D	1W DC/DC converter unregulated, 4.5-5.5V input, ±12V output voltage, 42mA each output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
+TMV0512DEN	1W DC/DC industrial converter unregulated, 4.5-5.5V input, ±12V output voltage, 40mA each output, 3.0kVAC isolation, SIP-7	https://www.tracopower.com/products/tmv-en.pdf
+TMV0512EN	1W DC/DC industrial converter unregulated, 4.5-5.5V input, 12V output voltage, 80mA output, 3.0kVAC isolation, SIP-7	https://www.tracopower.com/products/tmv-en.pdf
 TMV0512S	1W DC/DC converter unregulated, 4.5-5.5V input, 12V output voltage, 84mA output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
 TMV0515D	1W DC/DC converter unregulated, 4.5-5.5V input, ±15V output voltage, 34mA each output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
+TMV0515DEN	1W DC/DC industrial converter unregulated, 4.5-5.5V input, ±15V output voltage, 35mA each output, 3.0kVAC isolation, SIP-7	https://www.tracopower.com/products/tmv-en.pdf
+TMV0515EN	1W DC/DC industrial converter unregulated, 4.5-5.5V input, 15V output voltage, 65mA output, 3.0kVAC isolation, SIP-7	https://www.tracopower.com/products/tmv-en.pdf
 TMV0515S	1W DC/DC converter unregulated, 4.5-5.5V input, 15V output voltage, 67mA output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
 TMV1205D	1W DC/DC converter unregulated, 10.8-13.2V input, ±5V output voltage, 100mA each output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
+TMV1205DEN	1W DC/DC industrial converter unregulated, 10.8-13.2V input, ±5V output voltage, 100mA each output, 3.0kVAC isolation, SIP-7	https://www.tracopower.com/products/tmv-en.pdf
+TMV1205EN	1W DC/DC industrial converter unregulated, 10.8-13.2V input, 5V output voltage, 200mA output, 3.0kVAC isolation, SIP-7	https://www.tracopower.com/products/tmv-en.pdf
 TMV1205S	1W DC/DC converter unregulated, 10.8-13.2V input, 5V output voltage, 200mA output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
 TMV1212D	1W DC/DC converter unregulated, 10.8-13.2V input, ±12V output voltage, 42mA each output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
+TMV1212DEN	1W DC/DC industrial converter unregulated, 10.8-13.2V input, ±12V output voltage, 40mA each output, 3.0kVAC isolation, SIP-7	https://www.tracopower.com/products/tmv-en.pdf
+TMV1212EN	1W DC/DC industrial converter unregulated, 10.8-13.2V input, 12V output voltage, 80mA output, 3.0kVAC isolation, SIP-7	https://www.tracopower.com/products/tmv-en.pdf
 TMV1212S	1W DC/DC converter unregulated, 10.8-13.2V input, 12V output voltage, 84mA output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
 TMV1215D	1W DC/DC converter unregulated, 10.8-13.2V input, ±15V output voltage, 34mA each output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
+TMV1215DEN	1W DC/DC industrial converter unregulated, 10.8-13.2V input, ±15V output voltage, 35mA each output, 3.0kVAC isolation, SIP-7	https://www.tracopower.com/products/tmv-en.pdf
+TMV1215EN	1W DC/DC industrial converter unregulated, 10.8-13.2V input, 15V output voltage, 65mA output, 3.0kVAC isolation, SIP-7	https://www.tracopower.com/products/tmv-en.pdf
 TMV1215S	1W DC/DC converter unregulated, 10.8-13.2V input, 15V output voltage, 67mA output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
 TMV2405D	1W DC/DC converter unregulated, 21.6-26.4V input, ±5V output voltage, 100mA each output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
 TMV2405S	1W DC/DC converter unregulated, 21.6-26.4V input, 5V output voltage, 200mA output, 3.0kVDC isolation, SIP-7	https://www.tracopower.com/products/tmv.pdf
