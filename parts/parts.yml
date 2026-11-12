@@ -90489,6 +90489,122 @@ pinout:
     name: GND
     type: passive
 ---
+name: CBTU02043
+description: High-speed, 2 differential channel, 2:1 switch optimized for USB Type-C
+  connector, 12GHz, UQFN-16
+datasheet: https://www.nxp.com/docs/en/data-sheet/CBTU02043.pdf
+footprint: Package_DFN_QFN:NXP_SOT1832-1_UQFN-16-1EP_1.6x2.4mm_P0.4mm_EP0.6x1.4mm
+pinout:
+  '1':
+    name: B1_N
+    type: passive
+  '2':
+    name: B1_P
+    type: passive
+  '3':
+    name: XSD
+    type: input
+  '4':
+    name: VDD
+    type: power_in
+  '5':
+    name: C0_P
+    type: passive
+  '6':
+    name: C0_N
+    type: passive
+  '7':
+    name: B0_N
+    type: passive
+  '8':
+    name: B0_P
+    type: passive
+  '9':
+    name: A0_N
+    type: passive
+  '10':
+    name: A0_P
+    type: passive
+  '11':
+    name: GND
+    type: power_in
+  '12':
+    name: SEL
+    type: input
+  '13':
+    name: A1_P
+    type: passive
+  '14':
+    name: A1_N
+    type: passive
+  '15':
+    name: C1_P
+    type: passive
+  '16':
+    name: C1_N
+    type: passive
+  '17':
+    name: EP
+    type: passive
+---
+name: CBTU02044
+description: High-speed, 2 differential channel, 2:1 switch optimized for PCIe 4.0,
+  17GHz, UQFN-16
+datasheet: https://www.nxp.com/docs/en/data-sheet/CBTU02044.pdf
+footprint: Package_DFN_QFN:NXP_SOT1832-1_UQFN-16-1EP_1.6x2.4mm_P0.4mm_EP0.6x1.4mm
+pinout:
+  '1':
+    name: B1_N
+    type: passive
+  '2':
+    name: B1_P
+    type: passive
+  '3':
+    name: XSD
+    type: input
+  '4':
+    name: VDD
+    type: power_in
+  '5':
+    name: C0_P
+    type: passive
+  '6':
+    name: C0_N
+    type: passive
+  '7':
+    name: B0_N
+    type: passive
+  '8':
+    name: B0_P
+    type: passive
+  '9':
+    name: A0_N
+    type: passive
+  '10':
+    name: A0_P
+    type: passive
+  '11':
+    name: GND
+    type: power_in
+  '12':
+    name: SEL
+    type: input
+  '13':
+    name: A1_P
+    type: passive
+  '14':
+    name: A1_N
+    type: passive
+  '15':
+    name: C1_P
+    type: passive
+  '16':
+    name: C1_N
+    type: passive
+  '17':
+    name: EP
+    type: passive
+---
 name: CD4051B
 description: CMOS single 8-channel analog multiplexer demultiplexer, TSSOP-16/DIP-16/SOIC-16
 datasheet: http://www.ti.com/lit/ds/symlink/cd4052b.pdf

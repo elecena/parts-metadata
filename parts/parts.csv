@@ -1947,6 +1947,8 @@ ADG884xCP	0.5Ω CMOS, Dual 2:1 MUX/SPDT Audio Switch, LFCSP-WD-10	https://www.a
 ADG884xRM	0.5Ω CMOS, Dual 2:1 MUX/SPDT Audio Switch, MSOP-10	https://www.analog.com/media/en/technical-documentation/data-sheets/ADG884.pdf
 CBTL02043A	3.3 V, 2 differential channel, 2:1 MUX/deMUX switch, 10 Gbps, WQFN-20	https://www.nxp.com/docs/en/data-sheet/CBTL02043A_CBTL02043B.pdf
 CBTL02043B	3.3 V, 2 differential channel, 2:1 MUX/deMUX switch, 10 Gbps, WQFN-20	https://www.nxp.com/docs/en/data-sheet/CBTL02043A_CBTL02043B.pdf
+CBTU02043	High-speed, 2 differential channel, 2:1 switch optimized for USB Type-C connector, 12GHz, UQFN-16	https://www.nxp.com/docs/en/data-sheet/CBTU02043.pdf
+CBTU02044	High-speed, 2 differential channel, 2:1 switch optimized for PCIe 4.0, 17GHz, UQFN-16	https://www.nxp.com/docs/en/data-sheet/CBTU02044.pdf
 CD4051B	CMOS single 8-channel analog multiplexer demultiplexer, TSSOP-16/DIP-16/SOIC-16	http://www.ti.com/lit/ds/symlink/cd4052b.pdf
 CD4052B	CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16	http://www.ti.com/lit/ds/symlink/cd4052b.pdf
 CD4053B	CMOS triple 2-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16	http://www.ti.com/lit/ds/symlink/cd4052b.pdf
