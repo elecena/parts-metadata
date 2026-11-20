@@ -63578,7 +63578,7 @@ name: THS4226DGQ
 description: 120MHz GBW, Low-Distortion High-Speed Rail-to-Rail Output with Shutdown,
   HVSSOP-10
 datasheet: https://www.ti.com/lit/ds/symlink/ths4226.pdf
-footprint: Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.57x1.88mm
+footprint: Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.83x1.89mm
 pinout:
   '1':
     name: ''
@@ -107665,7 +107665,7 @@ pinout:
 name: BQ24090DGQ
 description: 1A, Single-Input, SingleCell Li-Ion and Li-Pol BatteryCharger, HVSSOP-10
 datasheet: http://www.ti.com/lit/ds/symlink/bq24090.pdf
-footprint: Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.57x1.88mm_ThermalVias
+footprint: Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.83x1.89mm_ThermalVias
 pinout:
   '1':
     name: IN
@@ -188528,7 +188528,7 @@ pinout:
 name: TPS54240DGQ
 description: 3.5-V to 42-V 2.5A Step-Down DC DC Converter, SSOP-10
 datasheet: http://www.ti.com/lit/ds/symlink/tps54240.pdf
-footprint: Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.57x1.88mm_ThermalVias
+footprint: Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.83x1.89mm_ThermalVias
 pinout:
   '1':
     name: BOOT
@@ -2231241,7 +2231241,7 @@ name: SN6507DGQ
 description: Low Noise, 0.5A, spread spectrum 36V Push-Pull-Transformer Drivers for
   Isolated Power Supplies, HVSSOP-10
 datasheet: http://www.ti.com/lit/ds/symlink/sn6507.pdf
-footprint: Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.57x1.88mm
+footprint: Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.83x1.89mm
 pinout:
   '1':
     name: SW1
