@@ -49886,10 +49886,10 @@ pinout:
     name: +FB1
     type: input
   '3':
-    name: +FB2
+    name: +VS1
     type: input
   '4':
-    name: +FB2
+    name: +VS1
     type: input
   '5':
     name: -FB2
@@ -49904,10 +49904,10 @@ pinout:
     name: +FB2
     type: input
   '9':
-    name: +FB2
+    name: +VS2
     type: input
   '10':
-    name: +FB2
+    name: +VS2
     type: input
   '11':
     name: VOCM2
@@ -49922,10 +49922,10 @@ pinout:
     name: ~{DISABLE2}
     type: input
   '15':
-    name: -FB2
+    name: -VS2
     type: input
   '16':
-    name: -FB2
+    name: -VS2
     type: input
   '17':
     name: VOCM1
@@ -49940,10 +49940,10 @@ pinout:
     name: ~{DISABLE1}
     type: input
   '21':
-    name: -FB2
+    name: -VS1
     type: input
   '22':
-    name: -FB2
+    name: -VS1
     type: input
   '23':
     name: -FB1
